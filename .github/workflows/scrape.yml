@@ -9,6 +9,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
+    # This force-updates the internal Node.js engine for all actions below
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
@@ -27,7 +28,7 @@ jobs:
       - name: Install Google Chrome and Selenium
         run: |
           sudo apt-get update
-          sudo apt-get install -y google-chrome-stable chromium-chromedriver
+          sudo apt-get install -y google-chrome-stable
           pip install selenium pandas
 
       - name: Run Scraper
