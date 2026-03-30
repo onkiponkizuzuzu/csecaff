@@ -8,42 +8,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root { --bg: #f8fafc; --text: #0f172a; --card-border: #e2e8f0; --sidebar-bg: #ffffff; }
-        .dark { --bg: #0f172a; --text: #f1f5f9; --card-border: #334155; --sidebar-bg: #1e293b; }
+        :root { --bg: #f8fafc; --text: #0f172a; --border: #e2e8f0; --sidebar: #ffffff; }
+        .dark { --bg: #0f172a; --text: #f1f5f9; --border: #334155; --sidebar: #1e293b; }
 
-        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); transition: all 0.3s; margin: 0; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); transition: background-color 0.3s, color 0.3s; margin: 0; min-height: 100vh; }
         .serif-title { font-family: 'Merriweather', serif; }
-        aside { background-color: var(--sidebar-bg); border-color: var(--card-border); }
-        .article-card { border-bottom: 2px solid var(--card-border); padding-bottom: 3rem; margin-bottom: 3rem; }
-        nav { background-color: var(--sidebar-bg); border-bottom: 1px solid var(--card-border); }
-
-        #sidebar { transition: all 0.3s ease; width: 280px; height: 100vh; position: sticky; top: 65px; }
+        
+        nav, aside { background-color: var(--sidebar); border-color: var(--border); }
+        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 3rem; margin-bottom: 3rem; }
+        
+        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
-        img { border-radius: 12px; max-height: 400px; width: 100%; object-fit: cover; margin-bottom: 1.5rem; }
+        
+        img { border-radius: 12px; max-height: 450px; width: 100%; object-fit: cover; margin-bottom: 1.5rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .content-body p { margin-bottom: 1.25rem; line-height: 1.8; font-size: 1.125rem; }
     </style>
 </head>
 <body>
 
-    <nav class="sticky top-0 z-50 px-4 py-3 flex justify-between items-center shadow-sm">
+    <nav class="sticky top-0 z-50 px-4 py-3 flex justify-between items-center border-b shadow-sm">
         <div class="flex items-center space-x-4">
-            <button onclick="toggleSidebar()" class="p-2 rounded-lg text-xl"><i class="fas fa-bars"></i></button>
-            <h1 class="font-bold text-xl hidden sm:block">Research <span class="text-blue-500">Hub</span></h1>
+            <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="font-bold text-xl hidden sm:block tracking-tight">Research <span class="text-blue-500">Hub</span></h1>
         </div>
-        <div class="flex space-x-2 overflow-x-auto px-2" id="category-tabs"></div>
-        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-200 dark:bg-gray-800 transition-transform hover:scale-110">
+        
+        <div class="flex space-x-2 overflow-x-auto px-4 no-scrollbar" id="category-tabs"></div>
+
+        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110">
             <i id="theme-icon" class="fas fa-moon text-blue-500"></i>
         </button>
     </nav>
 
     <div class="flex">
         <aside id="sidebar" class="border-r p-6 overflow-y-auto hidden md:block">
-            <h3 class="text-xs font-bold uppercase tracking-widest opacity-50 mb-6">Archive</h3>
+            <h3 class="text-xs font-bold uppercase tracking-widest opacity-40 mb-6">Historical Archive</h3>
             <div id="date-list" class="space-y-1"></div>
         </aside>
 
-        <main class="flex-1 px-4 md:px-12 py-8 min-h-screen">
-            <div id="article-feed" class="max-w-3xl mx-auto space-y-8">
-                <div class="text-center py-20"><i class="fas fa-circle-notch fa-spin text-4xl text-blue-500"></i></div>
+        <main class="flex-1 px-4 md:px-12 py-10">
+            <div id="article-feed" class="max-w-3xl mx-auto">
+                <div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>
             </div>
         </main>
     </div>
@@ -54,16 +60,19 @@
         let activeDate = null;
 
         async function init() {
-            const res = await fetch('data.json');
-            rawData = await res.json();
-            const categories = [...new Set(rawData.map(a => a.category))];
-            renderCategoryTabs(categories);
-            renderView(activeCategory);
+            try {
+                const res = await fetch('data.json');
+                rawData = await res.json();
+                renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
+                renderView(activeCategory);
+            } catch (e) {
+                document.getElementById('article-feed').innerHTML = "<p class='text-center opacity-50'>Waiting for first data update...</p>";
+            }
         }
 
         function renderCategoryTabs(categories) {
             document.getElementById('category-tabs').innerHTML = categories.map(cat => `
-                <button onclick="renderView('${cat}')" class="px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap ${activeCategory === cat ? 'bg-blue-600 text-white' : 'opacity-60 hover:opacity-100'}">${cat}</button>
+                <button onclick="renderView('${cat}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === cat ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${cat}</button>
             `).join('');
         }
 
@@ -73,17 +82,18 @@
 
             const dates = [...new Set(rawData.filter(a => a.category === category).map(a => a.date))];
             document.getElementById('date-list').innerHTML = dates.map(d => `
-                <button onclick="renderView('${category}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white' : 'opacity-70 hover:bg-gray-100 dark:hover:bg-gray-800'}">${d}</button>
+                <button onclick="renderView('${category}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm transition-colors ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
             `).join('');
 
             const filtered = rawData.filter(a => a.category === category && (!activeDate || a.date === activeDate));
+            
             document.getElementById('article-feed').innerHTML = filtered.map(art => `
                 <article class="article-card">
-                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.date}</div>
-                    <h2 class="serif-title text-3xl md:text-4xl mb-6 leading-tight">${art.title}</h2>
+                    <div class="text-xs font-bold text-blue-500 mb-2 tracking-wide uppercase">${art.date}</div>
+                    <h2 class="serif-title text-3xl md:text-5xl mb-6 leading-tight">${art.title}</h2>
                     ${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}
-                    <div class="space-y-5 text-lg leading-relaxed">
-                        ${art.content.map(item => item.type === 'heading' ? `<h4 class="font-bold pt-4 text-xl">${item.value}</h4>` : `<p>${item.value}</p>`).join('')}
+                    <div class="content-body">
+                        ${art.content.map(item => item.type === 'heading' ? `<h4 class="font-bold text-2xl pt-6 pb-2">${item.value}</h4>` : `<p>${item.value}</p>`).join('')}
                     </div>
                 </article>
             `).join('');
