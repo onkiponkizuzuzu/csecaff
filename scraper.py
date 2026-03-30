@@ -7,46 +7,61 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 
-def scrape_section(url, category):
+def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new") # Updated for 2026 Chrome versions
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.binary_location = "/usr/bin/google-chrome"
+    chrome_options.add_argument("--window-size=1920,1080")
     
-    # Using Googlebot identity to discourage the paywall from triggering
+    # Crucial for preventing the 'ReadTimeout' in GitHub Actions
+    chrome_options.add_argument("--disable-browser-side-navigation")
     chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
     
+    chrome_options.binary_location = "/usr/bin/google-chrome"
     service = Service("/usr/bin/chromedriver")
+    
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
+    # Increase the timeout limits significantly
+    driver.set_page_load_timeout(180) 
+    driver.set_script_timeout(180)
+    return driver
+
+def scrape_section(url, category):
+    driver = get_driver()
     articles = []
+    
     try:
         driver.get(url)
-        time.sleep(8)
+        time.sleep(10)
         
         elements = driver.find_elements(By.CSS_SELECTOR, "h3[class*='title'] a")
         links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
 
         for link in links[:12]:
             try:
+                # Add a timeout catch for individual articles so one slow page doesn't kill the whole run
                 driver.get(link)
                 
-                # IMMEDIATE EXECUTION: Kill the paywall scripts and the overlay div
+                # Execute stop to prevent infinite ad-loading loops
+                driver.execute_script("window.stop();")
+                
+                # Immediate Paywall/Overlay Removal
                 driver.execute_script("""
-                    window.stop();
                     var paywall = document.getElementById('arthardpv');
                     if (paywall) paywall.remove();
+                    var ads = document.querySelectorAll('.article-ad, .dfp-ad, .articleblock-container');
+                    ads.forEach(ad => ad.remove());
                 """)
                 
-                time.sleep(3) # Short wait for the DOM to settle
+                time.sleep(3)
 
-                # Target the schemaDiv specifically
+                # Targeting the schemaDiv as per your provided HTML structure
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
-                
-                # Get all paragraph and sub-heading elements
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
                 article_content = []
@@ -54,7 +69,6 @@ def scrape_section(url, category):
                     text = el.text.strip()
                     tag = el.tag_name
                     
-                    # Filtering as per your specific rules
                     if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
                         continue
                     
@@ -65,7 +79,6 @@ def scrape_section(url, category):
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                 
-                # Image extraction logic
                 try:
                     img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
                     img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
@@ -80,9 +93,11 @@ def scrape_section(url, category):
                         "content": article_content,
                         "date": datetime.now().strftime("%Y-%m-%d")
                     })
-            except: continue
+            except Exception as e:
+                print(f"Skipping article {link} due to timeout: {e}")
+                continue
     finally:
-        driver.quit()
+        driver.quit() # Always quit to free up RAM in GitHub Actions
     return articles
 
 targets = {
@@ -94,13 +109,20 @@ targets = {
 }
 
 data_file = "data.json"
-full_db = json.load(open(data_file)) if os.path.exists(data_file) else []
+if os.path.exists(data_file):
+    with open(data_file, "r", encoding='utf-8') as f:
+        full_db = json.load(f)
+else:
+    full_db = []
+
 for cat, url in targets.items():
     print(f"Scraping {cat}...")
     new_arts = scrape_section(url, cat)
-    urls = [a['url'] for a in full_db]
+    
+    existing_urls = [a['url'] for a in full_db]
     for art in new_arts:
-        if art['url'] not in urls: full_db.insert(0, art)
+        if art['url'] not in existing_urls:
+            full_db.insert(0, art)
 
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:500], f, ensure_ascii=False, indent=4)
