@@ -1,38 +1,43 @@
 name: Scheduled Hindu Scrape
+
 on:
   schedule:
+    # 8:00 AM IST (2:30 AM UTC) and 2:00 PM IST (8:30 AM UTC)
     - cron: '30 2,8 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
+    # Critical: Allows the Action to write the data.json back to your repo
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Google Chrome
-        run: |
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
       - name: Set up Python
-        uses: actions/python-setup@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install Dependencies
-        run: pip install selenium pandas
+      - name: Install Google Chrome and Selenium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          pip install selenium pandas
 
       - name: Run Scraper
+        # This will execute your scraper.py file
         run: python scraper.py
 
-      - name: Commit and Push
+      - name: Commit and Push Data
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Automated Data Update" || echo "No changes"
+          # The '|| exit 0' prevents the action from failing if no new articles were found
+          git commit -m "Automated Update: $(date)" || exit 0
           git push
