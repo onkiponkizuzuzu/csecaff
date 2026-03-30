@@ -23,7 +23,7 @@ def scrape_section(url, category):
     articles = []
     try:
         driver.get(url)
-        time.sleep(8) # Allow main page to load
+        time.sleep(7)
         
         elements = driver.find_elements(By.CSS_SELECTOR, "h3[class*='title'] a")
         links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
@@ -31,7 +31,7 @@ def scrape_section(url, category):
         for link in links[:12]:
             try:
                 driver.get(link)
-                # Wait for content to exist but scrape before the paywall fully locks
+                # Capture content before paywall script locks the DOM
                 wait = WebDriverWait(driver, 12)
                 body_container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '[itemprop="articleBody"]')))
                 
@@ -42,28 +42,23 @@ def scrape_section(url, category):
                     img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
                 except: img_url = None
 
-                # Capture only the narrative tags to skip ad-containers and related story blocks
                 text_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h1, h2, h3, h4")
                 
                 article_content = []
                 for el in text_elements:
-                    tag = el.tag_name
-                    text = el.text.strip()
-                    
-                    # Filtering out the 'junk' rows we identified
-                    if not text or "Related Stories" in text or "mukunth.v@" in text or "| Photo Credit:" in text:
+                    tag, text = el.tag_name, el.text.strip()
+                    if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
                         continue
                     
-                    el_type = "heading" if tag.startswith("h") else "text"
-                    article_content.append({"type": el_type, "value": text})
+                    article_content.append({
+                        "type": "heading" if tag.startswith("h") else "text",
+                        "value": text
+                    })
 
-                if len(article_content) > 1: # Validation check
+                if len(article_content) > 1:
                     articles.append({
-                        "category": category,
-                        "title": title,
-                        "url": link,
-                        "image": img_url,
-                        "content": article_content,
+                        "category": category, "title": title, "url": link,
+                        "image": img_url, "content": article_content,
                         "date": datetime.now().strftime("%Y-%m-%d")
                     })
             except: continue
@@ -80,19 +75,14 @@ targets = {
 }
 
 data_file = "data.json"
-if os.path.exists(data_file):
-    with open(data_file, "r") as f:
-        full_db = json.load(f)
-else:
-    full_db = []
+full_db = json.load(open(data_file)) if os.path.exists(data_file) else []
 
 for cat, url in targets.items():
     print(f"Scraping {cat}...")
-    new_articles = scrape_section(url, cat)
-    existing_urls = [a['url'] for a in full_db]
-    for art in new_articles:
-        if art['url'] not in existing_urls:
-            full_db.insert(0, art)
+    new_arts = scrape_section(url, cat)
+    urls = [a['url'] for a in full_db]
+    for art in new_arts:
+        if art['url'] not in urls: full_db.insert(0, art)
 
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:500], f, ensure_ascii=False, indent=4)
