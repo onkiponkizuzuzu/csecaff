@@ -1,0 +1,38 @@
+name: Scheduled Hindu Scrape
+
+on:
+  schedule:
+    # 8 AM IST is 2:30 AM UTC | 2 PM IST is 8:30 AM UTC
+    - cron: '30 2,8 * * *'
+  workflow_dispatch: # Allows you to run it manually to test
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Chrome and Scraper Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+          pip install selenium pandas google-colab-selenium
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "actions@github.com"
+          git add data.json
+          git commit -m "Automated Update: $(date)" || echo "No changes to commit"
+          git push
