@@ -5,12 +5,16 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def scrape_section(url, category):
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
     chrome_options.binary_location = "/usr/bin/google-chrome"
     
     service = Service("/usr/bin/chromedriver")
@@ -19,62 +23,54 @@ def scrape_section(url, category):
     articles = []
     try:
         driver.get(url)
-        time.sleep(8)
+        time.sleep(8) # Allow main page to load
         
-        elements = driver.find_elements("css selector", "h3[class*='title'] a")
+        elements = driver.find_elements(By.CSS_SELECTOR, "h3[class*='title'] a")
         links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
 
-        for link in links[:12]: 
+        for link in links[:12]:
             try:
                 driver.get(link)
-                # Wait for the main container to exist
-                time.sleep(5) 
+                # Wait for content to exist but scrape before the paywall fully locks
+                wait = WebDriverWait(driver, 12)
+                body_container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '[itemprop="articleBody"]')))
                 
-                title = driver.find_element("css selector", "h1.title").text.strip()
+                title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                 
-                # Image Scraper
                 try:
-                    img_el = driver.find_element("css selector", 'div.article-picture img, [itemprop="articleBody"] img')
+                    img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
                     img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
                 except: img_url = None
 
-                # --- FIX: ROBUST CONTENT EXTRACTION VIA JAVASCRIPT ---
-                # This script pulls all text/headings inside the body container 
-                # before the paywall can strip the DOM.
-                js_script = """
-                let container = document.querySelector('[itemprop="articleBody"]');
-                if (!container) return [];
-                let items = container.querySelectorAll('p, h4.sub_head');
-                return Array.from(items).map(el => ({
-                    type: el.tagName.toLowerCase() === 'p' ? 'text' : 'heading',
-                    value: el.innerText.trim()
-                }));
-                """
-                raw_content = driver.execute_script(js_script)
+                # Capture only the narrative tags to skip ad-containers and related story blocks
+                text_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h1, h2, h3, h4")
                 
                 article_content = []
-                for item in raw_content:
-                    val = item['value']
-                    # Preferences: Filter Photo Credits and empty strings
-                    if val and "| Photo Credit:" not in val and "mukunth.v@" not in val and "Related Stories" not in val:
-                        article_content.append(item)
+                for el in text_elements:
+                    tag = el.tag_name
+                    text = el.text.strip()
+                    
+                    # Filtering out the 'junk' rows we identified
+                    if not text or "Related Stories" in text or "mukunth.v@" in text or "| Photo Credit:" in text:
+                        continue
+                    
+                    el_type = "heading" if tag.startswith("h") else "text"
+                    article_content.append({"type": el_type, "value": text})
 
-                articles.append({
-                    "category": category,
-                    "title": title,
-                    "url": link,
-                    "image": img_url,
-                    "content": article_content,
-                    "date": datetime.now().strftime("%Y-%m-%d")
-                })
-            except Exception as e: 
-                print(f"Error scraping {link}: {e}")
-                continue
+                if len(article_content) > 1: # Validation check
+                    articles.append({
+                        "category": category,
+                        "title": title,
+                        "url": link,
+                        "image": img_url,
+                        "content": article_content,
+                        "date": datetime.now().strftime("%Y-%m-%d")
+                    })
+            except: continue
     finally:
         driver.quit()
     return articles
 
-# --- BATCH TARGETS ---
 targets = {
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
@@ -86,8 +82,7 @@ targets = {
 data_file = "data.json"
 if os.path.exists(data_file):
     with open(data_file, "r") as f:
-        try: full_db = json.load(f)
-        except: full_db = []
+        full_db = json.load(f)
 else:
     full_db = []
 
