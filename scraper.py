@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import re
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -13,11 +14,8 @@ def scrape_section(url, category):
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
-    
-    # 1. SPOOF GOOGLEBOT: Tricks many paywalls into showing full content
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
-    
     chrome_options.binary_location = "/usr/bin/google-chrome"
+    
     service = Service("/usr/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
@@ -31,22 +29,41 @@ def scrape_section(url, category):
 
         for link in links[:12]:
             try:
-                # 2. REFERER SPOOF: Pretend we are coming from a social search
-                driver.execute_cdp_cmd("Network.setExtraHTTPHeaders", {
-                    "headers": {"Referer": "https://www.google.com/"}
-                })
-                
                 driver.get(link)
                 time.sleep(5)
                 
-                # 3. DELETE PAYWALL VIA JAVASCRIPT
-                # This removes the iframe container you identified before it can block the view
-                driver.execute_script("""
-                    var paywall = document.getElementById('arthardpv');
-                    if (paywall) { paywall.remove(); }
-                    var ads = document.querySelectorAll('.article-ad, .dfp-ad');
-                    ads.forEach(ad => ad.remove());
-                """)
+                # --- MASTER FIX: EXTRACT FROM JSON-LD METADATA ---
+                # We look for the script tag that contains the SEO 'NewsArticle' schema
+                scripts = driver.find_elements(By.CSS_SELECTOR, 'script[type="application/ld+json"]')
+                full_text = ""
+                
+                for script in scripts:
+                    try:
+                        content = json.loads(script.get_attribute('innerHTML'))
+                        # The Hindu stores the full narrative in 'articleBody'
+                        if isinstance(content, dict) and 'articleBody' in content:
+                            full_text = content['articleBody']
+                            break
+                        elif isinstance(content, list):
+                            for item in content:
+                                if 'articleBody' in item:
+                                    full_text = item['articleBody']
+                                    break
+                    except: continue
+
+                # If Metadata extraction failed, fallback to visible P tags
+                if not full_text:
+                    p_tags = driver.find_elements(By.CSS_SELECTOR, '.schemaDiv[itemprop="articleBody"] p')
+                    full_text = "\n\n".join([p.text for p in p_tags])
+
+                # Cleaning the text into our structured format
+                # We split the long metadata string into paragraphs based on double newlines
+                paragraphs = re.split(r'\n\n|\n', full_text)
+                article_content = []
+                for p in paragraphs:
+                    clean_p = p.strip()
+                    if clean_p and not any(x in clean_p for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
+                        article_content.append({"type": "text", "value": clean_p})
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                 
@@ -54,22 +71,6 @@ def scrape_section(url, category):
                     img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
                     img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
                 except: img_url = None
-
-                # Extracting all paragraphs and headings from the schemaDiv you provided
-                # We target only the children of .schemaDiv to avoid related stories
-                body_container = driver.find_element(By.CSS_SELECTOR, '.schemaDiv[itemprop="articleBody"]')
-                text_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
-                
-                article_content = []
-                for el in text_elements:
-                    text = el.text.strip()
-                    if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
-                        continue
-                    
-                    article_content.append({
-                        "type": "heading" if el.tag_name == "h4" else "text",
-                        "value": text
-                    })
 
                 if len(article_content) > 0:
                     articles.append({
@@ -85,7 +86,7 @@ def scrape_section(url, category):
         driver.quit()
     return articles
 
-# --- TARGETS AND SAVE LOGIC REMAINS THE SAME ---
+# --- TARGETS AND BATCH LOGIC (Same as before) ---
 targets = {
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
@@ -97,6 +98,7 @@ targets = {
 data_file = "data.json"
 full_db = json.load(open(data_file)) if os.path.exists(data_file) else []
 for cat, url in targets.items():
+    print(f"Scraping {cat}...")
     new_arts = scrape_section(url, cat)
     urls = [a['url'] for a in full_db]
     for art in new_arts:
