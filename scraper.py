@@ -16,6 +16,9 @@ def scrape_section(url, category):
     chrome_options.add_argument("--disable-gpu")
     chrome_options.binary_location = "/usr/bin/google-chrome"
     
+    # Using Googlebot identity to discourage the paywall from triggering
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
+    
     service = Service("/usr/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
@@ -30,49 +33,45 @@ def scrape_section(url, category):
         for link in links[:12]:
             try:
                 driver.get(link)
-                time.sleep(5)
                 
-                # --- MASTER FIX: EXTRACT FROM JSON-LD METADATA ---
-                # We look for the script tag that contains the SEO 'NewsArticle' schema
-                scripts = driver.find_elements(By.CSS_SELECTOR, 'script[type="application/ld+json"]')
-                full_text = ""
+                # IMMEDIATE EXECUTION: Kill the paywall scripts and the overlay div
+                driver.execute_script("""
+                    window.stop();
+                    var paywall = document.getElementById('arthardpv');
+                    if (paywall) paywall.remove();
+                """)
                 
-                for script in scripts:
-                    try:
-                        content = json.loads(script.get_attribute('innerHTML'))
-                        # The Hindu stores the full narrative in 'articleBody'
-                        if isinstance(content, dict) and 'articleBody' in content:
-                            full_text = content['articleBody']
-                            break
-                        elif isinstance(content, list):
-                            for item in content:
-                                if 'articleBody' in item:
-                                    full_text = item['articleBody']
-                                    break
-                    except: continue
+                time.sleep(3) # Short wait for the DOM to settle
 
-                # If Metadata extraction failed, fallback to visible P tags
-                if not full_text:
-                    p_tags = driver.find_elements(By.CSS_SELECTOR, '.schemaDiv[itemprop="articleBody"] p')
-                    full_text = "\n\n".join([p.text for p in p_tags])
-
-                # Cleaning the text into our structured format
-                # We split the long metadata string into paragraphs based on double newlines
-                paragraphs = re.split(r'\n\n|\n', full_text)
+                # Target the schemaDiv specifically
+                body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
+                
+                # Get all paragraph and sub-heading elements
+                content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
+                
                 article_content = []
-                for p in paragraphs:
-                    clean_p = p.strip()
-                    if clean_p and not any(x in clean_p for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
-                        article_content.append({"type": "text", "value": clean_p})
+                for el in content_elements:
+                    text = el.text.strip()
+                    tag = el.tag_name
+                    
+                    # Filtering as per your specific rules
+                    if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
+                        continue
+                    
+                    article_content.append({
+                        "type": "heading" if tag == "h4" else "text",
+                        "value": text
+                    })
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                 
+                # Image extraction logic
                 try:
                     img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
                     img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
                 except: img_url = None
 
-                if len(article_content) > 0:
+                if len(article_content) > 1:
                     articles.append({
                         "category": category,
                         "title": title,
@@ -86,7 +85,6 @@ def scrape_section(url, category):
         driver.quit()
     return articles
 
-# --- TARGETS AND BATCH LOGIC (Same as before) ---
 targets = {
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
@@ -103,5 +101,6 @@ for cat, url in targets.items():
     urls = [a['url'] for a in full_db]
     for art in new_arts:
         if art['url'] not in urls: full_db.insert(0, art)
+
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:500], f, ensure_ascii=False, indent=4)
