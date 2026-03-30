@@ -1,0 +1,1356 @@
+[
+    {
+        "category": "Internet",
+        "title": "Netflix raises subscription prices across all plans in U.S.",
+        "url": "https://www.thehindu.com/sci-tech/technology/netflix-raises-subscription-prices-across-all-plans-in-us/article70791051.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Netflix has increased prices on all its plans in the U.S., as the streaming giant pushes ‌into new programming formats such as video podcasts and live ⁠sporting events."
+            },
+            {
+                "type": "text",
+                "value": "The company’s ad-supported tier will now cost $8.99 a month, compared with $7.99 earlier, ‌while prices for its standard plan rose $2 per month to $19.99, ‌according to its website."
+            },
+            {
+                "type": "text",
+                "value": "The ‌premium ⁠plan now costs $26.99 a ⁠month, up from $24.99 earlier. Netflix has also increased the price of adding an extra member to $7.99 for ad-supported ‌plans and to $9.99 for ad-free plans."
+            },
+            {
+                "type": "text",
+                "value": "Netflix, which has more than 325 million subscribers, had scrapped its cheapest ‌ad-free plan, called basic, in 2023, leaving users with its more expensive premium and standard plans, ⁠as well as the standard plan with ads."
+            },
+            {
+                "type": "text",
+                "value": "With the new prices, ‌the company’s average revenue per subscriber in the U.S.-Canada region will rise 6% year-over-year in 2026, according to estimates from TD Cowen analysts."
+            },
+            {
+                "type": "text",
+                "value": "It last raised prices early ‌last year."
+            },
+            {
+                "type": "text",
+                "value": "Netflix reported revenue of $12.1 billion for the October-December period, modestly exceeding analysts’ estimate."
+            },
+            {
+                "type": "text",
+                "value": "In February, it ⁠walked away from bidding for Warner ⁠Bros’ streaming and studio assets, paving the way for Paramount Skydance ‌to buy the storied Hollywood studio in a $110 billion deal."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "AI is giving bad advice to flatter its users, says new study on dangers of overly agreeable chatbots",
+        "url": "https://www.thehindu.com/sci-tech/technology/ai-is-giving-bad-advice-to-flatter-its-users-says-new-study-on-dangers-of-overly-agreeable-chatbots/article70791027.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Artificial intelligence chatbots are so prone to flattering and validating their human users that they are giving bad advice that can damage relationships and reinforce harmful behaviours, according to a new study that explores the dangers of AI telling people what they want to hear."
+            },
+            {
+                "type": "text",
+                "value": "The study, published Thursday in the journal Science, tested 11 leading AI systems and found they all showed varying degrees of sycophancy — behaviour that was overly agreeable and affirming. The problem is not just that they dispense inappropriate advice but that people trust and prefer AI more when the chatbots are justifying their convictions."
+            },
+            {
+                "type": "text",
+                "value": "“This creates perverse incentives for sycophancy to persist: The very feature that causes harm also drives engagement,” says the study led by researchers at Stanford University."
+            },
+            {
+                "type": "text",
+                "value": "The study found that a technological flaw already tied to some high-profile cases of delusional and suicidal behaviour in vulnerable populations is also pervasive across a wide range of people’s interactions with chatbots. It’s subtle enough that they might not notice and a particular danger to young people turning to AI for many of life’s questions while their brains and social norms are still developing."
+            },
+            {
+                "type": "text",
+                "value": "One experiment compared the responses of popular AI assistants made by companies including Anthropic, Google, Meta and OpenAI to the shared wisdom of humans in a popular Reddit advice forum."
+            },
+            {
+                "type": "text",
+                "value": "Was it OK, for example, to leave trash hanging on a tree branch in a public park if there were no trash cans nearby? OpenAI’s ChatGPT blamed the park for not having trash cans, not the questioning litterer who was “commendable” for even looking for one. Real people thought differently in the Reddit forum abbreviated as AITA, after a phrase for someone asking if they are a cruder term for a jerk."
+            },
+            {
+                "type": "text",
+                "value": "“The lack of trash bins is not an oversight. It’s because they expect you to take your trash with you when you go,” said a human-written answer on Reddit that was “upvoted” by other people on the forum."
+            },
+            {
+                "type": "text",
+                "value": "The study found that, on average, AI chatbots affirmed a user’s actions 49% more often than other humans did, including in queries involving deception, illegal or socially irresponsible conduct, and other harmful behaviors."
+            },
+            {
+                "type": "text",
+                "value": "“We were inspired to study this problem as we began noticing that more and more people around us were using AI for relationship advice and sometimes being misled by how it tends to take your side, no matter what,” said author Myra Cheng, a doctoral candidate in computer science at Stanford."
+            },
+            {
+                "type": "text",
+                "value": "Computer scientists building the AI large language models behind chatbots like ChatGPT have long been grappling with intrinsic problems in how these systems present information to humans. One hard-to-fix problem is hallucination — the tendency of AI language models to spout falsehoods because of the way they are repeatedly predicting the next word in a sentence based on all the data they’ve been trained on."
+            },
+            {
+                "type": "text",
+                "value": "Sycophancy is in some ways more complicated. While few people are looking to AI for factually inaccurate information, they might appreciate — at least in the moment — a chatbot that makes them feel better about making the wrong choices."
+            },
+            {
+                "type": "text",
+                "value": "While much of the focus on chatbot behaviour has centered on its tone, that had no bearing on the results, said co-author Cinoo Lee, who joined Cheng on a call with reporters ahead of the study’s publication."
+            },
+            {
+                "type": "text",
+                "value": "“We tested that by keeping the content the same, but making the delivery more neutral, but it made no difference,” said Lee, a postdoctoral fellow in psychology. “So it’s really about what the AI tells you about your actions.”"
+            },
+            {
+                "type": "text",
+                "value": "In addition to comparing chatbot and Reddit responses, the researchers conducted experiments observing about 2,400 people communicating with an AI chatbot about their experiences with interpersonal dilemmas."
+            },
+            {
+                "type": "text",
+                "value": "“People who interacted with this over-affirming AI came away more convinced that they were right, and less willing to repair the relationship,” Lee said. “That means they weren’t apologizing, taking steps to improve things, or changing their own behavior.”"
+            },
+            {
+                "type": "text",
+                "value": "Lee said the implications of the research could be “even more critical for kids and teenagers” who are still developing the emotional skills that come from real-life experiences with social friction, tolerating conflict, considering other perspectives and recognising when you’re wrong."
+            },
+            {
+                "type": "text",
+                "value": "Finding a fix to AI’s emerging problems will be critical as society still grapples with the effects of social media technology after more than a decade of warnings from parents and child advocates. In Los Angeles on Wednesday, a jury found both Meta and Google-owned YouTube liable for harms to children using their services. In New Mexico, a jury determined that Meta knowingly harmed children’s mental health and concealed what it knew about child sexual exploitation on its platforms."
+            },
+            {
+                "type": "text",
+                "value": "Google’s Gemini and Meta’s open-source Llama model were among those studied by the Stanford researchers, along with OpenAI’s ChatGPT, Anthropic’s Claude and chatbots from France’s Mistral and Chinese companies Alibaba and DeepSeek."
+            },
+            {
+                "type": "text",
+                "value": "Of leading AI companies, Anthropic has done the most work, at least publicly, in investigating the dangers of sycophancy, finding in a 2024 research paper that it is a “general behavior of AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.”"
+            },
+            {
+                "type": "text",
+                "value": "None of the companies directly commented on the Science study on Thursday but Anthropic and OpenAI pointed to their recent work to reduce sycophancy."
+            },
+            {
+                "type": "text",
+                "value": "In medical care, researchers say sycophantic AI could lead doctors to confirm their first hunch about a diagnosis rather than encourage them to explore further. In politics, it could amplify more extreme positions by reaffirming people’s preconceived notions. It could even affect how AI systems perform in fighting wars, as illustrated by an ongoing legal fight between Anthropic and U.S. President Donald Trump’s administration over how to set limits on military AI use."
+            },
+            {
+                "type": "text",
+                "value": "The study doesn’t propose specific solutions, though both tech companies and academic researchers have started to explore ideas. A working paper by the United Kingdom’s AI Security Institute shows that if a chatbot converts a user’s statement to a question, it is less likely to be sycophantic in its response. Another paper by researchers at Johns Hopkins University also shows that how the conversation is framed makes a big difference."
+            },
+            {
+                "type": "text",
+                "value": "“The more emphatic you are, the more sycophantic the model is,” said Daniel Khashabi, an assistant professor of computer science at Johns Hopkins. He said it’s hard to know if the cause is “chatbots mirroring human societies” or something different, “because these are really, really complex systems.”"
+            },
+            {
+                "type": "text",
+                "value": "Sycophancy is so deeply embedded into chatbots that Cheng said it might require tech companies to go back and retrain their AI systems to adjust which types of answers are preferred."
+            },
+            {
+                "type": "text",
+                "value": "Cheng said a simpler fix could be if AI developers instruct their chatbots to challenge their users more, such as by starting a response with the words, “Wait a minute.” Her co-author Lee said there is still time to shape how AI interacts with us."
+            },
+            {
+                "type": "text",
+                "value": "“You could imagine an AI that, in addition to validating how you’re feeling, also asks what the other person might be feeling,” Lee said. “Or that even says, maybe, ‘Close it up’ and go have this conversation in person. And that matters here because the quality of our social relationships is one of the strongest predictors of health and well-being we have as humans. Ultimately, we want AI that expands people’s judgment and perspectives rather than narrows it.”"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "China's DeepSeek AI chatbot suffers longest outage since viral rise in early 2025",
+        "url": "https://www.thehindu.com/sci-tech/technology/chinas-deepseek-ai-chatbot-suffers-longest-outage-since-viral-rise-in-early-2025/article70802269.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "China’s popular DeepSeek artificial intelligence chatbot suffered on Monday (March 30, 2026) its longest outage since the ‌viral rise of its flagship R1 and V3 ⁠models early last year."
+            },
+            {
+                "type": "text",
+                "value": "DeepSeek’s status website showed that the chatbot suffered a “major outage” ‌lasting 7 hours and 13 minutes, from the ‌early hours of Monday morning ‌until ⁠10:33 a.m. local time (0233 GMT), when ⁠the incident was marked as resolved."
+            },
+            {
+                "type": "text",
+                "value": "As per company protocol, no reason was given for ‌the outage. Such incidents can be caused by a wide range of issues, from malfunctioning servers to ‌bugs stemming from an update to the AI chatbot."
+            },
+            {
+                "type": "text",
+                "value": "DeepSeek data shows that its API ⁠service, a function mostly used by developers to integrate the chatbot ‌into custom applications, saw consecutive day-long outages in late January 2025, at the height of its viral moment."
+            },
+            {
+                "type": "text",
+                "value": "But its webpage where ordinary users can ask ‌the chatbot questions directly had not experienced a major outage longer than two hours until Monday, according ⁠to the startup’s status website."
+            },
+            {
+                "type": "text",
+                "value": "The global AI ⁠industry is eagerly awaiting the release of DeepSeek’s next-generation ‌model, but the company has given no indication of a timeline."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "Meta's longtime content policy chief Monika Bickert leaving to teach at Harvard",
+        "url": "https://www.thehindu.com/sci-tech/technology/metas-longtime-content-policy-chief-monika-bickert-leaving-to-teach-at-harvard/article70801635.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Meta’s long-time content policy chief Monika Bickert, who oversaw the writing and enforcement ‌of Facebook’s content policies and had a role in ⁠the company’s approach to user safety issues, is leaving the company for a job ‌at Harvard Law School."
+            },
+            {
+                "type": "text",
+                "value": "Bickert will stay at Meta ‌until August and work ‌on ⁠a transition plan with Kevin ⁠Martin, who oversees Meta’s global policy team, she wrote in an internal post viewed by Reuters ‌on Friday, which said she had long been interested in teaching."
+            },
+            {
+                "type": "text",
+                "value": "As head of content policy, Bickert ‌has regularly served as Meta’s public face amid controversies over its handling of political content ⁠and teen mental health. A former federal prosecutor, she joined Facebook in ‌2012. The company later changed its name to Meta."
+            },
+            {
+                "type": "text",
+                "value": "“Yes, we’re a business and we make profit, but the idea that we do so at the ‌expense of people’s safety or well-being misunderstands where our own commercial interests lie,” she wrote in 2021 ⁠after the leak of documents by ⁠former Meta employee Frances Haugen."
+            },
+            {
+                "type": "text",
+                "value": "In a statement, Meta Chief Global ‌Affairs Officer Joel Kaplan praised Bickert’s work at the company."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "New Mexico lays out options to force changes at Meta after court win",
+        "url": "https://www.thehindu.com/sci-tech/technology/new-mexico-lays-out-options-to-force-changes-at-meta-after-court-win/article70791016.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Talk about regulating social media to make it safer for children often gravitates around the U.S. Capitol and the EU headquarters in Brussels. But following a New Mexico jury verdict, a district court in Santa Fe carries some heft, too."
+            },
+            {
+                "type": "text",
+                "value": "On Tuesday, a jury found ‌Meta liable for violating New Mexico’s consumer protection laws and endangering children by enabling child sexual exploitation on its platforms, imposing a $375 million penalty. The verdict sets up a second phase of the case in May, when Judge Bryan Biedscheid is scheduled to ⁠hold a bench trial on the state’s claims that Meta created a “public nuisance” that harmed residents’ health and safety."
+            },
+            {
+                "type": "text",
+                "value": "That proceeding could result in the court ordering changes to the design of Facebook, Instagram and other apps used by teenagers. This power to compel product changes sets New Mexico’s case apart from thousands of private suits filed on behalf of plaintiffs alleging ‌Meta’s services harmed them, like another landmark social media addiction case in Los Angeles that Meta and Google lost this week."
+            },
+            {
+                "type": "text",
+                "value": "New Mexico’s win also bolsters states seeking to assert themselves in compelling change at tech companies amid paralysis in Washington, including legislation requiring tougher age-checking measures and ‌restricting algorithmic feeds for young people."
+            },
+            {
+                "type": "text",
+                "value": "In an interview, New Mexico Attorney General Raúl Torrez laid out a wide ‌range ⁠of prospective changes to Meta’s products that the state may pursue. They include asking the court to restrict the types of content ⁠recommended to minors, to limit the frequency and timing of social media notifications prodding teenagers to log on, to restrict the “infinite scroll” of content for children and to tighten age verification procedures."
+            },
+            {
+                "type": "text",
+                "value": "The state will also propose a plan to mitigate harm already done by Meta’s products to New Mexico residents."
+            },
+            {
+                "type": "text",
+                "value": "“It’s not out of the realm of possibility that we ask for and receive an even greater award” at the second stage of the trial than the first, ‌Torrez said. “But my perspective has been to focus on the changes of the product itself.”"
+            },
+            {
+                "type": "text",
+                "value": "Torrez, a Democrat, said the state would likely ask Biedscheid to appoint an independent monitor or special master who would oversee Meta’s compliance with New Mexico consumer protection law over the course of years."
+            },
+            {
+                "type": "text",
+                "value": "“I’m not sure at the initial stage we’re going to be articulating a super specific path in terms of what the court would do,” he said. Attorneys general have increasingly ‌turned to public nuisance law, a legal doctrine that allows governments to sue over conduct they say unreasonably interferes with public health or safety, to target industries accused of causing widespread social harm, including opioid manufacturers."
+            },
+            {
+                "type": "text",
+                "value": "Even if successful, New Mexico’s effort faces a long road. Meta spokesperson Andy Stone said the company would appeal the original jury verdict and that “we will continue to ⁠defend ourselves vigorously.”"
+            },
+            {
+                "type": "text",
+                "value": "The appeal is expected to raise questions about Section 230 of the Communications Decency Act, the federal law that has long shielded tech companies from liability over user-generated content."
+            },
+            {
+                "type": "text",
+                "value": "Stone noted that Meta has made numerous safety upgrades to its platforms since the suit was filed – some that overlap with features sought by Torrez. The company has ‌launched dedicated accounts for teen users with notifications turned off by default at night, added age verification features and announced its intention to filter out age-inappropriate content."
+            },
+            {
+                "type": "text",
+                "value": "Meta recently said it was removing end-to-end encryption from Instagram’s messaging feature. While Meta said it is removing encryption due to lack of use, the change was celebrated by child safety advocates."
+            },
+            {
+                "type": "text",
+                "value": "The company indicated it would continue offering encrypted messaging on WhatsApp, without addressing its plans for Facebook’s Messenger."
+            },
+            {
+                "type": "text",
+                "value": "Max Willens, an analyst for eMarketer, said he was skeptical New Mexico would be able to force changes to the content recommendation systems at the core of Facebook and Instagram."
+            },
+            {
+                "type": "text",
+                "value": "“Algorithm modification is not a likely remedy, but it is among the list of possible changes that could be required,” he said. “The second phase of this trial may be more consequential to social media ‌platforms than the first.”"
+            },
+            {
+                "type": "text",
+                "value": "Court-ordered relief is even more difficult to secure for individual plaintiffs, noted Matthew Bergman of the Social Media Victims Law Center, one of the attorneys representing the plaintiff in the Los Angeles case that alleged Meta, YouTube and other social media companies negligently designed their products in ways that harmed users’ mental health."
+            },
+            {
+                "type": "text",
+                "value": "On Wednesday, a jury awarded the woman a $6 million combined judgment against Meta and Google, in what is widely regarded as a ⁠test case for thousands of cases alleging similar harm."
+            },
+            {
+                "type": "text",
+                "value": "Torrez acknowledged that regulating global social media platforms’ approach to online youth via state courts was “probably not the most ⁠efficient” way of tackling social media product design, but said he did not want to “wait any longer for a system to deliver what it should have 15 years ago.”"
+            },
+            {
+                "type": "text",
+                "value": "He added while New Mexico’s case is focused on child predation and grooming, the dozens of state attorneys ‌general pursuing cases against Meta for damaging youth mental health more broadly also aim to force changes to products. Since the verdict, Torrez said his office has fielded questions from other states and regulatory bodies overseas."
+            },
+            {
+                "type": "text",
+                "value": "“I have an expectation that Meta is in for a wave of litigation,” he said. “I’ve been real clear with colleagues that they could set up undercover investigations on these platforms right now and yield the same results.”"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "Snapchat hit with EU probe into alleged failure to prevent child grooming, illegal goods sales",
+        "url": "https://www.thehindu.com/sci-tech/technology/snapchat-hit-with-eu-probe-into-alleged-failure-to-prevent-child-grooming-illegal-goods-sales/article70791039.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Social media platform Snapchat, owned by U.S. tech company Snap, was hit with an EU investigation on ‌Thursday as regulators warned it appears not to be doing enough to prevent child ⁠grooming and the sale of illegal goods."
+            },
+            {
+                "type": "text",
+                "value": "The EU is conducting the probe under the Digital Services Act, which requires big ‌online platforms to do more to tackle illegal and harmful content or risk fines ‌of as much as 6% of their global ‌annual ⁠sales."
+            },
+            {
+                "type": "text",
+                "value": "“From grooming and exposure to illegal ⁠products to account settings that undermine minors’ safety, Snapchat appears to have overlooked that the Digital Services Act demands high safety standards for all users,” EU ‌tech chief Henna Virkkunen said in a statement."
+            },
+            {
+                "type": "text",
+                "value": "Snapchat said it continuously reviews and strengthens its safeguards."
+            },
+            {
+                "type": "text",
+                "value": "“We have fully cooperated with the Commission to date - engaging ‌proactively, transparently and working in good faith to meet the DSA’s high safety standards - and we will continue to do so throughout ⁠this investigation,” a spokesperson said."
+            },
+            {
+                "type": "text",
+                "value": "The European Commission, charged with enforcing the act, said it suspected that Snapchat ‌does not have sufficient safeguards to prevent children from being contacted by users looking to exploit them sexually or for criminal activities."
+            },
+            {
+                "type": "text",
+                "value": "It said the company’s content moderation tools were ineffective in preventing the spread of information pointing users to the sale of ‌illegal products such as drugs or age-restricted products such as vapes and alcohol. The Commission said it will take over an investigation opened by Dutch ⁠regulators last September into the sales of vapes to children ⁠on Snapchat."
+            },
+            {
+                "type": "text",
+                "value": "Other areas of EU concern include Snapchat’s self-declaration age assurance tool which regulators ‌said is insufficient, its inadequate default account settings, and its mechanisms to allow users to report dark patterns in its design."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Internet",
+        "title": "France's Mistral raises $830 million in debt for AI data centre build-up",
+        "url": "https://www.thehindu.com/sci-tech/technology/frances-mistral-raises-830-million-in-debt-for-ai-data-centre-build-up/article70802120.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Europe’s leading AI provider Mistral has raised $830 million in new ‌debt to buy 13,800 Nvidia chips for a major data centre near ⁠Paris, the firm told Reuters, as Europe races to scale AI infrastructure to compete with the U.S. and ‌China."
+            },
+            {
+                "type": "text",
+                "value": "Also Read | ASML becomes Mistral AI’s top shareholder after leading latest funding round, sources say"
+            },
+            {
+                "type": "text",
+                "value": "The deal, set to be announced on Monday (March 30, 2026), marks Mistral’s first debt ‌raising and underscores growing investor confidence in ‌European ⁠AI firms as they seek to ⁠challenge the dominance of U.S. tech giants like Microsoft, Google and Amazon in cloud computing and AI services."
+            },
+            {
+                "type": "text",
+                "value": "Mistral’s debt raising was ‌financed by a consortium of seven banks, including BNP Paribas, Crédit Agricole CIB , HSBC and MUFG, it said. The data centre in ‌Bruyeres-le-Chatel is expected to become operational in the second quarter of 2026."
+            },
+            {
+                "type": "text",
+                "value": "Mistral selected the site for its first ⁠data centre in February 2025. Last month, the company unveiled plans for a second facility in ‌Sweden and said it would seek to secure 200 megawatts of capacity across Europe by the end of 2027."
+            },
+            {
+                "type": "text",
+                "value": "“Scaling our infrastructure in Europe is critical to empower our customers and to ensure AI innovation ‌and autonomy remain at the heart of Europe,” Chief Executive Arthur Mensch said in a statement shared with Reuters."
+            },
+            {
+                "type": "text",
+                "value": "The Paris-based startup, which ⁠provides AI models to the French armed forces, ⁠has positioned itself as a European alternative to U.S. AI leaders, offering both ‌models and infrastructure services to governments and enterprises seeking greater technological independence."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "An energy transition driven by ethics",
+        "url": "https://www.thehindu.com/opinion/op-ed/an-energy-transition-driven-by-ethics/article70785393.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "“Fossil fuel dependency is ripping away national security and sovereignty, and replacing it with subservience and rising costs,” UN climate change arm executive secretary Simon Stiell told European Union officials and Ministers in Brussels on March 16, 2026, against the backdrop of the U.S.-Israel-Iran war. He added that the disruption serves as an “abject lesson” on the pitfalls of banking on fossil fuels."
+            },
+            {
+                "type": "text",
+                "value": "The war in West Asia has disproportionately affected economies such as India, which gets nearly 60% of its crude oil from the region. The closure of the Strait of Hormuz has forced state-run refineries to declare force majeure — an act of god. Pushing a country like India to abandon its remaining coal or domestic gas reserves without a take-off ramp could lead to industrial collapse."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "Jorhat-based environmentalist receives second Jadav Payeng Award",
+        "url": "https://www.thehindu.com/news/national/assam/jorhat-based-environmentalist-receives-second-jadav-payeng-award/article70801861.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "GUWAHATI"
+            },
+            {
+                "type": "text",
+                "value": "Anand Agarwala, an environmentalist and social activist based in central Assam’s Jorhat town, received the second Jadav Payeng International Award."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "Tepid promises: On India and non-fossil capacity",
+        "url": "https://www.thehindu.com/opinion/editorial/tepid-promises-on-india-and-non-fossil-capacity/article70788409.ece",
+        "image": null,
+        "content": [
+            {
+                "type": "text",
+                "value": "India came in late, but it was worth the wait. A section of the Paris Agreement, under which all countries except the United States have agreed to keep temperatures from rising beyond 2°C of pre-Industrial times, requires updating their targets every five years from 2020. As of December last year, India and Argentina were the only two G-20 countries that had not announced updated Nationally Determined Contributions (NDC) for 2035. This was despite India’s Environment Minister committing at COP30 in Brazil, in November 2025, to update by the ‘year-end’. The saving grace is that this happened in time before Financial Year 2025-26 ends in a week. The latest set of NDCs by India commits to, by 2035, an installed electric capacity that is 60% from non-fossil sources; reducing, by 47%, the intensity of emissions per unit of GDP and having a 3.5 billion tonne-4 billion tonne CO2 carbon sink. This is an update over India’s 2020 NDCs: of an installed electric capacity that is 50% from non-fossil sources; reducing, by 45%, the intensity of emissions per unit of GDP and having a 2.5 billion tonne-3 billion tonne CO2 carbon sink. Thus, the necessary boxes have been ticked."
+            },
+            {
+                "type": "text",
+                "value": "The EU has committed to a 40%-49% cut below 2005 levels. As a developing nation, India — a significant contributor of net emissions in recent years but below the world average in per capita emissions — will not cut annual emissions but promises to emit less carbon per unit of energy and source more of its power from non-fossil sources. It has also committed to being net zero by 2070 through increasing its tree and forest cover (which absorb CO2) and the recently announced technology pathways such as carbon capture, utilisation, and storage. India’s 2035 goals are easily achievable and the government has expressed that plainly. India already met its 2030 non-fossil target last year, with 52% capacity installed. The rub is that only about 25% of the power generated is non-fossil due to insufficient battery storage which is unable to harness all the available solar and wind power. The Power Ministry’s National Generation Adequacy Plan itself expects 70% of the projected installed 1,121 GW capacity by 2035-36 to be non-fossil. It is tempting to laud India for embellishing its green commitments amidst a war in West Asia that has squeezed supply of a vital fossil fuel. However, without actual improvements in generated supply, these numbers mean little. With the war demonstrating the chokehold that a fossil fuel has, India must exhibit more urgency toward enhancing battery storage and improving its electric grid to better utilise existing non-fossil capacity."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "Why grasslands are an important ecosystem",
+        "url": "https://www.thehindu.com/children/why-grasslands-are-an-important-ecosystem/article70749706.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "A\ndull yellow grassland devoid of life is a wasteland. So one should consider planting trees on it. Right? Not quite. This deceptively lively landscape shelters unique wildlife encountered in no other habitats!"
+            },
+            {
+                "type": "text",
+                "value": "As the searing heat of the day gives way to the night chill, two iconic animals of the grasslands become active. A sound like that of a pressure cooker’s whistle warns you of the presence of one of the smallest yet deadliest animals of the grasslands: the saw-scaled viper, one of the most venomous snakes in India hunts for rodents by detecting their heat signatures at night."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "Wildlife crime thrives in least forested Punjab",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/wildlife-crime-thrives-in-least-forested-punjab/article70791509.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Punjab, one of India’s least forested States, is challenging the perception that wildlife crimes are confined to dense jungles and protected areas."
+            },
+            {
+                "type": "text",
+                "value": "A new study has identified emerging wildlife crime hotspots in the agrarian State, whose forest cover is less than 3.6% of its geographical area of 50,362 sqkm. The findings underline how illegal hunting, trafficking, and trade networks adapt to a human-dominated landscape by exploiting gaps in monitoring and enforcement."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "How will India’s new Nationally Determined Contribution accelerate climate action?",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/how-will-indias-new-nationally-determined-contribution-accelerate-climate-action/article70797328.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The story so far:"
+            },
+            {
+                "type": "text",
+                "value": "On Wednesday (March 25, 2026), the Union Cabinet approved India’s updated Nationally Determined Contribution (NDC). This includes committing to have 60% of its installed electric capacity from non-fossil sources by 2035, reducing by 47% the intensity of emissions per unit of GDP (from 2005 levels), and increasing its carbon sink to 3.5 billion-4 billion tonnes of CO₂ equivalent. These targets will be communicated to the United Nations Framework Convention on Climate Change. They arrive at a moment when a new analysis shows that India’s CO₂ emissions in 2025 grew at the slowest rate in more than two decades."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "India raises clean-energy ambition with 60% non-fossil fuel power goal by 2035",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-raises-clean-energy-ambition-with-60-non-fossil-fuel-power-goal-by-2035/article70784465.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Updating its climate goals, India has pledged that by 2035, 60% of its installed electric capacity will comprise of non-fossil sources. It also aims to reduce by 47% the intensity of emissions per unit of GDP from 2005 level and to increase its carbon sink to 3.5 billion tonnes - 4 billion tonnes. These targets make up its Nationally Determined Contribution (NDC), which are to be communicated to the United Nations Framework Convention on Climate Change (UNFCCC)."
+            },
+            {
+                "type": "text",
+                "value": "“We will easily achieve these goals… (with) the speed with which we are expanding our non-fossil sources,” Union Information Technology Minister Ashwini Vaishnaw said at a briefing on Wednesday following a Cabinet meeting."
+            },
+            {
+                "type": "text",
+                "value": "As a signatory to the Paris Agreement, India was required to issue an updated NDC in 2025, which spells out its voluntary actions towards transitioning away from fossil fuel and improving energy-efficiency measures."
+            },
+            {
+                "type": "text",
+                "value": "At the 30th edition of the Conference of Parties in Belem, Brazil, in November last year, Environment Minister Bhupendra Yadav said that India would announce the NDC by the “year-end. The Conference of Parties, or CoP, is a body of nations that convenes annually to discuss climate issues and transition their economies away from fossil fuel."
+            },
+            {
+                "type": "text",
+                "value": "India and Argentina were the only two G-20 countries that had not announced a 2035 NDC as of December 31, 2025. A total of 128 parties, representing about 78% of global greenhouse gas emissions, had submitted new NDCs by that date. These included 21 Small Island Developing States, 19 Least Developed Countries, and 18 G-20 members."
+            },
+            {
+                "type": "text",
+                "value": "India’s current NDC, officially conveyed to the United Nations in August 2022, commits to the following by 2030: having 50% of its installed electric power from non-fossil sources; reducing the intensity of emissions per unit of GDP by 44%; and increasing its carbon sink to at least 2.5 billion tonnes to 3 billion tonnes of CO2 equivalent."
+            },
+            {
+                "type": "text",
+                "value": "Currently, about 52% of India’s installed electric capacity comes from non-fossil fuel sources — a target achieved well before the deadline — though only about 25% of the power generated is non-fossil. These sources include solar, wind, hydropower, biomass, and nuclear power. As of 2019, say official estimates, India has achieved an emissions intensity of 36% from 2005-2020."
+            },
+            {
+                "type": "text",
+                "value": "A carbon sink of 1.97 billion tonnes of CO2 equivalent had already been created from 2005 to 2019. However, forest and tree cover accounts for about 24.6% of India’s geographical area as of 2021, which is higher than the 21% in 2005, but still less than the national policy goal of 33%."
+            },
+            {
+                "type": "text",
+                "value": "“In shaping India’s NDC for 2031-2035, the government has considered the outcomes of the first Global Stocktake (GST), principle of Common but differentiated responsibilities and Respective Capabilities (CBDR-RC), and equity with a view to harmonize national realities, developmental priorities, energy security and the need for greater ambition in climate action, in line with the purpose and long-term goals of the Paris Agreement,” the Environment Ministry said in a statement."
+            },
+            {
+                "type": "text",
+                "value": "Initiated in 2021, the GST assesses the world’s collective progress towards limiting global warming to 1.5 degrees Celsius, concluding that nations are not on track. Several independent analysts have suggested that while India may meet its 2030 NDC targets, it isn’t enough to keep the globe on a 1.5C pathway."
+            },
+            {
+                "type": "text",
+                "value": "Independent analysts said India was picking up the slack for developed countries."
+            },
+            {
+                "type": "text",
+                "value": "India’s NDC target had come amid a “rollback of climate policies” and “unilateral trade measures” by developed, rich countries, Vaibhav Chaturvedi, senior fellow, Council for Energy, Environment and Water (CEEW), told The Hindu. “It demonstrates a strong resolve to address transmission and land availability constraints faced by the renewables sector. The 47% emissions intensity target shows that energy security and prices cannot be taken for granted.”"
+            },
+            {
+                "type": "text",
+                "value": "“At a time when developed countries are backtracking on ambition, deepening their fossil fuel entrenchment, and dragging the world towards military conflict, the signal from India shows that Global South (developing country) leadership on climate ambition is concrete and real,” Avantika Goswami, of the Centre for Science and Environment (CSE), an influential think tank, said in a statement."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Environment",
+        "title": "Toothless ban: Single-use plastic rules 84% of surveyed sites in four cities",
+        "url": "https://www.thehindu.com/news/national/assam/toothless-ban-single-use-plastic-rules-84-of-surveyed-sites-in-four-cities/article70788244.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "GUWAHATI"
+            },
+            {
+                "type": "text",
+                "value": "About 84% of 560 locations surveyed across four cities — one each in eastern, northeastern, northern, and western India — continue to use single-use plastic items banned across the country three years ago."
+            },
+            {
+                "type": "text",
+                "value": "Toxics Link, a New Delhi-based environmental research and advocacy organisation, conducted a field study at specific locations across Bhubaneswar, Delhi, Guwahati, and Mumbai between April and August 2025. Its study report, released on Wednesday (March 25, 2026), highlighted major gaps in enforcement and called for nationwide urgent action to strengthen implementation."
+            },
+            {
+                "type": "text",
+                "value": "The survey teams assessed the on-ground effectiveness of the ban across a wide range of establishments, including street vendors, juice stalls, markets, small restaurants, grocery stores, religious sites, railway platforms, and organised retail spaces."
+            },
+            {
+                "type": "text",
+                "value": "According to the study, Bhubaneswar recorded the highest availability of banned single-use plastic items at 89% of the survey locations, closely followed by Delhi at 86%, Mumbai at 85%, and Guwahati at 76%."
+            },
+            {
+                "type": "text",
+                "value": "“The continued presence of banned plastic items in a majority of locations suggests that enforcement remains inconsistent. Unless implementation improves and the supply of these products is controlled, the ban will not effectively address plastic littering and pollution,” Ravi Agarwal, the director of Toxics Link, said."
+            },
+            {
+                "type": "text",
+                "value": "The study found widespread presence of banned single-use plastic items with sectoral variations: thin plastic carry bags, disposable plastic cutlery, cups, plates, and straws were widely found across informal markets and small commercial establishments."
+            },
+            {
+                "type": "text",
+                "value": "Organised malls and larger retail outlets showed significantly better adherence to the ban compared to informal markets dominated by small vendors. The latter attributed it to a high customer demand and a higher cost of alternatives."
+            },
+            {
+                "type": "text",
+                "value": "About 91% of the vendors across the survey sites said customers ask for carry bags. Interactions with vendors also revealed that 55% customers bring their own bags, but many customers still expect vendors to provide free carry bags."
+            },
+            {
+                "type": "text",
+                "value": "Satish Sinha, the associate director of Toxics Link, said that customer preferences partly influence vendors’ reluctance to transition from plastics to alternatives, including paper cups and plates, wooden cutlery, steel utensils, aluminium foil containers, bagasse plates, cloth bags, and thicker reusable plastic bags above 120 microns."
+            },
+            {
+                "type": "text",
+                "value": "“Customers perceive disposable plates and cutlery to be more hygienic than reusable items. Our survey found that this perception, along with the cost advantage of single-use plastics, continues to drive their use among small and local vendors, although the intensity of this preference varies between rural and urban areas,” he said."
+            },
+            {
+                "type": "text",
+                "value": "The report called for stronger national action by all stakeholders — government, single-use plastic manufacturers, retailers, and consumers — in line with the discussions at the Intergovernmental Negotiating Committee on Plastic Pollution held in Geneva, Switzerland in 2025."
+            },
+            {
+                "type": "text",
+                "value": "It recommended more robust enforcement and monitoring mechanisms with regular inspections, coordinated action among regulatory agencies, and consistent penalties to ensure compliance with the ban on single-use plastics."
+            },
+            {
+                "type": "text",
+                "value": "It also advocated improving the availability and affordability of sustainable alternatives by supporting local production, strengthening supply chains, and facilitating market access for environmentally friendly substitutes."
+            },
+            {
+                "type": "text",
+                "value": "Other suggestions included promoting sustained public awareness and behaviour-change campaigns, and targeted support and incentives for small vendors to help them transition to alternative materials."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "How an Assam honey business turned to mead",
+        "url": "https://www.thehindu.com/food/how-an-assam-honey-business-turned-to-mead/article70702915.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "During the COVID-19 lockdown, when e-commerce stalled, Assam natives Dhruba Jyoti Deka and Kaustoov Gopal Goswami found themselves facing an unexpected problem. Their raw honey business had hit a roadblock. Forced into their kitchens, in 2021, they began experimenting with foods and drinks using raw honey."
+            },
+            {
+                "type": "text",
+                "value": "One such experiment was mead. It fermented well, tasted good and, importantly, used up honey that had few takers at the time."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "South Korea’s tech support to help small farmers in Punjab: CM Bhagwant Mann",
+        "url": "https://www.thehindu.com/news/national/punjab/south-koreas-tech-support-to-help-small-farmers-in-punjab-cm-bhagwant-mann/article70586095.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Following Punjab Chief Minister Bhagwant Singh Mann’s recent visit to South Korea, a delegation from the country held discussions in Chandigarh on January 31, 2025 on cooperation in smart farming, advanced agricultural machinery and biotechnology, reflecting strong interest in partnering Punjab as it moves towards technology-based solutions for small farmers."
+            },
+            {
+                "type": "text",
+                "value": "The Chief Minister emphasised that South Korea’s vertical farming models and expertise in automation, seed technology and small agricultural machinery can play a decisive role in making farming a profitable and future-ready profession in the state, a positive outlook that was warmly welcomed by the visiting delegation."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "Why key to coconut cultivation today is sustainability, not productivity\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/why-key-to-coconut-cultivation-today-is-sustainability-not-productivity/article70687654.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The 2026-27 Union budget announced a ‘Coconut Promotion Scheme’ with the primary aim of improving productivity by rejuvenating old, non-productive gardens with high yielding coconut varieties and establishing new plantations along the coast. The farming community has welcomed the announcement."
+            },
+            {
+                "type": "text",
+                "value": "The Coconut Development Board (CDB) is already implementing a similar scheme, which has helped rejuvenate old gardens and expanded cultivation into non-traditional areas, including in parts of Gujarat, Assam, and other non-peninsular regions — sufficient to partially offset the widespread destruction of coconut palms in Kerala and Tamil Nadu by disease."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "From hills to markets: Indigenous seeds make a comeback in Andhra Pradesh",
+        "url": "https://www.thehindu.com/sci-tech/agriculture/from-hills-to-markets-indigenous-seeds-make-a-comeback-in-andhra-pradesh/article70783934.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Mornings in Gasaba village, set in the high reaches of the Eastern Ghats in Peda Bayalu mandal of Alluri Sitharama Raju district of Andhra Pradesh, begin quietly. The sun filters through patches of trees in the winding ghat road leading to a two-acre patch at the edge of the village."
+            },
+            {
+                "type": "text",
+                "value": "Bujjamma bends over a row of leafy greens, sorting plants set aside for seed. Her saree is hitched high for ease of movement. The rows of metallic earrings and nose rings on her face glint as she works. She is one of the village’s seed savers, who grow, observe and select native seeds for distribution. A short walk away stands her modest home, a red-tiled structure with mud-plastered walls, where packets of heirloom seeds are stored with care."
+            },
+            {
+                "type": "text",
+                "value": "Nearby, another farmer works through a cluster of gourds, selecting those that will be left to ripen fully. Between them stands a farmer-researcher, notebook in hand, observing and occasionally offering inputs. This patch functions as a block seed multiplication site, where native seed varieties are regenerated before being distributed across 18 nearby villages."
+            },
+            {
+                "type": "text",
+                "value": "The crops here do not follow uniformity. Bottle gourd vines trail across supports. Tomato plants carry fruits of uneven size and colour. Millets stand alongside chillies, potatoes and local greens. Each variety carries a history shaped through seasons of selection. These are crops that have adapted to the terrain and rainfall of the hills, offering a measure of resilience that commercial hybrids often fail to match."
+            },
+            {
+                "type": "text",
+                "value": "This work is part of a larger effort led by the Sanjeevini Rural Development Society, which has, since the early 2000s, worked with farmers in villages such as Kiloguda and Suvaa to revive indigenous seeds through natural farming. What appears steady today once met resistance."
+            },
+            {
+                "type": "text",
+                "value": "“When I proposed saving native seeds and discontinuing hybrids, people thought I was a crazy man talking about seeds,” says P Devullu of Sanjeevini Rural Development Society. Over time, he adds, farmers began to notice changes in soil health, input costs and the long-term benefits of heirloom varieties."
+            },
+            {
+                "type": "text",
+                "value": "The transition took shape through demonstration. Plots like the one in Gasaba allowed farmers to observe how indigenous varieties performed across seasons. Older farmers, often above the age of 70, were involved in identifying seeds and guiding selection, drawing from their experience and traditional practice rather than formal training."
+            },
+            {
+                "type": "text",
+                "value": "By 2001, the effort had evolved into a seed bank called Soil and Seed Information Centre at Kiloguda, which began with about 45 varieties. Today, it holds over 360 varieties of millets, pulses, vegetables and tubers. A committee of experienced farmers oversees selection from the farms across regions and distribution, ensuring that only indigenous seeds are preserved."
+            },
+            {
+                "type": "text",
+                "value": "Each April, the work extends into the annual seed festival, now in its 17th year. Farmers arrive carrying seeds in cloth bundles or leaf bowls, exchanging varieties and knowledge. Around 74 identified seed savers now contribute regularly, while the wider network, through the Dhimsa Farmers Producer Organisation, connects nearly 5,000 farmers across 90 villages of Andhra Pradesh."
+            },
+            {
+                "type": "text",
+                "value": "“For us, indigenous varieties are not just old seeds,” says Devullu. “They are seeds that have grown with this soil, adapted to its seasons and stayed with our people through generations.” From these hill slopes, the produce travels down to the plains, reaching Rythu Bazaars in Visakhapatnam twice a week."
+            },
+            {
+                "type": "text",
+                "value": "At Kiloguda, the Soil and Seed Information Centre serves as a repository and meeting point. Shelves hold carefully labelled seeds, with millets forming a significant section. Farmers visit to exchange seeds or seek advice, while researchers from different States study the model."
+            },
+            {
+                "type": "text",
+                "value": "The Kiloguda centre has recently started a millet processing unit and plans are afoot to add a farm-to-fork setup. The Sanjeevini team has been receiving support from the Rythu Sadhikara Samstha and the APCNF (Andhra Pradesh Community Managed Natural Farming) project under Department of Agriculture, Government of Andhra Pradesh, for expansion in other tribal areas as well."
+            },
+            {
+                "type": "text",
+                "value": "The ecological impact has become visible over time. Indigenous varieties have shown resilience under erratic rainfall and climate change patterns, while soil health has improved with reduced chemical use. Natural inputs such as jeevamrutam, a fermented mix of cow dung, urine and other materials, have replaced commercial alternatives. Economic outcomes have followed, with lower input costs and greater stability in returns."
+            },
+            {
+                "type": "text",
+                "value": "Recognition came in the year 2011-12, when Sanjeevini received the Plant Genome Saviour Community Award from the Protection of Plant Varieties and Farmers’ Rights Authority under the Union Ministry of Agriculture. The award acknowledged its work in conserving local crop diversity across millets, pulses, cereals and vegetables. Devullu received it along with team members Sagari Venkata Narayana Murthy, Pangi Sunkri, Korra Pandann and P Ammaji. For women farmers such as Pangi Sunkri, the journey marked their first flight to Delhi as well as their first national recognition."
+            },
+            {
+                "type": "text",
+                "value": "Yet, the work continues to rest on everyday practice. In Gasaba, Bujjamma moves through the field, selecting chilli plants for seed. Knowledge here is held in practice, in what seed is chosen and what is set aside. Devullu notes a shift in recent years. “People have begun to understand what they are eating,” he says. This awareness has created a modest demand for produce grown from indigenous seeds."
+            },
+            {
+                "type": "text",
+                "value": "Challenges remain. Younger farmers often move away from agriculture. Markets for diverse produce are still limited. And seed conservation requires sustained attention. Even so, the network continues to expand. The annual seed festival helps in strengethening this. It has grown into a key event in the yearly calendar and a matter of pride for farmers, who compete for the top three prizes for seed quality and diversity."
+            },
+            {
+                "type": "text",
+                "value": "Back in Gasaba as the day moves forward, the work of seed selection continues. It is part of a cycle that has taken shape over two decades, held together by farmers who have chosen to retain control over their seeds and, with it, their way of farming."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "India among four nations driving most global pesticide toxicity: study\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-four-nations-driving-most-global-pesticide-toxicity-study/article70659164.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "India is among just four countries that contribute almost 70% to the world’s total applied toxicity (TAT) in the form of pesticide, which is directed at agricultural pests, but in affect unleashes huge collateral damage among “non-target” species (that is, species that pesticides claimed as collateral)."
+            },
+            {
+                "type": "text",
+                "value": "In 2022, at the United Nations Biodiversity Conference, countries committed to reducing pesticide risk by 50% by 2030. Is the UN pact, intrinsically linked to biodiversity and human health, on track?"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "8,710 agricultural cooperative societies set up so far, 27% of target achieved: Shah tells Parliament",
+        "url": "https://www.thehindu.com/news/national/primary-agricultural-cooperative-societies-india-target-achieved-amit-shah-parliament-rajya-sabha/article70619737.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Cooperation Minister Amit Shah on Wednesday (February 11, 2026) said 8,710 Primary Agricultural Cooperative Societies (PACS) have so far been established across the country in 2024-25 and 2025-26, achieving 27% of the set target."
+            },
+            {
+                "type": "text",
+                "value": "The government has set a target of forming 32,752 PACS during the 2024-25 and 2025-26 financial years. “Against the target..., a total of 8,710 PACS have been formed so far, representing an achievement of about 27% at the national level during the said two-year period,” Mr. Shah said in his written reply to the Rajya Sabha."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "New rootstocks promise faster, higher apple yields for Kashmir farms\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/agriculture/new-rootstocks-promise-faster-higher-apple-yields-for-kashmir-farms/article70623688.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Kashmir grows apples across a wide range of altitudes, each shaping how the crop flowers, sets fruit, and yields. Yet, even with one of the largest apple-growing areas in the country, productivity in the valley remains modest. As traditional orchards face rising costs, delayed returns, and increasing climate stress, researchers and growers are turning to new rootstock technologies and high-density systems to make apple cultivation more efficient and resilient."
+            },
+            {
+                "type": "text",
+                "value": "Apple is a major fruit crop in Kashmir cultivated on 1.08 lakh ha with a production of 11 lakh tonnes, providing livelihoods to around 27 lakh people. The performance of apples is determined by the valley’s diverse altitudes. They range from 1,500 m to more than 2,600 m above sea level, creating distinct microclimates. The trees need a certain amount of winter cold (chilling hours), they are sensitive to frost, and need enough warmth in summer (heat accumulation). So, the altitude influences how much cold or heat the trees get, which directly affects how well apples grow, flower, and produce fruit."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Agriculture",
+        "title": "How is U.S.-India trade deal being tweaked? | Explained\nPremium",
+        "url": "https://www.thehindu.com/business/Economy/how-is-us-india-trade-deal-being-tweaked-explained/article70633133.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The story so far: The Interim Agreement between India and the U.S. on trade has buoyed investor sentiment in India, especially because of the prospect of tariffs on Indian exports to the U.S. reducing to 18%. However, since the deal was announced through a joint statement on February 7, the contours of what it could include have been the source of much ambiguity. This is especially true in four broad areas: oil, agriculture, textiles, and the value of overall imports from the U.S."
+            },
+            {
+                "type": "text",
+                "value": "Also Read | U.S. removes references to pulses, changes tone on $500 billion investments from India"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "Humerus: Trump’s new health guidelines",
+        "url": "https://www.thehindu.com/opinion/cartoon/humerus-january-23-2026/article70547580.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "India launches new yoga protocols to fight lifestyle diseases",
+        "url": "https://www.thehindu.com/sci-tech/health/india-launches-new-yoga-protocols-to-fight-lifestyle-diseases/article70799546.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Union Ayush Ministry has launched a comprehensive “Yoga Protocol for Non-Communicable Diseases (NCDs) and Target Groups”, in a significant push towards reshaping the country’s healthcare narrative from treatment to prevention."
+            },
+            {
+                "type": "text",
+                "value": "Launched during the Yoga Mahotsav 2026 earlier this month by Union Ayush Minister Prataprao Jadhav, the initiative is being seen as a timely intervention to tackle various lifestyle diseases."
+            },
+            {
+                "type": "text",
+                "value": "The initiative has been developed by the World Health Organisation Collaborating Centre for Traditional Medicine (Yoga) (WHOCCIND 118), at the Morarji Desai National Institute of Yoga under the Ministry of Ayush."
+            },
+            {
+                "type": "text",
+                "value": "The protocols are designed as structured, evidence-based modules that integrate Yogic practices into daily life in a simple, accessible, and scalable manner."
+            },
+            {
+                "type": "text",
+                "value": "India today faces an alarming rise in non-communicable diseases such as diabetes, hypertension, cardiovascular ailments, chronic respiratory conditions, and mental health disorders, an official source said."
+            },
+            {
+                "type": "text",
+                "value": "According to recent estimates, these conditions now account for nearly two-thirds of all deaths in the country, signalling a clear epidemiological shift from infectious diseases to lifestyle-driven illnesses."
+            },
+            {
+                "type": "text",
+                "value": "With a growing burden of mortality attributed to NCDs each year, the urgency for preventive solutions has never been greater, the source underlined. It is in this context that the new yoga protocols assume significance."
+            },
+            {
+                "type": "text",
+                "value": "Built on scientific evidence and clinical insights, the modules prescribe daily sessions of 30 to 60 minutes that combine asanas, pranayama, meditation, and relaxation techniques, sources said."
+            },
+            {
+                "type": "text",
+                "value": "The approach is gradual, adaptable, and designed to suit varying fitness levels and medical conditions."
+            },
+            {
+                "type": "text",
+                "value": "Emphasising the preventive potential of yoga, Jadhav noted that prevention is the future of healthcare, and yoga is India’s answer to the rising burden of lifestyle diseases."
+            },
+            {
+                "type": "text",
+                "value": "“Through these evidence-based protocols, we are empowering every citizen to take charge of their own health and well-being in a simple, accessible, and sustainable manner. By integrating yoga into daily life, we aim to shift the focus from illness to wellness, reducing long-term healthcare pressures,” he said."
+            },
+            {
+                "type": "text",
+                "value": "“This initiative reflects our commitment to building a healthier nation through holistic, preventive, and people-centric approaches rooted in India’s rich traditional knowledge,” the minister said."
+            },
+            {
+                "type": "text",
+                "value": "What sets the initiative apart is its targeted design, with specific yoga interventions curated for major health conditions."
+            },
+            {
+                "type": "text",
+                "value": "For diabetes, the focus is on improving metabolic balance and glycaemic control; for hypertension, on calming the nervous system and regulating blood pressure; and for bronchial asthma, on strengthening respiratory capacity and improving lung function."
+            },
+            {
+                "type": "text",
+                "value": "Studies and meta-analyses have consistently shown that such integrated yoga practices can lead to measurable improvements in clinical outcomes."
+            },
+            {
+                "type": "text",
+                "value": "Highlighting the scientific foundation of the initiative, Vaidya Rajesh Kotecha, Secretary, Ministry of Ayush, said that “the protocols are rooted in evidence and have been carefully developed to align traditional knowledge with modern clinical understanding.” From playful yoga modules for young children to mental health-focused routines for adolescents, and mobility-enhancing practices for the elderly to specialised guidelines for women and pregnant mothers, the initiative seeks to make yoga a lifelong companion for health and well-being, another official source explained."
+            },
+            {
+                "type": "text",
+                "value": "At a time when mental health concerns are rising sharply, the protocols also place strong emphasis on emotional well-being, with dedicated practices focused on breathing and meditation aimed at reducing stress, anxiety, and depression."
+            },
+            {
+                "type": "text",
+                "value": "Public health experts believe the initiative’s real strength lies in its scalability. With minimal infrastructure requirements, the protocols can be implemented across schools, workplaces, healthcare centres, and community spaces, making them a cost-effective solution for a country of India’s size and diversity."
+            },
+            {
+                "type": "text",
+                "value": "Beyond individual health benefits, the larger impact could be systemic, reducing long-term healthcare costs and easing pressure on medical infrastructure, the source said."
+            },
+            {
+                "type": "text",
+                "value": "The launch also reinforces India’s position as a global leader in promoting yoga as a holistic health solution. By institutionalising structured protocols and linking them to public health goals, the government is attempting to transform yoga from a periodic practice into an everyday habit, he added."
+            },
+            {
+                "type": "text",
+                "value": "As the country prepares for the International Day of Yoga, the message is clear: Yoga is no longer just a cultural legacy; it is emerging as a critical tool in India’s fight against modern-day health challenges, he said."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "NIMHANS study flags rising parental concern over children’s screen time",
+        "url": "https://www.thehindu.com/news/national/karnataka/nimhans-study-flags-rising-parental-concern-over-childrens-screen-time/article70796647.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "A recent study by researchers at the Services for Healthy Use of Technology (SHUT) Clinic at NIMHANS has highlighted growing parental concern over children’s screen time, linking excessive use to loss of control and negative effects on overall well-being."
+            },
+            {
+                "type": "text",
+                "value": "Published in the Industrial Psychiatry Journal, the study- “Technology use and screen time among children: Parental concerns from a cross-sectional survey in India”- surveyed 424 parents of children up to 18 years, examining usage patterns and parental perceptions."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "Karnataka sets up State-level panel to strengthen palliative care services",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-sets-up-state-level-panel-to-strengthen-palliative-care-services/article70793060.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Karnataka government has constituted a State-level Technical Advisory Committee (TAC) for palliative care to guide the planning, implementation, and monitoring of services across Karnataka."
+            },
+            {
+                "type": "text",
+                "value": "The decision, notified in a Government Order dated March 23, follows a proposal from the Health Department highlighting the need for structured technical guidance and coordinated efforts to expand palliative care."
+            },
+            {
+                "type": "text",
+                "value": "Palliative care aims to improve the quality of life of patients and their families facing serious and life-limiting illnesses through early identification and management of pain and other physical, psychological, and social issues."
+            },
+            {
+                "type": "text",
+                "value": "The initiative is aligned with the National Programme for Palliative Care (NPPC). The government has also indicated its intent to draw from best practices, particularly the community-based model implemented in Kerala, which combines home-based, outpatient and inpatient care with community participation. A dedicated allocation for palliative care was announced in the recent Budget session."
+            },
+            {
+                "type": "text",
+                "value": "Officials said the committee is intended to provide policy support, technical oversight and inter-departmental coordination, and is expected to improve access to services, especially for patients with cancer and chronic illnesses."
+            },
+            {
+                "type": "text",
+                "value": "The committee will be chaired by the Principal Secretary (Health and Family Welfare). Members include the Director of Health and Family Welfare Services, Deputy Director (Non-Communicable Diseases), and Deputy Director (Mental Health)."
+            },
+            {
+                "type": "text",
+                "value": "Subject experts include Anuradha Ganigara, associate professor, Department of Anesthesiology and Paediatric Palliative Medicine at the State-run Indira Gandhi Institute of Child Health; Yadhuraj Gowda M.K., head of the Department of Palliative Medicine at government-run Kidwai Memorial Institute of Oncology; Rajani Surendra Bhat, interventional pulmonologist and palliative care physician at Sparsh Hospitals; and Nandini Vallath, professor and head, Department of Pain and Palliative Medicine at St. John’s Medical College Hospital. A representative from a recognised NGO, including Pallium India, Swami Vivekananda Youth Movement, Karunashraya Trust or One Billion Lives Foundation, will also be included."
+            },
+            {
+                "type": "text",
+                "value": "The Kidwai Memorial Institute of Oncology already serves as the nodal centre for the Karnataka Palliative Care Policy Cell."
+            },
+            {
+                "type": "text",
+                "value": "According to the terms of reference, the committee will advise on policy, standards, treatment protocols and service delivery across primary, secondary and tertiary levels. It will also focus on improving access to essential narcotic drugs for pain management."
+            },
+            {
+                "type": "text",
+                "value": "The panel will recommend standards, treatment protocols and service delivery models across all levels of care. It will guide integration with State and national health programmes, review action plans, and advise on infrastructure, human resources, training and referral systems."
+            },
+            {
+                "type": "text",
+                "value": "The committee will also monitor programme performance, service coverage, availability of essential medicines and quality of care, and promote evaluation, research and best practices."
+            },
+            {
+                "type": "text",
+                "value": "Welcoming the move, Dr. Gowda said the committee will help streamline palliative care efforts. “This is an important step towards integrating palliative care into the public health system. With better access to essential medicines and stronger community participation, services can be expanded across the State,” he said."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "Allvar Gullstrand and the science of how the human eye focuses light\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/health/allvar-gullstrand-and-the-science-of-how-the-human-eye-focuses-light/article70718404.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The 1911 Nobel Prize in Physiology or Medicine was awarded to Swedish ophthalmologist Allvar Gullstrand for his work on the dioptrics of the eye, the study of how light is refracted within the eye to produce clear vision."
+            },
+            {
+                "type": "text",
+                "value": "By analysing how light passes through the cornea, lens and other transparent parts of the eye, Gullstrand gave detailed scientific explanations of how the eye focuses images. His work helped ophthalmology more precise and influenced the modern eye examination, optical instruments and corrective lenses."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "All you need to know about: shigellosis",
+        "url": "https://www.thehindu.com/sci-tech/health/all-you-need-to-know-about-shigellosis/article70791612.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "An outbreak of shigellosis, or shigella infection has been reported in Kerala, with one death and 15 cases across the State this month. A three-year-old girl from the Kuttikkattoor region of Kozhikode district reportedly died of the infection, triggering widespread concern and leading to doctors calling for personal hygiene measures to be followed stringently."
+            },
+            {
+                "type": "text",
+                "value": "Here is all you need to know about the infection:"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "Albrecht Kossel’s Nobel winning discovery of the chemical basis of heredity\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/health/albrecht-kossels-nobel-winning-discovery-of-the-chemical-basis-of-heredity/article70603321.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "By the late 1800s, scientists knew the cell nucleus was linked to heredity, but they did not know what it was made of or how it carried genetic information. In 1869, Swiss scientist Friedrich Miescher discovered a phosphorus-rich substance inside cell nuclei and named it nuclein, but its structure and function were still not fully understood."
+            },
+            {
+                "type": "text",
+                "value": "Albrecht Kossel continued this research by closely studying the chemical composition of nuclear material. Instead of only observing cells under a microscope, he focused on their chemical structure. His work helped scientists understand that heredity is controlled by specific chemical molecules rather than just cell structures."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Health",
+        "title": "ASHAs protest in Telangana for ₹18,000 fixed pay, job security, and recognition in public health system",
+        "url": "https://www.thehindu.com/news/national/telangana/ashas-protest-in-telangana-for-18000-fixed-pay-job-security-and-recognition-in-public-health-system/article70799138.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Over the past one month, Hyderabad and many other parts of Telangana have been witnessing protests by Accredited Social Health Activists (ASHA) workers, with the agitation intensifying into sit-ins, road blockades, and confrontations with the police. The protests are centred around long-standing demands which include a fixed monthly salary and formal recognition as workers within the public health system."
+            },
+            {
+                "type": "text",
+                "value": "ASHAs form the backbone of India’s community healthcare system. In Telangana, there are over 28,000 ASHA workers. They are responsible for a wide range of services, including maternal and child health, immunisation, disease surveillance, health awareness campaigns, and linking communities to government health services."
+            },
+            {
+                "type": "text",
+                "value": "At present, ASHA workers do not receive a fixed salary. Telangana ASHA Workers Association president P. Jayalakshmi said that workers earn around ₹9,900 per month, but this amount is not guaranteed. “It is incentive-based and not fixed. Depending on various factors, payments can fluctuate. At any time, depending on budget constraints or administrative issues, payments may be affected,” she said. This lack of predictability is one of the central issues driving the protests."
+            },
+            {
+                "type": "text",
+                "value": "The primary demand is the implementation of a fixed monthly salary of ₹18,000. According to Ms. Jayalakshmi, this demand has been pending for years. “We have been fighting for our rights since the Congress government got elected to power here. Even with the earlier Bharat Rashtra Samithi (BRS) government, we demanded fixed wages. If not ₹18,000, at least minimum wages should be ₹15,000,” she said."
+            },
+            {
+                "type": "text",
+                "value": "The current phase of protests began on February 23, when ASHA workers staged a demonstration near the office of the Commissioner of Health and Family Welfare in Koti, Hyderabad. Over the following weeks, the agitation escalated. Workers held continuous protests for over two weeks, including a 48-hour sit-in in front of collectorates across the State."
+            },
+            {
+                "type": "text",
+                "value": "A key concern is the mismatch between workload and compensation. ASHAs are expected to be present at sub-centres from 9 a.m. to 4 p.m., while also carrying out extensive fieldwork that often extends beyond these hours. “We work day and night, but we are still treated as volunteers,” said R. Neela Devi, general secretary of the association. She added that their responsibilities have increased over time, including surveys, implementation of government programmes, and health data collection, but their earnings have not kept pace."
+            },
+            {
+                "type": "text",
+                "value": "They are seeking a ₹1,500 monthly allowance to cover work-related expenses, along with clearance of pending dues, including six months of PF and ESI contributions from 2021 and all arrears from 2022 to 2025. They have demanded that ASHA workers be brought under formal labour protections and be recognised as part of the National Health Mission (NHM) workforce."
+            },
+            {
+                "type": "text",
+                "value": "The association has also called for expansion of staffing, stating that for every 50,000 population, at least 50 ASHA workers should be appointed. Other demands include free medical treatment and insurance for workers and their families, parity with Auxiliary Nursing Midwives (ANMs) and Primary Health Centre (PHC) staff, a retirement benefit of ₹5 lakh along with pension, and provision of 20 days of casual leave."
+            },
+            {
+                "type": "text",
+                "value": "Right to dignity: On ASHA and anganwadi workers’ protests"
+            },
+            {
+                "type": "text",
+                "value": "ASHA workers stage protest in Vijayawada; government responds positively to demands"
+            },
+            {
+                "type": "text",
+                "value": "ASHA workers stage protest in Puducherry"
+            },
+            {
+                "type": "text",
+                "value": "ASHAs protest against Union Budget"
+            },
+            {
+                "type": "text",
+                "value": "ASHA workers — the ongoing struggle for their welfare"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "The last of the Mariners",
+        "url": "https://www.thehindu.com/sci-tech/science/the-last-of-the-mariners/article70753405.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Ever since Pluto was reclassified as a dwarf planet, the first planet of the solar system — Mercury — has also become its smallest. Mercury might be the smallest planet orbiting the sun, but studying it is no mean feat. In fact, it is quite the opposite, as studying Mercury is quite a challenge."
+            },
+            {
+                "type": "text",
+                "value": "Did you know that it actually takes more energy for a spacecraft to get to Mercury, than it does to reach Pluto, which is at the outer end of the solar system? This is because Mercury is deep within the sun’s gravity well. As a result, a spacecraft that approaches Mercury also gets closer to the sun and hence speeds up because of the sun’s gravity. The spacecraft would thus need a vast amount of energy to be able to slow down. In addition to fuel, missions to Mercury employ gravity assists to help get the spacecraft to the first planet of the solar system."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "Heart disease kills 28.6 lakh Indians every year and yet, treatment is uneven and erratic",
+        "url": "https://www.thehindu.com/sci-tech/health/heart-disease-kills-286-lakh-indians-every-year-and-yet-treatment-is-uneven-and-erratic/article70760909.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "On a cold February morning, Jassuram Khanna, a farmer from Sujau village in Chakrata in Uttarakhand, felt a tightness in his chest on his way to the market. After waiting a few minutes, he called his son Suresh to come and take him to the doctor. They hired a private car and went to the local Primary Health Centre (PHC), where the health worker checked his blood pressure and sent him to Vikasnagar, a nearby Tehsil town."
+            },
+            {
+                "type": "text",
+                "value": "On reaching Vikasnagar’s Community Health Centre (CHC), 55 km away, they found no doctor there. Finally, at around 3 pm, they found help at the Swami Vivekanand Charitable Hospital in Dharamwala, about 70 km from their hometown. This is where Jassuram finally got an electrocardiogram (ECG) done, which indicated he had suffered a heart attack. The doctors rushed him for an angiography, where they found he had a 100% blockage in one of his heart vessels. They performed an angioplasty where a balloon was sent to the blocked heart blood vessel to widen it, and a mesh tube called a stent was placed there. The time taken from his first symptoms at 10:30 am to his first ECG was 4.5 hours, and it would be another 40 minutes before he the angioplasty procedure was done."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "Why forcing employees to use AI is producing the opposite of what companies want",
+        "url": "https://www.thehindu.com/sci-tech/technology/why-forcing-employees-to-use-ai-is-producing-the-opposite-of-what-companies-want/article70787298.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The way offices work has always changed in waves, but the last three decades delivered something different — a pace of change that didn’t allow people to settle before the next disruption arrived. Paper files gave way to desktops. Desktops to laptops. Laptops to phones that did almost everything."
+            },
+            {
+                "type": "text",
+                "value": "I remember being handed a BlackBerry and a laptop in 2007. Neither felt like a burden. They felt like an upgrade. — and, if I’m honest, like a small marker of status. Not everyone had them. The colleague who could reply to an email from an airport lounge, who could approve a document without being in the building, had something others wanted. That mattered more than it perhaps should have, but it mattered. These devices didn’t arrive as mandates. Nobody was told to use them or face consequences."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "T. K. Radha: from Kerala to Oppenheimer",
+        "url": "https://www.thehindu.com/children/t-k-radha-from-kerala-to-oppenheimer/article70666051.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "In the late 1930s, in a small corner of Thayyur, Thrissur, a couple had their third girl child, and no one ever predicted that she would later become one of the first Indian women and Malayali to meet the father of the atomic bomb, J. Robert Oppenheimer. This is the story of T.K Radha."
+            },
+            {
+                "type": "text",
+                "value": "Growing up in a village, T.K Radha often described her childhood through studying under kerosene lamps surrounded by nature. Quite good at studies, her sisters motivated their parents to send Radha to study intermediate (class 11 and 12 at present times)."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "Science Snapshots: March 29, 2026",
+        "url": "https://www.thehindu.com/sci-tech/science/science-snapshots-march-29-2026/article70787969.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Microgravity can alter sperm’s ability to navigate"
+            },
+            {
+                "type": "text",
+                "value": "Researchers used a device that mimicked the weightlessness of space to check how microgravity affected human, mouse, and pig cells. They found microgravity impaired sperm’s ability to navigate but also that high doses of progesterone could partially reverse this impairment. Up to 24 hours of microgravity also delayed mouse and pig embryo development. As countries plan missions to the moon and Mars, the findings show reproductive processes are vulnerable to gravitational changes."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "The Indian scientist couple history forgot — and the new study bringing their ‘Jeewanu’ back to life",
+        "url": "https://www.thehindu.com/society/jeewanu-life-particles-krishna-bahadur-and-s-ranganayaki-ncbs-research/article70778212.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "It was early 2023. In a ground-floor laboratory at the National Centre for Biological Sciences (NCBS) in north Bengaluru, Ph.D candidate Nayan Chakraborty was readying to examine the results of another iteration of an experiment he had been attempting for three months. There was no reason to believe this trial, nearly his 1,000th, would be any different. But when he peered through the microscope, a shocked Chakraborty quickly texted his adviser: “Shashi, we have jeewanu in the lab!”"
+            },
+            {
+                "type": "text",
+                "value": "Also Read | Bridging a divide with an ‘Indian Scientific Service’"
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "Why does water stay cool in a claypot even in peak summers?",
+        "url": "https://www.thehindu.com/children/why-does-water-stay-cool-in-a-claypot-even-in-peak-summers/article70698273.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Summers are here, and with them comes an endless thirst. We drink more water than usual and cold water feels almost magical in the heat."
+            },
+            {
+                "type": "text",
+                "value": "Quick fun fact: when you drink cold water, it absorbs heat from your body as it warms up, helping lower your core temperature slightly. At the same time, temperature sensors in your mouth and throat send signals to the brain, creating an instant feeling of relief and freshness."
+            },
+            {
+                "type": "text",
+                "value": "There are many ways to chill water. But one of the simplest and most fascinating — is the clay pot, or matka."
+            },
+            {
+                "type": "text",
+                "value": "How does that humble, curvy vessel keep water cool without using a single unit of electricity?"
+            },
+            {
+                "type": "text",
+                "value": "A traditional clay pot is made from natural earthen clay, usually soil rich in fine mineral particles like silica and alumina."
+            },
+            {
+                "type": "text",
+                "value": "The clay, often collected from riverbeds or alluvial soil, can be shaped easily when wet. After shaping, it is air-dried and then fired in a kiln, which hardens it."
+            },
+            {
+                "type": "text",
+                "value": "Importantly, it is left unglazed. This means the surface is not sealed, and the pot remains slightly porous — full of microscopic holes invisible to the eye."
+            },
+            {
+                "type": "text",
+                "value": "And those tiny pores are the key."
+            },
+            {
+                "type": "text",
+                "value": "Look closely at a clay pot on a hot afternoon. Tiny droplets begin to appear on its outer surface. The sides feel slightly damp to the touch. Yet the water inside remains noticeably cooler than the surrounding air."
+            },
+            {
+                "type": "text",
+                "value": "Is the pot leaking? Is it absorbing moisture from the outside? Or is something else happening entirely?"
+            },
+            {
+                "type": "text",
+                "value": "The answer lies in something your body already knows how to do."
+            },
+            {
+                "type": "text",
+                "value": "Evaporation is the process by which a liquid changes into vapour without boiling."
+            },
+            {
+                "type": "text",
+                "value": "The microscopic pores in the clay allow small amounts of water to slowly seep to the outer surface of the pot. When this water comes into contact with warm air, it evaporates."
+            },
+            {
+                "type": "text",
+                "value": "But evaporation requires energy. To turn into vapour, the water must absorb heat, and it takes that heat from the water inside the pot. As a result, the remaining water becomes cooler."
+            },
+            {
+                "type": "text",
+                "value": "In simple terms: when the water on the surface evaporates, it carries heat away with it."
+            },
+            {
+                "type": "text",
+                "value": "If the pot were glazed (like ceramic plates), the pores would be sealed, no water would seep out, and cooling would not happen."
+            },
+            {
+                "type": "text",
+                "value": "Clay pots work best in hot, dry weather. In humid air, evaporation slows down because the air is already full of moisture .That is why matkas feel most effective in dry summer heat."
+            },
+            {
+                "type": "text",
+                "value": "The rounded shape of the pot increases its surface area, allowing more evaporation. Air moving around it helps the cooling process. And it does all this without electricity, chemicals, or plastic. Long before refrigerators, people were using simple physics to stay cool."
+            },
+            {
+                "type": "text",
+                "value": "In a world of machines and power consumption, the clay pot remains a quiet reminder that sometimes, the smartest technology is the simplest."
+            }
+        ],
+        "date": "2026-03-30"
+    },
+    {
+        "category": "Science",
+        "title": "IIT Guwahati team develops energy-efficient bricks",
+        "url": "https://www.thehindu.com/sci-tech/science/iit-guwahati-team-develops-energy-efficient-bricks/article70792441.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "GUWAHATI"
+            },
+            {
+                "type": "text",
+                "value": "A team of researchers from the Indian Institute of Technology Guwahati (IIT-G) have developed energy-efficient bricks designed to keep buildings naturally cool, offering a solution for sustainable construction."
+            },
+            {
+                "type": "text",
+                "value": "The researchers are Bitupan Das, Urbashi Bordoloi, Pushpendra Singh, and Pankaj Kalita of the IIT-G’s School of Energy Science and Engineering and the School of Agro and Rural Technology. Their study has been published in the latest issue of the Journal of Energy Storage."
+            },
+            {
+                "type": "text",
+                "value": "“In modern architecture, most infrastructures rely on air conditioning systems to maintain indoor temperatures, especially during the summer. While these systems are effective, they consume substantial electricity and contribute significantly to carbon emissions and environmental degradation,” an IIT-G statement read."
+            },
+            {
+                "type": "text",
+                "value": "The IIT-G researchers focused on addressing the challenge of heat entering building interiors through the roof and walls, thus increasing the usage of air conditioners. They redesigned conventional bricks to minimise heat gain."
+            },
+            {
+                "type": "text",
+                "value": "Also Read | As a harsh summer looms, Delhi govt. yet to announce heat action plan"
+            },
+            {
+                "type": "text",
+                "value": "The team applied Phase Change Materials (PCMs), a type of substance that can absorb and release heat during phase transitions. An example of such substances is wax, which absorbs heat as it melts and releases it upon solidification."
+            },
+            {
+                "type": "text",
+                "value": "“Similarly, when embedded in building components, the PCMs absorb excess heat during the day and release it when the temperature drops. This way, the indoor temperature remains stable throughout the day,” the researchers explained."
+            },
+            {
+                "type": "text",
+                "value": "The team found OM35 to be the most suitable PCM for the research. This material melts at around 35 degrees Celsius, making it particularly suitable for hot, humid regions where temperatures range from 28 to 38 degrees Celsius."
+            },
+            {
+                "type": "text",
+                "value": "Prof Kalita underlined the use of PCM in developing climate-responsive infrastructure. “The developed bio-composite-filled Autoclaved Aerated Concrete brick is highly stable in shape and offers adequate mechanical strength in hot and humid conditions, making it suitable for infrastructure development,” he said."
+            },
+            {
+                "type": "text",
+                "value": "The researchers addressed the challenge of PCMs leaking during the melting phase by integrating the PCM with biochar to develop a composite material. Biochar is a carbon-rich material that serves as a supporting matrix, holding the molten PCM in place and preventing leakage while enhancing thermal conductivity."
+            },
+            {
+                "type": "text",
+                "value": "“PCM-embedded bricks are capable of better thermal management in terms of temperature reduction than conventional bricks, as they can absorb and store heat during the day and release it gradually when the temperature drops, helping maintain more stable indoor conditions compared to conventional bricks,” Prof Kalita said."
+            },
+            {
+                "type": "text",
+                "value": "However, the team said that innovative technologies like PCM-based thermal bricks often fail to reach the market. “This is not due to poor performance, but because of practical barriers such as high initial cost, difficulty in large-scale manufacturing, lack of standardisation, and low awareness among builders and developers. Additionally, the absence of real-world demonstration projects reduces industry confidence,” the team said."
+            },
+            {
+                "type": "text",
+                "value": "“For successful lab-to-consumer transition, it is essential to reduce costs, validate performance through pilot projects, obtain certifications, and collaborate with industry stakeholders. Policy support and awareness programmes can further accelerate adoption,” they added. EOM"
+            }
+        ],
+        "date": "2026-03-30"
+    }
+]
