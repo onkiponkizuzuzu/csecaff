@@ -13,14 +13,29 @@
         body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); transition: all 0.3s; margin: 0; min-height: 100vh; }
         .serif-title { font-family: 'Merriweather', serif; }
         nav, aside { background-color: var(--sidebar); border-color: var(--border); }
-        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 3rem; margin-bottom: 3rem; }
+        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 4rem; margin-bottom: 4rem; }
         #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
-        img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; }
+        img { border-radius: 12px; max-height: 520px; width: 100%; object-fit: cover; margin-bottom: 2.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         
-        /* Matching source website styles + Smaller Headings */
-        .article-title { font-size: 1.875rem; line-height: 2.25rem; } /* Text-3xl */
-        .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; }
+        /* Strict Content Rendering Styles */
+        .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 800; color: var(--text); }
+        .content-body { width: 100%; display: block; }
+        .content-body p { 
+            margin-bottom: 1.75rem; 
+            line-height: 1.9; 
+            font-size: 1.15rem; 
+            text-align: left; 
+            display: block;
+            opacity: 0.95;
+        }
+        .content-body h4 { 
+            font-size: 1.5rem; 
+            font-weight: 700; 
+            margin-top: 2.5rem; 
+            margin-bottom: 1.25rem; 
+            line-height: 1.4;
+        }
         .no-scrollbar::-webkit-scrollbar { display: none; }
     </style>
 </head>
@@ -37,54 +52,91 @@
         <div class="flex space-x-2 overflow-x-auto no-scrollbar" id="category-tabs"></div>
         <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
     </nav>
+
     <div class="flex">
         <aside id="sidebar" class="border-r p-6 overflow-y-auto hidden md:block">
             <h3 class="text-xs font-bold uppercase opacity-40 mb-6">Historical Dates</h3>
             <div id="date-list" class="space-y-1"></div>
         </aside>
+
         <main class="flex-1 px-4 md:px-12 py-10 min-h-screen">
-            <div id="article-feed" class="max-w-3xl mx-auto"><div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div></div>
+            <div id="article-feed" class="max-w-3xl mx-auto">
+                <div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>
+            </div>
         </main>
     </div>
+
     <script>
         let rawData = [], activeCategory = 'Environment', activeDate = null, isSearch = false;
+
         async function init() {
-            const res = await fetch('data.json'); rawData = await res.json();
-            renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
-            renderView(activeCategory);
+            try {
+                const res = await fetch('data.json');
+                rawData = await res.json();
+                renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
+                renderView(activeCategory);
+            } catch (e) {
+                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30">Data not found. Run scraper first.</p>`;
+            }
         }
+
         function renderCategoryTabs(cats) {
-            document.getElementById('category-tabs').innerHTML = cats.map(c => `<button onclick="renderView('${c}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === c && !isSearch ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${c}</button>`).join('');
+            document.getElementById('category-tabs').innerHTML = cats.map(c => `
+                <button onclick="renderView('${c}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === c && !isSearch ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${c}</button>
+            `).join('');
         }
+
         function handleSearch() {
             const q = document.getElementById('searchInput').value.toLowerCase();
             if (q.length < 2) { isSearch = false; renderView(activeCategory); return; }
-            isSearch = true; renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
-            const filtered = rawData.filter(art => art.title.toLowerCase().includes(q) || art.content.some(c => c.value.toLowerCase().includes(q)));
+            isSearch = true;
+            renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
+            const filtered = rawData.filter(art => 
+                art.title.toLowerCase().includes(q) || 
+                art.content.some(c => c.value.toLowerCase().includes(q))
+            );
             renderFeed(filtered, `Results for: "${q}"`);
         }
+
         function renderView(cat, date = null) {
             isSearch = false; activeCategory = cat; activeDate = date;
             document.getElementById('searchInput').value = ""; 
             renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
             const dates = [...new Set(rawData.filter(a => a.category === cat).map(a => a.date))];
-            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>`).join('');
-            renderFeed(rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate)));
+            document.getElementById('date-list').innerHTML = dates.map(d => `
+                <button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
+            `).join('');
+            
+            const filtered = rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate));
+            renderFeed(filtered);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+
         function renderFeed(arts, title = null) {
             const feed = document.getElementById('article-feed');
             let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
-            feed.innerHTML = html + (arts.length ? arts.map(art => `<article class="article-card"><div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.category} | ${art.date}</div><h2 class="serif-title article-title mb-6 font-bold leading-tight">${art.title}</h2>${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}<div class="content-body">${art.content.map(i => i.type === 'heading' ? `<h4 class="font-bold text-xl pt-6 pb-2">${i.value}</h4>` : `<p>${i.value}</p>`).join('')}</div></article>`).join('') : `<p class="text-center py-20 opacity-30">No matches found.</p>`);
+            
+            if (!arts.length) {
+                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No matches found.</p>`;
+                return;
+            }
+
+            feed.innerHTML = html + arts.map(art => `
+                <article class="article-card">
+                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.category} | ${art.date}</div>
+                    <h2 class="serif-title article-title mb-8 leading-tight">${art.title}</h2>
+                    ${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}
+                    <div class="content-body">
+                        ${art.content.map(item => {
+                            if (item.type === 'heading') {
+                                return `<h4 class="serif-title">${item.value}</h4>`;
+                            } else {
+                                return `<p>${item.value}</p>`;
+                            }
+                        }).join('')}
+                    </div>
+                </article>
+            `).join('');
         }
-        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('collapsed'); }
-        function toggleDarkMode() {
-            const dark = document.body.classList.toggle('dark');
-            document.getElementById('theme-icon').className = dark ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-blue-500';
-            localStorage.setItem('theme', dark ? 'dark' : 'light');
-        }
-        if (localStorage.getItem('theme') === 'dark') toggleDarkMode();
-        init();
-    </script>
-</body>
-</html>
+
+        function
