@@ -10,6 +10,7 @@
     
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
 
     <style>
         :root { --bg: #f8fafc; --text: #0f172a; --border: #e2e8f0; --sidebar: #ffffff; }
@@ -56,14 +57,14 @@
 
         .dark .immersive-mode .content-body p:nth-of-type(odd), 
         .dark .immersive-mode .quiz-question {
-            background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%); /* Darkened Red to Blue */
+            background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         
         .dark .immersive-mode .content-body p:nth-of-type(even), 
         .dark .immersive-mode .quiz-solution-text {
-            background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%); /* Darkened Blue to Red */
+            background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -107,32 +108,50 @@
 
     <div id="app-content" class="hidden">
         <nav class="sticky top-0 z-40 px-4 py-2 border-b shadow-sm">
-            <div class="flex items-center justify-between flex-wrap gap-3">
-                <div class="flex items-center space-x-3">
-                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
+            <div class="flex items-end justify-between flex-wrap gap-3 pb-1">
+                <div class="flex items-center space-x-3 mb-0.5">
+                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars text-lg"></i></button>
                     <div>
-                        <h1 class="font-bold text-base tracking-tight leading-tight">CSE CAff <span class="text-blue-500 text-xs font-normal hidden sm:inline">by onkiponkizuzuzu</span></h1>
-                        <div id="prelims-counter" class="text-[10px] text-blue-600 dark:text-blue-400 font-medium leading-tight">
+                        <h1 class="font-bold text-base tracking-tight leading-none">CSE CAff</h1>
+                        <div class="text-blue-500 text-[10px] font-normal leading-tight mt-0.5">by onkiponkizuzuzu</div>
+                        <div id="prelims-counter" class="text-[10px] text-blue-600 dark:text-blue-400 font-medium leading-tight mt-0.5">
                             Days to Prelims: <span id="days-count" class="font-semibold">54</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex items-center gap-2 flex-1 max-w-sm">
-                    <select id="topic-select" onchange="switchTopic(this.value)" class="w-1/2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1.5 dark:text-white outline-none cursor-pointer"></select>
-                    <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-1/2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1.5 dark:text-white outline-none cursor-pointer"></select>
+                <div class="flex items-end gap-2 flex-1 max-w-sm">
+                    <div class="w-1/2 flex flex-col">
+                        <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Source</label>
+                        <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 dark:text-white outline-none cursor-pointer"></select>
+                    </div>
+                    <div class="w-1/2 flex flex-col">
+                        <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Category</label>
+                        <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 dark:text-white outline-none cursor-pointer"></select>
+                    </div>
                 </div>
 
-                <div class="flex items-center gap-2">
+                <div class="flex items-end gap-2">
                     <div class="relative w-28 sm:w-48">
-                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full pl-8 pr-2 py-1.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
-                        <i class="fas fa-search absolute left-2.5 top-2.5 opacity-30 text-sm"></i>
+                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full h-[34px] pl-8 pr-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                        <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 opacity-30 text-sm"></i>
                     </div>
-                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="p-2 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center justify-center">
+                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="h-[34px] w-[34px] flex items-center justify-center text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
                         <i class="fas fa-book-open"></i>
                     </button>
-                    <button onclick="toggleDarkMode()" title="Toggle Theme" class="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
-                    <button onclick="handleLogout()" title="Logout" class="p-2 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-sign-out-alt"></i></button>
+                    <button onclick="toggleDarkMode()" title="Toggle Theme" class="h-[34px] w-[34px] flex items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110">
+                        <i id="theme-icon" class="fas fa-moon text-blue-500"></i>
+                    </button>
+                    
+                    <div class="relative">
+                        <button onclick="toggleProfileMenu(event)" title="Profile" class="h-[34px] w-[34px] flex items-center justify-center rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                            <i class="fas fa-user text-blue-600 dark:text-blue-400"></i>
+                        </button>
+                        <div id="profile-menu" class="hidden absolute right-0 mt-2 w-36 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden z-50">
+                            <button onclick="showSavedArticles()" class="w-full text-left px-4 py-2.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium border-b border-gray-100 dark:border-gray-700"><i class="fas fa-bookmark mr-2.5 text-blue-500"></i>Saved</button>
+                            <button onclick="handleLogout()" class="w-full text-left px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 dark:hover:bg-gray-700 font-medium"><i class="fas fa-sign-out-alt mr-2.5"></i>Logout</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -164,20 +183,28 @@
         
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
+        const db = firebase.firestore();
 
         // ==========================================
-        // 2. AUTHENTICATION LOGIC
+        // 2. AUTHENTICATION & PROFILE LOGIC
         // ==========================================
         const authOverlay = document.getElementById('auth-overlay');
         const appContent = document.getElementById('app-content');
         const authError = document.getElementById('auth-error');
+        
+        let currentUser = null;
+        let savedArticlesMap = {};
 
-        auth.onAuthStateChanged(user => {
+        auth.onAuthStateChanged(async user => {
             if (user) {
+                currentUser = user;
                 authOverlay.classList.add('hidden');
                 appContent.classList.remove('hidden');
+                await loadSavedArticles();
                 initApp(); 
             } else {
+                currentUser = null;
+                savedArticlesMap = {};
                 authOverlay.classList.remove('hidden');
                 appContent.classList.add('hidden');
             }
@@ -202,8 +229,75 @@
             auth.signOut();
         }
 
+        function toggleProfileMenu(e) {
+            e.stopPropagation();
+            document.getElementById('profile-menu').classList.toggle('hidden');
+        }
+
+        window.addEventListener('click', () => {
+            const menu = document.getElementById('profile-menu');
+            if(menu && !menu.classList.contains('hidden')) {
+                menu.classList.add('hidden');
+            }
+        });
+
         // ==========================================
-        // 3. APP LOGIC
+        // 3. FIRESTORE SAVING LOGIC
+        // ==========================================
+        async function loadSavedArticles() {
+            if(!currentUser) return;
+            const snapshot = await db.collection('users').doc(currentUser.uid).collection('saved').get();
+            savedArticlesMap = {};
+            snapshot.forEach(doc => {
+                const art = doc.data();
+                savedArticlesMap[art.url] = art;
+            });
+        }
+
+        async function toggleSaveArticle(url, event) {
+            event.stopPropagation();
+            if(!currentUser) return;
+
+            const safeId = 'art_' + encodeURIComponent(url).replace(/[^a-zA-Z0-9]/g, '');
+            const firestoreId = encodeURIComponent(url).replace(/\./g, '%2E'); 
+            
+            const ref = db.collection('users').doc(currentUser.uid).collection('saved').doc(firestoreId);
+            const icon = document.getElementById('save-icon-' + safeId);
+
+            if(savedArticlesMap[url]) {
+                await ref.delete();
+                delete savedArticlesMap[url];
+                if(icon) icon.className = "far fa-bookmark text-gray-400 hover:text-blue-500 ml-3 text-xl transition-colors";
+                
+                if(activeTopic === 'Saved') showSavedArticles(); 
+            } else {
+                const art = rawData.find(a => a.url === url) || savedArticlesMap[url];
+                if(art) {
+                    await ref.set(art);
+                    savedArticlesMap[url] = art;
+                    if(icon) icon.className = "fas fa-bookmark text-blue-500 ml-3 text-xl transition-colors";
+                }
+            }
+        }
+
+        function showSavedArticles() {
+            activeTopic = 'Saved';
+            activeSubtopic = '';
+            activeDate = null;
+            document.getElementById('searchInput').value = "";
+            isSearch = false;
+            
+            document.getElementById('topic-select').value = "";
+            document.getElementById('subtopic-select').innerHTML = "<option value=''>Saved Articles</option>";
+            
+            renderDateSidebar();
+            const savedArray = Object.values(savedArticlesMap).sort((a, b) => b.date.localeCompare(a.date));
+            renderFeed(savedArray, "Your Saved Articles");
+            document.getElementById('profile-menu').classList.add('hidden');
+        }
+
+        // ==========================================
+        // 4. MAIN APP LOGIC
         // ==========================================
         let rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', activeDate = null, isSearch = false;
         let immersiveEnabled = false;
@@ -239,6 +333,7 @@
         }
 
         function renderSubtopicTabs() {
+            if (activeTopic === 'Saved') return;
             const subs = topics[activeTopic];
             const html = subs.map(sub => `
                 <option value="${sub}" ${activeSubtopic === sub ? 'selected' : ''}>${sub}</option>
@@ -247,7 +342,8 @@
         }
 
         function renderDateSidebar() {
-            const dates = [...new Set(rawData.map(a => a.date))];
+            let targetArray = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData;
+            const dates = [...new Set(targetArray.map(a => a.date))].sort((a, b) => b.localeCompare(a));
             const html = dates.map(date => `
                 <button onclick="filterByDate('${date}')" class="block w-full text-left px-3 py-2 mt-1 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${activeDate === date ? 'font-bold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-gray-800' : 'text-gray-600 dark:text-gray-400'}">
                     ${date}
@@ -261,7 +357,14 @@
             isSearch = false;
             document.getElementById('searchInput').value = "";
             renderDateSidebar(); 
-            const filtered = rawData.filter(a => a.category === activeSubtopic && a.date === activeDate);
+            
+            let filtered;
+            if(activeTopic === 'Saved') {
+                filtered = Object.values(savedArticlesMap).filter(a => a.date === activeDate);
+            } else {
+                filtered = rawData.filter(a => a.category === activeSubtopic && a.date === activeDate);
+            }
+            
             renderFeed(filtered, `Showing articles from ${date}`);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -282,13 +385,14 @@
             const q = document.getElementById('searchInput').value.toLowerCase();
             if (q.length < 2) { 
                 isSearch = false; 
-                let filtered = rawData.filter(a => a.category === activeSubtopic);
+                let filtered = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData.filter(a => a.category === activeSubtopic);
                 if (activeDate) filtered = filtered.filter(a => a.date === activeDate);
                 renderFeed(filtered); 
                 return; 
             }
             isSearch = true;
-            const filtered = rawData.filter(art => {
+            let baseArray = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData;
+            const filtered = baseArray.filter(art => {
                 return art.title.toLowerCase().includes(q) || art.content.some(c => {
                     if (c.type === 'quiz_item') return (c.question && c.question.toLowerCase().includes(q)) || (c.solution && c.solution.toLowerCase().includes(q));
                     return c.value && c.value.toLowerCase().includes(q);
@@ -335,14 +439,20 @@
             }
 
             feed.innerHTML = html + arts.map((art, index) => {
-                const id = 'art' + index;
+                const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, '');
+                const isSaved = !!savedArticlesMap[art.url];
+                const saveClass = isSaved ? "fas fa-bookmark text-blue-500" : "far fa-bookmark text-gray-400 hover:text-blue-500";
+
                 return `
                 <article class="article-card">
-                    <div onclick="toggleArticle('${id}')" class="flex items-center justify-between cursor-pointer">
-                        <h2 class="serif-title article-title">${art.title}</h2>
-                        <i id="icon-${id}" class="fas fa-chevron-down text-blue-500 ml-4"></i>
+                    <div onclick="toggleArticle('${safeId}')" class="flex items-start justify-between cursor-pointer">
+                        <h2 class="serif-title article-title pr-4">${art.title}</h2>
+                        <div class="flex items-center whitespace-nowrap mt-1">
+                            <i onclick="toggleSaveArticle('${art.url}', event)" id="save-icon-${safeId}" class="${saveClass} ml-3 text-xl transition-colors" title="Save Article"></i>
+                            <i id="icon-${safeId}" class="fas fa-chevron-down text-blue-500 ml-5 text-xl"></i>
+                        </div>
                     </div>
-                    <div id="content-${id}" class="content-body mt-6" style="display: none;">
+                    <div id="content-${safeId}" class="content-body mt-6" style="display: none;">
                         ${art.content.map(renderContentBlock).join('')}
                         <div class="mt-8 pt-4 border-t">
                             <a href="${art.url}" target="_blank" class="source-link">Read original page →</a>
@@ -365,7 +475,7 @@
         }
 
         // ==========================================
-        // 4. IMMERSIVE READER (True Line-by-Line Logic)
+        // 5. IMMERSIVE READER (True Line-by-Line Logic)
         // ==========================================
         let resizeTimeout;
         
