@@ -19,7 +19,7 @@
         .serif-title { font-family: 'Merriweather', serif; }
         nav, aside { background-color: var(--sidebar); border-color: var(--border); }
         .article-card { border-bottom: 2px solid var(--border); padding-bottom: 2rem; margin-bottom: 3rem; width: 100%; }
-        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 60px; height: calc(100vh - 60px); overflow-y: auto; }
+        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 60px; height: calc(100vh - 60px); overflow-y: auto; z-index: 30; }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
         
         .article-title { font-size: 1.4rem; line-height: 1.8rem; font-weight: 600; cursor: pointer; transition: color 0.2s; }
@@ -28,7 +28,6 @@
         .content-body p { margin-bottom: 1.5rem; }
         .content-body h4 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem; }
         
-        /* Quiz Styles */
         .quiz-container { margin-bottom: 2rem; }
         .quiz-question { font-family: 'Inter', sans-serif; font-weight: 600; margin-bottom: 1rem; white-space: pre-wrap; }
         .quiz-solution { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.5rem; margin-top: 1rem; }
@@ -36,7 +35,6 @@
         .quiz-solution summary:hover { color: #2563eb; }
         .quiz-solution-text { font-family: 'Inter', sans-serif; font-size: 1rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6; }
 
-        /* Immersive Reader - Alternating Directions & Darkened Dark Mode */
         .immersive-mode .content-body p:nth-of-type(odd), 
         .immersive-mode .quiz-question {
             background: linear-gradient(to right, #e11d48 0%, #2563eb 100%);
@@ -72,7 +70,6 @@
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .source-link { color: #3b82f6; text-decoration: underline; font-size: 0.95rem; }
 
-        /* Auth Overlay */
         #auth-overlay {
             position: fixed; inset: 0; background: rgba(15, 23, 42, 0.95); z-index: 100;
             display: flex; justify-content: center; align-items: center; backdrop-filter: blur(5px);
@@ -86,9 +83,7 @@
         <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-md w-full mx-4 border border-gray-200 dark:border-gray-700">
             <h2 class="text-2xl font-bold mb-2 text-center text-gray-900 dark:text-white">Authorized Access Only</h2>
             <p class="text-sm text-gray-500 text-center mb-6">Please log in to access the UPSC archive.</p>
-            
             <div id="auth-error" class="hidden mb-4 p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center"></div>
-
             <div class="space-y-4">
                 <div>
                     <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
@@ -98,7 +93,6 @@
                     <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
                     <input type="password" id="password-input" class="w-full px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none text-gray-900 dark:text-white" onkeypress="if(event.key === 'Enter') handleLogin()">
                 </div>
-                
                 <div class="pt-2">
                     <button onclick="handleLogin()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-xl transition-colors">Log In</button>
                 </div>
@@ -110,9 +104,9 @@
         <nav class="sticky top-0 z-40 px-4 py-2 border-b shadow-sm">
             <div class="flex items-end justify-between flex-wrap gap-3 pb-1">
                 <div class="flex items-center space-x-3 mb-0.5">
-                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars text-lg"></i></button>
+                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars text-lg dark:text-gray-200"></i></button>
                     <div>
-                        <h1 class="font-bold text-base tracking-tight leading-none">CSE CAff</h1>
+                        <h1 class="font-bold text-base tracking-tight leading-none dark:text-white">CSE CAff</h1>
                         <div class="text-blue-500 text-[10px] font-normal leading-tight mt-0.5">by onkiponkizuzuzu</div>
                         <div id="prelims-counter" class="text-[10px] text-blue-600 dark:text-blue-400 font-medium leading-tight mt-0.5">
                             Days to Prelims: <span id="days-count" class="font-semibold">54</span>
@@ -123,20 +117,20 @@
                 <div class="flex items-end gap-2 flex-1 max-w-sm">
                     <div class="w-1/2 flex flex-col">
                         <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Source</label>
-                        <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 dark:text-white outline-none cursor-pointer"></select>
+                        <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer transition-colors"></select>
                     </div>
                     <div class="w-1/2 flex flex-col">
                         <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Category</label>
-                        <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 dark:text-white outline-none cursor-pointer"></select>
+                        <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer transition-colors"></select>
                     </div>
                 </div>
 
                 <div class="flex items-end gap-2">
                     <div class="relative w-28 sm:w-48">
-                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full h-[34px] pl-8 pr-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
-                        <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 opacity-30 text-sm"></i>
+                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full h-[34px] pl-8 pr-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-gray-900 dark:text-white transition-colors">
+                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 opacity-30 text-sm dark:text-gray-400"></i>
                     </div>
-                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="h-[34px] w-[34px] flex items-center justify-center text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="h-[34px] w-[34px] flex items-center justify-center text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors dark:text-gray-200">
                         <i class="fas fa-book-open"></i>
                     </button>
                     <button onclick="toggleDarkMode()" title="Toggle Theme" class="h-[34px] w-[34px] flex items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110">
@@ -158,10 +152,9 @@
 
         <div class="flex">
             <aside id="sidebar" class="border-r p-6 hidden md:block collapsed">
-                <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest text-inherit">Historical Dates</h3>
+                <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest text-inherit dark:text-gray-400">Historical Dates</h3>
                 <div id="date-list" class="space-y-1"></div>
             </aside>
-
             <main class="flex-1 px-4 md:px-12 py-8 min-h-screen">
                 <div id="article-feed" class="max-w-3xl mx-auto"></div>
             </main>
@@ -169,9 +162,6 @@
     </div>
 
     <script>
-        // ==========================================
-        // 1. FIREBASE CONFIGURATION
-        // ==========================================
         const firebaseConfig = {
             apiKey: "AIzaSyDY3HiW87T204-6jTpSwZp72QkzYe4jz2o",
             authDomain: "csecaffreader.firebaseapp.com",
@@ -185,15 +175,17 @@
         const auth = firebase.auth();
         const db = firebase.firestore();
 
-        // ==========================================
-        // 2. AUTHENTICATION & PROFILE LOGIC
-        // ==========================================
         const authOverlay = document.getElementById('auth-overlay');
         const appContent = document.getElementById('app-content');
         const authError = document.getElementById('auth-error');
+        const sidebar = document.getElementById('sidebar');
         
-        let currentUser = null;
-        let savedArticlesMap = {};
+        let currentUser = null, savedArticlesMap = {}, rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', activeDate = null, isSearch = false, immersiveEnabled = false;
+
+        const topics = {
+            "The Hindu": ["Science", "Health", "Agriculture", "Environment", "Internet"],
+            "Indian Express": ["UPSC Quizzes", "UPSC Current Affairs"]
+        };
 
         auth.onAuthStateChanged(async user => {
             if (user) {
@@ -203,378 +195,163 @@
                 await loadSavedArticles();
                 initApp(); 
             } else {
-                currentUser = null;
-                savedArticlesMap = {};
+                currentUser = null; savedArticlesMap = {};
                 authOverlay.classList.remove('hidden');
                 appContent.classList.add('hidden');
             }
         });
 
-        function showError(message) {
-            authError.textContent = message;
-            authError.classList.remove('hidden');
-            setTimeout(() => authError.classList.add('hidden'), 5000);
-        }
-
-        function handleLogin() {
-            const email = document.getElementById('email-input').value;
-            const password = document.getElementById('password-input').value;
-            if(!email || !password) return showError("Please enter email and password.");
-            
-            auth.signInWithEmailAndPassword(email, password)
-                .catch(error => showError(error.message));
-        }
-
-        function handleLogout() {
-            auth.signOut();
-        }
-
-        function toggleProfileMenu(e) {
-            e.stopPropagation();
-            document.getElementById('profile-menu').classList.toggle('hidden');
-        }
-
-        window.addEventListener('click', () => {
-            const menu = document.getElementById('profile-menu');
-            if(menu && !menu.classList.contains('hidden')) {
-                menu.classList.add('hidden');
-            }
-        });
-
-        // ==========================================
-        // 3. FIRESTORE SAVING LOGIC
-        // ==========================================
         async function loadSavedArticles() {
             if(!currentUser) return;
             const snapshot = await db.collection('users').doc(currentUser.uid).collection('saved').get();
             savedArticlesMap = {};
-            snapshot.forEach(doc => {
-                const art = doc.data();
-                savedArticlesMap[art.url] = art;
-            });
+            snapshot.forEach(doc => { const art = doc.data(); savedArticlesMap[art.url] = art; });
         }
 
         async function toggleSaveArticle(url, event) {
             event.stopPropagation();
             if(!currentUser) return;
-
             const safeId = 'art_' + encodeURIComponent(url).replace(/[^a-zA-Z0-9]/g, '');
             const firestoreId = encodeURIComponent(url).replace(/\./g, '%2E'); 
-            
             const ref = db.collection('users').doc(currentUser.uid).collection('saved').doc(firestoreId);
-            const icon = document.getElementById('save-icon-' + safeId);
-
+            
             if(savedArticlesMap[url]) {
                 await ref.delete();
                 delete savedArticlesMap[url];
-                if(icon) icon.className = "far fa-bookmark text-gray-400 hover:text-blue-500 ml-3 text-xl transition-colors";
-                
                 if(activeTopic === 'Saved') showSavedArticles(); 
+                else renderFeed(rawData.filter(a => a.category === activeSubtopic));
             } else {
                 const art = rawData.find(a => a.url === url) || savedArticlesMap[url];
                 if(art) {
                     await ref.set(art);
                     savedArticlesMap[url] = art;
-                    if(icon) icon.className = "fas fa-bookmark text-blue-500 ml-3 text-xl transition-colors";
+                    renderFeed(activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData.filter(a => a.category === activeSubtopic));
                 }
             }
         }
 
         function showSavedArticles() {
-            activeTopic = 'Saved';
-            activeSubtopic = '';
-            activeDate = null;
-            document.getElementById('searchInput').value = "";
-            isSearch = false;
-            
+            activeTopic = 'Saved'; activeSubtopic = ''; activeDate = null;
+            document.getElementById('searchInput').value = ""; isSearch = false;
             document.getElementById('topic-select').value = "";
-            document.getElementById('subtopic-select').innerHTML = "<option value=''>Saved Articles</option>";
-            
+            document.getElementById('subtopic-select').innerHTML = "<option value=''>Saved Archive</option>";
             renderDateSidebar();
-            const savedArray = Object.values(savedArticlesMap).sort((a, b) => b.date.localeCompare(a.date));
-            renderFeed(savedArray, "Your Saved Articles");
-            document.getElementById('profile-menu').classList.add('hidden');
+            renderFeed(Object.values(savedArticlesMap).sort((a, b) => b.date.localeCompare(a.date)), "Your Saved Articles");
         }
-
-        // ==========================================
-        // 4. MAIN APP LOGIC
-        // ==========================================
-        let rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', activeDate = null, isSearch = false;
-        let immersiveEnabled = false;
-
-        const topics = {
-            "The Hindu": ["Science", "Health", "Agriculture", "Environment", "Internet"],
-            "Indian Express": ["UPSC Quizzes", "UPSC Current Affairs"]
-        };
 
         async function initApp() {
             if(rawData.length > 0) return; 
             const feed = document.getElementById('article-feed');
-            feed.innerHTML = `<div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i><p class="mt-4 opacity-70">Loading archive...</p></div>`;
-
+            feed.innerHTML = `<div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>`;
             try {
                 const res = await fetch('data.json');
-                if (!res.ok) throw new Error('File not found');
                 rawData = await res.json();
                 rawData.sort((a, b) => b.date.localeCompare(a.date));
                 renderTopicTabs();
                 renderView('The Hindu', 'Environment');
-            } catch (e) {
-                feed.innerHTML = `<div class="text-center py-20"><p class="text-xl font-medium opacity-80">No data found yet.</p></div>`;
-            }
+            } catch (e) { feed.innerHTML = `<div class="text-center py-20"><p>No data found yet.</p></div>`; }
         }
 
         function renderTopicTabs() {
-            const html = Object.keys(topics).map(topic => `
-                <option value="${topic}" ${activeTopic === topic ? 'selected' : ''}>${topic}</option>
-            `).join('');
+            const html = Object.keys(topics).map(t => `<option value="${t}" ${activeTopic === t ? 'selected' : ''}>${t}</option>`).join('');
             document.getElementById('topic-select').innerHTML = html;
             renderSubtopicTabs();
         }
 
         function renderSubtopicTabs() {
             if (activeTopic === 'Saved') return;
-            const subs = topics[activeTopic];
-            const html = subs.map(sub => `
-                <option value="${sub}" ${activeSubtopic === sub ? 'selected' : ''}>${sub}</option>
-            `).join('');
+            const html = topics[activeTopic].map(s => `<option value="${s}" ${activeSubtopic === s ? 'selected' : ''}>${s}</option>`).join('');
             document.getElementById('subtopic-select').innerHTML = html;
         }
 
         function renderDateSidebar() {
             let targetArray = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData;
             const dates = [...new Set(targetArray.map(a => a.date))].sort((a, b) => b.localeCompare(a));
-            const html = dates.map(date => `
-                <button onclick="filterByDate('${date}')" class="block w-full text-left px-3 py-2 mt-1 text-sm rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ${activeDate === date ? 'font-bold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-gray-800' : 'text-gray-600 dark:text-gray-400'}">
-                    ${date}
-                </button>
-            `).join('');
-            document.getElementById('date-list').innerHTML = html || '<p class="text-sm opacity-50">No dates found</p>';
+            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="filterByDate('${d}')" class="block w-full text-left px-3 py-2 mt-1 text-sm rounded-lg transition-colors ${activeDate === d ? 'font-bold text-blue-600 bg-blue-50 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-400'}">${d}</button>`).join('');
         }
 
         function filterByDate(date) {
-            activeDate = date;
-            isSearch = false;
-            document.getElementById('searchInput').value = "";
-            renderDateSidebar(); 
-            
-            let filtered;
-            if(activeTopic === 'Saved') {
-                filtered = Object.values(savedArticlesMap).filter(a => a.date === activeDate);
-            } else {
-                filtered = rawData.filter(a => a.category === activeSubtopic && a.date === activeDate);
-            }
-            
+            activeDate = date; isSearch = false; renderDateSidebar(); 
+            const filtered = (activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData).filter(a => (activeTopic === 'Saved' || a.category === activeSubtopic) && a.date === activeDate);
             renderFeed(filtered, `Showing articles from ${date}`);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        function switchTopic(topic) { 
-            activeTopic = topic; 
-            activeSubtopic = topics[topic][0]; 
-            renderTopicTabs(); 
-            renderView(activeTopic, activeSubtopic); 
-        }
-
-        function switchSubtopic(subtopic) {
-            activeSubtopic = subtopic;
-            renderView(activeTopic, activeSubtopic);
-        }
+        function switchTopic(topic) { activeTopic = topic; activeSubtopic = topics[topic][0]; renderTopicTabs(); renderView(activeTopic, activeSubtopic); }
+        function switchSubtopic(sub) { activeSubtopic = sub; renderView(activeTopic, activeSubtopic); }
 
         function handleSearch() {
             const q = document.getElementById('searchInput').value.toLowerCase();
-            if (q.length < 2) { 
-                isSearch = false; 
-                let filtered = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData.filter(a => a.category === activeSubtopic);
-                if (activeDate) filtered = filtered.filter(a => a.date === activeDate);
-                renderFeed(filtered); 
-                return; 
-            }
+            if (q.length < 2) { isSearch = false; renderFeed((activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData).filter(a => activeTopic === 'Saved' || a.category === activeSubtopic)); return; }
             isSearch = true;
-            let baseArray = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData;
-            const filtered = baseArray.filter(art => {
-                return art.title.toLowerCase().includes(q) || art.content.some(c => {
-                    if (c.type === 'quiz_item') return (c.question && c.question.toLowerCase().includes(q)) || (c.solution && c.solution.toLowerCase().includes(q));
-                    return c.value && c.value.toLowerCase().includes(q);
-                });
-            });
+            const filtered = (activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData).filter(art => art.title.toLowerCase().includes(q) || art.content.some(c => c.type === 'quiz_item' ? (c.question?.toLowerCase().includes(q) || c.solution?.toLowerCase().includes(q)) : c.value?.toLowerCase().includes(q)));
             renderFeed(filtered, `Search results for: "${q}"`);
         }
 
         function renderView(topic, subtopic) {
             isSearch = false; activeTopic = topic; activeSubtopic = subtopic; activeDate = null;
-            document.getElementById('searchInput').value = "";
-            renderTopicTabs();
-            renderDateSidebar();
+            document.getElementById('searchInput').value = ""; renderTopicTabs(); renderDateSidebar();
             renderFeed(rawData.filter(a => a.category === subtopic));
         }
 
         function toggleArticle(id) {
-            const content = document.getElementById('content-' + id);
-            const icon = document.getElementById('icon-' + id);
-            if (content.style.display === 'none') {
-                content.style.display = 'block';
-                icon.className = 'fas fa-chevron-up text-blue-500 ml-4';
-                if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
-            } else {
-                content.style.display = 'none';
-                icon.className = 'fas fa-chevron-down text-blue-500 ml-4';
-            }
-        }
-
-        function renderContentBlock(item) {
-            if (item.type === 'quiz_item') {
-                return `<div class="quiz-container"><div class="quiz-question">${item.question}</div><details class="quiz-solution" ontoggle="if(this.open && immersiveEnabled) setTimeout(applyImmersiveToAll, 50)"><summary><i class="fas fa-lightbulb mr-2"></i>View Solution & Explanation</summary><div class="quiz-solution-text">${item.solution}</div></details></div>`;
-            }
-            return item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`;
+            const content = document.getElementById('content-' + id), icon = document.getElementById('icon-' + id);
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            icon.className = content.style.display === 'none' ? 'fas fa-chevron-down text-blue-500 ml-4' : 'fas fa-chevron-up text-blue-500 ml-4';
+            if (immersiveEnabled && content.style.display === 'block') setTimeout(applyImmersiveToAll, 50);
         }
 
         function renderFeed(arts, title = null) {
             const feed = document.getElementById('article-feed');
-            let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
-            if (!arts.length) {
-                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No content found.</p>`;
-                if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
-                return;
-            }
-
-            feed.innerHTML = html + arts.map((art, index) => {
-                const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, '');
-                const isSaved = !!savedArticlesMap[art.url];
-                const saveClass = isSaved ? "fas fa-bookmark text-blue-500" : "far fa-bookmark text-gray-400 hover:text-blue-500";
-
-                return `
-                <article class="article-card">
-                    <div onclick="toggleArticle('${safeId}')" class="flex items-start justify-between cursor-pointer">
-                        <h2 class="serif-title article-title pr-4">${art.title}</h2>
-                        <div class="flex items-center whitespace-nowrap mt-1">
-                            <i onclick="toggleSaveArticle('${art.url}', event)" id="save-icon-${safeId}" class="${saveClass} ml-3 text-xl transition-colors" title="Save Article"></i>
-                            <i id="icon-${safeId}" class="fas fa-chevron-down text-blue-500 ml-5 text-xl"></i>
-                        </div>
-                    </div>
-                    <div id="content-${safeId}" class="content-body mt-6" style="display: none;">
-                        ${art.content.map(renderContentBlock).join('')}
-                        <div class="mt-8 pt-4 border-t">
-                            <a href="${art.url}" target="_blank" class="source-link">Read original page →</a>
-                        </div>
-                    </div>
-                    <div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div>
-                </article>`;
+            let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40 dark:text-white">${title}</h2>` : "";
+            if (!arts.length) return feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No content found.</p>`;
+            feed.innerHTML = html + arts.map(art => {
+                const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, ''), isSaved = !!savedArticlesMap[art.url];
+                return `<article class="article-card"><div onclick="toggleArticle('${safeId}')" class="flex items-start justify-between cursor-pointer"><h2 class="serif-title article-title pr-4 dark:text-gray-100">${art.title}</h2><div class="flex items-center whitespace-nowrap mt-1"><i onclick="toggleSaveArticle('${art.url}', event)" id="save-icon-${safeId}" class="${isSaved ? 'fas' : 'far'} fa-bookmark ${isSaved ? 'text-blue-500' : 'text-gray-400'} ml-3 text-xl"></i><i id="icon-${safeId}" class="fas fa-chevron-down text-blue-500 ml-5 text-xl"></i></div></div><div id="content-${safeId}" class="content-body mt-6 dark:text-gray-300" style="display: none;">${art.content.map(c => c.type === 'quiz_item' ? `<div class="quiz-container"><div class="quiz-question">${c.question}</div><details class="quiz-solution" ontoggle="if(this.open && immersiveEnabled) setTimeout(applyImmersiveToAll, 50)"><summary><i class="fas fa-lightbulb mr-2"></i>View Solution</summary><div class="quiz-solution-text">${c.solution}</div></details></div>` : (c.type === 'heading' ? `<h4>${c.value}</h4>` : `<p>${c.value}</p>`)).join('')}<div class="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700"><a href="${art.url}" target="_blank" class="source-link">Read original page →</a></div></div><div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div></article>`;
             }).join('');
-
             if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
         }
 
-        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('collapsed'); }
-        
+        function toggleSidebar() { sidebar.classList.toggle('collapsed'); }
         function toggleDarkMode() {
             const dark = document.body.classList.toggle('dark');
             document.getElementById('theme-icon').className = dark ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-blue-500';
             localStorage.setItem('theme', dark ? 'dark' : 'light');
             if (immersiveEnabled) applyImmersiveToAll(); 
         }
+        function toggleProfileMenu(e) { e.stopPropagation(); document.getElementById('profile-menu').classList.toggle('hidden'); }
+        window.addEventListener('click', () => document.getElementById('profile-menu')?.classList.add('hidden'));
 
-        // ==========================================
-        // 5. IMMERSIVE READER (True Line-by-Line Logic)
-        // ==========================================
-        let resizeTimeout;
-        
         function toggleImmersive() {
             immersiveEnabled = !immersiveEnabled;
             const btn = document.getElementById('immersive-btn');
-            
-            if (immersiveEnabled) {
-                btn.classList.add('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
-                applyImmersiveToAll();
-                window.addEventListener('resize', debounceApplyImmersive);
-            } else {
-                btn.classList.remove('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
-                removeImmersiveFromAll();
-                window.removeEventListener('resize', debounceApplyImmersive);
-            }
-        }
-
-        function debounceApplyImmersive() {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(() => {
-                if(immersiveEnabled) applyImmersiveToAll();
-            }, 250);
+            if (immersiveEnabled) { btn.classList.add('bg-red-100', 'border-red-500'); applyImmersiveToAll(); } 
+            else { btn.classList.remove('bg-red-100', 'border-red-500'); removeImmersiveFromAll(); }
         }
 
         function applyImmersiveToAll() {
             if (!immersiveEnabled) return;
             const targets = document.querySelectorAll('.content-body:not([style*="display: none"]) p, .content-body:not([style*="display: none"]) .quiz-question, .content-body:not([style*="display: none"]) .quiz-solution-text');
             const isDark = document.body.classList.contains('dark');
-            
-            const cRed = isDark ? [253, 164, 175] : [159, 18, 57];
-            const cBlue = isDark ? [147, 197, 253] : [30, 64, 175];
-
+            const cRed = isDark ? [253, 164, 175] : [159, 18, 57], cBlue = isDark ? [147, 197, 253] : [30, 64, 175];
             targets.forEach(el => {
-                if (el.offsetParent === null) return; 
-
-                if (!el.hasAttribute('data-orig')) {
-                    el.setAttribute('data-orig', el.innerHTML);
-                }
-                
+                if (!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
                 el.innerHTML = el.getAttribute('data-orig');
-                const words = el.textContent.split(/(\s+)/);
-                el.innerHTML = '';
-                
-                words.forEach(w => {
-                    if (w.trim() === '') {
-                        el.appendChild(document.createTextNode(w));
-                    } else {
-                        const span = document.createElement('span');
-                        span.textContent = w;
-                        span.style.transition = "color 0.3s";
-                        el.appendChild(span);
-                    }
-                });
-
-                let currentLine = [];
-                let lines = [];
-                let lastTop = -1;
-
-                const spans = el.querySelectorAll('span');
-                spans.forEach(span => {
-                    const top = span.offsetTop;
-                    if (top !== lastTop) {
-                        if (currentLine.length > 0) lines.push(currentLine);
-                        currentLine = [];
-                        lastTop = top;
-                    }
-                    currentLine.push(span);
-                });
-                if (currentLine.length > 0) lines.push(currentLine);
-
-                lines.forEach((line, lineIndex) => {
-                    const isEven = lineIndex % 2 === 0;
-                    const startColor = isEven ? cRed : cBlue;
-                    const endColor = isEven ? cBlue : cRed;
-                    
-                    line.forEach((span, wordIndex) => {
-                        const ratio = line.length > 1 ? wordIndex / (line.length - 1) : 0;
-                        const r = Math.round(startColor[0] + (endColor[0] - startColor[0]) * ratio);
-                        const g = Math.round(startColor[1] + (endColor[1] - startColor[1]) * ratio);
-                        const b = Math.round(startColor[2] + (endColor[2] - startColor[2]) * ratio);
-                        span.style.color = `rgb(${r},${g},${b})`;
-                    });
-                });
+                const words = el.textContent.split(/(\s+)/); el.innerHTML = '';
+                words.forEach(w => { if (w.trim() === '') el.appendChild(document.createTextNode(w)); else { const s = document.createElement('span'); s.textContent = w; el.appendChild(s); } });
+                let line = [], lines = [], lastT = -1;
+                el.querySelectorAll('span').forEach(s => { const t = s.offsetTop; if (t !== lastT) { if (line.length) lines.push(line); line = []; lastT = t; } line.push(s); });
+                if (line.length) lines.push(line);
+                lines.forEach((l, i) => { const start = i % 2 === 0 ? cRed : cBlue, end = i % 2 === 0 ? cBlue : cRed; l.forEach((s, wi) => { const r = l.length > 1 ? wi / (l.length - 1) : 0; s.style.color = `rgb(${Math.round(start[0] + (end[0]-start[0])*r)},${Math.round(start[1] + (end[1]-start[1])*r)},${Math.round(start[2] + (end[2]-start[2])*r)})`; }); });
             });
         }
 
-        function removeImmersiveFromAll() {
-            const targets = document.querySelectorAll('.content-body p, .quiz-question, .quiz-solution-text');
-            targets.forEach(el => {
-                if (el.hasAttribute('data-orig')) {
-                    el.innerHTML = el.getAttribute('data-orig');
-                }
-            });
-        }
-        
-        window.onload = function() {
+        function removeImmersiveFromAll() { document.querySelectorAll('[data-orig]').forEach(el => el.innerHTML = el.getAttribute('data-orig')); }
+        function handleLogin() { const e = document.getElementById('email-input').value, p = document.getElementById('password-input').value; if(e && p) auth.signInWithEmailAndPassword(e, p).catch(err => showError(err.message)); }
+        function showError(m) { authError.textContent = m; authError.classList.remove('hidden'); setTimeout(() => authError.classList.add('hidden'), 5000); }
+
+        window.onload = () => {
             if (localStorage.getItem('theme') === 'dark') toggleDarkMode();
-            document.getElementById('sidebar').classList.add('collapsed');
+            sidebar.classList.add('collapsed');
         };
     </script>
 </body>
