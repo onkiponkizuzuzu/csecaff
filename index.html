@@ -35,39 +35,6 @@
         .quiz-solution summary:hover { color: #2563eb; }
         .quiz-solution-text { font-family: 'Inter', sans-serif; font-size: 1rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6; }
 
-        /* Immersive Reader - Alternating Directions & Darkened Dark Mode */
-        .immersive-mode .content-body p:nth-of-type(odd), 
-        .immersive-mode .quiz-question {
-            background: linear-gradient(to right, #e11d48 0%, #2563eb 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            transition: all 0.4s ease;
-        }
-        
-        .immersive-mode .content-body p:nth-of-type(even), 
-        .immersive-mode .quiz-solution-text {
-            background: linear-gradient(to right, #2563eb 0%, #e11d48 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            transition: all 0.4s ease;
-        }
-
-        .dark .immersive-mode .content-body p:nth-of-type(odd), 
-        .dark .immersive-mode .quiz-question {
-            background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%); /* Darkened Red to Blue */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .dark .immersive-mode .content-body p:nth-of-type(even), 
-        .dark .immersive-mode .quiz-solution-text {
-            background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%); /* Darkened Blue to Red */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .source-link { color: #3b82f6; text-decoration: underline; font-size: 0.95rem; }
 
@@ -177,7 +144,7 @@
             if (user) {
                 authOverlay.classList.add('hidden');
                 appContent.classList.remove('hidden');
-                initApp(); // Only fetch data when logged in
+                initApp(); 
             } else {
                 authOverlay.classList.remove('hidden');
                 appContent.classList.add('hidden');
@@ -283,25 +250,27 @@
         function toggleArticle(id) {
             const content = document.getElementById('content-' + id);
             const icon = document.getElementById('icon-' + id);
-            content.style.display = content.style.display === 'none' ? 'block' : 'none';
-            icon.className = content.style.display === 'none' ? 'fas fa-chevron-down text-blue-500 ml-4' : 'fas fa-chevron-up text-blue-500 ml-4';
-        }
-
-        function toggleImmersive() {
-            immersiveEnabled = !immersiveEnabled;
-            const btn = document.getElementById('immersive-btn');
-            if (immersiveEnabled) {
-                document.documentElement.classList.add('immersive-mode');
-                btn.classList.add('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                icon.className = 'fas fa-chevron-up text-blue-500 ml-4';
+                // Recalculate colors for this article when expanded
+                if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
             } else {
-                document.documentElement.classList.remove('immersive-mode');
-                btn.classList.remove('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
+                content.style.display = 'none';
+                icon.className = 'fas fa-chevron-down text-blue-500 ml-4';
             }
         }
 
         function renderContentBlock(item) {
             if (item.type === 'quiz_item') {
-                return `<div class="quiz-container"><div class="quiz-question">${item.question}</div><details class="quiz-solution"><summary><i class="fas fa-lightbulb mr-2"></i>View Solution & Explanation</summary><div class="quiz-solution-text">${item.solution}</div></details></div>`;
+                return `
+                <div class="quiz-container">
+                    <div class="quiz-question">${item.question}</div>
+                    <details class="quiz-solution" ontoggle="if(this.open && immersiveEnabled) setTimeout(applyImmersiveToAll, 50)">
+                        <summary><i class="fas fa-lightbulb mr-2"></i>View Solution & Explanation</summary>
+                        <div class="quiz-solution-text">${item.solution}</div>
+                    </details>
+                </div>`;
             }
             return item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`;
         }
@@ -328,13 +297,126 @@
                     <div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div>
                 </article>`;
             }).join('');
+            
+            // Reapply immersive colors if a new feed is rendered while enabled
+            if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
         }
 
         function toggleSidebar() { document.getElementById('sidebar').classList.toggle('collapsed'); }
+        
         function toggleDarkMode() {
             const dark = document.body.classList.toggle('dark');
             document.getElementById('theme-icon').className = dark ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-blue-500';
             localStorage.setItem('theme', dark ? 'dark' : 'light');
+            if (immersiveEnabled) applyImmersiveToAll(); // Update colors for dark mode
+        }
+
+        // ==========================================
+        // 4. IMMERSIVE READER (True Line-by-Line Logic)
+        // ==========================================
+        let resizeTimeout;
+        
+        function toggleImmersive() {
+            immersiveEnabled = !immersiveEnabled;
+            const btn = document.getElementById('immersive-btn');
+            
+            if (immersiveEnabled) {
+                btn.classList.add('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
+                applyImmersiveToAll();
+                window.addEventListener('resize', debounceApplyImmersive);
+            } else {
+                btn.classList.remove('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
+                removeImmersiveFromAll();
+                window.removeEventListener('resize', debounceApplyImmersive);
+            }
+        }
+
+        function debounceApplyImmersive() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                if(immersiveEnabled) applyImmersiveToAll();
+            }, 250);
+        }
+
+        function applyImmersiveToAll() {
+            if (!immersiveEnabled) return;
+            // Target only visible paragraphs and text to calculate physical layout correctly
+            const targets = document.querySelectorAll('.content-body:not([style*="display: none"]) p, .content-body:not([style*="display: none"]) .quiz-question, .content-body:not([style*="display: none"]) .quiz-solution-text');
+            
+            const isDark = document.body.classList.contains('dark');
+            
+            // Precise Dark Red and Bright Blue colors 
+            // Light mode: Dark Red (159,18,57) to Bright Blue (30,64,175)
+            // Dark mode: Light Pink/Red (253,164,175) to Light Blue (147,197,253)
+            const cRed = isDark ? [253, 164, 175] : [159, 18, 57];
+            const cBlue = isDark ? [147, 197, 253] : [30, 64, 175];
+
+            targets.forEach(el => {
+                if (el.offsetParent === null) return; // Skip hidden elements
+
+                // Save original HTML structure
+                if (!el.hasAttribute('data-orig')) {
+                    el.setAttribute('data-orig', el.innerHTML);
+                }
+                
+                // Reset content to pure text to calculate wraps
+                el.innerHTML = el.getAttribute('data-orig');
+                const words = el.textContent.split(/(\s+)/);
+                el.innerHTML = '';
+                
+                // Wrap every word in a span
+                words.forEach(w => {
+                    if (w.trim() === '') {
+                        el.appendChild(document.createTextNode(w));
+                    } else {
+                        const span = document.createElement('span');
+                        span.textContent = w;
+                        span.style.transition = "color 0.3s";
+                        el.appendChild(span);
+                    }
+                });
+
+                // Group spans by their physical vertical location (line wrapping)
+                let currentLine = [];
+                let lines = [];
+                let lastTop = -1;
+
+                const spans = el.querySelectorAll('span');
+                spans.forEach(span => {
+                    const top = span.offsetTop;
+                    if (top !== lastTop) {
+                        if (currentLine.length > 0) lines.push(currentLine);
+                        currentLine = [];
+                        lastTop = top;
+                    }
+                    currentLine.push(span);
+                });
+                if (currentLine.length > 0) lines.push(currentLine);
+
+                // Apply alternating gradients
+                lines.forEach((line, lineIndex) => {
+                    const isEven = lineIndex % 2 === 0;
+                    const startColor = isEven ? cRed : cBlue;
+                    const endColor = isEven ? cBlue : cRed;
+                    
+                    line.forEach((span, wordIndex) => {
+                        const ratio = line.length > 1 ? wordIndex / (line.length - 1) : 0;
+                        const r = Math.round(startColor[0] + (endColor[0] - startColor[0]) * ratio);
+                        const g = Math.round(startColor[1] + (endColor[1] - startColor[1]) * ratio);
+                        const b = Math.round(startColor[2] + (endColor[2] - startColor[2]) * ratio);
+                        span.style.color = `rgb(${r},${g},${b})`;
+                    });
+                });
+            });
+        }
+
+        function removeImmersiveFromAll() {
+            const targets = document.querySelectorAll('.content-body p, .quiz-question, .quiz-solution-text');
+            targets.forEach(el => {
+                if (el.hasAttribute('data-orig')) {
+                    el.innerHTML = el.getAttribute('data-orig');
+                }
+            });
         }
         
         window.onload = function() {
