@@ -31,8 +31,8 @@
             font-family: 'Merriweather', serif; 
             font-size: 1.125rem; 
             line-height: 1.85; 
-            font-weight: 400;           /* Not bold - as requested */
-            max-width: 800px;           /* Optimal line length: ~50-75 characters */
+            font-weight: 400;
+            max-width: 800px;
             margin: 0 auto;
         }
         .content-body p { margin-bottom: 1.5rem; }
@@ -89,7 +89,7 @@
 
         <main class="flex-1 px-4 md:px-12 py-10 min-h-screen">
             <div id="article-feed" class="max-w-3xl mx-auto">
-                <div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>
+                <!-- Loading message will be set by JS -->
             </div>
         </main>
     </div>
@@ -99,14 +99,31 @@
         let beelineEnabled = false;
 
         async function init() {
+            const feed = document.getElementById('article-feed');
+            feed.innerHTML = `<div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i><p class="mt-4 opacity-70">Loading articles...</p></div>`;
+
             try {
                 const res = await fetch('data.json');
+                if (!res.ok) throw new Error('File not found');
+                
                 rawData = await res.json();
+                
+                if (!Array.isArray(rawData) || rawData.length === 0) {
+                    throw new Error('No articles');
+                }
+                
                 rawData.sort((a, b) => b.date.localeCompare(a.date));
                 renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
                 renderView(activeCategory);
             } catch (e) {
-                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30 font-bold">Syncing data. Please refresh in a moment.</p>`;
+                feed.innerHTML = `
+                    <div class="text-center py-20">
+                        <p class="text-xl font-medium opacity-80">No articles yet</p>
+                        <p class="mt-3 text-sm opacity-60">The scraper is running twice daily (8 AM & 4 PM IST).<br>Please wait for the next run or trigger it manually from GitHub Actions.</p>
+                        <button onclick="location.reload()" class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700">
+                            Refresh Page
+                        </button>
+                    </div>`;
             }
         }
 
