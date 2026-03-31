@@ -1,5 +1,26 @@
 [
     {
+        "category": "Science",
+        "title": "What is quantum entanglement?",
+        "url": "https://www.thehindu.com/sci-tech/science/what-is-quantum-entanglement/article70806461.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Scientists have shown that helium atoms can be entangled through their movement. A team from Australia and the U.S. collided clouds of helium atoms together to create pairs that shared a single quantum state. The achievement showed that even ‘heavy’ particles could follow the same strange quantum physics rules that scientists have mostly observed so far in much lighter particles like electrons. The possibility also opens new ways for researchers to study the link between quantum physics and gravity — a famous unsolved problem in physics."
+            },
+            {
+                "type": "text",
+                "value": "Quantum entanglement occurs when two particles become so deeply linked that they share a single existence. The study achieved momentum entanglement, where the link involves the particles’ momentum. When scientists collided the atoms, the resulting pairs flew apart. Because of quantum mechanics, neither atom had a definite direction until a detector measured it. However, once they measured the momentum of one atom, they instantly determined the momentum of its partner, no matter how far apart they had travelled."
+            },
+            {
+                "type": "text",
+                "value": "In entanglement, one atom does not disappear and reappear elsewhere. Instead, teleportation involves quantum information: when a measurement defines the first atom’s state, that information effectively dictates the state of the second atom across the void. Albert Einstein famously called this “spooky action at a distance” because it defies everyday logic. In classical physics, objects usually only affect things directly next to them. Momentum entanglement proves that whole atoms can remain connected through a nonlocal bond."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
         "category": "Internet",
         "title": "Russia goes after VPNs as 'great crackdown' gathers pace",
         "url": "https://www.thehindu.com/sci-tech/technology/russia-goes-after-vpns-as-great-crackdown-gathers-pace/article70806310.ece",
