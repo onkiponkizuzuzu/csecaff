@@ -1,6 +1,581 @@
 [
     {
         "category": "Internet",
+        "title": "Indonesia summons Meta and Google over non-compliance with child social media curbs, minister says",
+        "url": "https://www.thehindu.com/sci-tech/technology/indonesia-summons-meta-and-google-over-non-compliance-with-child-social-media-curbs-minister-says/article70805608.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Indonesia summoned officials from Meta and Google over non-compliance with social media restrictions for children under 16 that went into full effect last week, ‌a minister said in a video statement published on Tuesday."
+            },
+            {
+                "type": "text",
+                "value": "Indonesia requires social media companies ⁠with platforms it deems high risk to deactivate accounts belonging to children under 16, under a regulation that went into ‌effect last week."
+            },
+            {
+                "type": "text",
+                "value": "Meutya Hafid, Indonesia’s Communications and Digital Minister, said Meta and Google are “two ‌business entities that are non-compliant with the law” ‌and ⁠that they were summoned on Monday to “undergo checks”."
+            },
+            {
+                "type": "text",
+                "value": "Failure to implement the curbs may result in sanctions or even a block on the platform, the ministry has said."
+            },
+            {
+                "type": "text",
+                "value": "Meutya said Google and ‌Meta had opposed the curbs from the very beginning."
+            },
+            {
+                "type": "text",
+                "value": "Google and Meta did not immediately respond to a request for comment on Tuesday. Both companies said ‌last week they had put in place safeguards for children."
+            },
+            {
+                "type": "text",
+                "value": "Roblox and TikTok, owned by China’s ByteDance, are two other platforms deemed ⁠high risk by the ministry. Meutya said the ministry sent a warning to the two companies to be ‌fully compliant or risk being summoned. TikTok and Roblox did not immediately respond to a request for comment."
+            },
+            {
+                "type": "text",
+                "value": "Indonesia’s curbs, which the government says are intended to reduce the risk of cyberbullying and addiction, follow a ban in Australia last year over concerns about ‌social media’s potential harms to young people’s mental health."
+            },
+            {
+                "type": "text",
+                "value": "The criteria for high-risk platforms include the possibility of talking to strangers, addictive qualities and psychological risks, ⁠the ministry said."
+            },
+            {
+                "type": "text",
+                "value": "Internet penetration in Indonesia reached 80.66% ⁠in 2025, according to a survey by the Indonesia Internet Service Providers’ Association. The survey showed ‌it was 87.8% among “Gen Z” users aged 13 to 28."
+            },
+            {
+                "type": "text",
+                "value": "There are about 70 million children under 16 in Indonesia, Meutya said."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "Microsoft unveils AI upgrades, rolls out Copilot Cowork to early-access customers",
+        "url": "https://www.thehindu.com/sci-tech/technology/microsoft-unveils-ai-upgrades-rolls-out-copilot-cowork-to-early-access-customers/article70805600.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Microsoft on Monday unveiled new features in its Copilot research assistant that would allow users to utilise multiple AI models ‌simultaneously within the same workflow, the latest move by the tech giant to improve its AI offering ⁠and boost adoption."
+            },
+            {
+                "type": "text",
+                "value": "In a new feature called “Critique”, Copilot’s Researcher agent will now be able to pull outputs from both OpenAI’s GPT and Anthropic’s ‌Claude models for every response, rather than relying on a single model."
+            },
+            {
+                "type": "text",
+                "value": "While GPT generates the response, Claude ‌will review the output for accuracy and quality before presenting ‌it ⁠to the user, Microsoft said. The company ⁠expects to make that workflow bi-directional in the future, allowing GPT to review Claude’s drafts as well."
+            },
+            {
+                "type": "text",
+                "value": "“Having various different models from different vendors in Copilot is highly attractive - but we’re ‌taking this to the next level, where customers actually get the benefits of the models working together,” Nicole Herskowitz, corporate vice president of Microsoft 365 and Copilot, said in ‌an interview with Reuters."
+            },
+            {
+                "type": "text",
+                "value": "The multi-model approach will help speed up user workflow, keep in check AI hallucinations, where systems generate false information, and produce more ⁠reliable outputs, boosting productivity and quality for customers, Herskowitz added."
+            },
+            {
+                "type": "text",
+                "value": "Microsoft is also launching ‘Council’, a feature that will allow users to ‌compare responses from different AI models side-by-side. The upgrades come as Microsoft makes its new Copilot Cowork agentic AI tool more widely available to members in its ‘Frontier’ program, which provides customers with early access to some of its latest AI features."
+            },
+            {
+                "type": "text",
+                "value": "The company’s shares rose about 1% on Monday. Still, the ‌stock is on course for its worst quarter since the 2008 global financial crisis with a drop of nearly 25% as investor optimism on AI wanes."
+            },
+            {
+                "type": "text",
+                "value": "Microsoft unveiled Copilot Cowork, ⁠a tool based on Anthropic’s viral Claude Cowork product, in ⁠testing mode earlier this month, capitalising on the growing demand for autonomous AI agents."
+            },
+            {
+                "type": "text",
+                "value": "The Windows maker has been ‌racing to improve its Copilot assistant to drive better adoption amid intense competition from rivals including Google’s Gemini and autonomous agents such as Claude Cowork."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "India proposes making government advisories legally binding on tech giants",
+        "url": "https://www.thehindu.com/sci-tech/technology/india-proposes-making-government-advisories-legally-binding-on-tech-giants/article70805606.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "India on Tuesday proposed changes to its IT law to make advisories ‌and clarifications legally binding on internet platforms such as Meta, Google ⁠and X, the latest in a string of stricter compliance requirements for ‌tech giants."
+            },
+            {
+                "type": "text",
+                "value": "Prime Minister Narendra Modi’s government this year ‌compressed the timeline for platforms ‌to ⁠take down content flagged ⁠by authorities to three hours, from 36 hours previously, and has imposed new obligations around AI-generated ‌content and deepfakes."
+            },
+            {
+                "type": "text",
+                "value": "Currently, the IT ministry’s advisories to platforms, on issues ranging from deepfake labelling to ‌content takedown practices, have functioned as guidance without explicit legal consequences."
+            },
+            {
+                "type": "text",
+                "value": "In new proposed rules on ⁠Monday, the government said non-compliance with advisories or guidelines issued ‌by the IT ministry would be treated as a failure to meet the conditions for safe harbour, the legal shield that protects platforms from liability for ‌content posted by their users."
+            },
+            {
+                "type": "text",
+                "value": "The changes were being proposed to “strengthen enforceability” of directions and “improve legal ⁠certainty”, the ministry said in a ⁠notice inviting public feedback by April 14."
+            },
+            {
+                "type": "text",
+                "value": "Meta, Google and ‌X did not immediately respond to requests for comment."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "Swiss cling on to cash as survey shows payment app use stalling",
+        "url": "https://www.thehindu.com/sci-tech/technology/swiss-cling-on-to-cash-as-survey-shows-payment-app-use-stalling/article70805625.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Mobile payment app usage stalled in Switzerland last year, a Swiss National Bank survey showed on Monday, with cash remaining popular as ‌a way of paying for goods and services in person."
+            },
+            {
+                "type": "text",
+                "value": "A large majority of respondents ⁠in the survey were in favour of the continued use of cash, with only 2% keen to abolish ‌it, saying it is impractical or used for illegal activities."
+            },
+            {
+                "type": "text",
+                "value": "Mobile payment apps such as ‌Switzerland’s Twint or Apple Pay were used in ‌17% ⁠of transactions in 2025, the SNB ⁠study showed, down from 18% in 2024."
+            },
+            {
+                "type": "text",
+                "value": "Debit cards remained the most popular payment means, used in 37% of purchases, followed by physical cash which was ‌exchanged in 30% of in-person transactions, the same level as in 2024."
+            },
+            {
+                "type": "text",
+                "value": "“People like the anonymity of cash,” said Marcel Stadelmann, a payments researcher at ‌the Zurich University of Applied Sciences, adding: “Some people do not like leaving a trace in the digital world when they pay with ⁠cards or mobile apps”."
+            },
+            {
+                "type": "text",
+                "value": "Stadelmann cited COVID-19-era government measures which made some people more aware of privacy ‌issues."
+            },
+            {
+                "type": "text",
+                "value": "Payment apps growth appears to have stalled because most people in Switzerland already have them and they need an extra trigger to use them over debit cards or cash, Stadelmann added."
+            },
+            {
+                "type": "text",
+                "value": "“With instant payments, it needs to be something that makes payments ‌quicker, easier, more convenient, or gives people more control over their spending by giving immediate feedback if they’ve overspent,” he said. The SNB this month ⁠unveiled the designers for its next banknotes, which are ⁠due to enter circulation in the 2030s."
+            },
+            {
+                "type": "text",
+                "value": "Stadelmann said people liked the act of spending ‌cash, as well as feeling they had control over it."
+            },
+            {
+                "type": "text",
+                "value": "“Physical cash will remain important in Switzerland for some time,” he said."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "Siemens plans reorganisation of two divisions, says source",
+        "url": "https://www.thehindu.com/sci-tech/technology/siemens-plans-reorganisation-of-two-divisions-says-source/article70805620.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Siemens is set to dissolve its digital industries and smart infrastructure segments in an upcoming reorganisation, ‌a person familiar with the matter told Reuters on Monday."
+            },
+            {
+                "type": "text",
+                "value": "The ⁠reorganisation seeks to break down “silo structures” in a move aligned with CEO Roland ‌Busch’s “One Tech Company” strategy, which aims to combine the likes ‌of infrastructure and transportation with ‌software ⁠and AI."
+            },
+            {
+                "type": "text",
+                "value": "Digital industries currently ⁠focuses primarily on factory automation, motion control and process automation, while smart infrastructure’s key business areas include building ‌technology and energy management."
+            },
+            {
+                "type": "text",
+                "value": "The two divisions would be split into six or seven smaller units in total, ‌with a reorganisation of the executive board to follow, the source said. Each unit would ⁠report directly to the board."
+            },
+            {
+                "type": "text",
+                "value": "How exactly this would look is still unclear, ‌and the plan needs to be discussed by the supervisory board and employee representatives, likely in May."
+            },
+            {
+                "type": "text",
+                "value": "Previous plans to merge the digital industries and smart infrastructure divisions have ‌thereby been put on hold again, the source added."
+            },
+            {
+                "type": "text",
+                "value": "The German engineering group’s mobility division, which focuses on ⁠rail technology, is meanwhile expected to ⁠remain unaffected by the restructuring."
+            },
+            {
+                "type": "text",
+                "value": "German newspaper Handelsblatt first reported on ‌the plans."
+            },
+            {
+                "type": "text",
+                "value": "Siemens declined to comment."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Environment",
+        "title": "Former civil servants oppose ‘illegal’ deployment of Assam forest force on poll duty",
+        "url": "https://www.thehindu.com/elections/assam-assembly/former-civil-servants-oppose-illegal-deployment-of-assam-forest-force-on-poll-duty/article70803461.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "A group of retired Indian Administrative Service and Indian Forest Service officials and wildlife conservationists has raised “serious concerns” over the Assam government deploying around 1,600 personnel of the Assam Forest Protection Force (AFPF) on election duty."
+            },
+            {
+                "type": "text",
+                "value": "An Assam government official confirmed to The Hindu that it was the “first time” forest personnel were requisitioned for election duty. Assam votes in a single phase on April 9."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "India, China top Asia-Pacific region with highest metabolic diseases burden\nPremium",
+        "url": "https://www.thehindu.com/sci-tech/health/india-china-top-asia-pacific-region-with-highestmetabolic-diseases-burden/article70706652.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "India and China have among the highest absolute metabolic disease burdens in Asia-Pacific, a recent review of data from the Global Burden of Disease, Injuries, and Risk Factors Study (GBD), 1990–2023, revealed. It also includes forecasts up to 2030 for the Asia-Pacific region, based on these trends."
+            },
+            {
+                "type": "text",
+                "value": "Published recently in the peer-reviewed journal Metabolism, the article by Huang Zhang et al presents an analysis of the GBD with specific reference to the Asia Pacific region. Scholars from multiple research institutes across the world analysed estimates of disability-adjusted life years (DALYs) and mortality for five common metabolic diseases and risk factors in the region - Type 2 diabetes mellitus, high systolic blood pressure, high body mass index (BMI), high LDL cholesterol, and metabolic dysfunction-associated steatotic liver disease (MASLD). Metabolic diseases occur when the normal process of breaking down, storing or using energy from food is disrupted due to a range of factors."
+            },
+            {
+                "type": "text",
+                "value": "From ‘Burden of metabolic diseases, 1990-2023, with forecasts to 2030 for the Asia-Pacific region’ published in Metabolism"
+            },
+            {
+                "type": "heading",
+                "value": "India’s burden"
+            },
+            {
+                "type": "text",
+                "value": "In all the parameters considered, India and China top the list. Anoop Misra, one of the co-authors of the study and chairman, Fortis Centre for Diabetes, Obesity and Cholesterol, New Delhi, says India has one of the highest absolute metabolic disease burdens in Asia-Pacific. “In 2023, India had approximately 21 million DALYs and 5.8 lakh deaths from type 2 diabetes. High systolic BP caused nearly 3.8 crore DALYs and about 15.7 lakh deaths. We also need to be aware that high BMI is also rising steadily ( at a 2.7-2.9 % annually), as are LDL cholesterol and MASLD,” he explains. The burden is so heavy, these two countries not only top the sub region, but also are the highest worldwide."
+            },
+            {
+                "type": "text",
+                "value": "In terms of DALYs, in 2023 India replaced China (from its top position in 1990) to lead the list of top 5 countries in the region. Under all the other four parameters, India continues to be in the second position after China, but the gap between the nations is steadily narrowing. This is particularly true with High BMI, LDL cholesterol, and MASLD."
+            },
+            {
+                "type": "heading",
+                "value": "Urgent prevention called for"
+            },
+            {
+                "type": "text",
+                "value": "“It is clear that most metabolic risks will continue rising, up until 2030,” says Dr. Misra, “This is why the time is opportune to launch urgent integrated prevention strategies.” In his opinion, the government should promote healthier diets by regulating ultra-processed foods, introducing clear front-of-pack nutrition labelling, and reducing excess sugar, salt, and unhealthy fats in commonly consumed foods. While this is being done in some areas, what is required is more uniform implementation across the country."
+            },
+            {
+                "type": "text",
+                "value": "He further adds that cities and communities must be redesigned to encourage daily activity through safe walking spaces, cycling tracks, and school- and workplace-based exercise programs. “Frankly, this is the most difficult part, and I don’t see it happening in most cities any time in the near future,” he says."
+            },
+            {
+                "type": "text",
+                "value": "Besides this, large-scale screening for obesity, diabetes, hypertension, and fatty liver disease should be integrated into primary health care so that high-risk individuals can be identified and treated early. This has been done by the Union Health Ministry, and some States independently, but needs to be consolidated and strengthened."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "IRDAI approves India AS framework for insurers from April 1",
+        "url": "https://www.thehindu.com/business/Industry/irdai-approves-india-as-framework-for-insurers-from-april-1/article70803511.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Insurance regulator IRDAI has approved amendments mandating insurers to prepare and present financial statements in accordance with applicable Indian Accounting Standards effective April 1, 2026."
+            },
+            {
+                "type": "text",
+                "value": "The implementation of Ind AS will be applicable to all categories of insurers — life, general, stand alone health insurers and reinsurers. The amendment sets out the regulatory framework governing the recognition, measurement, presentation and disclosure of financial statements under Ind AS."
+            },
+            {
+                "type": "text",
+                "value": "Introduction of Ind AS aims to enhance consistency, transparency and comparability in financial reporting across the insurance sector, in alignment with globally accepted standards, IRDAI said on Monday, announcing approval for the Insurance Regulatory and Development Authority of India (Actuarial, Finance and Investment Functions of Insurers) (Amendment) Regulations, 2026."
+            },
+            {
+                "type": "text",
+                "value": "The regulations provide for parallel reporting for a period of two years, or as specified by IRDAI, comprising financial statements prepared in accordance with Ind AS alongside financial information under the existing accounting framework. This is intended to enable insurers to stabilise processes and controls, while allowing stakeholders to understand and assess the impact of the new accounting framework, the regulator said."
+            },
+            {
+                "type": "text",
+                "value": "For insurers facing challenges in immediately shifting to Ind AS, a provision has been made to grant forbearance for one-year. During this period, such insurers will continue to submit Ind AS based financial information also to the Authority."
+            },
+            {
+                "type": "text",
+                "value": "The Institute of Chartered Accountants of India (ICAI) and the Institute of Actuaries of India (IAI) have welcomed the adoption of Ind AS and expressed their readiness to support insurers, auditing professionals and actuaries. IRDAI said the framework has been developed after extensive stakeholder consultations, including consideration of public comments on the exposure draft and engagement with insurers and industry professionals."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "What the Meta-YouTube ruling means for social media | Explained",
+        "url": "https://www.thehindu.com/sci-tech/technology/what-the-meta-youtube-ruling-means-for-social-media-explained/article70802977.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The story so far:"
+            },
+            {
+                "type": "text",
+                "value": "A Los Angeles Superior Court jury, on March 25, found Meta Platforms and Alphabet’s YouTube liable for designing platforms in ways that foster addiction and harm users’ mental health. The case centred on a woman who was addicted to social media platforms. The jury awarded $3 million in compensatory damages, which dispensed 70% to Meta and 30% to YouTube, and designated punitive damages of up to $3 million, subject to judicial confirmation."
+            },
+            {
+                "type": "heading",
+                "value": "What did the verdict say?"
+            },
+            {
+                "type": "text",
+                "value": "The presiding judge at the Los Angeles Superior Court has yet to formalise the final judgment. The 20-year-old woman, known as Kaley, testified that her social media use began as early as age 6 on YouTube and age 9 on Instagram because of their attention-grabbing design."
+            },
+            {
+                "type": "text",
+                "value": "Kaley’s lawyers argued that features like infinite scroll, autoplay, and algorithm-driven notifications were specifically engineered to “hook” young users. She testified that this addiction exacerbated her depression, anxiety, and body dysmorphia."
+            },
+            {
+                "type": "text",
+                "value": "The case focused on platform design rather than content, sidestepping Section 230 immunity by characterising social media platforms as “defective products,” focusing on design elements such as algorithmic amplification and addictive features rather than third-party content, making it harder for the companies to avert liability."
+            },
+            {
+                "type": "text",
+                "value": "Snapchat and TikTok were defendants in the trial, while both settled with the plaintiff before it began; the terms of the agreements were not disclosed."
+            },
+            {
+                "type": "heading",
+                "value": "What evidence swayed the jury?"
+            },
+            {
+                "type": "text",
+                "value": "The case reportedly relied on internal corporate documents, expert testimony, and user-behaviour data, pointing to evidence such as the ‘Facebook Files’, internal research reported by The Wall Street Journal in 2021 showing Meta knew Instagram could worsen body image issues for teenage girls, with one study noting that “32% of teen girls said Instagram made them feel worse.” They also cited findings referenced in U.S. Senate hearings, where whistleblower Frances Haugen testified that company research linked platform design to anxiety and compulsive use."
+            },
+            {
+                "type": "text",
+                "value": "In YouTube’s case, it pointed to concerns that its recommendation system steers users toward increasingly engaging content to maximise watch time, an issue noted in academic research and media reports."
+            },
+            {
+                "type": "heading",
+                "value": "Why is this verdict a landmark?"
+            },
+            {
+                "type": "text",
+                "value": "The ruling is significant because it shifts liability from content to platform design. It challenges protections under Section 230 of the U.S. Communications Decency Act, long used to shield firms from responsibility for user-generated content. Courts have typically dismissed such cases under Section 230 protections. For instance, in Gonzalez v. Google (2023), the U.S. Supreme Court declined to hold Google liable for YouTube’s algorithmic recommendations of ISIS-related content. Similarly, in Twitter v. Taamneh (2023), claims against Twitter, Facebook, and Google for aiding terrorism were rejected due to insufficient proof of direct liability. These rulings reinforced that platforms are generally not responsible for third-party content, even when amplified by algorithms."
+            },
+            {
+                "type": "heading",
+                "value": "What changes for social media companies?"
+            },
+            {
+                "type": "text",
+                "value": "The verdict came a day after a jury in New Mexico found Meta liable for the way in which its platforms endangered children and exposed them to sexually explicit material and contact with sexual predators. If upheld, the verdict could compel platforms to rethink core design features. The ruling heightens demands for algorithmic transparency, as seen in proposals like the U.S. Algorithmic Accountability Act. Crucially, the risk of punitive damages and over 1,600 pending lawsuits could trigger costly, copycat litigation, making aggressive engagement-driven design legally vulnerable."
+            },
+            {
+                "type": "heading",
+                "value": "What is next for regulation?"
+            },
+            {
+                "type": "text",
+                "value": "At least half of American teens use YouTube or Instagram daily, according to the Pew Research Center. California is considering stricter rules on teen social media use, including potential restrictions on addictive features. At the federal level, lawmakers have proposed bills mandating algorithmic transparency and stronger child-safety protections."
+            },
+            {
+                "type": "text",
+                "value": "Recently, countries such as Australia have imposed restrictions on children to stop or limit their use of social media. The U.K. is running a pilot programme to see how a ban on social media for people aged under 16 may work. If upheld on appeal, it could mark the beginning of a new era in which algorithmic design is scrutinised not just for efficiency, but for its societal and psychological impact."
+            },
+            {
+                "type": "text",
+                "value": "(Saee Pande is a freelance writer with a focus on politics, current affairs, international relations, and geopolitics)"
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "Catch them young: On overweight or obese children in India",
+        "url": "https://www.thehindu.com/opinion/editorial/catch-them-young-on-overweight-or-obese-children-in-india/article70727136.ece",
+        "image": null,
+        "content": [
+            {
+                "type": "text",
+                "value": "The phrase ‘catch them young’ has acquired a perverse slant in a world grappling with a galloping non-communicable diseases epidemic. The full gamut of conditions that comprise metabolic diseases, usually impacting people with advancing age, are affecting even children, studies show. The recently released World Obesity Atlas 2026 delivers a true shocker. As per the report, released on World Obesity Day (March 4), in 2025, there were 14.9 million children in the 5-9 years group and more than 26.4 million children in the 10-19 age group in India who were overweight or obese. About 41 million children had a high BMI rate. Further, estimates suggest that by 2040, 20 million children in India will be obese and 56 million will be overweight. The report also estimates that at least 120 million children of school-going age are expected to have early signs of chronic illnesses such as hypertension and cardiovascular disease due to weight, in 2040. While, globally, China leads both categories, with 62 million children with high BMI and 33 million with obesity, India comes second, and is tailed by the United States (27 million high BMI; 13 million obesity). With such high obesity figures, the attendant health statistics too are unacceptably off the charts: In India, children aged 5-19 years with disease indicators attributed to high BMI, including hypertension, diabetes, hyperglycaemia, high cholesterol, and metabolic dysfunction-associated steatotic liver disease (MASLD) are projected to rise substantially by 2040. The risk factors are similar to adult-onset metabolic conditions, broadly categorised as insufficient activity and consumption of unhealthy foods. Other aspects, mentioned as causes, include poor access to healthy school meals for primary and secondary grade children, and sub-optimal breast feeding for infants aged 1-5 months."
+            },
+            {
+                "type": "text",
+                "value": "Clearly, not enough is being done to stem this tide of growing childhood obesity. The World Obesity Federation calls for greater action and emphasis on monitoring in terms of marketing restrictions and sugar levies on packaged food products. Experts have also called for restrictions on marketing packaged foods to children, sincere implementation of global physical activity recommendations for children, ensuring the mandatory breastfeeding period for infants, and healthier school food standards, besides integration of prevention and care into primary health systems. It is worrisome that obesity and overweight, once associated with higher-income countries, are now catching up rapidly in low- and middle-income countries. If nothing is done at this stage, the gains that the nation expects from its youth, even as it heads towards a grey path, will be hollowed out. The only way out is to catch them young, even before non-communicable diseases can."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Science",
+        "title": "Newfound brain network ‘SCAN’ implicated in Parkinson’s disease",
+        "url": "https://www.thehindu.com/sci-tech/science/newfound-brain-network-scan-implicated-in-parkinsons-disease/article70801578.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Parkinson’s disease affects more than 10 million people worldwide. A patient struggles to perform coordinated movement, requiring conscious effort and attention even for a simple task like buttoning a shirt. Natural movements like walking and turning have to be planned as the person will struggle to start and stop actions."
+            },
+            {
+                "type": "text",
+                "value": "Over time, the person will move slower, become unstable, and suffer tremors."
+            },
+            {
+                "type": "text",
+                "value": "Now, new research reveals a brain network promising precise targets for treatment."
+            },
+            {
+                "type": "heading",
+                "value": "Higher order networks"
+            },
+            {
+                "type": "text",
+                "value": "To date, various treatment options are available, but none are ideal. For example, pharmacological treatment with levodopa, a dopamine precursor, partially alleviates Parkinson’s symptoms. However, the effect of levodopa is variable and repeated use causes side-effects like uncontrolled movements. Another approved therapy is deep brain stimulation (DBS), wherein electrodes are surgically implanted inside specific brain regions."
+            },
+            {
+                "type": "text",
+                "value": "“However, DBS is expensive and invasive, albeit not risky,” Prashanth Kukkle, consultant neurologist at the Parkinson’s Disease and Movement Disorders Clinic, Bengaluru, said."
+            },
+            {
+                "type": "text",
+                "value": "Non-invasive therapies like transcranial magnetic stimulation (TMS), where magnetic fields are applied to stimulate nerve cells, are at an experimental stage and require “sweet spots, or precise targets that can bring about dramatic improvement, which are still being explored,” Dr. Kukkle added."
+            },
+            {
+                "type": "text",
+                "value": "Until recently, neurologists were probing motor-effector areas of the motor cortex, which are surface-level brain areas controlling muscular activity of individual body parts like the foot, arm, and mouth. However, dysfunction in these regions has not been sufficient to explain the coordination deficits seen in Parkinson’s."
+            },
+            {
+                "type": "text",
+                "value": "A prevailing hypothesis has been that higher order networks — large-scale, interconnected clusters integrating information across brain regions for complex cognitive functions like planning and attention — may be involved. A new study in Nature addressed this hypothesis and found that Parkinson’s disease is associated with the abnormal strengthening of a brain network called the somatic cognitive action network (SCAN)."
+            },
+            {
+                "type": "text",
+                "value": "The study’s findings have uncovered previously elusive precise targets that could improve efficacy of modulatory therapies for Parkinson’s."
+            },
+            {
+                "type": "heading",
+                "value": "Discovery of SCAN"
+            },
+            {
+                "type": "text",
+                "value": "Historically, neurologists have been interested in mapping the precise brain regions that directly control movement of specific body parts. Around a century ago, the American-Canadian neurosurgeon Wilder Penfield electrically stimulated the surface of the brain in awake patients and recorded which body parts moved in response. He found that neighboring parts of the body were represented in neighboring areas of the motor cortex, creating a continuous “map” of the body across the brain’s surface."
+            },
+            {
+                "type": "text",
+                "value": "Over time, however, this map has been questioned for its limited precision. Nico Dosenbach, a neurologist at Washington University School of Medicine in St. Louis and a co-author of the Parkinson’s disease study, pioneered a method called precision functional mapping (PFM), which helped refine the Penfield map."
+            },
+            {
+                "type": "text",
+                "value": "“Previously, most imaging studies relied on averaging data across individuals,” he explained. “It’s like averaging the faces of 100 people — you would end up with a cartoon face, not a real face.”"
+            },
+            {
+                "type": "text",
+                "value": "PFM allowed functional mapping of individual brains, thus producing ‘maps’ of higher resolution."
+            },
+            {
+                "type": "text",
+                "value": "Typically, in low-resolution maps, only the specific motor-effector area would be visible as a single dot when a particular body part moved. But in a 2023 paper, using PFM, Dr. Dosenbach and colleagues reported a new pattern where three additional zones appeared as “three dots” along the motor cortex whenever unrelated body parts were stimulated. These three zones were interspersed between the motor-effector regions controlling arm, foot, and mouth. Whether the ankle was stimulated or the elbow, the three-dots pattern would be activated."
+            },
+            {
+                "type": "text",
+                "value": "“The regularity of the pattern across individuals made me suspect that there might be an entirely different organisational principle at work,” Dr. Dosenbach said."
+            },
+            {
+                "type": "text",
+                "value": "These patterns were later renamed SCAN, and they were found to connect to higher-order brain areas involved in coordinating movement."
+            },
+            {
+                "type": "text",
+                "value": "Other experts agree that the discovery of SCAN changed their impression of the way the motor cortex is organised."
+            },
+            {
+                "type": "text",
+                "value": "“We don’t only have a series of ‘effectors’ controlling individual body parts in the primary motor cortex. We also have integrative areas that oversee and coordinate movements,” Alfonso Fasano, a neurologist at the University of Toronto who wasn’t involved in the study, said."
+            },
+            {
+                "type": "heading",
+                "value": "SCAN in the picture"
+            },
+            {
+                "type": "text",
+                "value": "Using the same PFM technique, the authors examined functional MRI scans and electrocorticographs — records of electrical signals from the cortex — of 863 people with Parkinson’s disease, many of whom were receiving different approved therapies like DBS and levodopa."
+            },
+            {
+                "type": "text",
+                "value": "“In Parkinson’s disease patients, the SCAN network is closely connected with key Parkinson’s-related brain regions such as the basal ganglia and thalamus, showing pathological abnormal strengthening of these connections,” Hesheng Liu, professor at Changping Laboratory, Beijing, and the lead author of the study, said."
+            },
+            {
+                "type": "text",
+                "value": "In contrast, the SCAN network was not abnormally strengthened in patients with another motor disorder, amyotrophic lateral sclerosis (ALS)."
+            },
+            {
+                "type": "text",
+                "value": "A key strength of the paper was the sheer size of the datasets — which Dr. Liu and his team had been gathering since 2016."
+            },
+            {
+                "type": "text",
+                "value": "“Hesheng Liu and team ran several complex clinical studies in record time and networked with other scientists around the world to pool data,” Dr. Dosenbach said."
+            },
+            {
+                "type": "text",
+                "value": "“The other strength of the paper is that it uses multiple cohorts of patients treated with different modalities and shows a consistent finding: over-connectivity of SCAN to basal ganglia in Parkinson’s disease,” Dr. Fasano added. “Importantly, when a treatment has worked, there’s a common denominator: the reduction of SCAN over-connectivity.”"
+            },
+            {
+                "type": "text",
+                "value": "On the flip side, Dr. Fasano expressed belief that framing Parkinson’s disease as a SCAN disorder is an oversimplistic conclusion."
+            },
+            {
+                "type": "text",
+                "value": "“First, Parkinson’s disease is heterogeneous. Second, other conditions such as parkinsonism or dystonia may involve similar network abnormalities,” he said."
+            },
+            {
+                "type": "text",
+                "value": "Nevertheless, SCAN over-connectivity with basal ganglia represents a new network-level biomarker for Parkinson’s disease."
+            },
+            {
+                "type": "heading",
+                "value": "Cautious optimism"
+            },
+            {
+                "type": "text",
+                "value": "The findings have clinical implications. In the study, the authors conducted a preliminary trial where 18 people with Parkinson’s disease were randomly assigned to receive TMS directed at the SCAN regions. Compared to a control cohort whose brains were stimulated at the effector regions, the SCAN-targeted group showed significantly less tremors, rigidity, slowness, and instability within two weeks."
+            },
+            {
+                "type": "text",
+                "value": "Both Dr. Dosenbach and Dr. Fasano agreed that a TMS therapy directed at SCAN for Parkinson’s disease patients is on the horizon."
+            },
+            {
+                "type": "text",
+                "value": "”In future, there will be both non-invasive and minimally invasive neuromodulatory therapies aimed directly at SCAN in a personalized manner using PFM,” Dr. Dosenbach said."
+            },
+            {
+                "type": "text",
+                "value": "Dr. Kukkle remained cautiously optimistic: “Being superficially located in the cortex, SCAN is easily accessible by TMS for non-invasive modulation.” However, he added that SCAN is also a newly discovered brain region that has yet to be included in standard medical textbooks and atlases: “While this paper shows rational, biological plausibility and early clinical evidence, it has to be seen whether it converts to routine clinical practice.”"
+            },
+            {
+                "type": "text",
+                "value": "Sheetal Potdar has a PhD in neuroscience and is a freelance science journalist."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
         "title": "OpenAI's U.S. ad pilot exceeds $100 million in annualised revenue in six weeks",
         "url": "https://www.thehindu.com/sci-tech/technology/openais-us-ad-pilot-exceeds-100-million-in-annualised-revenue-in-six-weeks/article70791044.ece",
         "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
