@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TH Reader by onkiponkizuzuzu</title>
+    <title>TH & IE Reader by onkiponkizuzuzu</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -38,7 +38,6 @@
         .content-body p { margin-bottom: 1.5rem; }
         .content-body h4 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem; }
         
-        /* BeeLine Reader Mode */
         .beeline-mode .content-body p {
             background: linear-gradient(to right, #3b82f6 0%, #60a5fa 15%, #93c5fd 50%, #60a5fa 85%, #3b82f6 100%);
             -webkit-background-clip: text;
@@ -61,19 +60,23 @@
         <div class="flex items-center space-x-4">
             <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
             <div>
-                <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
+                <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH & IE Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
                 <div id="prelims-counter" class="text-xs text-blue-600 dark:text-blue-400 mt-1 font-medium">
                     Days to Prelims 2026 (24 May): <span id="days-count" class="font-semibold">54</span>
                 </div>
             </div>
         </div>
+
+        <!-- Main Topics -->
+        <div class="flex gap-2" id="topic-tabs"></div>
+
         <div class="flex-1 max-w-md relative">
             <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
             <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
         </div>
+
         <div class="flex items-center gap-3">
-            <button onclick="toggleBeeLine()" id="beeline-btn"
-                    class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
+            <button onclick="toggleBeeLine()" id="beeline-btn" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
                 <i class="fas fa-book-open"></i>
                 <span>BeeLine Mode</span>
             </button>
@@ -88,15 +91,18 @@
         </aside>
 
         <main class="flex-1 px-4 md:px-12 py-10 min-h-screen">
-            <div id="article-feed" class="max-w-3xl mx-auto">
-                <!-- Loading message will be set by JS -->
-            </div>
+            <div id="article-feed" class="max-w-3xl mx-auto"></div>
         </main>
     </div>
 
     <script>
-        let rawData = [], activeCategory = 'Environment', activeDate = null, isSearch = false;
+        let rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', activeDate = null, isSearch = false;
         let beelineEnabled = false;
+
+        const topics = {
+            "The Hindu": ["Science", "Health", "Agriculture", "Environment", "Internet"],
+            "Indian Express": ["UPSC Current Affairs"]
+        };
 
         async function init() {
             const feed = document.getElementById('article-feed');
@@ -105,39 +111,63 @@
             try {
                 const res = await fetch('data.json');
                 if (!res.ok) throw new Error('File not found');
-                
                 rawData = await res.json();
-                
-                if (!Array.isArray(rawData) || rawData.length === 0) {
-                    throw new Error('No articles');
-                }
+                if (!Array.isArray(rawData) || rawData.length === 0) throw new Error('No articles');
                 
                 rawData.sort((a, b) => b.date.localeCompare(a.date));
-                renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
-                renderView(activeCategory);
+                renderTopicTabs();
+                renderView('The Hindu', 'Environment');
             } catch (e) {
                 feed.innerHTML = `
                     <div class="text-center py-20">
                         <p class="text-xl font-medium opacity-80">No articles yet</p>
-                        <p class="mt-3 text-sm opacity-60">The scraper is running twice daily (8 AM & 4 PM IST).<br>Please wait for the next run or trigger it manually from GitHub Actions.</p>
-                        <button onclick="location.reload()" class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700">
-                            Refresh Page
-                        </button>
+                        <p class="mt-3 text-sm opacity-60">The scraper runs twice daily (8 AM & 4 PM IST).<br>Trigger it manually from GitHub Actions if needed.</p>
+                        <button onclick="location.reload()" class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700">Refresh Page</button>
                     </div>`;
             }
         }
 
-        function renderCategoryTabs(cats) {
-            document.getElementById('category-tabs').innerHTML = cats.map(c => `
-                <button onclick="renderView('${c}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === c && !isSearch ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${c}</button>
+        function renderTopicTabs() {
+            const html = Object.keys(topics).map(topic => `
+                <button onclick="switchTopic('${topic}')" 
+                        class="px-5 py-2 rounded-full text-sm font-semibold transition-all ${activeTopic === topic ? 'bg-blue-600 text-white shadow-md' : 'opacity-70 hover:opacity-100'}">
+                    ${topic}
+                </button>
             `).join('');
+            document.getElementById('topic-tabs').innerHTML = html;
+            renderSubtopicTabs();
+        }
+
+        function renderSubtopicTabs() {
+            const subs = topics[activeTopic];
+            const html = subs.map(sub => `
+                <button onclick="renderView('${activeTopic}', '${sub}')" 
+                        class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeSubtopic === sub ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">
+                    ${sub}
+                </button>
+            `).join('');
+            // Reuse category-tabs div for subtopics
+            const container = document.getElementById('category-tabs') || document.createElement('div');
+            if (!document.getElementById('category-tabs')) {
+                const div = document.createElement('div');
+                div.id = 'category-tabs';
+                div.className = 'flex space-x-2 overflow-x-auto no-scrollbar mt-3';
+                document.querySelector('nav').appendChild(div);
+            }
+            document.getElementById('category-tabs').innerHTML = html;
+        }
+
+        function switchTopic(topic) {
+            activeTopic = topic;
+            activeSubtopic = topics[topic][0];   // default first subtopic
+            renderTopicTabs();
+            renderView(activeTopic, activeSubtopic);
         }
 
         function handleSearch() {
             const q = document.getElementById('searchInput').value.toLowerCase();
-            if (q.length < 2) { isSearch = false; renderView(activeCategory); return; }
+            if (q.length < 2) { isSearch = false; renderView(activeTopic, activeSubtopic); return; }
             isSearch = true;
-            renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
             const filtered = rawData.filter(art =>
                 art.title.toLowerCase().includes(q) ||
                 art.content.some(c => c.value.toLowerCase().includes(q))
@@ -145,16 +175,14 @@
             renderFeed(filtered, `Search results for: "${q}"`);
         }
 
-        function renderView(cat, date = null) {
-            isSearch = false; activeCategory = cat; activeDate = date;
+        function renderView(topic, subtopic) {
+            isSearch = false;
+            activeTopic = topic;
+            activeSubtopic = subtopic;
             document.getElementById('searchInput').value = "";
-            renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
-            const dates = [...new Set(rawData.filter(a => a.category === cat).map(a => a.date))];
-            document.getElementById('date-list').innerHTML = dates.map(d => `
-                <button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm transition-colors ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
-            `).join('');
-           
-            const filtered = rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate));
+            renderTopicTabs();
+            
+            const filtered = rawData.filter(a => a.category === subtopic);
             renderFeed(filtered);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -205,7 +233,7 @@
                             item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`
                         ).join('')}
                         <div class="mt-8 pt-4 border-t">
-                            <a href="${art.url}" target="_blank" class="source-link">Read full article on The Hindu →</a>
+                            <a href="${art.url}" target="_blank" class="source-link">Read full article on The Hindu / Indian Express →</a>
                         </div>
                     </div>
                     <div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div>
