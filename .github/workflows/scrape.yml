@@ -2,19 +2,19 @@ name: Scheduled Hindu Scrape
 
 on:
   schedule:
-    - cron: '30 2,8 * * *'   # 2:30 AM & 8:30 AM UTC
+    - cron: '30 2,8 * * *'
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
+    
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # Recommended until full Node 24 default
-
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+   
     permissions:
       contents: write
-
+     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,33 +24,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install system dependencies + Chrome
+      - name: Install Chrome and Selenium
         run: |
-          sudo apt-get update -y
-          sudo apt-get install -y \
-            google-chrome-stable \
-            fonts-liberation \
-            libappindicator3-1 \
-            libasound2 \
-            libatk-bridge2.0-0 \
-            libatk1.0-0 \
-            libcups2 \
-            libdbus-1-3 \
-            libdrm2 \
-            libgbm1 \
-            libnspr4 \
-            libnss3 \
-            libx11-xcb1 \
-            libxcb-dri3-0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxrandr2 \
-            xdg-utils
-
-      - name: Install Python packages
-        run: |
-          pip install --upgrade pip
-          pip install selenium pandas webdriver-manager
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable chromedriver
+          pip install selenium pandas
 
       - name: Run Scraper
         run: python scraper.py
@@ -59,12 +37,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          if git diff --quiet data.json; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          
           git add data.json
-          git commit -m "System: Updated Hindu articles $(date -u +'%Y-%m-%d %H:%M UTC')" || exit 0
+          git commit -m "System: Final Node24 & CDP Integration $(date)" || exit 0
           git push
