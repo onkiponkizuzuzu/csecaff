@@ -13,14 +13,16 @@
         body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); transition: all 0.3s; margin: 0; min-height: 100vh; }
         .serif-title { font-family: 'Merriweather', serif; }
         nav, aside { background-color: var(--sidebar); border-color: var(--border); }
-        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 3.5rem; margin-bottom: 3.5rem; }
+        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 4rem; margin-bottom: 4rem; width: 100%; }
         #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); overflow-y: auto; }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
-        img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; }
         
-        .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 700; }
-        .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; opacity: 0.95; }
-        .content-body h4 { font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; }
+        /* Fixed content rendering styles */
+        .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 700; color: inherit; }
+        .content-body { width: 100%; }
+        .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; opacity: 0.95; display: block; }
+        .content-body h4 { font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: inherit; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
     </style>
 </head>
@@ -40,7 +42,7 @@
 
     <div class="flex">
         <aside id="sidebar" class="border-r p-6 hidden md:block">
-            <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest">Historical Dates</h3>
+            <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest text-inherit">Historical Dates</h3>
             <div id="date-list" class="space-y-1"></div>
         </aside>
 
@@ -61,7 +63,7 @@
                 renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
                 renderView(activeCategory);
             } catch (e) {
-                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30">Waiting for first data sync...</p>`;
+                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30 font-bold">Syncing data. Please refresh in a moment.</p>`;
             }
         }
 
@@ -89,7 +91,7 @@
             renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
             const dates = [...new Set(rawData.filter(a => a.category === cat).map(a => a.date))];
             document.getElementById('date-list').innerHTML = dates.map(d => `
-                <button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
+                <button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm transition-colors ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
             `).join('');
             
             const filtered = rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate));
@@ -102,17 +104,20 @@
             let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
             
             if (!arts.length) {
-                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No articles found.</p>`;
+                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No research articles found.</p>`;
                 return;
             }
 
             feed.innerHTML = html + arts.map(art => `
                 <article class="article-card">
-                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase tracking-wide font-sans">${art.category} | ${art.date}</div>
+                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase tracking-wide">${art.category} | ${art.date}</div>
                     <h2 class="serif-title article-title mb-6 leading-tight">${art.title}</h2>
                     ${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}
                     <div class="content-body">
-                        ${art.content.map(item => item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`).join('')}
+                        ${art.content.map(item => {
+                            // This specifically renders EVERY paragraph/heading in the array
+                            return item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`;
+                        }).join('')}
                     </div>
                 </article>
             `).join('');
