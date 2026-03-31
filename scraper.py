@@ -21,14 +21,18 @@ def get_driver():
    
     driver = webdriver.Chrome(service=service, options=chrome_options)
    
-    # CDP NETWORK BLOCKER (Piano/TinyPass + Indian Express trackers)
+    # === CDP NETWORK BLOCKER (The Hindu + Indian Express Paywall) ===
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
-        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*", "*indianexpress.com/premium*"]
+        "urls": [
+            "*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*",
+            "*evolok*", "*ev-engagement*", "*paywall*", "*premium*", "*subscription*"
+        ]
     })
    
     driver.set_page_load_timeout(180)
     return driver
+
 
 # ================== The Hindu Scraper (unchanged) ==================
 def scrape_hindu_section(url, category):
@@ -76,7 +80,8 @@ def scrape_hindu_section(url, category):
         driver.quit()
     return articles
 
-# ================== Indian Express Scraper (new) ==================
+
+# ================== Indian Express Scraper (Paywall Fixed) ==================
 def scrape_ie_section(url, category):
     driver = get_driver()
     articles = []
@@ -84,16 +89,25 @@ def scrape_ie_section(url, category):
         driver.get(url)
         time.sleep(8)
        
-        # Article links from the list page
         elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
         links = list(set([el.get_attribute("href") for el in elements if "/article/upsc-current-affairs/" in el.get_attribute("href")]))
 
         for link in links:
             try:
                 driver.get(link)
-                time.sleep(5)
+                time.sleep(6)
 
-                # Main content container provided by you
+                # === REMOVE INDIAN EXPRESS PAYWALL ===
+                driver.execute_script("""
+                    // Remove ev-engagement paywall container
+                    document.querySelectorAll('ev-engagement, .ev-engagement, .content-login-wrapper, .ev-paywall-template').forEach(el => el.remove());
+                    // Remove any leftover paywall elements
+                    document.querySelectorAll('.paywall-content, [class*="paywall"], [id*="paywall"]').forEach(el => el.remove());
+                    // Force show the real content
+                    const content = document.getElementById('pcl-full-content');
+                    if (content) content.style.display = 'block';
+                """)
+
                 body_container = driver.find_element(By.ID, "pcl-full-content")
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h2, h3, h4")
                
@@ -102,8 +116,7 @@ def scrape_ie_section(url, category):
                     text = el.text.strip()
                     if not text:
                         continue
-                    # Remove extra junk
-                    if any(skip in text for skip in ["Subscriber Only", "Story continues below this ad", "ALSO READ", "Subscribe", "About our expert"]):
+                    if any(skip in text for skip in ["Subscriber Only", "Story continues below this ad", "ALSO READ", "Subscribe", "About our expert", "Select a plan"]):
                         continue
                    
                     article_content.append({
@@ -113,7 +126,7 @@ def scrape_ie_section(url, category):
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1").text.strip()
                
-                if len(article_content) > 3:   # Only keep substantial articles
+                if len(article_content) > 3:
                     articles.append({
                         "category": category,
                         "title": title,
@@ -127,16 +140,17 @@ def scrape_ie_section(url, category):
         driver.quit()
     return articles
 
+
 # ================== Targets ==================
 targets = {
-    # The Hindu (existing)
+    # The Hindu
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
     "Agriculture": "https://www.thehindu.com/sci-tech/agriculture/",
     "Environment": "https://www.thehindu.com/sci-tech/energy-and-environment/",
     "Internet": "https://www.thehindu.com/sci-tech/technology/internet/",
     
-    # New - Indian Express
+    # Indian Express - UPSC Current Affairs
     "UPSC Current Affairs": "https://indianexpress.com/section/upsc-current-affairs/"
 }
 
@@ -153,7 +167,7 @@ for cat, url in targets.items():
     urls = [a['url'] for a in full_db]
     for art in new_arts:
         if art['url'] not in urls:
-            full_db.insert(0, art)   # Latest on top
+            full_db.insert(0, art)
 
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:1000], f, ensure_ascii=False, indent=4)
