@@ -18,10 +18,10 @@
         .serif-title { font-family: 'Merriweather', serif; }
         nav, aside { background-color: var(--sidebar); border-color: var(--border); }
         .article-card { border-bottom: 2px solid var(--border); padding-bottom: 2rem; margin-bottom: 3rem; width: 100%; }
-        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); overflow-y: auto; }
+        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 60px; height: calc(100vh - 60px); overflow-y: auto; }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
         
-        .article-title { font-size: 1.75rem; line-height: 2.1rem; font-weight: 600; cursor: pointer; transition: color 0.2s; }
+        .article-title { font-size: 1.4rem; line-height: 1.8rem; font-weight: 600; cursor: pointer; transition: color 0.2s; }
         .article-title:hover { color: #3b82f6; }
         .content-body { font-family: 'Merriweather', serif; font-size: 1.125rem; line-height: 1.85; font-weight: 400; max-width: 800px; margin: 0 auto; }
         .content-body p { margin-bottom: 1.5rem; }
@@ -34,6 +34,39 @@
         .quiz-solution summary { font-family: 'Inter', sans-serif; font-weight: bold; color: #3b82f6; cursor: pointer; outline: none; transition: color 0.2s; }
         .quiz-solution summary:hover { color: #2563eb; }
         .quiz-solution-text { font-family: 'Inter', sans-serif; font-size: 1rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6; }
+
+        /* Immersive Reader - Alternating Directions & Darkened Dark Mode */
+        .immersive-mode .content-body p:nth-of-type(odd), 
+        .immersive-mode .quiz-question {
+            background: linear-gradient(to right, #e11d48 0%, #2563eb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.4s ease;
+        }
+        
+        .immersive-mode .content-body p:nth-of-type(even), 
+        .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #2563eb 0%, #e11d48 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.4s ease;
+        }
+
+        .dark .immersive-mode .content-body p:nth-of-type(odd), 
+        .dark .immersive-mode .quiz-question {
+            background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%); /* Darkened Red to Blue */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .dark .immersive-mode .content-body p:nth-of-type(even), 
+        .dark .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%); /* Darkened Blue to Red */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .source-link { color: #3b82f6; text-decoration: underline; font-size: 0.95rem; }
@@ -73,35 +106,34 @@
     </div>
 
     <div id="app-content" class="hidden">
-        <nav class="sticky top-0 z-40 px-4 py-3 border-b shadow-sm">
-            <div class="flex items-center justify-between mb-3 flex-wrap gap-4">
-                <div class="flex items-center space-x-4">
-                    <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
+        <nav class="sticky top-0 z-40 px-4 py-2 border-b shadow-sm">
+            <div class="flex items-center justify-between flex-wrap gap-3">
+                <div class="flex items-center space-x-3">
+                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
                     <div>
-                        <h1 class="font-bold text-lg tracking-tight">CSE CAff <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
-                        <div id="prelims-counter" class="text-xs text-blue-600 dark:text-blue-400 font-medium">
-                            Days to Prelims 2026 (24 May): <span id="days-count" class="font-semibold">54</span>
+                        <h1 class="font-bold text-base tracking-tight leading-tight">CSE CAff <span class="text-blue-500 text-xs font-normal hidden sm:inline">by onkiponkizuzuzu</span></h1>
+                        <div id="prelims-counter" class="text-[10px] text-blue-600 dark:text-blue-400 font-medium leading-tight">
+                            Days to Prelims: <span id="days-count" class="font-semibold">54</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex items-center gap-3 flex-wrap">
-                    <div class="relative w-full sm:w-auto sm:max-w-xs">
-                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
-                        <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
-                    </div>
-                    <button onclick="toggleImmersive()" id="immersive-btn" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
-                        <i class="fas fa-book-open"></i>
-                        <span>Immersive Reader</span>
-                    </button>
-                    <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
-                    <button onclick="handleLogout()" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors">Logout</button>
+                <div class="flex items-center gap-2 flex-1 max-w-sm">
+                    <select id="topic-select" onchange="switchTopic(this.value)" class="w-1/2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1.5 dark:text-white outline-none cursor-pointer"></select>
+                    <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-1/2 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1.5 dark:text-white outline-none cursor-pointer"></select>
                 </div>
-            </div>
 
-            <div class="flex flex-col gap-3">
-                <div class="flex gap-2 flex-wrap" id="topic-tabs"></div>
-                <div class="flex gap-2 overflow-x-auto no-scrollbar w-full border-t border-gray-100 dark:border-gray-800 pt-3" id="subtopic-tabs"></div>
+                <div class="flex items-center gap-2">
+                    <div class="relative w-28 sm:w-48">
+                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full pl-8 pr-2 py-1.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                        <i class="fas fa-search absolute left-2.5 top-2.5 opacity-30 text-sm"></i>
+                    </div>
+                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="p-2 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center justify-center">
+                        <i class="fas fa-book-open"></i>
+                    </button>
+                    <button onclick="toggleDarkMode()" title="Toggle Theme" class="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+                    <button onclick="handleLogout()" title="Logout" class="p-2 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-sign-out-alt"></i></button>
+                </div>
             </div>
         </nav>
 
@@ -111,7 +143,7 @@
                 <div id="date-list" class="space-y-1"></div>
             </aside>
 
-            <main class="flex-1 px-4 md:px-12 py-10 min-h-screen">
+            <main class="flex-1 px-4 md:px-12 py-8 min-h-screen">
                 <div id="article-feed" class="max-w-3xl mx-auto"></div>
             </main>
         </div>
@@ -144,7 +176,7 @@
             if (user) {
                 authOverlay.classList.add('hidden');
                 appContent.classList.remove('hidden');
-                initApp(); // Only fetch data when logged in
+                initApp(); 
             } else {
                 authOverlay.classList.remove('hidden');
                 appContent.classList.add('hidden');
@@ -200,18 +232,18 @@
 
         function renderTopicTabs() {
             const html = Object.keys(topics).map(topic => `
-                <button onclick="switchTopic('${topic}')" class="px-5 py-2 rounded-full text-sm font-semibold transition-all ${activeTopic === topic ? 'bg-blue-600 text-white shadow-md' : 'opacity-70 hover:opacity-100'}">${topic}</button>
+                <option value="${topic}" ${activeTopic === topic ? 'selected' : ''}>${topic}</option>
             `).join('');
-            document.getElementById('topic-tabs').innerHTML = html;
+            document.getElementById('topic-select').innerHTML = html;
             renderSubtopicTabs();
         }
 
         function renderSubtopicTabs() {
             const subs = topics[activeTopic];
             const html = subs.map(sub => `
-                <button onclick="renderView('${activeTopic}', '${sub}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeSubtopic === sub ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${sub}</button>
+                <option value="${sub}" ${activeSubtopic === sub ? 'selected' : ''}>${sub}</option>
             `).join('');
-            document.getElementById('subtopic-tabs').innerHTML = html;
+            document.getElementById('subtopic-select').innerHTML = html;
         }
 
         function renderDateSidebar() {
@@ -238,8 +270,12 @@
             activeTopic = topic; 
             activeSubtopic = topics[topic][0]; 
             renderTopicTabs(); 
-            renderSubtopicTabs();
             renderView(activeTopic, activeSubtopic); 
+        }
+
+        function switchSubtopic(subtopic) {
+            activeSubtopic = subtopic;
+            renderView(activeTopic, activeSubtopic);
         }
 
         function handleSearch() {
@@ -265,7 +301,6 @@
             isSearch = false; activeTopic = topic; activeSubtopic = subtopic; activeDate = null;
             document.getElementById('searchInput').value = "";
             renderTopicTabs();
-            renderSubtopicTabs();
             renderDateSidebar();
             renderFeed(rawData.filter(a => a.category === subtopic));
         }
