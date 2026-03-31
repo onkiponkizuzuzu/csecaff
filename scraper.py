@@ -1,42 +1,108 @@
-name: Scheduled Hindu Scrape
+import os
+import json
+import time
+from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 
-on:
-  schedule:
-    - cron: '30 2,8 * * *'
-  workflow_dispatch:
-
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+def get_driver():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
    
-    permissions:
-      contents: write
-     
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/bin/chromedriver")
+   
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+   
+    # --- CDP NETWORK BLOCKER (Piano / TinyPass paywall) ---
+    driver.execute_cdp_cmd('Network.enable', {})
+    driver.execute_cdp_cmd('Network.setBlockedURLs', {
+        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
+    })
+   
+    driver.set_page_load_timeout(180)
+    return driver
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+def scrape_section(url, category):
+    driver = get_driver()
+    articles = []
+    try:
+        driver.get(url)
+        time.sleep(8)
+       
+        elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
+        links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
 
-      - name: Install Chrome and Selenium
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable chromedriver
-          pip install selenium pandas
+        for link in links[:12]:
+            try:
+                driver.get(link)
+                time.sleep(5)
 
-      - name: Run Scraper
-        run: python scraper.py
+                # Targeting the specific schemaDiv for full matching
+                body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
+                content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
+               
+                article_content = []
+                for el in content_elements:
+                    text = el.text.strip()
+                    if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
+                        continue
+                   
+                    article_content.append({
+                        "type": "heading" if el.tag_name == "h4" else "text",
+                        "value": text
+                    })
 
-      - name: Commit and Push Data
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git commit -m "System: Final Node24 & CDP Integration $(date)" || exit 0
-          git push
+                title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
+               
+                try:
+                    img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
+                    img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
+                except: img_url = None
+
+                if len(article_content) > 1:
+                    articles.append({
+                        "category": category, "title": title, "url": link,
+                        "image": img_url, "content": article_content,
+                        "date": datetime.now().strftime("%Y-%m-%d")
+                    })
+            except: continue
+    finally:
+        driver.quit()
+    return articles
+
+targets = {
+    "Science": "https://www.thehindu.com/sci-tech/science/",
+    "Health": "https://www.thehindu.com/sci-tech/health/",
+    "Agriculture": "https://www.thehindu.com/sci-tech/agriculture/",
+    "Environment": "https://www.thehindu.com/sci-tech/energy-and-environment/",
+    "Internet": "https://www.thehindu.com/sci-tech/technology/internet/"
+}
+
+data_file = "data.json"
+full_db = json.load(open(data_file, "r", encoding='utf-8')) if os.path.exists(data_file) else []
+
+for cat, url in targets.items():
+    print(f"Scraping {cat}...")
+    new_arts = scrape_section(url, cat)
+    
+    # DEMO MODE: Only 2 articles per subtopic (as requested)
+    new_arts = new_arts[:2]
+    
+    urls = [a['url'] for a in full_db]
+    for art in new_arts:
+        if art['url'] not in urls:
+            full_db.insert(0, art)
+
+# Increased number of articles shown (from 500 → 1000)
+with open(data_file, "w", encoding='utf-8') as f:
+    json.dump(full_db[:1000], f, ensure_ascii=False, indent=4)
+
+print("Scrape completed - Demo mode (2 articles per category)")
