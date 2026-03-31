@@ -21,8 +21,6 @@ def get_driver():
     
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
-    # --- CDP NETWORK BLOCKER ---
-    # Blocks paywall scripts from ever loading
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
         "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
@@ -46,7 +44,6 @@ def scrape_section(url, category):
                 driver.get(link)
                 time.sleep(5)
 
-                # Target the schemaDiv for high-accuracy text matching
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
@@ -74,9 +71,7 @@ def scrape_section(url, category):
                         "image": img_url, "content": article_content,
                         "date": datetime.now().strftime("%Y-%m-%d")
                     })
-            except Exception as e:
-                print(f"Skipped {link}: {e}")
-                continue
+            except: continue
     finally:
         driver.quit()
     return articles
