@@ -1,5 +1,45 @@
 [
     {
+        "category": "Internet",
+        "title": "Indians consumed 31 GB mobile data on average per month in 2025",
+        "url": "https://www.thehindu.com/sci-tech/technology/indians-consumed-31-gb-mobile-data-on-average-per-month-in-2025/article70808529.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Average monthly mobile data consumption per user in India increased to over 31 GB in 2025, with 18% compound annual growth rate over the past five years, revealed Nokia on Tuesday (March 31, 2026) in its 13th edition of annual Mobile Broadband Index (MbiT)."
+            },
+            {
+                "type": "text",
+                "value": "It further said that this growth was led by growing demand for data-intensive use cases such as AI applications, 4K video streaming and cloud gaming."
+            },
+            {
+                "type": "text",
+                "value": "India’s monthly 5G data traffic grew 70% year-on-year to reach 12.9 exabytes (EB) in 2025, contributing nearly 47% of overall mobile broadband traffic."
+            },
+            {
+                "type": "text",
+                "value": "Overall data traffic crossed 27 EB per month in 2025, driven by expanding 5G coverage and availability of affordable 5G smartphones."
+            },
+            {
+                "type": "text",
+                "value": "The report notes that metro circles continue to lead 5G adoption, with 5G now accounting for 58% of total mobile data traffic. Growth has also accelerated across Category A, B and C circles."
+            },
+            {
+                "type": "text",
+                "value": "The report noted that number of active 4G devices reached 892 million in 2025, of which over 383 million are already 5G capable, while over 90% of smartphones shipped during the year supported 5G."
+            },
+            {
+                "type": "text",
+                "value": "Nokia MBiT report projects that India’s 5G subscriber base could exceed 1 billion by 2031. It said that India now has the world’s second largest 5G subscriber base and second highest level of 5G data consumption."
+            },
+            {
+                "type": "text",
+                "value": "“India’s mobile broadband landscape is entering a new phase of evolution, driven by rapid 5G adoption and the growing influence of AI-led applications. As networks transform to support new usage patterns and intelligent services, Nokia remains committed to partnering with telcos to build scalable, high-performance and future-ready connectivity infrastructure,” said Vibha Mehra, Country Manager – Designate for India, Nokia."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
         "category": "UPSC Current Affairs",
         "title": "How India’s economy deals with West Asia war",
         "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/how-indias-economy-deals-with-the-west-asia-war-10601017/",
