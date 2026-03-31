@@ -17,8 +17,7 @@
         #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); overflow-y: auto; }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
         img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; }
-        
-        /* Fixed content rendering styles */
+       
         .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 700; color: inherit; }
         .content-body { width: 100%; }
         .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; opacity: 0.95; display: block; }
@@ -60,6 +59,8 @@
             try {
                 const res = await fetch('data.json');
                 rawData = await res.json();
+                // Safety: newest first
+                rawData.sort((a, b) => b.date.localeCompare(a.date));
                 renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
                 renderView(activeCategory);
             } catch (e) {
@@ -78,8 +79,8 @@
             if (q.length < 2) { isSearch = false; renderView(activeCategory); return; }
             isSearch = true;
             renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
-            const filtered = rawData.filter(art => 
-                art.title.toLowerCase().includes(q) || 
+            const filtered = rawData.filter(art =>
+                art.title.toLowerCase().includes(q) ||
                 art.content.some(c => c.value.toLowerCase().includes(q))
             );
             renderFeed(filtered, `Search results for: "${q}"`);
@@ -87,13 +88,13 @@
 
         function renderView(cat, date = null) {
             isSearch = false; activeCategory = cat; activeDate = date;
-            document.getElementById('searchInput').value = ""; 
+            document.getElementById('searchInput').value = "";
             renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
             const dates = [...new Set(rawData.filter(a => a.category === cat).map(a => a.date))];
             document.getElementById('date-list').innerHTML = dates.map(d => `
                 <button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm transition-colors ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>
             `).join('');
-            
+           
             const filtered = rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate));
             renderFeed(filtered);
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -102,7 +103,7 @@
         function renderFeed(arts, title = null) {
             const feed = document.getElementById('article-feed');
             let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
-            
+           
             if (!arts.length) {
                 feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No research articles found.</p>`;
                 return;
@@ -115,7 +116,6 @@
                     ${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}
                     <div class="content-body">
                         ${art.content.map(item => {
-                            // This specifically renders EVERY paragraph/heading in the array
                             return item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`;
                         }).join('')}
                     </div>
