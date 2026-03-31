@@ -27,10 +27,10 @@
         }
         .article-title:hover { color: #3b82f6; }
         .content-body { 
-            font-family: 'Merriweather', serif; 
+            font-family: Georgia, 'Times New Roman', serif;   /* Changed to more readable & lighter font */
             font-size: 1.125rem; 
             line-height: 1.85; 
-            font-weight: 400;   /* Reduced boldness */
+            font-weight: 400; 
         }
         .content-body p { margin-bottom: 1.5rem; }
         .content-body h4 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem; }
@@ -171,7 +171,6 @@
         
         if (localStorage.getItem('theme') === 'dark') toggleDarkMode();
         
-        // Keep sidebar closed by default on load
         window.onload = function() {
             document.getElementById('sidebar').classList.add('collapsed');
             init();
