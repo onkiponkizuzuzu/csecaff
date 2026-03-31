@@ -7,34 +7,27 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
 
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new") # Updated for 2026 Chrome versions
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
-    
-    # Crucial for preventing the 'ReadTimeout' in GitHub Actions
-    chrome_options.add_argument("--disable-browser-side-navigation")
+    # Spoof Googlebot to reduce paywall interference
     chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
     
     chrome_options.binary_location = "/usr/bin/google-chrome"
     service = Service("/usr/bin/chromedriver")
     
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    
-    # Increase the timeout limits significantly
-    driver.set_page_load_timeout(180) 
-    driver.set_script_timeout(180)
+    driver.set_page_load_timeout(180) # Prevent ReadTimeoutError
     return driver
 
 def scrape_section(url, category):
     driver = get_driver()
     articles = []
-    
     try:
         driver.get(url)
         time.sleep(10)
@@ -44,36 +37,33 @@ def scrape_section(url, category):
 
         for link in links[:12]:
             try:
-                # Add a timeout catch for individual articles so one slow page doesn't kill the whole run
                 driver.get(link)
-                
-                # Execute stop to prevent infinite ad-loading loops
+                # Stop page early to prevent paywall scripts from finishing
                 driver.execute_script("window.stop();")
                 
-                # Immediate Paywall/Overlay Removal
+                # Remove known overlay IDs immediately
                 driver.execute_script("""
-                    var paywall = document.getElementById('arthardpv');
-                    if (paywall) paywall.remove();
-                    var ads = document.querySelectorAll('.article-ad, .dfp-ad, .articleblock-container');
-                    ads.forEach(ad => ad.remove());
+                    var overlays = ['arthardpv', 'artmeterpv'];
+                    overlays.forEach(id => {
+                        var el = document.getElementById(id);
+                        if (el) el.remove();
+                    });
                 """)
                 
-                time.sleep(3)
+                time.sleep(4)
 
-                # Targeting the schemaDiv as per your provided HTML structure
+                # Targeting the specific structure from your HTML snippet
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
                 article_content = []
                 for el in content_elements:
                     text = el.text.strip()
-                    tag = el.tag_name
-                    
                     if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
                         continue
                     
                     article_content.append({
-                        "type": "heading" if tag == "h4" else "text",
+                        "type": "heading" if el.tag_name == "h4" else "text",
                         "value": text
                     })
 
@@ -86,18 +76,15 @@ def scrape_section(url, category):
 
                 if len(article_content) > 1:
                     articles.append({
-                        "category": category,
-                        "title": title,
-                        "url": link,
-                        "image": img_url,
-                        "content": article_content,
+                        "category": category, "title": title, "url": link,
+                        "image": img_url, "content": article_content,
                         "date": datetime.now().strftime("%Y-%m-%d")
                     })
             except Exception as e:
-                print(f"Skipping article {link} due to timeout: {e}")
+                print(f"Skipped {link}: {e}")
                 continue
     finally:
-        driver.quit() # Always quit to free up RAM in GitHub Actions
+        driver.quit() # Clean shutdown to free memory
     return articles
 
 targets = {
@@ -109,19 +96,14 @@ targets = {
 }
 
 data_file = "data.json"
-if os.path.exists(data_file):
-    with open(data_file, "r", encoding='utf-8') as f:
-        full_db = json.load(f)
-else:
-    full_db = []
+full_db = json.load(open(data_file, "r", encoding='utf-8')) if os.path.exists(data_file) else []
 
 for cat, url in targets.items():
     print(f"Scraping {cat}...")
     new_arts = scrape_section(url, cat)
-    
-    existing_urls = [a['url'] for a in full_db]
+    urls = [a['url'] for a in full_db]
     for art in new_arts:
-        if art['url'] not in existing_urls:
+        if art['url'] not in urls:
             full_db.insert(0, art)
 
 with open(data_file, "w", encoding='utf-8') as f:
