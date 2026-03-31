@@ -7,12 +7,13 @@ def get_driver():
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
    
-    # Auto-detect Chrome binary (no hardcoded path needed)
-    service = Service("/usr/bin/chromedriver")   # GitHub runner usually places it here after Chrome install
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/bin/chromedriver")   # This path works after the above install steps
    
     driver = webdriver.Chrome(service=service, options=chrome_options)
    
-    # --- CDP NETWORK BLOCKER (Piano / TinyPass paywall) ---
+    # --- CDP NETWORK BLOCKER ---
+    # Blocks Piano/TinyPass before the script even executes
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
         "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
