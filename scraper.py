@@ -1,166 +1,112 @@
 import os
 import json
 import time
-import random
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.chrome import ChromeDriverManager   # ← New
 
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--headless=new")          # Modern headless
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36")
-    
-    # Additional stealth
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36")
 
+    # Let webdriver-manager handle the driver
     service = Service(ChromeDriverManager().install())
 
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    
-    # Stealth: hide webdriver flag
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    
-    # CDP: Block common trackers/paywall scripts
+
+    # CDP: Block paywall / tracking scripts early
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
-        "urls": [
-            "*tinypass.com*", "*piano.io*", "*googletagservices.com*",
-            "*cxense.com*", "*doubleclick.net*", "*adsystem*"
-        ]
+        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*", "*doubleclick.net*"]
     })
-    
-    driver.set_page_load_timeout(120)
+
+    driver.set_page_load_timeout(180)
     return driver
 
-def scrape_section(url, category, max_articles=12):
+
+def scrape_section(url, category):
     driver = get_driver()
     articles = []
     try:
-        print(f"Fetching list page: {url}")
         driver.get(url)
-        time.sleep(7 + random.uniform(1, 3))  # Human-like delay
+        time.sleep(10)   # Increased wait for dynamic content
 
-        # Extract unique article links (improve selector if site changes)
-        elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a, article h2 a, .story-card a")
-        links = []
-        for el in elements:
-            href = el.get_attribute("href")
-            if href and "/article" in href and href not in links:
-                links.append(href)
+        # Get unique article links
+        elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a, article a")
+        links = list(set([
+            el.get_attribute("href") 
+            for el in elements 
+            if el.get_attribute("href") and "/article" in el.get_attribute("href")
+        ]))
 
-        print(f"Found {len(links)} potential articles for {category}")
-
-        for link in links[:max_articles]:
+        for link in links[:10]:   # Limit per category to avoid timeout
             try:
-                print(f"  Scraping: {link}")
                 driver.get(link)
-                time.sleep(6 + random.uniform(1, 4))
+                time.sleep(6)
 
-                # Robust title extraction
-                try:
-                    title = driver.find_element(By.CSS_SELECTOR, "h1.title, h1.entry-title, [itemprop='headline']").text.strip()
-                except NoSuchElementException:
-                    title = driver.title.split(" | ")[0].strip()
-
-                # Article body - improved selector fallback
-                body_container = None
-                selectors = [
-                    'div.schemaDiv[itemprop="articleBody"]',
-                    'div.article-body', 
-                    'article[itemprop="articleBody"]',
-                    '.content-body'
-                ]
-                for sel in selectors:
-                    try:
-                        body_container = driver.find_element(By.CSS_SELECTOR, sel)
-                        break
-                    except:
-                        continue
-
-                if not body_container:
-                    continue
-
+                # Main article body
+                body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"], article')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h2, h3, h4")
-                
+
                 article_content = []
                 for el in content_elements:
                     text = el.text.strip()
-                    if not text or len(text) < 20:
+                    if not text or any(skip in text for skip in ["Related Stories", "mukunth.v@", "Photo Credit", "©"]):
                         continue
-                    if any(skip in text.lower() for skip in ["related stories", "photo credit", "also read", "subscribe"]):
-                        continue
-                    
-                    item_type = "heading" if el.tag_name in ["h2", "h3", "h4"] else "text"
-                    article_content.append({"type": item_type, "value": text})
+                    article_content.append({
+                        "type": "heading" if el.tag_name in ["h2", "h3", "h4"] else "text",
+                        "value": text
+                    })
 
-                # Image with multiple fallbacks
-                img_url = None
+                title = driver.find_element(By.CSS_SELECTOR, "h1.title, h1").text.strip()
+
+                # Image handling
                 try:
-                    img_selectors = [
-                        'div.article-picture img',
-                        'img[itemprop="image"]',
-                        '.lead-image img',
-                        'figure img'
-                    ]
-                    for sel in img_selectors:
-                        img_el = driver.find_element(By.CSS_SELECTOR, sel)
-                        img_url = (img_el.get_attribute("data-src-template") or 
-                                  img_el.get_attribute("data-src") or 
-                                  img_el.get_attribute("src"))
-                        if img_url and img_url.startswith("http"):
-                            break
+                    img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img, figure img')
+                    img_url = (img_el.get_attribute("data-src-template") or 
+                              img_el.get_attribute("data-src") or 
+                              img_el.get_attribute("src"))
                 except:
-                    pass
+                    img_url = None
 
-                if len(article_content) >= 3:  # Minimum content quality
+                if len(article_content) > 2:   # Only keep substantial articles
                     articles.append({
                         "category": category,
                         "title": title,
                         "url": link,
                         "image": img_url,
                         "content": article_content,
-                        "date": datetime.now().strftime("%Y-%m-%d"),
-                        "scraped_at": datetime.utcnow().isoformat()
+                        "date": datetime.now().strftime("%Y-%m-%d")
                     })
-                    print(f"    ✓ Saved: {title[:80]}...")
-
-            except (TimeoutException, NoSuchElementException, WebDriverException) as e:
-                print(f"    ✗ Failed: {str(e)[:100]}")
-                continue
             except Exception as e:
-                print(f"    Unexpected error: {e}")
+                print(f"Error processing {link}: {e}")
                 continue
-
     finally:
         driver.quit()
-    
     return articles
 
-# ==================== Main ====================
 
+# ================== Main ==================
 targets = {
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
     "Agriculture": "https://www.thehindu.com/sci-tech/agriculture/",
     "Environment": "https://www.thehindu.com/sci-tech/energy-and-environment/",
-    "Internet": "https://www.thehindu.com/sci-tech/technology/internet/",
-    # Add more sections easily if needed
+    "Internet": "https://www.thehindu.com/sci-tech/technology/internet/"
 }
 
 data_file = "data.json"
 
-# Load existing data (with fallback)
+# Load existing data
 if os.path.exists(data_file):
     with open(data_file, "r", encoding='utf-8') as f:
         full_db = json.load(f)
@@ -169,21 +115,19 @@ else:
 
 existing_urls = {a['url'] for a in full_db}
 
-new_count = 0
 for cat, url in targets.items():
-    print(f"\n=== Scraping {cat} ===")
+    print(f"Scraping {cat} from {url}...")
     new_arts = scrape_section(url, cat)
     
     for art in new_arts:
         if art['url'] not in existing_urls:
             full_db.insert(0, art)   # Newest first
             existing_urls.add(art['url'])
-            new_count += 1
 
-# Keep only latest 600 articles (increased limit)
-full_db = full_db[:600]
+# Keep only latest 500 articles
+full_db = full_db[:500]
 
 with open(data_file, "w", encoding='utf-8') as f:
-    json.dump(full_db, f, ensure_ascii=False, indent=2)
+    json.dump(full_db, f, ensure_ascii=False, indent=4)
 
-print(f"\n✅ Scrape complete. Added {new_count} new articles. Total: {len(full_db)}")
+print(f"Total articles saved: {len(full_db)}")
