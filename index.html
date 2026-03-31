@@ -35,16 +35,35 @@
         .quiz-solution summary:hover { color: #2563eb; }
         .quiz-solution-text { font-family: 'Inter', sans-serif; font-size: 1rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6; }
 
-        /* Immersive Reader (updated BeeLine) - Dark Red to Bright Blue gradient */
-        .immersive-mode .content-body p, .immersive-mode .quiz-question, .immersive-mode .quiz-solution-text {
-            background: linear-gradient(to right, #9f1239 0%, #e11d48 35%, #3b82f6 65%, #1e40af 100%);
+        /* Immersive Reader - Alternating Directions & Darkened Dark Mode */
+        .immersive-mode .content-body p:nth-of-type(odd), 
+        .immersive-mode .quiz-question {
+            background: linear-gradient(to right, #e11d48 0%, #2563eb 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             transition: all 0.4s ease;
         }
-        .dark .immersive-mode .content-body p, .dark .immersive-mode .quiz-question, .dark .immersive-mode .quiz-solution-text {
-            background: linear-gradient(to right, #fda4af 0%, #fb7185 35%, #60a5fa 65%, #93c5fd 100%);
+        
+        .immersive-mode .content-body p:nth-of-type(even), 
+        .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #2563eb 0%, #e11d48 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.4s ease;
+        }
+
+        .dark .immersive-mode .content-body p:nth-of-type(odd), 
+        .dark .immersive-mode .quiz-question {
+            background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%); /* Darkened Red to Blue */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .dark .immersive-mode .content-body p:nth-of-type(even), 
+        .dark .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%); /* Darkened Blue to Red */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
