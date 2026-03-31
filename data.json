@@ -1,6 +1,124 @@
 [
     {
         "category": "Internet",
+        "title": "Russia goes after VPNs as 'great crackdown' gathers pace",
+        "url": "https://www.thehindu.com/sci-tech/technology/russia-goes-after-vpns-as-great-crackdown-gathers-pace/article70806310.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Russia is going to further clamp down Virtual Private Networks (VPNs), which ⁠are used by millions of Russians to get around internet controls and censorship, Russia’s digital minister said."
+            },
+            {
+                "type": "text",
+                "value": "In what has ‌been cast by diplomats as Russia’s “great crackdown”, the authorities have repeatedly blocked mobile internet ‌and jammed major messenger services while ‌giving sweeping ⁠powers to cut off mass communications."
+            },
+            {
+                "type": "text",
+                "value": "“The ⁠task is reduce VPN usage,” Digital Minister Maksut Shadayev said on state-backed messenger MAX late on Monday, adding that his ministry was trying ‌to impose the limits with minimal impact on users."
+            },
+            {
+                "type": "text",
+                "value": "He said decisions had been taken to restrict access to a number of unidentified foreign platforms ‌without giving details."
+            },
+            {
+                "type": "text",
+                "value": "After the 2022 invasion of Ukraine, Russia imposed the most repressive laws seen since Soviet times, ordering ⁠censorship and bolstering the influence of the Federal Security Service, the main successor to the Soviet-era KGB."
+            },
+            {
+                "type": "text",
+                "value": "But ‌in recent months, the state has gone much further: it blocked WhatsApp, has slowed down Telegram and has repeatedly jammed mobile internet in Moscow and other cities and regions."
+            },
+            {
+                "type": "text",
+                "value": "The Kremlin says foreign platforms have failed to abide ‌by the law and that mobile internet restrictions are necessary to counter mass Ukrainian drone strikes."
+            },
+            {
+                "type": "text",
+                "value": "By mid-January, Russia had blocked more than 400 ⁠VPNs, 70% more than late last year, according to ⁠the Kommersant newspaper."
+            },
+            {
+                "type": "text",
+                "value": "But it is a game of cat and mouse: as soon ‌as the authorities take down one VPN, another appears and many young Russians change their VPNs daily, according to Reuters reporters."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "Why do so many patients delay seeking help for urological symptoms",
+        "url": "https://www.thehindu.com/sci-tech/health/why-do-so-many-patients-delay-seeking-help-for-urological-symptoms/article70791407.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Urological problems often begin quietly. A dull ache, a mild burning sensation while urinating, or subtle changes in urinary habits may seem trivial at first. For many, especially the elderly, these early symptoms are easy to ignore. In some cases, even serious conditions such as kidney failure might start with barely noticeable signs including fatigue, loss of appetite, or high blood pressure, with no obvious urinary changes. It is usually only when severe pain, blood in the urine, or a high fever appear that patients rush to seek medical attention."
+            },
+            {
+                "type": "text",
+                "value": "Also Read | All you need to know about: urinary tract infections"
+            },
+            {
+                "type": "text",
+                "value": "In Chennai, nearly 60–65% of patients presenting with urological symptoms report delaying consultation by two to four weeks. In this interval, the affected individuals often try to cure their condition through home remedies, over-the-counter medication, and even advice given by friends and family members rather than consulting a specialist."
+            },
+            {
+                "type": "text",
+                "value": "There are a number of reasons for this delay."
+            },
+            {
+                "type": "heading",
+                "value": "Disruptions to daily routines"
+            },
+            {
+                "type": "text",
+                "value": "For people aged over 50, medical appointments may require assistance, and relatives may need to take time off from work to attend these appointments. This could cause delays in medical consultations. For families with young children, other issues arise, as parents have to plan these medical consultations according to their children’s schedules, exams, and daily routines. Despite the persistence of symptoms, these issues may prevent the patient from seeing the appropriate medical doctor on time."
+            },
+            {
+                "type": "heading",
+                "value": "Self-diagnosis"
+            },
+            {
+                "type": "text",
+                "value": "The COVID-19 pandemic impacted how people seek healthcare services. Many people have become more intimate with their primary care physicians and neighbourhood chemists, who are often relied upon for quick fixes. Specialists also have fixed appointment times, which may require people to wait. This makes consulting a local doctor or pharmacy, a more accessible option, even if it is just a temporary fix."
+            },
+            {
+                "type": "text",
+                "value": "With the emergence of smartphones and the internet, patients now have an additional way of accessing health-related information. Many patients tend to research their symptoms and often try to determine their own diagnosis based on information available from the internet. Patients may believe that their symptoms are mild and do not need to be treated medically, and may rely on advice from online resources to help determine how to treat themselves. As a result, patients may delay seeking help from specialists until their symptoms are significantly worse."
+            },
+            {
+                "type": "heading",
+                "value": "Unclear symptoms, cost concerns"
+            },
+            {
+                "type": "text",
+                "value": "Urological issues often mimic other conditions. A kidney stone, for example, can cause upper abdominal pain and vomiting, which patients may mistake for a stomach problem or food poisoning. Initial visits to general practitioners or even physiotherapists may provide temporary relief, further postponing specialist consultation."
+            },
+            {
+                "type": "text",
+                "value": "Economic factors also contribute. Although contemporary medicine focuses on evidence-based practice, the cost of healthcare makes patients apprehensive about accessing healthcare services, even with health insurance cover. A specialist might recommend a series of tests in good faith, but the cost of these tests might make a patient seek home remedies for an ailment."
+            },
+            {
+                "type": "heading",
+                "value": "Education and awareness"
+            },
+            {
+                "type": "text",
+                "value": "It is crucially important for patients to receive their urological care in a timely manner so they do not develop complications and their long-term health is not compromised. ."
+            },
+            {
+                "type": "text",
+                "value": "Educating patients about the signs and symptoms of urology, improving access to urologists, and addressing barriers that prevent patients from receiving care on time may help to ensure that when minor signs are identified, patients can receive appropriate medical treatment before they develop into major health issues."
+            },
+            {
+                "type": "text",
+                "value": "(Dr. Arun Kumar K. is a senior consultant in urology at RG Stone Urology & Laparoscopy Hospital, Chennai. drarun7@gmail.com)"
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
         "title": "UK fines Apple unit for breaching Russian sanctions",
         "url": "https://www.thehindu.com/sci-tech/technology/uk-fines-apple-unit-for-breaching-russian-sanctions/article70805624.ece",
         "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
