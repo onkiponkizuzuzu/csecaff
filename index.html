@@ -26,14 +26,32 @@
             transition: color 0.2s;
         }
         .article-title:hover { color: #3b82f6; }
+        
         .content-body { 
-            font-family: Georgia, 'Times New Roman', serif;   /* Changed to more readable & lighter font */
+            font-family: 'Merriweather', serif; 
             font-size: 1.125rem; 
             line-height: 1.85; 
-            font-weight: 400; 
+            font-weight: 400;           /* Not bold - as requested */
+            max-width: 800px;           /* Optimal line length: ~50-75 characters */
+            margin: 0 auto;
         }
         .content-body p { margin-bottom: 1.5rem; }
         .content-body h4 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem; }
+        
+        /* BeeLine Reader Mode */
+        .beeline-mode .content-body p {
+            background: linear-gradient(to right, #3b82f6 0%, #60a5fa 15%, #93c5fd 50%, #60a5fa 85%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.3s ease;
+        }
+        .dark .beeline-mode .content-body p {
+            background: linear-gradient(to right, #60a5fa 0%, #93c5fd 15%, #dbeafe 50%, #93c5fd 85%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .source-link { color: #3b82f6; text-decoration: underline; font-size: 0.95rem; }
     </style>
@@ -53,8 +71,14 @@
             <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
             <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
         </div>
-        <div class="flex space-x-2 overflow-x-auto no-scrollbar" id="category-tabs"></div>
-        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+        <div class="flex items-center gap-3">
+            <button onclick="toggleBeeLine()" id="beeline-btn"
+                    class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
+                <i class="fas fa-book-open"></i>
+                <span>BeeLine Mode</span>
+            </button>
+            <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+        </div>
     </nav>
 
     <div class="flex">
@@ -72,6 +96,7 @@
 
     <script>
         let rawData = [], activeCategory = 'Environment', activeDate = null, isSearch = false;
+        let beelineEnabled = false;
 
         async function init() {
             try {
@@ -126,6 +151,18 @@
             } else {
                 content.style.display = 'none';
                 icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        function toggleBeeLine() {
+            beelineEnabled = !beelineEnabled;
+            const btn = document.getElementById('beeline-btn');
+            if (beelineEnabled) {
+                document.documentElement.classList.add('beeline-mode');
+                btn.classList.add('bg-blue-100', 'dark:bg-blue-900', 'border-blue-500');
+            } else {
+                document.documentElement.classList.remove('beeline-mode');
+                btn.classList.remove('bg-blue-100', 'dark:bg-blue-900', 'border-blue-500');
             }
         }
 
