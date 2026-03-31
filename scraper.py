@@ -21,16 +21,17 @@ def get_driver():
    
     driver = webdriver.Chrome(service=service, options=chrome_options)
    
-    # CDP NETWORK BLOCKER
+    # CDP NETWORK BLOCKER (Piano/TinyPass + Indian Express trackers)
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
-        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
+        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*", "*indianexpress.com/premium*"]
     })
    
     driver.set_page_load_timeout(180)
     return driver
 
-def scrape_section(url, category):
+# ================== The Hindu Scraper (unchanged) ==================
+def scrape_hindu_section(url, category):
     driver = get_driver()
     articles = []
     try:
@@ -75,12 +76,68 @@ def scrape_section(url, category):
         driver.quit()
     return articles
 
+# ================== Indian Express Scraper (new) ==================
+def scrape_ie_section(url, category):
+    driver = get_driver()
+    articles = []
+    try:
+        driver.get(url)
+        time.sleep(8)
+       
+        # Article links from the list page
+        elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
+        links = list(set([el.get_attribute("href") for el in elements if "/article/upsc-current-affairs/" in el.get_attribute("href")]))
+
+        for link in links:
+            try:
+                driver.get(link)
+                time.sleep(5)
+
+                # Main content container provided by you
+                body_container = driver.find_element(By.ID, "pcl-full-content")
+                content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h2, h3, h4")
+               
+                article_content = []
+                for el in content_elements:
+                    text = el.text.strip()
+                    if not text:
+                        continue
+                    # Remove extra junk
+                    if any(skip in text for skip in ["Subscriber Only", "Story continues below this ad", "ALSO READ", "Subscribe", "About our expert"]):
+                        continue
+                   
+                    article_content.append({
+                        "type": "heading" if el.tag_name in ["h2", "h3", "h4"] else "text",
+                        "value": text
+                    })
+
+                title = driver.find_element(By.CSS_SELECTOR, "h1").text.strip()
+               
+                if len(article_content) > 3:   # Only keep substantial articles
+                    articles.append({
+                        "category": category,
+                        "title": title,
+                        "url": link,
+                        "content": article_content,
+                        "date": datetime.now().strftime("%Y-%m-%d")
+                    })
+            except:
+                continue
+    finally:
+        driver.quit()
+    return articles
+
+# ================== Targets ==================
 targets = {
+    # The Hindu (existing)
     "Science": "https://www.thehindu.com/sci-tech/science/",
     "Health": "https://www.thehindu.com/sci-tech/health/",
     "Agriculture": "https://www.thehindu.com/sci-tech/agriculture/",
     "Environment": "https://www.thehindu.com/sci-tech/energy-and-environment/",
-    "Internet": "https://www.thehindu.com/sci-tech/technology/internet/"
+    "Internet": "https://www.thehindu.com/sci-tech/technology/internet/",
+    
+    # New - Indian Express
+    "UPSC Current Affairs": "https://indianexpress.com/section/upsc-current-affairs/"
 }
 
 data_file = "data.json"
@@ -88,7 +145,10 @@ full_db = json.load(open(data_file, "r", encoding='utf-8')) if os.path.exists(da
 
 for cat, url in targets.items():
     print(f"Scraping {cat}...")
-    new_arts = scrape_section(url, cat)
+    if cat == "UPSC Current Affairs":
+        new_arts = scrape_ie_section(url, cat)
+    else:
+        new_arts = scrape_hindu_section(url, cat)
     
     urls = [a['url'] for a in full_db]
     for art in new_arts:
