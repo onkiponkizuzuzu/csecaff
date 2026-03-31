@@ -21,6 +21,8 @@ def get_driver():
     
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
+    # --- CDP NETWORK BLOCKER ---
+    # Blocks Piano/TinyPass before the script even executes
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
         "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
@@ -44,6 +46,7 @@ def scrape_section(url, category):
                 driver.get(link)
                 time.sleep(5)
 
+                # Targeting the specific schemaDiv for full matching
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
