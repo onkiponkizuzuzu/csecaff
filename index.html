@@ -12,8 +12,14 @@
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
 
     <style>
-        :root { --bg: #f8fafc; --text: #0f172a; --border: #e2e8f0; --sidebar: #ffffff; }
-        .dark { --bg: #0f172a; --text: #f1f5f9; --border: #334155; --sidebar: #1e293b; }
+        :root { 
+            --bg: #f8fafc; --text: #0f172a; --border: #e2e8f0; --sidebar: #ffffff; 
+            color-scheme: light; /* Forces browser elements to light mode */
+        }
+        .dark { 
+            --bg: #0f172a; --text: #f1f5f9; --border: #334155; --sidebar: #1e293b; 
+            color-scheme: dark; /* Forces browser elements to dark mode */
+        }
         body { font-family: 'Inter', sans-serif; transition: all 0.3s; margin: 0; min-height: 100vh; }
         .serif-title { font-family: 'Merriweather', serif; }
         
@@ -123,9 +129,7 @@
 
         function updatePrelimsCounter() {
             const prelimsDate = new Date("May 24, 2026 00:00:00").getTime();
-            const now = new Date().getTime();
-            const distance = prelimsDate - now;
-            const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const daysLeft = Math.floor((prelimsDate - new Date().getTime()) / (1000 * 60 * 60 * 24));
             document.getElementById("days-count").innerText = daysLeft > 0 ? daysLeft : "0";
         }
 
@@ -228,11 +232,7 @@
         function applyImmersiveToAll() {
             if (!immersiveEnabled) return;
             const targets = document.querySelectorAll('.content-body:not([style*="display: none"]) p, .content-body:not([style*="display: none"]) .quiz-question, .content-body:not([style*="display: none"]) .quiz-solution-text');
-            
-            // FIXED to use the Darker colors regardless of website theme
-            const cRed = [159, 18, 57]; // Fixed Dark Red
-            const cBlue = [30, 64, 175]; // Fixed Bright Blue
-
+            const cRed = [159, 18, 57], cBlue = [30, 64, 175]; // Fixed dark colors
             targets.forEach(el => {
                 if (!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
                 el.innerHTML = el.getAttribute('data-orig');
@@ -247,12 +247,14 @@
 
         window.onload = () => {
             const savedTheme = localStorage.getItem('theme');
-            // If user previously set dark mode, enable it. 
-            // Otherwise default to light mode (ignoring system settings).
             if (savedTheme === 'dark') {
                 document.documentElement.classList.add('dark');
                 document.body.classList.add('dark');
                 document.getElementById('theme-icon').className = 'fas fa-sun text-yellow-400';
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.body.classList.remove('dark');
+                document.getElementById('theme-icon').className = 'fas fa-moon text-blue-500';
             }
             sidebar.classList.add('collapsed');
             updatePrelimsCounter();
