@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPSC Quiz & News Reader | by onkiponkizuzuzu</title>
+    <title>CSE CAff by onkiponkizuzuzu</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Merriweather:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -35,15 +35,16 @@
         .quiz-solution summary:hover { color: #2563eb; }
         .quiz-solution-text { font-family: 'Inter', sans-serif; font-size: 1rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6; }
 
-        .beeline-mode .content-body p, .beeline-mode .quiz-question, .beeline-mode .quiz-solution-text {
-            background: linear-gradient(to right, #3b82f6 0%, #60a5fa 15%, #93c5fd 50%, #60a5fa 85%, #3b82f6 100%);
+        /* Immersive Reader (updated BeeLine) - Dark Red to Bright Blue gradient */
+        .immersive-mode .content-body p, .immersive-mode .quiz-question, .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #9f1239 0%, #e11d48 35%, #3b82f6 65%, #1e40af 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            transition: all 0.3s ease;
+            transition: all 0.4s ease;
         }
-        .dark .beeline-mode .content-body p, .dark .beeline-mode .quiz-question, .dark .beeline-mode .quiz-solution-text {
-            background: linear-gradient(to right, #60a5fa 0%, #93c5fd 15%, #dbeafe 50%, #93c5fd 85%, #60a5fa 100%);
+        .dark .immersive-mode .content-body p, .dark .immersive-mode .quiz-question, .dark .immersive-mode .quiz-solution-text {
+            background: linear-gradient(to right, #fda4af 0%, #fb7185 35%, #60a5fa 65%, #93c5fd 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -86,31 +87,35 @@
     </div>
 
     <div id="app-content" class="hidden">
-        <nav class="sticky top-0 z-40 px-4 py-3 flex flex-wrap gap-4 justify-between items-center border-b shadow-sm">
-            <div class="flex items-center space-x-4">
-                <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
-                <div>
-                    <h1 class="font-bold text-lg tracking-tight">TH & IE Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
-                    <div id="prelims-counter" class="text-xs text-blue-600 dark:text-blue-400 mt-1 font-medium">
-                        Days to Prelims 2026 (24 May): <span id="days-count" class="font-semibold">54</span>
+        <nav class="sticky top-0 z-40 px-4 py-3 border-b shadow-sm">
+            <div class="flex items-center justify-between mb-3 flex-wrap gap-4">
+                <div class="flex items-center space-x-4">
+                    <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
+                    <div>
+                        <h1 class="font-bold text-lg tracking-tight">CSE CAff <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
+                        <div id="prelims-counter" class="text-xs text-blue-600 dark:text-blue-400 font-medium">
+                            Days to Prelims 2026 (24 May): <span id="days-count" class="font-semibold">54</span>
+                        </div>
                     </div>
+                </div>
+
+                <div class="flex items-center gap-3 flex-wrap">
+                    <div class="relative w-full sm:w-auto sm:max-w-xs">
+                        <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                        <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
+                    </div>
+                    <button onclick="toggleImmersive()" id="immersive-btn" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
+                        <i class="fas fa-book-open"></i>
+                        <span>Immersive Reader</span>
+                    </button>
+                    <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+                    <button onclick="handleLogout()" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors">Logout</button>
                 </div>
             </div>
 
-            <div class="flex gap-2" id="topic-tabs"></div>
-
-            <div class="flex-1 max-w-xs relative">
-                <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search kar lo ji kucch..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
-                <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
-            </div>
-
-            <div class="flex items-center gap-3">
-                <button onclick="toggleBeeLine()" id="beeline-btn" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
-                    <i class="fas fa-book-open"></i>
-                    <span>BeeLine Mode</span>
-                </button>
-                <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
-                <button onclick="handleLogout()" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors">Logout</button>
+            <div class="flex flex-wrap gap-4 items-center">
+                <div class="flex gap-2" id="topic-tabs"></div>
+                <div class="flex gap-2 overflow-x-auto no-scrollbar flex-1" id="subtopic-tabs"></div>
             </div>
         </nav>
 
@@ -183,7 +188,7 @@
         // 3. APP LOGIC
         // ==========================================
         let rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', isSearch = false;
-        let beelineEnabled = false;
+        let immersiveEnabled = false;
 
         const topics = {
             "The Hindu": ["Science", "Health", "Agriculture", "Environment", "Internet"],
@@ -209,7 +214,7 @@
 
         function renderTopicTabs() {
             const html = Object.keys(topics).map(topic => `
-                <button onclick="switchTopic('${topic}')" class="px-5 py-2 rounded-full text-sm font-semibold transition-all ${activeTopic === topic ? 'bg-blue-600 text-white' : 'opacity-70 hover:opacity-100'}">${topic}</button>
+                <button onclick="switchTopic('${topic}')" class="px-5 py-2 rounded-full text-sm font-semibold transition-all ${activeTopic === topic ? 'bg-blue-600 text-white shadow-md' : 'opacity-70 hover:opacity-100'}">${topic}</button>
             `).join('');
             document.getElementById('topic-tabs').innerHTML = html;
             renderSubtopicTabs();
@@ -218,26 +223,23 @@
         function renderSubtopicTabs() {
             const subs = topics[activeTopic];
             const html = subs.map(sub => `
-                <button onclick="renderView('${activeTopic}', '${sub}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeSubtopic === sub ? 'bg-blue-600 text-white' : 'opacity-60 hover:opacity-100'}">${sub}</button>
+                <button onclick="renderView('${activeTopic}', '${sub}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeSubtopic === sub ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${sub}</button>
             `).join('');
-            
-            let container = document.getElementById('category-tabs');
-            if (!container) {
-                container = document.createElement('div');
-                container.id = 'category-tabs';
-                container.className = 'flex space-x-2 overflow-x-auto no-scrollbar mt-3';
-                document.querySelector('nav').appendChild(container);
-            }
-            container.innerHTML = html;
+            document.getElementById('subtopic-tabs').innerHTML = html;
         }
 
-        function switchTopic(topic) { activeTopic = topic; activeSubtopic = topics[topic][0]; renderTopicTabs(); renderView(activeTopic, activeSubtopic); }
+        function switchTopic(topic) { 
+            activeTopic = topic; 
+            activeSubtopic = topics[topic][0]; 
+            renderTopicTabs(); 
+            renderSubtopicTabs();
+            renderView(activeTopic, activeSubtopic); 
+        }
 
         function handleSearch() {
             const q = document.getElementById('searchInput').value.toLowerCase();
             if (q.length < 2) { 
                 isSearch = false; 
-                // Only render the feed, DO NOT clear the search input anymore
                 renderFeed(rawData.filter(a => a.category === activeSubtopic)); 
                 return; 
             }
@@ -255,6 +257,7 @@
             isSearch = false; activeTopic = topic; activeSubtopic = subtopic;
             document.getElementById('searchInput').value = "";
             renderTopicTabs();
+            renderSubtopicTabs();
             renderFeed(rawData.filter(a => a.category === subtopic));
         }
 
@@ -265,15 +268,15 @@
             icon.className = content.style.display === 'none' ? 'fas fa-chevron-down text-blue-500 ml-4' : 'fas fa-chevron-up text-blue-500 ml-4';
         }
 
-        function toggleBeeLine() {
-            beelineEnabled = !beelineEnabled;
-            const btn = document.getElementById('beeline-btn');
-            if (beelineEnabled) {
-                document.documentElement.classList.add('beeline-mode');
-                btn.classList.add('bg-blue-100', 'dark:bg-blue-900', 'border-blue-500');
+        function toggleImmersive() {
+            immersiveEnabled = !immersiveEnabled;
+            const btn = document.getElementById('immersive-btn');
+            if (immersiveEnabled) {
+                document.documentElement.classList.add('immersive-mode');
+                btn.classList.add('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
             } else {
-                document.documentElement.classList.remove('beeline-mode');
-                btn.classList.remove('bg-blue-100', 'dark:bg-blue-900', 'border-blue-500');
+                document.documentElement.classList.remove('immersive-mode');
+                btn.classList.remove('bg-red-100', 'dark:bg-red-900', 'border-red-500', 'text-red-700', 'dark:text-red-300');
             }
         }
 
