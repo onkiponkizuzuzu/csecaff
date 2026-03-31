@@ -38,5 +38,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "System: CDP Blocker Integrated & Data Update $(date)" || exit 0
+          git commit -m "System: Node24 Uniformity & Data Update $(date)" || exit 0
           git push
