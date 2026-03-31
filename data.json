@@ -1,5 +1,22 @@
 [
     {
+        "category": "Health",
+        "title": "Mild viral infection spreading among children in Chennai",
+        "url": "https://www.thehindu.com/news/cities/chennai/mild-viral-infection-spreading-among-children-in-chennai/article70803172.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "A mild viral infection is currently spreading among children in Chennai, with many presenting with symptoms such as redness of the eyes (conjunctivitis), runny nose, body pain, severe headache, and throat pain, doctors say. While there is no need for panic, they advise parents to seek timely medical care and take precautions when visiting crowded places, especially with the holidays approaching."
+            },
+            {
+                "type": "text",
+                "value": "Some of the city’s senior paediatricians say they have been observing a rise in viral conjunctivitis over the past two weeks."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
         "category": "Internet",
         "title": "Australia investigates tech giants over social media ban compliance",
         "url": "https://www.thehindu.com/sci-tech/technology/australia-investigates-tech-giants-over-social-media-ban-compliance/article70805599.ece",
