@@ -13,49 +13,34 @@
         body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); transition: all 0.3s; margin: 0; min-height: 100vh; }
         .serif-title { font-family: 'Merriweather', serif; }
         nav, aside { background-color: var(--sidebar); border-color: var(--border); }
-        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 4rem; margin-bottom: 4rem; }
-        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); }
+        .article-card { border-bottom: 2px solid var(--border); padding-bottom: 3.5rem; margin-bottom: 3.5rem; }
+        #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); overflow-y: auto; }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
-        img { border-radius: 12px; max-height: 520px; width: 100%; object-fit: cover; margin-bottom: 2.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
         
-        /* Strict Content Rendering Styles */
-        .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 800; color: var(--text); }
-        .content-body { width: 100%; display: block; }
-        .content-body p { 
-            margin-bottom: 1.75rem; 
-            line-height: 1.9; 
-            font-size: 1.15rem; 
-            text-align: left; 
-            display: block;
-            opacity: 0.95;
-        }
-        .content-body h4 { 
-            font-size: 1.5rem; 
-            font-weight: 700; 
-            margin-top: 2.5rem; 
-            margin-bottom: 1.25rem; 
-            line-height: 1.4;
-        }
+        .article-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 700; }
+        .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; opacity: 0.95; }
+        .content-body h4 { font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
     </style>
 </head>
 <body>
     <nav class="sticky top-0 z-50 px-4 py-3 flex flex-wrap gap-4 justify-between items-center border-b shadow-sm">
         <div class="flex items-center space-x-4">
-            <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"><i class="fas fa-bars"></i></button>
-            <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH Reader <span class="text-blue-500 text-sm font-normal">by onkiponkizuzuzu</span></h1>
+            <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
+            <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
         </div>
         <div class="flex-1 max-w-md relative">
             <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
             <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
         </div>
         <div class="flex space-x-2 overflow-x-auto no-scrollbar" id="category-tabs"></div>
-        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
     </nav>
 
     <div class="flex">
-        <aside id="sidebar" class="border-r p-6 overflow-y-auto hidden md:block">
-            <h3 class="text-xs font-bold uppercase opacity-40 mb-6">Historical Dates</h3>
+        <aside id="sidebar" class="border-r p-6 hidden md:block">
+            <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest">Historical Dates</h3>
             <div id="date-list" class="space-y-1"></div>
         </aside>
 
@@ -76,7 +61,7 @@
                 renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
                 renderView(activeCategory);
             } catch (e) {
-                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30">Data not found. Run scraper first.</p>`;
+                document.getElementById('article-feed').innerHTML = `<p class="text-center py-20 opacity-30">Waiting for first data sync...</p>`;
             }
         }
 
@@ -95,7 +80,7 @@
                 art.title.toLowerCase().includes(q) || 
                 art.content.some(c => c.value.toLowerCase().includes(q))
             );
-            renderFeed(filtered, `Results for: "${q}"`);
+            renderFeed(filtered, `Search results for: "${q}"`);
         }
 
         function renderView(cat, date = null) {
@@ -117,26 +102,30 @@
             let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
             
             if (!arts.length) {
-                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No matches found.</p>`;
+                feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No articles found.</p>`;
                 return;
             }
 
             feed.innerHTML = html + arts.map(art => `
                 <article class="article-card">
-                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.category} | ${art.date}</div>
-                    <h2 class="serif-title article-title mb-8 leading-tight">${art.title}</h2>
+                    <div class="text-xs font-bold text-blue-500 mb-2 uppercase tracking-wide font-sans">${art.category} | ${art.date}</div>
+                    <h2 class="serif-title article-title mb-6 leading-tight">${art.title}</h2>
                     ${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}
                     <div class="content-body">
-                        ${art.content.map(item => {
-                            if (item.type === 'heading') {
-                                return `<h4 class="serif-title">${item.value}</h4>`;
-                            } else {
-                                return `<p>${item.value}</p>`;
-                            }
-                        }).join('')}
+                        ${art.content.map(item => item.type === 'heading' ? `<h4>${item.value}</h4>` : `<p>${item.value}</p>`).join('')}
                     </div>
                 </article>
             `).join('');
         }
 
-        function
+        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('collapsed'); }
+        function toggleDarkMode() {
+            const dark = document.body.classList.toggle('dark');
+            document.getElementById('theme-icon').className = dark ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-blue-500';
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        }
+        if (localStorage.getItem('theme') === 'dark') toggleDarkMode();
+        init();
+    </script>
+</body>
+</html>
