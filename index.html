@@ -27,12 +27,6 @@
         .content-body p { margin-bottom: 1.5rem; }
         .content-body h4 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem; }
         
-        /* Immersive Mode Logic */
-        .immersive-mode .content-body p:nth-of-type(odd), .immersive-mode .quiz-question { background: linear-gradient(to right, #e11d48 0%, #2563eb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .immersive-mode .content-body p:nth-of-type(even), .immersive-mode .quiz-solution-text { background: linear-gradient(to right, #2563eb 0%, #e11d48 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .dark .immersive-mode .content-body p:nth-of-type(odd), .dark .immersive-mode .quiz-question { background: linear-gradient(to right, #be123c 0%, #1d4ed8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .dark .immersive-mode .content-body p:nth-of-type(even), .dark .immersive-mode .quiz-solution-text { background: linear-gradient(to right, #1d4ed8 0%, #be123c 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .source-link { color: #3b82f6; text-decoration: underline; font-size: 0.95rem; }
 
@@ -80,11 +74,11 @@
                 <div class="flex items-end gap-2 flex-1 max-w-sm">
                     <div class="w-1/2 flex flex-col">
                         <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Source</label>
-                        <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer"></select>
+                        <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer transition-colors"></select>
                     </div>
                     <div class="w-1/2 flex flex-col">
                         <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Category</label>
-                        <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer"></select>
+                        <select id="subtopic-select" onchange="switchSubtopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer transition-colors"></select>
                     </div>
                 </div>
 
@@ -129,7 +123,9 @@
 
         function updatePrelimsCounter() {
             const prelimsDate = new Date("May 24, 2026 00:00:00").getTime();
-            const daysLeft = Math.floor((prelimsDate - new Date().getTime()) / (1000 * 60 * 60 * 24));
+            const now = new Date().getTime();
+            const distance = prelimsDate - now;
+            const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
             document.getElementById("days-count").innerText = daysLeft > 0 ? daysLeft : "0";
         }
 
@@ -210,6 +206,7 @@
         }
 
         function toggleSidebar() { sidebar.classList.toggle('collapsed'); }
+
         function toggleDarkMode() {
             const isDark = document.documentElement.classList.toggle('dark');
             document.body.classList.toggle('dark');
@@ -231,8 +228,11 @@
         function applyImmersiveToAll() {
             if (!immersiveEnabled) return;
             const targets = document.querySelectorAll('.content-body:not([style*="display: none"]) p, .content-body:not([style*="display: none"]) .quiz-question, .content-body:not([style*="display: none"]) .quiz-solution-text');
-            const isDark = document.documentElement.classList.contains('dark');
-            const cRed = isDark ? [253, 164, 175] : [159, 18, 57], cBlue = isDark ? [147, 197, 253] : [30, 64, 175];
+            
+            // FIXED to use the Darker colors regardless of website theme
+            const cRed = [159, 18, 57]; // Fixed Dark Red
+            const cBlue = [30, 64, 175]; // Fixed Bright Blue
+
             targets.forEach(el => {
                 if (!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
                 el.innerHTML = el.getAttribute('data-orig');
@@ -246,12 +246,16 @@
         }
 
         window.onload = () => {
-            if (localStorage.getItem('theme') === 'dark') {
+            const savedTheme = localStorage.getItem('theme');
+            // If user previously set dark mode, enable it. 
+            // Otherwise default to light mode (ignoring system settings).
+            if (savedTheme === 'dark') {
                 document.documentElement.classList.add('dark');
                 document.body.classList.add('dark');
                 document.getElementById('theme-icon').className = 'fas fa-sun text-yellow-400';
             }
             sidebar.classList.add('collapsed');
+            updatePrelimsCounter();
         };
     </script>
 </body>
