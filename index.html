@@ -95,7 +95,74 @@
         </main>
     </div>
 
-    <script>
+   <script>
+        // ==========================================
+        // 1. PASTE YOUR FIREBASE CONFIG HERE
+        // ==========================================
+        const firebaseConfig = {
+            apiKey: "AIzaSyDY3HiW87T204-6jTpSwZp72QkzYe4jz2o",
+            authDomain: "csecaffreader.firebaseapp.com",
+            projectId: "csecaffreader",
+            storageBucket: "csecaffreader.firebasestorage.app",
+            messagingSenderId: "478819279571",
+            appId: "1:478819279571:web:d8956a3156960747776a26"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+
+        // ==========================================
+        // 2. AUTHENTICATION LOGIC
+        // ==========================================
+        const authOverlay = document.getElementById('auth-overlay');
+        const appContent = document.getElementById('app-content');
+        const authError = document.getElementById('auth-error');
+
+        // Listen for login/logout state changes
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                // User is logged in
+                authOverlay.classList.add('hidden');
+                appContent.classList.remove('hidden');
+                initApp(); // Load the articles
+            } else {
+                // User is logged out
+                authOverlay.classList.remove('hidden');
+                appContent.classList.add('hidden');
+            }
+        });
+
+        function showError(message) {
+            authError.textContent = message;
+            authError.classList.remove('hidden');
+            setTimeout(() => authError.classList.add('hidden'), 5000);
+        }
+
+        function handleLogin() {
+            const email = document.getElementById('email-input').value;
+            const password = document.getElementById('password-input').value;
+            if(!email || !password) return showError("Please enter email and password.");
+            
+            auth.signInWithEmailAndPassword(email, password)
+                .catch(error => showError(error.message));
+        }
+
+        function handleSignUp() {
+            const email = document.getElementById('email-input').value;
+            const password = document.getElementById('password-input').value;
+            if(!email || !password) return showError("Please enter email and password.");
+            
+            auth.createUserWithEmailAndPassword(email, password)
+                .catch(error => showError(error.message));
+        }
+
+        function handleLogout() {
+            auth.signOut();
+        }
+
+        // ==========================================
+        // 3. APP LOGIC (Only runs after login)
+        // ==========================================
         let rawData = [], activeTopic = 'The Hindu', activeSubtopic = 'Environment', activeDate = null, isSearch = false;
         let beelineEnabled = false;
 
