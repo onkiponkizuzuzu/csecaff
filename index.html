@@ -63,8 +63,8 @@
 
     <div id="auth-overlay">
         <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-md w-full mx-4 border border-gray-200 dark:border-gray-700">
-            <h2 class="text-2xl font-bold mb-2 text-center text-gray-900 dark:text-white">पधारो सा 🙏</h2>
-            <p class="text-sm text-gray-500 text-center mb-6">Login kar lo pookie, Current Affairs ready hain :P</p>
+            <h2 class="text-2xl font-bold mb-2 text-center text-gray-900 dark:text-white">Welcome Back</h2>
+            <p class="text-sm text-gray-500 text-center mb-6">Please log in to access the UPSC archive.</p>
             
             <div id="auth-error" class="hidden mb-4 p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center"></div>
 
@@ -91,7 +91,7 @@
             <div class="flex items-center space-x-4">
                 <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars"></i></button>
                 <div>
-                    <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH & IE Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
+                    <h1 class="font-bold text-lg tracking-tight">TH & IE Reader <span class="text-blue-500 text-xs font-normal">by onkiponkizuzuzu</span></h1>
                     <div id="prelims-counter" class="text-xs text-blue-600 dark:text-blue-400 mt-1 font-medium">
                         Days to Prelims 2026 (24 May): <span id="days-count" class="font-semibold">54</span>
                     </div>
@@ -100,7 +100,7 @@
 
             <div class="flex gap-2" id="topic-tabs"></div>
 
-            <div class="flex-1 max-w-md relative">
+            <div class="flex-1 max-w-xs relative">
                 <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
                 <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
             </div>
@@ -108,7 +108,7 @@
             <div class="flex items-center gap-3">
                 <button onclick="toggleBeeLine()" id="beeline-btn" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2">
                     <i class="fas fa-book-open"></i>
-                    <span class="hidden sm:inline">BeeLine Mode</span>
+                    <span>BeeLine Mode</span>
                 </button>
                 <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
                 <button onclick="handleLogout()" class="px-4 py-1.5 text-sm font-medium rounded-xl border border-red-300 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-gray-800 transition-colors">Logout</button>
