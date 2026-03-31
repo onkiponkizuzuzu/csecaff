@@ -1,7 +1,6 @@
 import os
 import json
 import time
-import re
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -15,14 +14,21 @@ def get_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
-    # Spoof Googlebot to reduce paywall interference
     chrome_options.add_argument("user-agent=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
     
     chrome_options.binary_location = "/usr/bin/google-chrome"
     service = Service("/usr/bin/chromedriver")
     
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    driver.set_page_load_timeout(180) # Prevent ReadTimeoutError
+    
+    # --- CDP NETWORK BLOCKER ---
+    # Blocks paywall scripts from ever loading
+    driver.execute_cdp_cmd('Network.enable', {})
+    driver.execute_cdp_cmd('Network.setBlockedURLs', {
+        "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
+    })
+    
+    driver.set_page_load_timeout(180)
     return driver
 
 def scrape_section(url, category):
@@ -30,29 +36,17 @@ def scrape_section(url, category):
     articles = []
     try:
         driver.get(url)
-        time.sleep(10)
+        time.sleep(8)
         
-        elements = driver.find_elements(By.CSS_SELECTOR, "h3[class*='title'] a")
+        elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
         links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
 
         for link in links[:12]:
             try:
                 driver.get(link)
-                # Stop page early to prevent paywall scripts from finishing
-                driver.execute_script("window.stop();")
-                
-                # Remove known overlay IDs immediately
-                driver.execute_script("""
-                    var overlays = ['arthardpv', 'artmeterpv'];
-                    overlays.forEach(id => {
-                        var el = document.getElementById(id);
-                        if (el) el.remove();
-                    });
-                """)
-                
-                time.sleep(4)
+                time.sleep(5)
 
-                # Targeting the specific structure from your HTML snippet
+                # Target the schemaDiv for high-accuracy text matching
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
@@ -84,7 +78,7 @@ def scrape_section(url, category):
                 print(f"Skipped {link}: {e}")
                 continue
     finally:
-        driver.quit() # Clean shutdown to free memory
+        driver.quit()
     return articles
 
 targets = {
