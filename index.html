@@ -63,7 +63,7 @@
 
     <div id="auth-overlay">
         <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-md w-full mx-4 border border-gray-200 dark:border-gray-700">
-            <h2 class="text-2xl font-bold mb-2 text-center text-gray-900 dark:text-white">Welcome Back</h2>
+            <h2 class="text-2xl font-bold mb-2 text-center text-gray-900 dark:text-white">Authorized Access Only</h2>
             <p class="text-sm text-gray-500 text-center mb-6">Please log in to access the UPSC archive.</p>
             
             <div id="auth-error" class="hidden mb-4 p-3 bg-red-100 text-red-700 rounded-lg text-sm text-center"></div>
@@ -75,12 +75,11 @@
                 </div>
                 <div>
                     <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
-                    <input type="password" id="password-input" class="w-full px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none text-gray-900 dark:text-white">
+                    <input type="password" id="password-input" class="w-full px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none text-gray-900 dark:text-white" onkeypress="if(event.key === 'Enter') handleLogin()">
                 </div>
                 
-                <div class="pt-2 flex gap-3">
-                    <button onclick="handleLogin()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-xl transition-colors">Log In</button>
-                    <button onclick="handleSignUp()" class="flex-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-900 dark:text-white font-semibold py-2.5 rounded-xl transition-colors">Sign Up</button>
+                <div class="pt-2">
+                    <button onclick="handleLogin()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-xl transition-colors">Log In</button>
                 </div>
             </div>
         </div>
@@ -173,15 +172,6 @@
             if(!email || !password) return showError("Please enter email and password.");
             
             auth.signInWithEmailAndPassword(email, password)
-                .catch(error => showError(error.message));
-        }
-
-        function handleSignUp() {
-            const email = document.getElementById('email-input').value;
-            const password = document.getElementById('password-input').value;
-            if(!email || !password) return showError("Please enter email and password.");
-            
-            auth.createUserWithEmailAndPassword(email, password)
                 .catch(error => showError(error.message));
         }
 
