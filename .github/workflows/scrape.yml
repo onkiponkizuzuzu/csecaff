@@ -9,7 +9,6 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
-    # Global environment variable to force Node 24 across all actions
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
@@ -39,5 +38,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "System: Node24 Stable & Data Update $(date)" || exit 0
+          git commit -m "System: CDP Blocker Integrated & Data Update $(date)" || exit 0
           git push
