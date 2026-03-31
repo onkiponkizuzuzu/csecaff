@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disaster Research Hub</title>
+    <title>TH Reader by onkiponkizuzuzu</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -17,7 +17,10 @@
         #sidebar { transition: all 0.3s ease; width: 280px; position: sticky; top: 65px; height: calc(100vh - 65px); }
         #sidebar.collapsed { width: 0; padding: 0; overflow: hidden; border: none; }
         img { border-radius: 12px; max-height: 480px; width: 100%; object-fit: cover; margin-bottom: 2rem; }
-        .content-body p { margin-bottom: 1.5rem; line-height: 1.85; font-size: 1.15rem; text-align: justify; }
+        
+        /* Matching source website styles + Smaller Headings */
+        .article-title { font-size: 1.875rem; line-height: 2.25rem; } /* Text-3xl */
+        .content-body p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.125rem; text-align: left; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
     </style>
 </head>
@@ -25,18 +28,18 @@
     <nav class="sticky top-0 z-50 px-4 py-3 flex flex-wrap gap-4 justify-between items-center border-b shadow-sm">
         <div class="flex items-center space-x-4">
             <button onclick="toggleSidebar()" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"><i class="fas fa-bars"></i></button>
-            <h1 class="font-bold text-xl hidden lg:block tracking-tight">Research Hub</h1>
+            <h1 class="font-bold text-lg hidden lg:block tracking-tight">TH Reader <span class="text-blue-500 text-sm font-normal">by onkiponkizuzuzu</span></h1>
         </div>
         <div class="flex-1 max-w-md relative">
-            <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search keywords..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm transition-all">
+            <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search archive..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
             <i class="fas fa-search absolute left-3 top-2.5 opacity-30 text-sm"></i>
         </div>
         <div class="flex space-x-2 overflow-x-auto no-scrollbar" id="category-tabs"></div>
-        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
+        <button onclick="toggleDarkMode()" class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800"><i id="theme-icon" class="fas fa-moon text-blue-500"></i></button>
     </nav>
     <div class="flex">
         <aside id="sidebar" class="border-r p-6 overflow-y-auto hidden md:block">
-            <h3 class="text-xs font-bold uppercase opacity-40 mb-6">Archive</h3>
+            <h3 class="text-xs font-bold uppercase opacity-40 mb-6">Historical Dates</h3>
             <div id="date-list" class="space-y-1"></div>
         </aside>
         <main class="flex-1 px-4 md:px-12 py-10 min-h-screen">
@@ -51,7 +54,7 @@
             renderView(activeCategory);
         }
         function renderCategoryTabs(cats) {
-            document.getElementById('category-tabs').innerHTML = cats.map(c => `<button onclick="renderView('${c}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === c && !isSearch ? 'bg-blue-600 text-white' : 'opacity-60 hover:opacity-100'}">${c}</button>`).join('');
+            document.getElementById('category-tabs').innerHTML = cats.map(c => `<button onclick="renderView('${c}')" class="px-4 py-2 rounded-full text-sm font-semibold transition-all whitespace-nowrap ${activeCategory === c && !isSearch ? 'bg-blue-600 text-white shadow-md' : 'opacity-60 hover:opacity-100'}">${c}</button>`).join('');
         }
         function handleSearch() {
             const q = document.getElementById('searchInput').value.toLowerCase();
@@ -65,14 +68,14 @@
             document.getElementById('searchInput').value = ""; 
             renderCategoryTabs([...new Set(rawData.map(a => a.category))]);
             const dates = [...new Set(rawData.filter(a => a.category === cat).map(a => a.date))];
-            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>`).join('');
+            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="renderView('${cat}', '${d}')" class="w-full text-left px-4 py-2 rounded-lg text-sm ${activeDate === d ? 'bg-blue-500 text-white shadow-sm' : 'hover:bg-gray-100 dark:hover:bg-gray-800 opacity-70'}">${d}</button>`).join('');
             renderFeed(rawData.filter(a => a.category === cat && (!activeDate || a.date === activeDate)));
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         function renderFeed(arts, title = null) {
             const feed = document.getElementById('article-feed');
             let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40">${title}</h2>` : "";
-            feed.innerHTML = html + (arts.length ? arts.map(art => `<article class="article-card"><div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.category} | ${art.date}</div><h2 class="serif-title text-3xl md:text-5xl mb-8 leading-tight">${art.title}</h2>${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}<div class="content-body">${art.content.map(i => i.type === 'heading' ? `<h4 class="font-bold text-2xl pt-8 pb-4">${i.value}</h4>` : `<p>${i.value}</p>`).join('')}</div></article>`).join('') : `<p class="text-center py-20 opacity-30">No matches found.</p>`);
+            feed.innerHTML = html + (arts.length ? arts.map(art => `<article class="article-card"><div class="text-xs font-bold text-blue-500 mb-2 uppercase">${art.category} | ${art.date}</div><h2 class="serif-title article-title mb-6 font-bold leading-tight">${art.title}</h2>${art.image ? `<img src="${art.image}" onerror="this.remove()">` : ''}<div class="content-body">${art.content.map(i => i.type === 'heading' ? `<h4 class="font-bold text-xl pt-6 pb-2">${i.value}</h4>` : `<p>${i.value}</p>`).join('')}</div></article>`).join('') : `<p class="text-center py-20 opacity-30">No matches found.</p>`);
         }
         function toggleSidebar() { document.getElementById('sidebar').classList.toggle('collapsed'); }
         function toggleDarkMode() {
