@@ -101,15 +101,15 @@
     </div>
 
     <div id="app-content" class="hidden">
-        <nav class="sticky top-0 z-40 px-4 py-2 border-b shadow-sm">
+        <nav class="sticky top-0 z-40 px-4 py-2 border-b shadow-sm bg-white dark:bg-[#1e293b]">
             <div class="flex items-end justify-between flex-wrap gap-3 pb-1">
                 <div class="flex items-center space-x-3 mb-0.5">
-                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars text-lg dark:text-gray-200"></i></button>
+                    <button onclick="toggleSidebar()" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"><i class="fas fa-bars text-lg text-gray-700 dark:text-gray-200"></i></button>
                     <div>
-                        <h1 class="font-bold text-base tracking-tight leading-none dark:text-white">CSE CAff</h1>
+                        <h1 class="font-bold text-base tracking-tight leading-none text-gray-900 dark:text-white">CSE CAff</h1>
                         <div class="text-blue-500 text-[10px] font-normal leading-tight mt-0.5">by onkiponkizuzuzu</div>
                         <div id="prelims-counter" class="text-[10px] text-blue-600 dark:text-blue-400 font-medium leading-tight mt-0.5">
-                            Days to Prelims: <span id="days-count" class="font-semibold">54</span>
+                            Days to Prelims: <span id="days-count" class="font-semibold">Calculating...</span>
                         </div>
                     </div>
                 </div>
@@ -128,9 +128,9 @@
                 <div class="flex items-end gap-2">
                     <div class="relative w-28 sm:w-48">
                         <input type="text" id="searchInput" onkeyup="handleSearch()" placeholder="Search..." class="w-full h-[34px] pl-8 pr-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-gray-900 dark:text-white transition-colors">
-                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 opacity-30 text-sm dark:text-gray-400"></i>
+                        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 opacity-30 text-sm text-gray-700 dark:text-gray-400"></i>
                     </div>
-                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="h-[34px] w-[34px] flex items-center justify-center text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors dark:text-gray-200">
+                    <button onclick="toggleImmersive()" id="immersive-btn" title="Immersive Reader" class="h-[34px] w-[34px] flex items-center justify-center text-sm font-medium rounded-xl border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-700 dark:text-gray-200">
                         <i class="fas fa-book-open"></i>
                     </button>
                     <button onclick="toggleDarkMode()" title="Toggle Theme" class="h-[34px] w-[34px] flex items-center justify-center rounded-xl bg-gray-100 dark:bg-gray-800 transition-transform hover:scale-110">
@@ -151,11 +151,11 @@
         </nav>
 
         <div class="flex">
-            <aside id="sidebar" class="border-r p-6 hidden md:block collapsed">
-                <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest text-inherit dark:text-gray-400">Historical Dates</h3>
+            <aside id="sidebar" class="border-r p-6 hidden md:block collapsed bg-white dark:bg-[#1e293b] border-gray-200 dark:border-gray-700">
+                <h3 class="text-xs font-bold uppercase opacity-40 mb-6 tracking-widest text-gray-900 dark:text-gray-400">Historical Dates</h3>
                 <div id="date-list" class="space-y-1"></div>
             </aside>
-            <main class="flex-1 px-4 md:px-12 py-8 min-h-screen">
+            <main class="flex-1 px-4 md:px-12 py-8 min-h-screen bg-slate-50 dark:bg-[#0f172a]">
                 <div id="article-feed" class="max-w-3xl mx-auto"></div>
             </main>
         </div>
@@ -187,11 +187,21 @@
             "Indian Express": ["UPSC Quizzes", "UPSC Current Affairs"]
         };
 
+        // --- Counter Update Logic ---
+        function updatePrelimsCounter() {
+            const prelimsDate = new Date("May 24, 2026 00:00:00").getTime();
+            const now = new Date().getTime();
+            const distance = prelimsDate - now;
+            const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+            document.getElementById("days-count").innerText = daysLeft > 0 ? daysLeft : "0";
+        }
+
         auth.onAuthStateChanged(async user => {
             if (user) {
                 currentUser = user;
                 authOverlay.classList.add('hidden');
                 appContent.classList.remove('hidden');
+                updatePrelimsCounter();
                 await loadSavedArticles();
                 initApp(); 
             } else {
@@ -242,14 +252,14 @@
         async function initApp() {
             if(rawData.length > 0) return; 
             const feed = document.getElementById('article-feed');
-            feed.innerHTML = `<div class="text-center py-20"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>`;
+            feed.innerHTML = `<div class="text-center py-20 text-gray-900 dark:text-white"><i class="fas fa-spinner fa-spin text-4xl text-blue-500"></i></div>`;
             try {
                 const res = await fetch('data.json');
                 rawData = await res.json();
                 rawData.sort((a, b) => b.date.localeCompare(a.date));
                 renderTopicTabs();
                 renderView('The Hindu', 'Environment');
-            } catch (e) { feed.innerHTML = `<div class="text-center py-20"><p>No data found yet.</p></div>`; }
+            } catch (e) { feed.innerHTML = `<div class="text-center py-20 text-gray-900 dark:text-white"><p>No data found yet.</p></div>`; }
         }
 
         function renderTopicTabs() {
@@ -267,7 +277,7 @@
         function renderDateSidebar() {
             let targetArray = activeTopic === 'Saved' ? Object.values(savedArticlesMap) : rawData;
             const dates = [...new Set(targetArray.map(a => a.date))].sort((a, b) => b.localeCompare(a));
-            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="filterByDate('${d}')" class="block w-full text-left px-3 py-2 mt-1 text-sm rounded-lg transition-colors ${activeDate === d ? 'font-bold text-blue-600 bg-blue-50 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-400'}">${d}</button>`).join('');
+            document.getElementById('date-list').innerHTML = dates.map(d => `<button onclick="filterByDate('${d}')" class="block w-full text-left px-3 py-2 mt-1 text-sm rounded-lg transition-colors ${activeDate === d ? 'font-bold text-blue-600 bg-blue-50 dark:bg-gray-800' : 'text-gray-600 dark:text-gray-400'}">${d}</button>`).join('');
         }
 
         function filterByDate(date) {
@@ -302,11 +312,11 @@
 
         function renderFeed(arts, title = null) {
             const feed = document.getElementById('article-feed');
-            let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40 dark:text-white">${title}</h2>` : "";
-            if (!arts.length) return feed.innerHTML = html + `<p class="text-center py-20 opacity-30">No content found.</p>`;
+            let html = title ? `<h2 class="text-xl font-bold mb-8 opacity-40 text-gray-900 dark:text-white">${title}</h2>` : "";
+            if (!arts.length) return feed.innerHTML = html + `<p class="text-center py-20 opacity-30 text-gray-900 dark:text-white">No content found.</p>`;
             feed.innerHTML = html + arts.map(art => {
                 const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, ''), isSaved = !!savedArticlesMap[art.url];
-                return `<article class="article-card"><div onclick="toggleArticle('${safeId}')" class="flex items-start justify-between cursor-pointer"><h2 class="serif-title article-title pr-4 dark:text-gray-100">${art.title}</h2><div class="flex items-center whitespace-nowrap mt-1"><i onclick="toggleSaveArticle('${art.url}', event)" id="save-icon-${safeId}" class="${isSaved ? 'fas' : 'far'} fa-bookmark ${isSaved ? 'text-blue-500' : 'text-gray-400'} ml-3 text-xl"></i><i id="icon-${safeId}" class="fas fa-chevron-down text-blue-500 ml-5 text-xl"></i></div></div><div id="content-${safeId}" class="content-body mt-6 dark:text-gray-300" style="display: none;">${art.content.map(c => c.type === 'quiz_item' ? `<div class="quiz-container"><div class="quiz-question">${c.question}</div><details class="quiz-solution" ontoggle="if(this.open && immersiveEnabled) setTimeout(applyImmersiveToAll, 50)"><summary><i class="fas fa-lightbulb mr-2"></i>View Solution</summary><div class="quiz-solution-text">${c.solution}</div></details></div>` : (c.type === 'heading' ? `<h4>${c.value}</h4>` : `<p>${c.value}</p>`)).join('')}<div class="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700"><a href="${art.url}" target="_blank" class="source-link">Read original page →</a></div></div><div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div></article>`;
+                return `<article class="article-card border-gray-200 dark:border-gray-700"><div onclick="toggleArticle('${safeId}')" class="flex items-start justify-between cursor-pointer text-gray-900 dark:text-white"><h2 class="serif-title article-title pr-4">${art.title}</h2><div class="flex items-center whitespace-nowrap mt-1"><i onclick="toggleSaveArticle('${art.url}', event)" id="save-icon-${safeId}" class="${isSaved ? 'fas' : 'far'} fa-bookmark ${isSaved ? 'text-blue-500' : 'text-gray-400'} ml-3 text-xl"></i><i id="icon-${safeId}" class="fas fa-chevron-down text-blue-500 ml-5 text-xl"></i></div></div><div id="content-${safeId}" class="content-body mt-6 text-gray-800 dark:text-gray-300" style="display: none;">${art.content.map(c => c.type === 'quiz_item' ? `<div class="quiz-container"><div class="quiz-question font-semibold text-gray-900 dark:text-white">${c.question}</div><details class="quiz-solution bg-slate-100 dark:bg-slate-800 rounded-lg p-2 mt-2" ontoggle="if(this.open && immersiveEnabled) setTimeout(applyImmersiveToAll, 50)"><summary class="cursor-pointer text-blue-500 font-bold"><i class="fas fa-lightbulb mr-2"></i>View Solution</summary><div class="quiz-solution-text mt-2">${c.solution}</div></details></div>` : (c.type === 'heading' ? `<h4 class="font-bold text-gray-900 dark:text-white mt-4 mb-2">${c.value}</h4>` : `<p class="mb-4">${c.value}</p>`)).join('')}<div class="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700"><a href="${art.url}" target="_blank" class="source-link">Read original page →</a></div></div><div class="text-xs text-gray-500 mt-4">${art.category} | ${art.date}</div></article>`;
             }).join('');
             if (immersiveEnabled) setTimeout(applyImmersiveToAll, 50);
         }
@@ -352,6 +362,7 @@
         window.onload = () => {
             if (localStorage.getItem('theme') === 'dark') toggleDarkMode();
             sidebar.classList.add('collapsed');
+            updatePrelimsCounter();
         };
     </script>
 </body>
