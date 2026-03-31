@@ -21,7 +21,7 @@ def get_driver():
    
     driver = webdriver.Chrome(service=service, options=chrome_options)
    
-    # --- CDP NETWORK BLOCKER ---
+    # CDP NETWORK BLOCKER
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
         "urls": ["*tinypass.com*", "*piano.io*", "*googletagservices.com*", "*cxense.com*"]
@@ -40,7 +40,7 @@ def scrape_section(url, category):
         elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
         links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
 
-        for link in links[:12]:
+        for link in links:
             try:
                 driver.get(link)
                 time.sleep(5)
@@ -61,18 +61,16 @@ def scrape_section(url, category):
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                
-                try:
-                    img_el = driver.find_element(By.CSS_SELECTOR, 'div.article-picture img, [itemprop="articleBody"] img')
-                    img_url = img_el.get_attribute("data-src-template") or img_el.get_attribute("src")
-                except: img_url = None
-
                 if len(article_content) > 1:
                     articles.append({
-                        "category": category, "title": title, "url": link,
-                        "image": img_url, "content": article_content,
+                        "category": category,
+                        "title": title,
+                        "url": link,
+                        "content": article_content,
                         "date": datetime.now().strftime("%Y-%m-%d")
                     })
-            except: continue
+            except:
+                continue
     finally:
         driver.quit()
     return articles
@@ -86,27 +84,18 @@ targets = {
 }
 
 data_file = "data.json"
-
-# Create new empty list if file doesn't exist
-full_db = []
+full_db = json.load(open(data_file, "r", encoding='utf-8')) if os.path.exists(data_file) else []
 
 for cat, url in targets.items():
     print(f"Scraping {cat}...")
     new_arts = scrape_section(url, cat)
     
-    # DEMO MODE: Only 2 articles per subtopic
-    new_arts = new_arts[:2]
-    
-    added = 0
     urls = [a['url'] for a in full_db]
     for art in new_arts:
         if art['url'] not in urls:
-            full_db.insert(0, art)
-            added += 1
-    print(f"  → Added {added} new article(s) from {cat}")
+            full_db.insert(0, art)   # Latest on top
 
-# Save up to 1000 articles (increased as per your request)
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:1000], f, ensure_ascii=False, indent=4)
 
-print(f"Scrape completed successfully. Total articles saved: {len(full_db)}")
+print(f"Scrape completed. Total articles: {len(full_db)}")
