@@ -1,6 +1,563 @@
 [
     {
         "category": "Internet",
+        "title": "UK fines Apple unit for breaching Russian sanctions",
+        "url": "https://www.thehindu.com/sci-tech/technology/uk-fines-apple-unit-for-breaching-russian-sanctions/article70805624.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The UK government has fined an Apple subsidiary £390,000 ($516,000) after the U.S. technology giant breached Russian financial sanctions, an official statement revealed Monday."
+            },
+            {
+                "type": "text",
+                "value": "Ireland-based Apple Distribution International (ADI), which instructs payments to software developers who use the App Store, was fined for paying a sanctioned Russian company in 2022 following Moscow's invasion of Ukraine, it added."
+            },
+            {
+                "type": "text",
+                "value": "The Office of Financial Sanctions Implementation said the penalty was imposed on March 19."
+            },
+            {
+                "type": "text",
+                "value": "OFSI pointed out that despite the fine, \"ADI had neither intent, knowledge nor cause to actually suspect that these payments would be in breach of financial sanctions\"."
+            },
+            {
+                "type": "text",
+                "value": "The office added that it found no breach made by parent company Apple."
+            },
+            {
+                "type": "text",
+                "value": "ADI instructed a UK-based bank to make two payments, in June and July 2022, totalling almost £635,619 to Okko, a Russian online video streaming service owned by a company under British sanctions."
+            },
+            {
+                "type": "text",
+                "value": "In an emailed response to AFP, Apple said it takes \"sanctions compliance extremely seriously\"."
+            },
+            {
+                "type": "text",
+                "value": "\"After identifying two payments to a developer that days earlier had become affiliated with a sanctioned entity, we promptly and proactively reported our finding to the UK government.\""
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "Crypto fuels drone purchases in Russia and Iran: Report",
+        "url": "https://www.thehindu.com/sci-tech/technology/crypto-fuels-drone-purchases-in-russia-and-iran-report/article70805618.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Groups linked to Russia and Iran are increasingly using ‌cryptocurrency to finance the purchase of low-cost military drones and components, according to a new report from blockchain analytics ⁠firm Chainalysis."
+            },
+            {
+                "type": "text",
+                "value": "Commercially available drones have become central to conflict in Ukraine and West Asia, but because low-cost drones are widely available on global e-commerce platforms, it is ‌often challenging for authorities to track who is behind the purchases and what their intent with the products might ‌be."
+            },
+            {
+                "type": "text",
+                "value": "While most drone purchases are made using traditional financial rails, procurement ‌networks ⁠are increasingly intersecting with the blockchain, the public digital ledger ⁠on which cryptocurrencies are based, Chainalysis found. That ledger allows investigators to map the path of a transaction from its origin to its destination."
+            },
+            {
+                "type": "text",
+                "value": "Blockchain researchers at Chainalysis were able to trace the flow of crypto ‌from individual wallets connected to drone developers or paramilitary groups to the purchase of low-cost drones and their components from vendors on e-commerce sites."
+            },
+            {
+                "type": "text",
+                "value": "Since Russia’s full-scale invasion of Ukraine in 2022, pro-Russia groups have raised ‌more than $8.3 million in crypto donations, and drones have been among the specifically itemised purchases made with those donations, the report said."
+            },
+            {
+                "type": "text",
+                "value": "“On the blockchain, there’s this incredible opportunity, once you ⁠have identified the vendor to see the counterparty activity and make assessments that help clarify that utilization and the intent behind the purchase,” said ‌Andrew Fierman, the head of national security intelligence at Chainalysis."
+            },
+            {
+                "type": "text",
+                "value": "Chainalysis was able to match transactions in crypto for between $2,200 and $3,500 to the exact price points of drones and drone components on e-commerce platforms, Fierman said."
+            },
+            {
+                "type": "text",
+                "value": "“We saw everything from the request for the drones and the parts and how much they were looking to get, and then the pictures showing ‌that they had procured those goods,” he said."
+            },
+            {
+                "type": "text",
+                "value": "The report also found that Iran-linked groups are using crypto to procure drone parts and sell military equipment. It specifically highlighted a crypto wallet with connections ⁠to Iran’s Islamic Revolutionary Guard Corps purchasing drone parts from a Hong Kong-based supplier."
+            },
+            {
+                "type": "text",
+                "value": "To ⁠be sure, the total volume of crypto tied to drone procurement remains small compared with overall military spending, but the report ‌argued that the blockchain could help authorities better trace purchases that might have otherwise remained murky."
+            },
+            {
+                "type": "text",
+                "value": "“The blockchain can provide a lot of insight that isn’t necessarily traditionally available,” Fierman said."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
+        "title": "Swiss back tougher social media rules for minors, survey finds",
+        "url": "https://www.thehindu.com/sci-tech/technology/swiss-back-tougher-social-media-rules-for-minors-survey-finds/article70801596.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The vast majority of Swiss want stronger protection for children and teenagers on social media, according ‌to a survey published on Sunday, as governments and courts ⁠worldwide intensify scrutiny of Big Tech over its impact on young users."
+            },
+            {
+                "type": "text",
+                "value": "On Wednesday, a ‌Los Angeles jury found Meta and Alphabet’s Google negligent for designing ‌social media platforms that are harmful ‌to ⁠young people, in a ⁠verdict that will serve as a bellwether for numerous similar cases."
+            },
+            {
+                "type": "text",
+                "value": "The Swiss study by polling firm GfS Bern ‌for the Mercator Foundation found 94% of respondents felt minors should be better protected from the damaging effects ‌of social media, while 78% believed large technology firms have too much influence over public opinion."
+            },
+            {
+                "type": "text",
+                "value": "Swiss Interior ⁠Minister Elisabeth Baume-Schneider has said she is open to a potential ban ‌on social media for youngsters. Her government is drafting legislation to regulate major online platforms, aiming to make them more transparent."
+            },
+            {
+                "type": "text",
+                "value": "The poll’s publication in newspaper SonntagsZeitung follows a decision by ‌neighbouring Austria on Friday to pursue a ban on social media use for children under 14."
+            },
+            {
+                "type": "text",
+                "value": "The GfS Bern ⁠survey polled about 1,000 Swiss residents ⁠aged 16 and above between December 1 and 12. It had ‌a margin of error of plus or minus 3.2 percentage points, the paper said."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Agriculture",
+        "title": "Meet the Farmer: Eco bazaar highlights organic food and sustainable living in Chennai",
+        "url": "https://www.thehindu.com/life-and-style/meet-the-farmer-eco-bazaar-highlights-organic-food-and-sustainable-living-in-chennai/article70780825.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Children often ask where things come from, their curiosity prompting endless questions about the world around them. A visit to the Eco Bazaar this weekend may offer some answers. The event aims to help children and families understand where their food comes from. Radhika Rammohan, co-founder of re-Store, a non-profit organic and safe food store founded in 2008, says the ‘Meet the Farmer’ initiative will bring together ten organic farmers to sell fresh vegetables and fruits."
+            },
+            {
+                "type": "text",
+                "value": "“We know carrots are grown in the hills. But how many seasons can they be harvested in a year? What effort goes into growing them? How are they protected from pests like rabbits without causing harm? What profit does a farmer make?” she asks. “Visitors can engage directly with farmers, ask questions, and understand the philosophy behind organic farming.”"
+            },
+            {
+                "type": "text",
+                "value": "Walking through the eco-bazaar also offers a chance to connect with the stories and people behind everyday food. “Touching and feeling fresh produce can be a fulfilling experience. The idea is to encourage people to look deeper into what goes into organic farming and to understand the farmer’s perspective,” she says."
+            },
+            {
+                "type": "text",
+                "value": "The bazaar will also feature craft workshops for both children and adults. With prior registration, participants can take part in palm leaf craft, block printing, art, and coconut shell craft sessions. Visitors can shop for sustainable home décor products such as palm leaf crafts, clay cooking utensils, terracotta items, and handloom garments by Tula. A mending café has also been introduced, where visitors can get their outfits altered or repaired by on-site tailors. For gardening enthusiasts, there will be a dedicated section selling compost, potting soil, seeds, panchakavyam, and tools."
+            },
+            {
+                "type": "text",
+                "value": "The food stall will feature a variety rice made with heritage grains, sweets prepared using karupatti (palm jaggery), vegetable dishes, and natural health drinks such as padhaneer (fresh palm nectar) and elaneer (tender coconut water), encouraging healthier eating habits among the younger generation."
+            },
+            {
+                "type": "text",
+                "value": "@re-Store, Kottivakkam. March 28, 10am to 6pm. To participate in the craft workshops, priced at ₹500 per person, 10 to 11.30am or 11.30 to 1pm, register by calling 9840571842. Visitors are requested to bring their own bags, as none will be provided at the bazaar. A folk dance performance is scheduled for 4pm"
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Agriculture",
+        "title": "With lunar missions looming, scientists grow chickpeas in 'moon dirt'",
+        "url": "https://www.thehindu.com/sci-tech/science/with-lunar-missions-looming-scientists-grow-chickpeas-in-moon-dirt/article70725290.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "If the idea of lunar hummus seems far-fetched, think again. Scientists working to cultivate the field of extraterrestrial agriculture have grown chickpeas in dirt made mostly of simulated lunar soil, a step toward enabling astronauts on ‌long-term moon missions to produce their own food."
+            },
+            {
+                "type": "text",
+                "value": "Researchers said harvestable chickpeas were grown in soil mixtures composed primarily of “moon dirt” modelled after lunar samples retrieved during NASA’s Apollo missions more than half a century ago."
+            },
+            {
+                "type": "text",
+                "value": "Chickpeas of a variety called “Myles” were raised in a climate-controlled growth chamber at Texas A&M University. Seeds were coated with beneficial fungi and planted in a mix of the simulated lunar soil, made by Florida-based company Space Resource Technologies, and a nutrient-rich substance called vermicompost produced when earthworms break down ‌organic waste."
+            },
+            {
+                "type": "text",
+                "value": "A chickpea plant grows in a lunar soil simulant mixture inside a climate-controlled growth chamber at Texas A&M University in College Station, Texas, U.S., in this undated handout. Photo: Jessica Atkin/Handout via Reuters"
+            },
+            {
+                "type": "text",
+                "value": "Harvestable chickpeas grew in soil mixtures of up to 75% lunar simulant. As the percentage of simulated moon soil — known as regolith — increased, the number of harvestable chickpeas decreased, though the size of the chickpeas ‌remained stable. Seeds planted in 100% lunar simulant failed to produce flowers and seeds, experiencing early death."
+            },
+            {
+                "type": "text",
+                "value": "The United States and ‌China have plans to send astronauts back to the lunar surface in the coming years, with an eye toward long-term bases on the moon."
+            },
+            {
+                "type": "text",
+                "value": "“Chickpeas are high in protein and other essential nutrients, making them a strong candidate for space crop production,” said Jessica Atkin, a doctoral candidate and NASA fellow at Texas A&M’s Department of Soil and Crop Sciences, lead author of the research published on Thursday (March 5, 2026) in the journal Scientific Reports."
+            },
+            {
+                "type": "text",
+                "value": "A local food source is considered vital to sustaining ‌people staffing moon bases because of the impracticality of transporting all needed food from Earth."
+            },
+            {
+                "type": "text",
+                "value": "“In our goal toward establishing a lunar presence — or one on Mars — we will need to learn how to grow food on the moon, since it will not be sustainable to ship food in spaceships. This is because it is still quite expensive to ship things ‌to space, so weight is a factor, and also because the survival of astronauts on the moon can’t be dependent on the timely shipment of supplies,” said study co-author Sara Oliveira Santos, a postdoctoral researcher at the University of Texas Institute for Geophysics."
+            },
+            {
+                "type": "text",
+                "value": "“Plants would also help produce oxygen and enhance life-support systems for future ⁠human settlements,” said astrobiologist Jyothi Basapathi Raghavendra of Northumbria University in England, lead author of a second study published on Thursday (March 5, 2026) that examined growing conditions for microbes in simulated Martian soil."
+            },
+            {
+                "type": "text",
+                "value": "Moon soil is basically crushed rock and dust, often sharp and glass-like, formed over billions of ‌years by meteorite impacts. While it contains essential nutrients and minerals for plants to grow, it is inorganic and inhospitable, unlike the nutrient-rich and organic Earth soil."
+            },
+            {
+                "type": "text",
+                "value": "The root of a chickpea plant grows in a lunar soil simulant mixture inside a climate-controlled growth chamber at Texas A&M University in College Station, Texas, U.S., in this handout image. Photo: Jessica Atkin/Handout via Reuters"
+            },
+            {
+                "type": "text",
+                "value": "“Previous studies have shown plants can germinate in authentic lunar samples or grow in regolith simulants, often by adding compost or other types of organic matter,” Ms. Atkin said. “In this study, we focused on microorganisms. Instead of only adding organic material, we tested whether plant-microbe partnerships could help condition regolith, improve its structure and reduce plant stress.”"
+            },
+            {
+                "type": "heading",
+                "value": "How do they taste?"
+            },
+            {
+                "type": "text",
+                "value": "So what did these chickpeas taste like? We do not know yet."
+            },
+            {
+                "type": "text",
+                "value": "“The chickpeas are currently being tested for metal accumulation, which is why ‌we haven’t eaten them just yet,” Ms. Atkin said."
+            },
+            {
+                "type": "text",
+                "value": "Lunar regolith and the simulant used by the researchers contain high levels of metals such as aluminum and iron. Iron is an essential nutrient for plants. Aluminum is not, and can be toxic when consumed."
+            },
+            {
+                "type": "text",
+                "value": "“Before anyone makes moon hummus, we need to confirm they are safe and nutritious. Those results will be published in a follow-up paper later this year,” Ms. Atkin said."
+            },
+            {
+                "type": "text",
+                "value": "The fungi used to coat the seeds worked symbiotically with the chickpeas, helping the ⁠plants absorb some essential nutrients while reducing their uptake of heavy metals. The microorganisms successfully colonised roots even in 100% regolith simulant and helped bind loose particles, making regolith behave more like Earth soil."
+            },
+            {
+                "type": "text",
+                "value": "The researchers had some fun in ‌the laboratory. Ms. Atkin played lunar-themed songs such as Creedence Clearwater Revival’s “Bad Moon Rising” to encourage the plants. Ms. Atkin also hung a picture of chickpeas growing on the moon."
+            },
+            {
+                "type": "text",
+                "value": "“Kind of silly, but something to aim for,” Ms. Atkin said."
+            },
+            {
+                "type": "text",
+                "value": "“This is a small first step toward growing crops on the moon,” Oliveira Santos said, “but we have shown this is feasible and we are moving in the right direction.”"
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "All you need to know about: auto-brewery syndrome",
+        "url": "https://www.thehindu.com/sci-tech/health/all-you-need-to-know-about-auto-brewery-syndrome/article70769396.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "A small number of people in the world experience a strange condition in which they feel drunk, and exhibit signs and effects of drunkenness (like slurred speech and tipsyness), despite not having consumed any or very minimal amounts of alcohol."
+            },
+            {
+                "type": "text",
+                "value": "This medical condition, known as auto-brewery syndrome (ABS) or gut fermentation syndrome, is rather rare, and occurs when bacteria or fungi in the gut produce high levels of ethanol, especially after a carbohydrate-heavy meal, causing symptoms of intoxication."
+            },
+            {
+                "type": "text",
+                "value": "Instances of this condition were first reported in Japan in the 1950s, but it continues to be underdiagnosed. Apart from the physical effects, like stomach ache, nausea, vomiting, hangovers, and even alcohol poisoning when levels are too high, this syndrome can get in the way of normal life and also lead to serious legal and social consequences."
+            },
+            {
+                "type": "text",
+                "value": "Here’s all you need to know about auto-brewery syndrome:"
+            },
+            {
+                "type": "heading",
+                "value": "Why does ABS occur?"
+            },
+            {
+                "type": "text",
+                "value": "Our gut contains a wide variety of microbes, including some that produce alcohol, such as Saccharomyces cerevisiae, also known as brewer’s yeast. Usually, after consuming carbohydrate-rich food, these microbes produce a minuscule amount of ethanol, which, under ideal circumstances, is metabolised before it reaches the bloodstream."
+            },
+            {
+                "type": "text",
+                "value": "However, in people with auto-brewery syndrome, these microbes – whether fungi or bacteria – produce ethanol at high rates, making it difficult for the body to clear it properly and efficiently."
+            },
+            {
+                "type": "text",
+                "value": "Research suggests that the condition occurs due to an imbalance in gut microbes that results in the overgrowth of certain species, thereby causing rapid internal fermentation of carbohydrate-heavy meals."
+            },
+            {
+                "type": "text",
+                "value": "Studies have also found that this condition is more commonly reported in people with comorbidities such as diabetes, liver disease, Crohn’s disease, and gastrointestinal disorders. Frequent or long-term use of antibiotics is also seen as a contributing factor."
+            },
+            {
+                "type": "text",
+                "value": "Besides the gastrointestinal tract, some people, though highly rarely, may experience ABS in the oral cavity or the urinary system."
+            },
+            {
+                "type": "heading",
+                "value": "What are the effects of ABS?"
+            },
+            {
+                "type": "text",
+                "value": "Living with ABS can be challenging. Short-term symptoms include nausea, vomiting, poor coordination, disorientation, irritable bowel syndrome, and chronic fatigue syndrome. Those with the condition may also experience severe hangovers."
+            },
+            {
+                "type": "text",
+                "value": "The condition can also have long-term health impacts. Anxiety, depression, mood changes, and other mental health issues may develop over time."
+            },
+            {
+                "type": "text",
+                "value": "High levels of alcohol production in the body may also prevent individuals from driving, as they can test above legal limits; not to mention the risk of injuries from falls caused by disorientation."
+            },
+            {
+                "type": "text",
+                "value": "The symptoms may appear quite spontaneously and randomly, too. Going about normal life may, therefore, be difficult, with social relationships also being affected."
+            },
+            {
+                "type": "heading",
+                "value": "How to address ABS?"
+            },
+            {
+                "type": "text",
+                "value": "A doctor may diagnose a person with ABS after a series of tests, including a physical exam, blood tests, and a breathalyzer test. To assess the body’s response to carbohydrates, the medical practitioner may also perform an oral glucose tolerance test. A hydrogen breath test and a stool test are some other diagnostic measures."
+            },
+            {
+                "type": "text",
+                "value": "For treatment, correcting the imbalance of gut microbes is the first step. Lifestyle changes are key in this regard. Antibiotics or antifungals may be recommended, along with dietary modifications: increasing protein intake, reducing carbohydrates, and adding probiotic foods. Foods to avoid generally include refined foods, white rice, potatoes, foods with added sugars, and milk, among others."
+            },
+            {
+                "type": "text",
+                "value": "With the right kind of lifestyle changes and medication, ABS can be managed with minimal chances of a relapse in the future, according to research."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "Patna HC Chief Justice Sangam Kumar Sahoo inaugurates extended facilities of State dispensary at HC premises",
+        "url": "https://www.thehindu.com/news/national/bihar/patna-hc-chief-justice-sangam-kumar-sahoo-inaugurates-extended-facilities-of-state-dispensary-at-hc-premises/article70803469.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Patna High Court Chief Justice, Justice Sangam Kumar Sahoo on Monday (March 30, 2026) inaugurated the “extended facilities of State dispensary” located inside the high court premises."
+            },
+            {
+                "type": "text",
+                "value": "The facilities that will be available at the dispensary after the inauguration include free X-ray, ECG, eye check-up, physiotherapy, drug counters, official sources said."
+            },
+            {
+                "type": "text",
+                "value": "Justice Sahoo inaugurated these facilities after cutting the ribbon at a ceremony held at the premises in the presence of Justice Sudhir Kumar Singh, Justice Rajeev Ranjan Prasad, Justice Mohit Kumar Shah and other high court Judges, Health Department’s Secretary Lokesh Kumar Singh, high court officials, lawyers, staff and others."
+            },
+            {
+                "type": "text",
+                "value": "Chief Justice inspected X-Ray centre, Physiotherapy centre, drug distribution centre and the dispensary where both general medical officer and specialised doctors will see the patients as per the roster, official sources said adding that a person can check the availability of medicines at the centre by scanning the QR code."
+            },
+            {
+                "type": "text",
+                "value": "As per the roster, medical officer, skin specialist, paediatrician and homoeopathy doctors will be available at the dispensary every day, while the specialist doctors like Gynaecologist will sit in the dispensary on Monday, Physician on Tuesday, Orthopaedic Surgeon on Wednesday, Cardiologist on Thursday and Ophthalmologist on Friday."
+            },
+            {
+                "type": "text",
+                "value": "The lawyers’ bodies expressed happiness at the inauguration of the extended facilities at the premises. Lawyers from Advocates Association and Lawyers Association were also present in large numbers on the occasion."
+            },
+            {
+                "type": "text",
+                "value": "Asked who can avail the facilities at the dispensary, Advocates Association President Shailendra Kumar Singh said that the facilities will be available for high court Judges, its officials, staff and lawyers."
+            },
+            {
+                "type": "text",
+                "value": "“We are happy that the facilities at the dispensary have been extended. Earlier, there used to be a normal testing of Blood Pressure and a doctor used to sit at the dispensary, but now specialised treatment for cardiology, orthopaedics, eye, general health problem will be available here,” said Mr. Singh who was accompanied by his Vice President and his namesake Shailendra Kumar Singh."
+            },
+            {
+                "type": "text",
+                "value": "Lawyers Association General Secretary Rajeev Kumar Singh and its Joint Secretary Shailendra Kumar Singh welcomed the step and said that “now, X-ray machine has been installed, apart from a physiotherapy centre, free medicine will be distributed, cardio testing can be done apart from getting treated by specialised doctors who will be available as per roster."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "Mosquitoes carrying malaria are evolving more quickly than insecticides can kill them – researchers pinpoint how",
+        "url": "https://www.thehindu.com/sci-tech/health/mosquitoes-carrying-malaria-are-evolving-more-quickly-than-insecticides-can-kill-them-researchers-pinpoint-how/article70799413.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The fight against infectious disease is a race against evolution. Bacteria become resistant to antibiotics. Viruses adapt to spread more quickly. Diseases transmitted by insects present another evolutionary front: Insects themselves can evolve resistance to the poisons that people use to kill them."
+            },
+            {
+                "type": "text",
+                "value": "In particular, the mosquito-borne disease malaria kills over 600,000 people annually. Since World War II, people have battled malaria with insecticides – chemical weapons intended to kill Anopheles mosquitoes infected with the Plasmodium parasites that cause the disease."
+            },
+            {
+                "type": "text",
+                "value": "However, mosquitoes are quickly evolving counterstrategies that make these insecticides ineffective, putting millions of people at greater risk of deadly infection. My colleagues and I have newly published research showing how."
+            },
+            {
+                "type": "heading",
+                "value": "Insecticide resistance threatens public health"
+            },
+            {
+                "type": "text",
+                "value": "As an evolutionary geneticist, I study natural selection – the basis for adaptive evolution. Genetic variants that best promote survival can replace less advantageous versions, causing species to change. Anopheles mosquitoes are frustratingly adept at evolving."
+            },
+            {
+                "type": "text",
+                "value": "In the mid-1990s, most African Anopheles were susceptible to pyrethroids, a popular type of insecticide originally derived from chrysanthemums. Anopheles control relies on two pyrethroid-based methods: insecticide-treated bed nets to protect sleepers, and indoor residual spraying of insecticide against the walls of homes. These two methods alone likely prevented over a half-billion cases of malaria between 2000 and 2015."
+            },
+            {
+                "type": "text",
+                "value": "However, mosquitoes today from Ghanato Malawi are often able to survive insecticide concentrations 10 times the previously lethal dose. Along with Anopheles control efforts, agriculture also inadvertently exposes mosquitoes to pyrethroids and contributes to insecticide resistance."
+            },
+            {
+                "type": "text",
+                "value": "In some African locales, Anopheles is already showing resistance to all four main classes of insecticide used for malaria control."
+            },
+            {
+                "type": "heading",
+                "value": "Adaptation in Latin American mosquitoes"
+            },
+            {
+                "type": "text",
+                "value": "Anopheles mosquitoes and the malaria-causing Plasmodium also occur outside Africa, where insecticide resistance is less well-researched."
+            },
+            {
+                "type": "text",
+                "value": "In much of South America, the main malaria vector is Anopheles darlingi. This mosquito species has diverged evolutionarily from the African vectors so extensively that it might be a different genus, Nyssorhynchus. Along with colleagues from eight countries, I analyzed over 1,000 Anopheles darlingi genomes to understand its genetic diversity, including any recent changes due to human activity. My collaborators collected these mosquitoes at 16 locations ranging from the Atlantic coast of Brazil to the Pacific side of the Andes in Colombia."
+            },
+            {
+                "type": "text",
+                "value": "We found that, like its African counterparts, Anopheles darlingi shows extremely high genetic diversity – more than 20 times that of humans – indicating that very large populations of this insect exist. A species with such a vast gene pool is well poised to adapt to new challenges. The right mutation giving it the advantage it needs is more likely to pop up when there are so many individuals. And once that mutation starts to spread, it’s protected by numbers since it won’t be wiped out if a few mosquitoes die by chance."
+            },
+            {
+                "type": "text",
+                "value": "In contrast, bald eagles in the contiguous U.S. were never able to evolve resistance against the insecticide DDT and approached extinction. Evolution is more efficient among millions of insects than mere thousands of birds. And indeed, we saw signals of adaptive evolution in the resistance-related genes of Anopheles darlingi occurring over the past few decades."
+            },
+            {
+                "type": "heading",
+                "value": "Mosquitoes evolve to detoxify poisons"
+            },
+            {
+                "type": "text",
+                "value": "Insecticides like pyrethroids and DDT share the same molecular target: channels in nerve cells that can open and close. When open, the nerve cell stimulates other cells. These insecticides force the channels to remain open and continuously fire, causing paralysis and death. However, insects can evolve resistance by changing the shape of the channel itself."
+            },
+            {
+                "type": "text",
+                "value": "Earlier genetic scans performed by other researchers had not detected this type of resistance in Anopheles darlingi, and neither did ours. Instead, we found that resistance is evolving in another way: a group of genes encoding enzymes that break down toxic compounds. High activity of these enzymes, called P450, frequently underlies resistance to insecticides in other mosquitoes. The same cluster of P450 genes has changed independently at least seven times across South America since insecticide use began in the mid-20th century."
+            },
+            {
+                "type": "text",
+                "value": "In French Guiana, a different set of P450 genes exhibits a similar evolutionary pattern, cementing the clear connection between these enzymes and adaptation. Moreover, when we exposed mosquitoes to pyrethroids in sealed bottles, differences among the P450 genes of individual mosquitoes were linked to the length of time they stayed alive."
+            },
+            {
+                "type": "text",
+                "value": "Insecticide-heavy campaigns against malaria have been only sporadic in South America and may not be the main driver behind this evolution. Instead, it’s possible that mosquitoes are being exposed indirectly to agricultural insecticides. Intriguingly, we saw the strongest signs of evolution in places where farming is prevalent."
+            },
+            {
+                "type": "heading",
+                "value": "Toward more sophisticated vector control"
+            },
+            {
+                "type": "text",
+                "value": "Despite new vaccines and other recent advances against malaria, mosquito control remains essential for reducing disease."
+            },
+            {
+                "type": "text",
+                "value": "Some countries are launching trials of gene drivesto controlmalaria, which involve forcing a genetic modification into a mosquito population to reduce their numbers or their tolerance for Plasmodium. Such prospects are exciting, though the relentless adaptability of mosquitoes could be an obstacle."
+            },
+            {
+                "type": "text",
+                "value": "I and others are revising methods to efficiently test for emerging insecticide resistance. Genome-scale sequencing remains important to detect new or unexpected evolutionary responses. The risk of adaptation is highest under a continuous, strong selection pressure, so minimizing, switching and staggering pesticides can help thwart resistance."
+            },
+            {
+                "type": "text",
+                "value": "Success in the fight against evolving resistance will require a coordinated effort of monitoring, and reacting accordingly. Unlike evolution, humans can think ahead."
+            },
+            {
+                "type": "text",
+                "value": "(Jacob A Tennessen, Research Scientist in Immunology and Infectious Diseases, Harvard University)"
+            },
+            {
+                "type": "text",
+                "value": "This article is republished from The Conversation under a Creative Commons license. Read the original article here: https://theconversation.com/mosquitoes-carrying-malaria-are-evolving-more-quickly-than-insecticides-can-kill-them-researchers-pinpoint-how-275391."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Science",
+        "title": "T.K. Radha: from Kerala to Oppenheimer",
+        "url": "https://www.thehindu.com/society/t-k-radha-from-kerala-to-oppenheimer/article70666051.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "In the late 1930s, in a small corner of Thayyur, Thrissur, a couple had their third girl child, and no one ever predicted that she would later become one of the first Indian women and Malayali to meet the father of the atomic bomb, J. Robert Oppenheimer. This is the story of T.K. Radha."
+            },
+            {
+                "type": "text",
+                "value": "Growing up in a village, T.K. Radha often described her childhood through studying under kerosene lamps surrounded by nature. Quite good at studies, her sisters motivated their parents to send Radha to study intermediate (class 11 and 12 at present times)."
+            },
+            {
+                "type": "text",
+                "value": "She then went on to study at Stella Maris College in Chennai (erstwhile Madras) and managed to score a 100% in mathematics and 98% in Physics. Due to her keen interest in the subject, she went on to do a Physics honours degree at Presidency College despite societal concerns about it being a co-education system."
+            },
+            {
+                "type": "heading",
+                "value": "The birth of a physicist"
+            },
+            {
+                "type": "text",
+                "value": "Passing with flying colours and a gold medal from Presidency College, Radha then decided to pursue a master’s degree in Nuclear Physics at Madras University under the mentorship of Professor Aladi Ramakrishnan. Particle Physics was an upcoming subject back then, and Radha was able to explore the same more during this period. Being an upcoming university filled with a brilliant generation of Indian researchers, several foreign phycists Robert Marshak, and Niels Bohr often visited their campus, giving them much bigger exposure in the world of physics."
+            },
+            {
+                "type": "text",
+                "value": "Radha went on to complete her PhD under Professor Alladi Ramakrishnan and even attended a cummer school on Elementary Particle physics in Trieste, Italy. This caught the eye of two eminent physicists of the time, Professor Leonard I. Schiff and Professor Robert Marshak, who both offered her post-doctoral fellowships at universities like Stanford and Rochester. This, in the 1960s, is the testimony to her brilliance in the field."
+            },
+            {
+                "type": "heading",
+                "value": "The turning point"
+            },
+            {
+                "type": "text",
+                "value": "It was in 1965 that the historical turning point of T.K. Radha’s life came when J. Robert Oppenheimer himself sent a letter to her inviting her to spend an academic year at the Institute of Advanced Studies in Princeton."
+            },
+            {
+                "type": "text",
+                "value": "As mentioned by T.K. Radha in an interview with the Malayalam daily Mathrubhumi, “I met Prof. Oppenheimer one-on-one within a few days of my arrival,” she recalled. “He was a very kind man. When he heard from his secretary that I had paid my airfare to New York out of my pocket, he asked me to meet him and immediately issued a cheque for the amount. We discussed my research work whenever I had the opportunity to see him.”"
+            },
+            {
+                "type": "text",
+                "value": "By mid 1966, Radha was ready to return to India and expand the Indian science scene with the exposure and experience she gained at Princeton. Enroute her journey was a seminar scheduled at Edmonton, Canada, where her life shifted after meeting her future husband, Dr Vembu Gourishankar, a professor of Electrical Engineering there."
+            },
+            {
+                "type": "text",
+                "value": "Soon, she got married and continued to teach in Canada until she decided to prioritise motherhood. The societal shifts happening around the same time were quite rapid, and the universities Radha tried to approach afterwards were not looking to hire women, especially women who had husbands with jobs."
+            },
+            {
+                "type": "text",
+                "value": "However, that never stopped Radha from diving into more complex studies, and soon she trained herself in computer science and worked as a computer analyst at the University of Alberta’s Physics Department for more than a decade. Her expertise in both physics and computer science made her stand out in the area. She was publishing papers throughout the same time, and several professors also made her a co-author on their papers as well."
+            },
+            {
+                "type": "text",
+                "value": "A gem who broke many barriers and achieved what many only dreamt of, Radha Gourishankar remains an inspiring name and mentor for physicists around the world."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Internet",
         "title": "Indonesia summons Meta and Google over non-compliance with child social media curbs, minister says",
         "url": "https://www.thehindu.com/sci-tech/technology/indonesia-summons-meta-and-google-over-non-compliance-with-child-social-media-curbs-minister-says/article70805608.ece",
         "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
