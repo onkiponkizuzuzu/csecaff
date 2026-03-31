@@ -1,5 +1,127 @@
 [
     {
+        "category": "Internet",
+        "title": "Australia investigates tech giants over social media ban compliance",
+        "url": "https://www.thehindu.com/sci-tech/technology/australia-investigates-tech-giants-over-social-media-ban-compliance/article70805599.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Australian internet regulator said it was investigating ‌five of the biggest social media platforms for suspected breaches of its new under-16 ban, its strongest signal yet that companies may face ⁠enforcement action under a world-first regime."
+            },
+            {
+                "type": "text",
+                "value": "The announcement marks the government’s first public assessment of compliance with the law that is being studied by policymakers globally. Weak adherence by the biggest platforms could undermine ‌the momentum of governments considering similar restrictions. eSafety Commissioner Julie Inman Grant said Meta’s Facebook and Instagram, Snapchat, TikTok and Google’s YouTube had been flagged for ‌potential noncompliance and the watchdog was gathering evidence for possible penalties, with a ‌decision ⁠by mid-year."
+            },
+            {
+                "type": "text",
+                "value": "“While social media platforms have taken some initial action, I am ⁠concerned through our compliance monitoring that some may not be doing enough to comply with Australian law,” she said in a statement."
+            },
+            {
+                "type": "text",
+                "value": "“We are now moving into an enforcement stance,” Inman Grant added."
+            },
+            {
+                "type": "text",
+                "value": "Meta and Snap said they were committed to complying ‌with the ban, and a Meta spokesperson added the government’s own trial of age-assurance technology found “natural error margins” around the 16 age cutoff."
+            },
+            {
+                "type": "text",
+                "value": "TikTok declined to comment while a Google spokesperson was not immediately available for comment."
+            },
+            {
+                "type": "text",
+                "value": "Under the Australian law, platforms ‌face a fine of up to A$49.5 million ($34 million) for noncompliance, and the regulator added on Tuesday they also faced reputational damage if found in breach of the law."
+            },
+            {
+                "type": "text",
+                "value": "The global push for ⁠greater regulation of such platforms has gained momentum after U.S. courts found social media companies negligent for designing addictive algorithms that hurt children. Australia’s eSafety initially hailed the ban’s success, ‌saying in the initial weeks the platforms took down 4.7 million suspected underage accounts, and on Tuesday it said platforms had stopped another 300,000 underage accounts being activated."
+            },
+            {
+                "type": "text",
+                "value": "But the regulator reported compliance gaps, including platforms prompting children who had previously declared ages under 16 to do fresh age checks, allowing repeated attempts at age-assurance tests until a child got a result over 16 and poor pathways for people to report ‌underage accounts."
+            },
+            {
+                "type": "text",
+                "value": "Some platforms did not use age-inference, which estimates age based on someone’s online activity, and some only used age-assurance measures like photo-based checks after a user tried to change their age, rather than at sign-up."
+            },
+            {
+                "type": "text",
+                "value": "That made it “likely many Australian ⁠children aged under 16 have been able to create accounts on age-restricted social media platforms by ⁠simply declaring they are 16 or older”, the regulator said."
+            },
+            {
+                "type": "text",
+                "value": "Nearly one-third of parents reported their under-16 child had at least one social media account ‌after the ban took effect, of which two-thirds said the platform had not asked the child’s age, it added."
+            },
+            {
+                "type": "text",
+                "value": "Communications Minister Anika Wells accused the platforms of using tactics “right out of the big-tech playbook ... to undermine Australia’s world-leading law”."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
+        "category": "Health",
+        "title": "Short bouts of vigorous activity daily could lower risk of 8 major conditions: Study",
+        "url": "https://www.thehindu.com/sci-tech/health/short-bouts-of-vigorous-activity-daily-could-lower-risk-of-8-major-conditions-study/article70806373.ece",
+        "image": "https://www.thehindu.com/theme/images/th-online/1x1_spacer.png",
+        "content": [
+            {
+                "type": "text",
+                "value": "Just a few minutes of vigorous activity each day may lower one's risk of eight major conditions, including arthritis, heart, liver and kidney disease and dementia, according to a study."
+            },
+            {
+                "type": "text",
+                "value": "While short bursts of intense, out-of-breath activity, such as running for the bus, were liked to lower disease and death risk overall, they were especially protective against inflammatory diseases, including arthritis, serious cardiovascular disease (heart attack and stroke) and dementia, the findings, published in the European Heart Journal show."
+            },
+            {
+                "type": "text",
+                "value": "Physical activity is known to bring down risk of chronic disease and premature death, with vigorous activity providing more benefits per minute."
+            },
+            {
+                "type": "text",
+                "value": "\"But questions remain about the importance of intense activity versus total physical activity,\" author Minxue Shen, from the Xiangya School of Public Health at Central South University in China, said."
+            },
+            {
+                "type": "text",
+                "value": "\"For example, if two people do the same total amount of activity, does the person who exercises more vigorously gain greater health benefits? And if someone has limited time, should they focus on exercising harder rather than longer?\" Shen said."
+            },
+            {
+                "type": "text",
+                "value": "The researchers analysed data of more than 96,400 people from the UK Biobank. Accelerometers worn on the wrist for a week helped measure movements, including brief bouts of vigorous activity that people often forget, they said."
+            },
+            {
+                "type": "text",
+                "value": "The data was compared with the chances of dying or developing eight serious health conditions in the following seven years -- major cardiovascular disease, irregular heartbeat, type 2 diabetes, immune-mediated inflammatory diseases, liver disease, chronic respiratory diseases, chronic kidney disease and dementia."
+            },
+            {
+                "type": "text",
+                "value": "\"Participants with (more than) four per cent VPA (vigourous physical activity) had 29-61 per cent lower risks of these outcomes compared with those with 0 (zero) per cent VPA,\" the authors wrote."
+            },
+            {
+                "type": "text",
+                "value": "For example, compared with those who did no vigorous activity at all, people with the highest levels had a 63% lower risk of developing dementia, a 60% lower risk of type 2 diabetes and 46% lower risk of dying. These benefits were seen even with relatively small amount of exercise."
+            },
+            {
+                "type": "text",
+                "value": "Shen said, \"Vigorous physical activity appears to trigger specific responses in the body that lower-intensity activity cannot fully replicate. During vigorous physical activity -- the kind that makes you feel out of breath -- your body responds in powerful ways. Your heart pumps more efficiently, your blood vessels become more flexible, and your body improves its ability to use oxygen.\" Further, intensity of vigorous activity appeared to be a key factor in lowering risk of inflammatory conditions such as arthritis and psoriasis."
+            },
+            {
+                "type": "text",
+                "value": "\"It (vigourous activity) may also stimulate chemicals in the brain that help keep brain cells healthy, which could help explain the lower risk of dementia,\" Shen said."
+            },
+            {
+                "type": "text",
+                "value": "However, for conditions such as diabetes and chronic liver disease, both the duration and intensity they exercised for were found to be important."
+            },
+            {
+                "type": "text",
+                "value": "The author recommended, \"Adding short bursts of activity that make you slightly breathless into daily life, like taking the stairs quickly, walking fast between errands or playing actively with children, can make a real difference.\" \"Even 15 to 20 minutes per week of this kind of effort -- just a few minutes a day -- was linked to meaningful health benefits,\" Shen said."
+            }
+        ],
+        "date": "2026-03-31"
+    },
+    {
         "category": "Science",
         "title": "What is quantum entanglement?",
         "url": "https://www.thehindu.com/sci-tech/science/what-is-quantum-entanglement/article70806461.ece",
