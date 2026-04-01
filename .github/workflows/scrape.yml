@@ -2,10 +2,14 @@ name: Scheduled Hindu Scrape
 
 on:
   schedule:
-    - cron: '25 10 * * *' # 8:00 AM IST and 4:00 PM IST
-      timezone: "Asia/Kolkata" 
+    # 8:30 AM IST (03:00 UTC)
+    - cron: '0 3 * * *'
+    # 2:30 PM IST (09:00 UTC)
+    - cron: '0 9 * * *'
+    # 10:53 AM IST (05:23 UTC)
+    - cron: '23 5 * * *'
   workflow_dispatch:
-
+  
 jobs:
   scrape:
     runs-on: ubuntu-latest
