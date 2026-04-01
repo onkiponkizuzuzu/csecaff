@@ -2,7 +2,8 @@ name: Scheduled Hindu Scrape
 
 on:
   schedule:
-    - cron: '30 2,10 * * *'   # 8:00 AM IST and 4:00 PM IST
+    - cron: '25 10 * * *' # 8:00 AM IST and 4:00 PM IST
+      timezone: "Asia/Kolkata" 
   workflow_dispatch:
 
 jobs:
