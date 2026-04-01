@@ -2,12 +2,14 @@ name: Scheduled Hindu Scrape
 
 on:
   schedule:
-    # 8:30 AM IST (03:00 UTC)
-    - cron: '0 3 * * *'
-    # 2:30 PM IST (09:00 UTC)
-    - cron: '0 9 * * *'
-    # 10:53 AM IST (05:23 UTC)
-    - cron: '23 5 * * *'
+    # 5:00 AM IST
+    - cron: '30 23 * * *'
+    # 11:00 AM IST
+    - cron: '30 5 * * *'
+    # 12:00 PM (Noon) IST
+    - cron: '30 6 * * *'
+    # 6:00 PM IST
+    - cron: '30 12 * * *'
   workflow_dispatch:
   
 jobs:
