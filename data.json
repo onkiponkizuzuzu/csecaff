@@ -1,5 +1,1485 @@
 [
     {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Prelims ‘SEE’ Snapshot : Induction cooktop, Forex reserve, and Earth’s energy imbalance — quick look",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-snapshot-induction-cooktop-forex-earths-energy-imbalance-10609136/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Struggling with tricky and important concepts in UPSC Prelims? The exam increasingly tests your conceptual clarity and ability to apply core ideas, especially in the most dynamic subjects: Science, Economy, and Environment (SEE).</span>"
+            },
+            {
+                "type": "text",
+                "value": "UPSC Essentials’ new initiative,<strong> UPSC Prelims ‘SEE’ Snapshot,</strong> brings you, every <span style=\"color: #ff0000\"><strong>Wednesday</strong></span>, a quick, exam-focused revision of key concepts. In each article, we pick three important current themes from Science, Economy, and Environment and decode them strictly through the Prelims lens—focusing on concepts and clarity."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-see-snapshot-talking-cars-gdp-rebasing-norwesters-10600094/\"><strong>If you missed the previous UPSC Prelims ‘SEE’ Snapshot: Talking cars, GDP rebasing and Nor’westers — quick look from the Indian Express, read it here.</strong></a>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>Science</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #000080\"><b>Induction cooktop Technology</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Why it matters</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The war in West Asia has resulted in a</span><a href=\"https://indianexpress.com/article/explained/explained-sci-tech/how-an-induction-cooktop-works-10594384/\"><span style=\"font-weight: 400\"> severe disruption to cooking gas </span></a><span style=\"font-weight: 400\">supplies in India and driven up the price of LPG cylinders. This has led to a surge in the sale of induction cooktops in the country. How does it manage to cook food? The answer to that lies in the simple concept of electromagnetic induction.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Core Concept</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Traditional gas stoves rely on combustion to create an open flame. But an induction cooktop bypasses this combustive chemical reaction. Its glass surface also remains relatively cool.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Beneath the smooth ceramic or glass surface of an induction cooktop sits a tightly wound coil of copper wire. Switching the stove on completes the circuit and allows the flow of alternating current (AC) through the wire. The alternating current generates a rapidly fluctuating magnetic field directly above the cooktop.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— This changing magnetic field passes effortlessly through the glass surface and the surrounding air without heating either the surface or the air. This allows the cooktop surface to largely maintain its temperature. Any warmth it acquires is from contact with the hot pan.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— </span><span style=\"font-weight: 400\">So how does the food get hot? Here’s where we get into some science, specifically Faraday’s Law of Induction. This law says that a changing magnetic field shall induce a voltage and, consequently, an electric current in any and all nearby electrical conductors — for example metal.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— So when the metal pan sits inside this intensely fluctuating magnetic field, it acts as a conductor. And localised, swirling electrical currents are generated inside the bottom of the pan itself. Known as eddy currents, these are pivotal to the heat-generation process.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— But metals such as iron are not perfect conductors. They have an inherent electrical resistance. So when the eddy currents swirl through the atomic structure of the pan’s base, they encounter this resistance. The ensuing electrical friction between the two converts the kinetic energy of the moving electrons directly into thermal energy (heat).</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— When the pan itself becomes the primary heat source, the energy transfer also becomes efficient. Induction cooktops convert about 85% to 90% of their electrical energy directly into cooking heat.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #0000ff\"><b>📍</b></span><b><span style=\"color: #0000ff\">UPSC Twist Points:</span> Induction cooktops vs LPG stoves</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>— Induction cooktops:</b><span style=\"font-weight: 400\"> works on electromagnetic induction, eddy currents, and resistance heating. Induction cooking is faster, safer and ultimately a highly resilient alternative to unpredictable fossil fuels. However, they are less durable than LPG stoves, harder to repair, dependent on electricity and not compatible with all cooking styles.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>— LPG stoves: </b><span style=\"font-weight: 400\">works on combustion and transfer heat mainly through radiation and convection. Traditional LPG stoves hover around 40% to 50% efficiency. However, a gas flame loses a massive amount of its thermal energy to the ambient air around the pot.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>Economy</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #000080\"><b>Forex reserves</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Why it matters</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Due to ongoing </span><a href=\"https://indianexpress.com/article/explained/explained-economics/are-indias-forex-reserves-really-adequate-to-provide-cushion-against-external-shocks-10601845/\"><span style=\"font-weight: 400\">West Asian conflict India is facing pressure </span></a><span style=\"font-weight: 400\">on the rupee and foreign exchange reserves. Last week, the Reserve Bank of India (RBI) said India’s foreign exchange reserves “remain adequate to provide cushion against external shocks”. Thus, it becomes important to know the forex reserves.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Core Concept</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Foreign exchange reserves are an important component of the Balance of Payment (BoP) and an essential element in the analysis of an economy’s external position. In times of crisis, adequate foreign exchange reserves give comfort, acting as a buffer and giving strength to a country’s macroeconomic fundamentals.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The RBI has the primary responsibility of collection, compilation and dissemination of data relating to foreign exchange reserves.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>— </b><span style=\"font-weight: 400\">India’s foreign exchange reserves comprise </span><b>foreign currency assets (FCA), gold, special drawing rights (SDRs) and reserve tranche position (RTP) in the International Monetary Fund (IMF).&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Foreign exchange reserves are accumulated when there is absorption of the excess foreign exchange flows by the RBI through intervention in the foreign exchange market, aid receipts, interest receipts, and funding from the International Bank for Reconstruction and Development (IBRD), Asian Development Bank (ADB), International Development Association (IDA), etc.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #0000ff\"><b>📍</b><b>UPSC Twist Points: </b></span><b>Special Drawing Rights v/s Reserve Tranche Position (RTP)</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— </span><strong>Special Drawing Rights: </strong><span style=\"font-weight: 400\">SDRs are international foreign exchange reserve assets. Allocated to nations by the IMF, a SDR represents a claim to foreign currencies for which it may be exchanged in times of need. SDRs are the IMF’s unit of account. The value of SDRs is based on a basket of five currencies – the US dollar, the euro, the Chinese renminbi, the Japanese yen, and the pound sterling. As of March 13, India’s SDR holdings were worth $18.7 billion.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\"><strong>— Reserve Tranche Position:</strong> The primary means of financing the IMF is through members’ quotas. Each member of the IMF is assigned a quota, part of which is payable in SDRs or specified usable currencies (“reserve assets”), and part in the member’s own currency. The difference between a member’s quota and the IMF’s holdings of its currency is a country’s RTP. India’s reserve position is worth $4.8 billion.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>Environment</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Earth’s energy imbalance</b>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Why it matters</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The global climate is in a </span><a href=\"https://indianexpress.com/article/world/climate-change/global-climate-emergency-energy-imbalance-reaches-record-high-wmo-10596183/\"><span style=\"font-weight: 400\">state of emergency </span></a><span style=\"font-weight: 400\">as the earth is dealing with a record energy imbalance, the World Meteorological Organization (WMO) said in its recently released State of the Global Climate report 2025. The 2025 report for the first time included the </span><b>earth’s energy imbalance</b><span style=\"font-weight: 400\"> as one of the key climate indicators. Earth’s energy imbalance is the highest in a sixty five-year record.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Core Concept</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— According to WMO, earth’s energy balance measures the rate at which energy comes in and leaves the Earth system.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Under a stable climate, energy received by the earth from the sun is almost the same as the amount of outgoing energy. However, </span><b>rising concentrations of atmospheric greenhouse gases</b><span style=\"font-weight: 400\"> — carbon dioxide, methane and nitrous oxide — to their maximum level in at least 800,000 years have upset this energy equilibrium on earth.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #0000ff\"><b>📍</b></span><b><span style=\"color: #0000ff\">UPSC Twist Points:</span> Albedo v/s </b><b>Earth’s energy balance</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Albedo is the percentage of light that a surface reflects. It refers to how much energy a surface reflects. If everything is reflected, the albedo equals one. If 30% is reflected, the albedo is 0.3. The albedo of the Earth’s surface (atmosphere, ocean, and land) affects how much incoming solar energy, or light, is promptly reflected back into space. This could have an impact on the climate.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Dark colours have an albedo near 0, indicating that little or no energy is reflected. Pale colours have an albedo close to 100%, which means that almost all of the energy is reflected.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Notably, albedo affects incoming energy absorption, whereas energy imbalance measures net energy difference. So:</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b><i>Prelims Practice MCQ</i></b></span>"
+            },
+            {
+                "type": "text",
+                "value": "<b><i>Let’s see how much can you recall</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Consider the following statements:</span>"
+            },
+            {
+                "type": "text",
+                "value": "1. In an induction cooktop, heat is generated directly in the cooking vessel due to eddy currents induced by a changing magnetic field."
+            },
+            {
+                "type": "text",
+                "value": "2. India’s foreign exchange reserves are maintained and managed by the Reserve Bank of India."
+            },
+            {
+                "type": "text",
+                "value": "3. Earth’s energy imbalance refers to the proportion of incoming solar radiation that is reflected back into space by the Earth’s surface and atmosphere."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">How many of the statements given above are correct?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) Only one</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(b) Only two</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(c) All three</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(d) None</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Also subscribe to our</b><a href=\"https://indianexpress.com/newsletters/upsc-essentials/\"><b> UPSC newsletter.</b></a><b> Stay updated with the latest UPSC articles by joining our Telegram channel –</b><a href=\"https://indianexpress.com/\"><b> Indian Express</b></a><b> UPSC Hub, and follow us on</b><a href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"nofollow\"><b> Instagram</b></a><b> and X.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>🚨 </b><a href=\"https://epaper.indianexpress.com/4129388/UPSC-Essentials/March-16-2026#page/1/1\" rel=\"nofollow\"><b>Click Here</b></a><b> to read the UPSC Essentials magazine for March 2026. Share your views and suggestions in the comment box or at manas.srivastava@</b><a href=\"https://indianexpress.com/\"><b>indianexpress.com</b></a><b>🚨</b>"
+            }
+        ],
+        "date": "2026-04-03"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Key: Jurisdiction over Strait of Hormuz, Childhood cancers and NCERT",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-jurisdiction-over-strait-of-hormuz-childhood-cancers-and-ncert-10617651/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<strong>Important topics and their relevance in UPSC CSE exam for April 3, 2026.&nbsp;<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-key-bhojshala-fcra-bill-2026-and-samrat-samprati-maurya-10615822/\" class=\"\">If you missed the April 2, 2026 UPSC CSE exam key from the Indian Express, read it here</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Front Page</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/india/west-asia-war-us-iran-india-flags-unimpeded-transit-60-nation-meet-calls-for-reopening-hormuz-10616222/\" class=\"\">India joins 60 nations at UK meeting calling for opening Strait of Hormuz</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Syllabus:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> With the shipping&nbsp;<a href=\"https://indianexpress.com/article/explained/explained-global/iran-strait-of-hormuz-toll-10603622/\" class=\"\">disruption in the Strait of Hormuz</a>&nbsp;impacting energy supplies to India, Foreign Secretary Vikram Misri joined a meeting of more than 60 countries, convened Thursday by the UK, on reopening the crucial waterway where he underlined the principles of “freedom of navigation” and “unimpeded transit”."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• <strong>Map Work</strong>– Strait of Hormuz"
+            },
+            {
+                "type": "text",
+                "value": "• Which country has jurisdiction over Strait of Hormuz?"
+            },
+            {
+                "type": "text",
+                "value": "• Is it legal to blockade international waters?"
+            },
+            {
+                "type": "text",
+                "value": "• How has Iran blockaded the Strait of Hormuz?"
+            },
+            {
+                "type": "text",
+                "value": "• What is Exclusive Economic Zone?"
+            },
+            {
+                "type": "text",
+                "value": "• What United Nations Convention on the Law of the Sea (UNCLOS) says?"
+            },
+            {
+                "type": "text",
+                "value": "• With military operations in the Strait of Hormuz, what is the impact on India’s energy supplies likely to be?"
+            },
+            {
+                "type": "text",
+                "value": "• Iran’s ‘toll-booth system’ in the Strait of Hormuz-why it is said so?"
+            },
+            {
+                "type": "text",
+                "value": "• Is collecting formal tolls for the Strait of Hormuz legal?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Misri’s remarks found an echo in the Chair’s statement following the meeting. The statement issued by the British government said the partners called for the “immediate and unconditional reopening” of the Strait and respect for the “fundamental principles of freedom of navigation and the law of the sea”."
+            },
+            {
+                "type": "text",
+                "value": "• The statement said “Iran’s closure of the Strait of Hormuz is a direct threat to global prosperity” and “Iran is trying to hold the global economy hostage” and “must not prevail”."
+            },
+            {
+                "type": "text",
+                "value": "• The Associated Press, reporting from London, said Thursday’s meeting is considered a first step, to be followed by “working-level meetings” of officials to hammer out details."
+            },
+            {
+                "type": "text",
+                "value": "• In a statement, the Ministry of External Affairs said, “Foreign Secretary (Misri) represented India at a meeting convened by the UK Foreign Secretary on the situation in West Asia. More than 60 countries participated in the meeting.” The MEA statement said, “Foreign Secretary (Misri) noted the importance of the principles of freedom of navigation and unimpeded transit through international waterways”."
+            },
+            {
+                "type": "text",
+                "value": "• He also conveyed the impact on India’s energy security and the toll on Indian seafarers due to the ongoing conflict between US-Israel and Iran."
+            },
+            {
+                "type": "text",
+                "value": "• A total of 18 Indian-flagged vessels with 485 Indian seafarers continue to remain in the western Persian Gulf region."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The Strait of Hormuz is the key channel through which 20 per cent of the global energy supply – and majority of the gas supply from Qatar – passes in large carriers. Qatar, UAE, Kuwait have all been hit by the closure of the Strait, and that has led to a global rise in prices of oil and gas, and impacted the supply of cooking gas in India and other countries."
+            },
+            {
+                "type": "text",
+                "value": "• According to Section 38 of the United Nations Convention on the Law of the Sea (UNCLOS), all ships (commercial and military) enjoy the right of transit passage. This means they can pass through the strait solely for continuous and expeditious transit between one part of the high seas (or EEZ) and another. Also, such vessels must not be a threat to the bordering nations (UNCLOS Article 39)."
+            },
+            {
+                "type": "text",
+                "value": "• Article 44 of the UNCLOS states that coastal states — Iran and Oman, in this case — “shall not hamper” or suspend this passage."
+            },
+            {
+                "type": "text",
+                "value": "• Charging a fee is legally interpreted as “hampering” passage because it turns a sovereign right into a conditional permit. Attacking a ship for entering the strait is, obviously, illegal as per international law."
+            },
+            {
+                "type": "text",
+                "value": "• While Iran is a signatory of the UNCLOS, 1982, it has not ratified the treaty, and therefore, refuses to acknowledge the law."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/explained-economics/expert-explains-strait-of-hormuz-is-simply-too-vital-an-artery-10560506/\" class=\"\">Expert Explains: ‘The Strait of Hormuz is simply too vital an artery to remain closed for too long’</a>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/explained-global/what-trump-iran-war-speech-mean-for-india-10614746/\" class=\"\">Trump speech: 5 takeaways, and what India must prepare for</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n1) With reference to the United Nations Convention on the Law of Sea, consider the following statements: <strong>(UPSC CSE, 2022)</strong><br>\n1. A coastal state has the right to establish the breadth of its territorial sea up to a limit not exceeding 12 nautical miles, measured from baseline determined in accordance with the convention.<br>\n2. Ships of all states, whether coastal or land-locked, enjoy the right of innocent passage through the territorial sea.<br>\n3. The Exclusive Economic Zone shall not extend beyond 200 nautical miles from the baseline from which the breadth of the territorial sea is measured.<br>\nWhich of the statements given above are correct?<br>\n(a) 1 and 2 only<br>\n(b) 2 and 3 only<br>\n(c) 1 and 3 only<br>\n(d) 1, 2 and 3"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Politics</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/india/india-defence-exports-hit-rs-38424-crore-in-fy26-rajnath-lauds-62-surge-10614871/\" class=\"\">India’s defence exports rose by 62.66% in ’25-26 to reach all-time high of Rs 38,424 cr</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:&nbsp;</strong>Current events of national and international importance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> India’s defence exports in the Financial Year (FY) 2025-26 reached a record Rs 38,424 crore, registering a 62% year-on-year increase over the previous fiscal year’s figure of Rs 23,622 crore."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• India’s Defence Sector-What you know about the same so far?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the some important developments in India’s Defence Sector? (Assess before and after operation Sindoor)"
+            },
+            {
+                "type": "text",
+                "value": "• What are defence Public Sector Undertakings?"
+            },
+            {
+                "type": "text",
+                "value": "• Defence Acquisition Council-About, Role and Functions"
+            },
+            {
+                "type": "text",
+                "value": "• Why Defence Acquisitions Council was created?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the major defence PSUs (DPSUs) in India?"
+            },
+            {
+                "type": "text",
+                "value": "• Why there is surge in indigenous defence production?"
+            },
+            {
+                "type": "text",
+                "value": "• How India’s defence exports expanded over a time?"
+            },
+            {
+                "type": "text",
+                "value": "• What policy reforms are taken for defence sector?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the key issues and challenges with India’s defence sector?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Defence Public Sector Undertakings (DPSUs) and the private sector contributed 54.84% and 45.16% in registering the feat. Defence Minister <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/rajnath-singh/\">Rajnath Singh</a> lauded the Department of Defence Production, Indian defence exporters and asserted that India is marching ahead towards becoming a global manufacturing hub for defence equipment."
+            },
+            {
+                "type": "text",
+                "value": "• Compared to the last year, the DPSUs’ exports surged by 151%, with private firms showcasing robust growth by registering an increase of 14%. The private sector accounted for Rs 17,353 crore worth of defence exports, whereas the DPSUs contributed Rs 21,071 crore."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The global volume of major arms transfers between states in 2021–25 was 9.2 per cent higher than in the previous five-year period (2016–20), according to the latest report from the Stockholm International Peace Research Institute (SIPRI). It also stated that arms imports by states in Europe more than trebled between the two periods (+210 per cent)."
+            },
+            {
+                "type": "text",
+                "value": "• The volume of international transfers of major arms in 2021–25 was 9.2 per cent higher than in 2016–20. This was the biggest increase since 2011–15."
+            },
+            {
+                "type": "text",
+                "value": "• SIPRI has identified 66 states as suppliers of major arms in 2021–25. The five largest suppliers of major arms in 2021–25 were: the USA, France, Russia, Germany and China. These five countries accounted for 70 per cent of all arms exports."
+            },
+            {
+                "type": "text",
+                "value": "• SIPRI has identified 162 states and 4 non-state armed groups as recipients of major arms in 2021–25. The top five recipients of major arms in 2021–25 were—Ukraine, India, Saudi Arabia, Qatar and Pakistan— received 35 per cent of total global arms imports in the period."
+            },
+            {
+                "type": "text",
+                "value": "• Established in 1966, SIPRI is an independent international institute dedicated to research into conflict, armaments, arms control and disarmament. It provides data, analysis and recommendations, based on open sources, to policymakers, researchers, media and the interested public."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-international-arms-transfers-2025-key-highlights-sipri-report-upsc-10586074/\" class=\"\">Knowledge Nugget | USA Leads Exports, Ukraine Tops Arms Import Chart: Key highlights of SIPRI report</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n2) Operations undertaken by the Army towards upliftment of the local population in remote areas to include addressing of their basic needs is called: <strong>(UPSC CSE, 2024)</strong><br>\n(a) Operation Sankalp<br>\n(b) Operation Maitri<br>\n(c) Operation Sadbhavana<br>\n(d) Operation Madad"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Main Question Covering similar theme:</strong><br>\nQ. What is the significance of Indo-US defence deals over Indo-Russian defence deals? Discuss with reference to stability in the Indo-Pacific region. <strong>( 2020)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Parliament</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/health-wellness/cancer-10th-leading-cause-of-death-among-kids-in-india-study-10616392/\" class=\"\">Cancer 10th leading cause of death among kids in India: Study</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Economic and Social Development"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> Childhood cancers were the eight leading cause of death in children globally — killing more than common infectious conditions such as measles, tuberculosis, and HIV/AIDS."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Childhood cancers-what you know about the same?"
+            },
+            {
+                "type": "text",
+                "value": "• Childhood cancers in India-know in detail"
+            },
+            {
+                "type": "text",
+                "value": "• What are the key takeaways from the Lancet report?"
+            },
+            {
+                "type": "text",
+                "value": "• What is disability-adjusted life years (DALYs)?"
+            },
+            {
+                "type": "text",
+                "value": "• India’s first nationwide registry tracking childhood cancer survivors-know more"
+            },
+            {
+                "type": "text",
+                "value": "• What needs to be done?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• With outcomes largely determined by resource availability, 94% of the deaths in 2023 were concentrated in low and middle income countries, according to the latest findings from the Global Burden of Disease (GBD) 2023 study published today in The Lancet."
+            },
+            {
+                "type": "text",
+                "value": "• There were 377,000 new cases of childhood cancer and 144,000 deaths worldwide in 2023, according to the research."
+            },
+            {
+                "type": "text",
+                "value": "• The number of new cases of childhood cancers has been relatively stable globally, while the number of deaths have decreased by 27%. These cancers, however, were concentrated in the low and middle income countries. The estimates show that 85% of new cases, 94% of deaths, and 94% of disability-adjusted life years (DALYs) in 2023 were from these countries."
+            },
+            {
+                "type": "text",
+                "value": "• DALYs measure the total years of healthy life lost by examining the years lost from premature death and years lived with disability."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• In India, childhood cancers were the tenth leading cause of deaths among children, killing 17,000 in 2023, according to the study. “Despite this childhood cancer is not included in India’s national cancer control planning,”Dr Venkatraman Radhakrishnan, Professor of Medical Oncology at the Cancer Institute (W.I.A), Adyar, <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/chennai/\">Chennai</a>, said."
+            },
+            {
+                "type": "text",
+                "value": "• The national programme screens only for the three most common forms of cancers seen in men and women — oral, cervical, and breast."
+            },
+            {
+                "type": "text",
+                "value": "• While mortality declined globally, the estimates show that the children in low and middle-income countries face the most severe consequences. South Asia accounts for 20.5 percent or one in five global child cancer deaths. Not only that, the report shows there was a 16.9 percent increase in childhood cancer deaths from 1990 to 2023."
+            },
+            {
+                "type": "text",
+                "value": "• Acute leukaemia was the most common cancer, accounting for 40.9 per cent of cases, followed by Hodgkin lymphoma at 12.9 per cent, bone tumours at 8.4 per cent, and retinoblastoma at 7.4 per cent. Almost all children received chemotherapy, about one-third underwent surgery, and one-quarter received radiotherapy."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/cities/mumbai/india-childhood-cancer-registry-high-survival-late-effect-risks-10540751/\" class=\"\">India’s first childhood cancer survivorship registry shows high survival, flags long-term health risks</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n3) ‘RNA interference (RNAi)’ technology has gained popularity in the last few years. Why? <strong>(UPSC CSE, 2019)</strong><br>\n1. It is used in developing gene silencing therapies.<br>\n2. It can be used in developing therapies for the treatment of cancer.<br>\n3. It can be used to develop hormone replacement therapies.<br>\n4. It can be used to produce crop plants that are resistant to viral pathogens.<br>\nSelect the correct answer using the code given below.<br>\n(a) 1, 2 and 4<br>\n(b) 2 and 3<br>\n(c) 1 and 3<br>\n(d) 1 and 4"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>The Ideas Page</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/opinion/columns/some-smartphone-lessons-for-industrial-police-10616286/\" class=\"\">Some smart(phone) lessons for industrial policy</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> <strong><a href=\"https://indianexpress.com/profile/columnist/ashish-dhawan/\" class=\"\">Ashish Dhawan</a> and Vinay Ramesh</strong> writes-India’s arrival on the global manufacturing scene has been a long-awaited sequel to its success in IT exports. One recent bright spot is electronics — specifically, smartphones."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is Production Linked Incentive (PLI) scheme?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the PLI scheme for smartphones?"
+            },
+            {
+                "type": "text",
+                "value": "• What explains the smartphone PLI’s success?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the factors contributing to success of smartphone PLI?"
+            },
+            {
+                "type": "text",
+                "value": "• Smartphone industry in India-know in detail"
+            },
+            {
+                "type": "text",
+                "value": "• What is electronics components manufacturing scheme?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong><br>\n<strong>Ashish Dhawan and Vinay Ramesh writes-</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Launched in early 2020, the government’s smartphone Production-Linked Incentive (PLI) scheme has delivered impressive results."
+            },
+            {
+                "type": "text",
+                "value": "• An investment of about $1.2 billion under the scheme has driven $64 billion in production by FY 2025 — more than double the $30 billion in 2020."
+            },
+            {
+                "type": "text",
+                "value": "• Total investment in the broader smartphone ecosystem — including non-PLI participants — is conservatively estimated at around $8 billion, creating about 1.5 lakh jobs — with some estimates putting the figure as high as 2 lakh."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong><br>\n<strong>Ashish Dhawan and Vinay Ramesh writes-</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The first reason for its success was that it had a clear export focus from the start. It targeted two segments: Phones with an invoice value of Rs 15,000 or more — critical for exports — and cheaper phones better suited to the domestic market."
+            },
+            {
+                "type": "text",
+                "value": "• The second and equally significant factor was the decision to focus downstream. The PLI targeted final assemblers such as Foxconn, Pegatron, and Wistron — the companies closest to global brands and capable of scaling fast. China and Vietnam followed a similar sequence: Build massive assembly capacity first, then deepen the supply chain."
+            },
+            {
+                "type": "text",
+                "value": "• A third factor was recognising that building scale in assembly also depended on freeing up the flow of inputs. In many PLI-targeted sectors, tariff and non-tariff barriers on components and raw-material inputs have undermined competitiveness, offsetting the benefits PLIs aim to create."
+            },
+            {
+                "type": "text",
+                "value": "• Administrative bottlenecks were tackled head-on. When large export consignments began piling up, Chennai airport’s cargo section expanded capacity; when labour unrest surfaced, state governments stepped in as facilitators. This responsiveness was vital to building investor confidence."
+            },
+            {
+                "type": "text",
+                "value": "• Finally, the smartphone PLI was not designed in isolation. It emerged from months of close consultations with industry, and that spirit of collaboration has been even more visible with the new ECMS, where officials held extensive discussions to identify challenges."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/india/india-forcing-smartphone-makers-give-source-code-security-overhaul-10467935/\" class=\"\">India proposes forcing smartphone makers to give source code in security overhaul</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n4) ‘R2 Code of Practices’ constitutes a tool available for promoting the adoption of <strong>(UPSC CSE, 2020)</strong><br>\n(a) environmentally responsible practices in electronics recycling industry<br>\n(b) ecological management of Wetlands of International Importance under the Ramsar Convention<br>\n(c) sustainable practices in the cultivation of agricultural crops in degraded lands<br>\n(d) ‘Environmental Impact Assessment’ in the exploitation of natural resources"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Nation</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/education/ncert-deemed-university-status-bringing-school-body-under-ugc-framework-10614984/\" class=\"\">NCERT gets deemed varsity status, school body now under UGC framework</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> Nearly three years after the Union government signalled its intent to expand its mandate, the National Council of Educational Research and Training (NCERT) has been formally declared an institution “deemed to be university,” marking a&nbsp;<a href=\"https://indianexpress.com/article/opinion/columns/missing-ncert-textbook-vs-court-question-justice-corruption-13-year-old-10605333/\" class=\"\">structural shift in the role of the country’s apex school</a>&nbsp;education body,&nbsp;<em>The <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/\">Indian Express</a></em>&nbsp;has learnt."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is the role of the National Council of Educational Research and Training?"
+            },
+            {
+                "type": "text",
+                "value": "• What is meant by a deemed to be university?"
+            },
+            {
+                "type": "text",
+                "value": "• The NCERT has been formally declared an institution “deemed to be university’-what you understand by the same?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the advantage of “deemed to be university’?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the difference between university and deemed to be university?"
+            },
+            {
+                "type": "text",
+                "value": "• Do you think that such a transition could dilute NCERT’s autonomy?"
+            },
+            {
+                "type": "text",
+                "value": "• What does the new status mean for the school education body?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The new status significantly expands NCERT’s mandate beyond school curriculum design, enabling the body to launch academic programmes, including doctoral and innovative courses."
+            },
+            {
+                "type": "text",
+                "value": "• A notification issued by the Ministry of Education on Monday (March 30), declares NCERT, along with its six constituent units, as an institution deemed to be university under a “distinct category,” under Section 3 of the University Grants Commission (UGC) Act, 1956. “The Ministry of Education, on the advice of the UGC, hereby declares National Council of Educational Research and Training… consisting of… six constituent units as an Institution deemed to be University under distinct category,” it states."
+            },
+            {
+                "type": "text",
+                "value": "• These constituent units include regional institutes of education in Ajmer, <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/bhopal/\">Bhopal</a>, Bhubaneswar, Mysuru and Shillong, along with the Pandit Sunderlal Sharma Central Institute of Vocational Education in Bhopal."
+            },
+            {
+                "type": "text",
+                "value": "• The declaration follows a multi-stage process that began with NCERT’s application on the UGC portal, followed by a Letter of Intent issued in August 2023. According to the notification, the institution submitted a compliance report in November 2025, which was accepted by the UGC’s expert committee and approved during its 595th meeting on January 30 this year."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The notification mandates that NCERT “shall take appropriate steps to commence research programmes as well as doctoral and innovative academic programmes”."
+            },
+            {
+                "type": "text",
+                "value": "• It also brings NCERT squarely within the regulatory ambit of the UGC, a key concern raised by critics earlier. The notification makes clear that “the academic programmes to be offered at NCERT… shall conform to the norms and standards prescribed by the UGC,” and that any new courses or off-campus centres must follow UGC guidelines."
+            },
+            {
+                "type": "text",
+                "value": "• Further, NCERT is barred from commercial activity, with the notification stating it “shall not engage or indulge in any activities that are of commercial and profit making in nature”."
+            },
+            {
+                "type": "text",
+                "value": "• The institution will also be required to align itself with broader higher education frameworks, including participation in national rankings and accreditation systems. It “shall participate in annual Indian rankings issued by National Institutional Ranking Framework (NIRF)” and seek accreditation from bodies such as NAAC and NBA, said the notification."
+            },
+            {
+                "type": "text",
+                "value": "• When the proposal was first announced in 2023, Union Education Minister Dharmendra Pradhan had said the move would help NCERT evolve into a research-driven institution and expand its global academic engagement."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/ncert-books-drafting-process-10563952/\" class=\"\">‘Judiciary corruption’ row: How are new NCERT textbooks drafted and cleared?</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n5) Which of the following provisions of the Constitution of India have a bearing on Education? <strong>(UPSC CSE, 2012)</strong><br>\n1. Directive Principles of State Policy<br>\n2. Rural and Urban Local Bodies<br>\n3. Fifth Schedule<br>\n4. Sixth Schedule<br>\n5. Seventh Schedule<br>\nSelect the correct answer using the codes given below:<br>\n(a) 1 and 2 only<br>\n(b) 3, 4 and 5 only<br>\n(c) 1, 2 and 5 only<br>\n(d) 1, 2, 3, 4 and 5"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Economy</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-sci-tech/india-content-takedown-ustr-report-it-rules-10615151/\" class=\"\">India’s online takedown mechanism politically motivated: US in key report</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:&nbsp;</strong>Economic and Social Development"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination: </strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> The US government, in a key report, has noted that since 2021, American companies like Facebook, Instagram, YouTube, and X have been subject to an “increasing number of takedown requests” for content and user accounts related to issues that appear “politically motivated”.<strong>&nbsp;</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The 2026 National Trade Estimate Report on Foreign Trade Barriers-know the key findings"
+            },
+            {
+                "type": "text",
+                "value": "• India directed content takedowns ‘politically motivated’-how far you agree with the same?"
+            },
+            {
+                "type": "text",
+                "value": "• How does online censorship work in India?"
+            },
+            {
+                "type": "text",
+                "value": "• There are two content blocking mechanisms in India-what are those?"
+            },
+            {
+                "type": "text",
+                "value": "• What are present legal framework governing content blocking in India?"
+            },
+            {
+                "type": "text",
+                "value": "• Know the constitutional validity of Section 69A in light of freedom of speech."
+            },
+            {
+                "type": "text",
+                "value": "• What is Section 79 (3)(b) of the IT Act?"
+            },
+            {
+                "type": "text",
+                "value": "• The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021-know key highlights"
+            },
+            {
+                "type": "text",
+                "value": "• What are the present social media rules in India?"
+            },
+            {
+                "type": "text",
+                "value": "• Social media rules in India vs social media rules in USA-compare and contrast"
+            },
+            {
+                "type": "text",
+                "value": "• There should be balance between national security and free speech in digital governance-examine"
+            },
+            {
+                "type": "text",
+                "value": "• What is the role of the executive, legislature and judiciary in regulating online content?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the digital rights in India?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The report, called the 2026 National Trade Estimate Report on Foreign Trade Barriers, was released by the Office of the United States Trade Representative (USTR), outlines “significant foreign trade barriers facing US exports” in various countries."
+            },
+            {
+                "type": "text",
+                "value": "• For India, the report has flagged a number of barriers that American companies face in the country, ranging from its laws for the digital ecosystem — like the IT Rules, 2021 and the data protection law — to UPI and agriculture, among others."
+            },
+            {
+                "type": "text",
+                "value": "• The USTR’s comments on India’s censorship mechanism comes as the government is tightening its control over the internet, and recently proposing it to broaden to what independent news creators and citizen journalists post on social media. Queries sent to the Ministry of Electronics and Information Technology did not elicit a response."
+            },
+            {
+                "type": "text",
+                "value": "• In February 2021, the Indian Government published regulations — the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (IT Rules) — to govern a wide range of Internet-based service providers, particularly those that operate social media, messaging, and news and entertainment content in India, the USTR report said."
+            },
+            {
+                "type": "text",
+                "value": "• It added that these rules require compliance by significant social media intermediaries — companies like Meta, Google etc — and platforms with five million registered users or more, along with a number of requirements that “US stakeholders have identified as concerning”."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Last month, draft amendments to the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 proposed that the Ministry of Information and Broadcasting (MIB) would be able recommend issuing of direct blocking orders to independent news creators online, and require them to apologise, or make changes to the content, if found guilty of any grievances received by an inter-departmental committee."
+            },
+            {
+                "type": "text",
+                "value": "• Popular news and current affairs creators could fall under the ambit of these proposed changes, since they are currently not defined as publishers. In fact, the proposed rules could be even wider in their coverage. For instance, even if a creator does not regularly make content related to news or current affairs, but creates something involving a current topic — say a stand-up comic making a joke about a government policy — could potentially fall under its ambit."
+            },
+            {
+                "type": "text",
+                "value": "• India is also planning to decentralise a key online content takedown framework and empower multiple ministries and regulators to start sending blocking orders to social media companies, raising concerns over an expanding censorship regime, The Indian Express had earlier reported."
+            },
+            {
+                "type": "text",
+                "value": "• These are only some of the ways in which the government is doubling down on blocking content on social media. Other attempts include shortening content takedown timelines for online platforms significantly, plans to introduce new no-go areas under a new definition of “obscene” content, and of course, expanding a parallel content blocking mechanism under Section 79 (3)(b) of the IT Act, which is managed through the Home Ministry’s Sahyog portal."
+            },
+            {
+                "type": "text",
+                "value": "• In February, the IT Ministry notified amendments to the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/business/centre-looks-to-empower-more-ministries-to-block-social-media-content-10587612/\" class=\"\">Centre looks to empower more ministries to block social media content</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n6) Right to Privacy’ is protected under which Article of the Constitution of India?<strong> (UPSC CSE 2021)</strong><br>\na) Article 15<br>\nb) Article 19<br>\nc) Article 21<br>\nd) Article 29"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-economics/ndd-ban-is-it-the-end-of-speculative-games-in-rupee-10616229/\" class=\"\">NDD ban: Is it the end of speculative games in rupee?</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong>Current events of national and international importance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies III: Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> The Reserve Bank of India’s (RBI) latest directive to bar banks from non-deliverable derivative (NDD) contracts in the rupee — often misused and manipulated by big currency players — marks a decisive shift toward tighter control and transparency in the foreign exchange market."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is a non-deliverable rupee derivative?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the non-deliverable derivative (NDD) market?"
+            },
+            {
+                "type": "text",
+                "value": "• What is hedge fund?"
+            },
+            {
+                "type": "text",
+                "value": "• Who typically uses non-deliverable derivative (NDD) markets?"
+            },
+            {
+                "type": "text",
+                "value": "• How non-deliverable derivative (NDD) market are also misused?"
+            },
+            {
+                "type": "text",
+                "value": "• What steps RBI has taken for non-deliverable derivative (NDD) market?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The move boosted the battered rupee, which had fallen below the 95 level against the dollar, to 93.10, a sharp rally of Rs 1.73 on Thursday (April 2)."
+            },
+            {
+                "type": "text",
+                "value": "• By eliminating a key avenue for speculative exercise, the central bank is attempting to stabilise currency movements, hit hard by the rising oil prices and capital outflows in the wake of the West Asia conflict, and reinforce the primacy of the onshore market in the country."
+            },
+            {
+                "type": "text",
+                "value": "• The NDD market was also misused by some market participants. Previously, some participants would cancel and re-enter contracts to take advantage of favourable movements, effectively turning hedging tools into speculative instruments"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• NDDs, which are typically traded outside India in financial hubs like Singapore, Hong Kong, London or Dubai, allow participants to bet on the rupee’s direction without actual delivery of the currency."
+            },
+            {
+                "type": "text",
+                "value": "• An NDD is a derivative contract where two parties agree on a future exchange rate for the rupee, but settle the difference in cash, usually in US dollars. As India has capital controls, offshore investors can’t freely trade in the rupee in physical form. This led to the creation of the NDD markets in the rupee. These instruments have long been criticised for distorting price discovery and manipulation as such an offshore sentiment can diverge sharply from domestic fundamentals and movements."
+            },
+            {
+                "type": "text",
+                "value": "• The NDD market is widely used by foreign investors, hedge funds and global banks who cannot freely access and play in the Indian rupee<br>\nmarket, as well as by firms looking to hedge currency risk."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/business/banking-and-finance/rbi-tightens-forex-rules-bans-non-deliverable-re-contracts-10614392/\" class=\"\">RBI tightens forex rules, bans non-deliverable Re contracts</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n7) Consider the following markets: <strong>(UPSC CSE, 2023)</strong><br>\n1. Government Bond Market<br>\n2. Call Money Market<br>\n3. Treasury Bill Market<br>\n4. <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/stock-market-today/\">Stock Market</a><br>\nHow many of the above are included in capital markets?<br>\n(a) Only one<br>\n(b) Only two<br>\n(c) Only three<br>\n(d) All four"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explained</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/bengal-polls-form-6-controversy-tmc-10614918/\" class=\"\">Form 6 furore in West Bengal: How new voters are included in rolls</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Indian Polity and Governance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Salient features of the Representation of People’s Act."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> With just days to go till the electoral rolls for the April 23 and April 29 polls in West Bengal are to be frozen, the All-<a href=\"https://indianexpress.com/article/cities/kolkata/mamata-says-bjp-conspiring-with-ec-to-manipulate-voters-list-via-form-6-ceo-says-all-charges-to-be-probed-10612149/\" class=\"\">Trinamool Congress has alleged a last-minute attempt by the BJP</a>&nbsp;to have electors from Bihar and Uttar Pradesh enrolled onto the state’s rolls."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is Form 6?"
+            },
+            {
+                "type": "text",
+                "value": "• What Registration of Electors Rules, 1960 says?"
+            },
+            {
+                "type": "text",
+                "value": "• What Article 326 of the Constitution says?"
+            },
+            {
+                "type": "text",
+                "value": "• Does form 6 requires proof of citizenship?"
+            },
+            {
+                "type": "text",
+                "value": "• How is Form 6 processed?"
+            },
+            {
+                "type": "text",
+                "value": "• What has the EC said?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• TMC general secretary Abhishek Banerjee has accused the BJP of trying to change the demography of the state by submitting thousands of Form 6s, which are the Election Commission’s form for enrolment of new electors."
+            },
+            {
+                "type": "text",
+                "value": "• In a series of press conferences and statements over the past week, the TMC has alleged that thousands of Form 6s have been submitted by the BJP at West Bengal Chief Electoral Officer Manoj Agarwal’s office in <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/kolkata/\">Kolkata</a>."
+            },
+            {
+                "type": "text",
+                "value": "• As per the EC’s rules, Booth Level Agents of political parties can submit upto 50 forms for inclusion and deletion every day. However, any elector enrolled in a particular constituency can file a Form 7 seeking deletion of someone they suspect to be ineligible."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• A Form 6 is the Election Commission’s form for application for new voters, as per provisions of the Registration of Electors Rules, 1960. The form is addressed to the Electoral Registration Officer of the Assembly constituency or the ERO of the Parliamentary constituency in case of Union Territories without an Assembly."
+            },
+            {
+                "type": "text",
+                "value": "• By law, it is the ERO, who is a local official designated for the job by the ECI in consultation with the state government, who has to maintain the electoral roll, accept additions, process deletions and carry out hearings in case of objections."
+            },
+            {
+                "type": "text",
+                "value": "• Along with the form, the applicant has to provide a self-attested copy of a document proving date of birth, including birth certificate, <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/aadhaar-card/\">Aadhaar card</a>, PAN card, driving license, Class X or Class XII certificate or Indian passport."
+            },
+            {
+                "type": "text",
+                "value": "• While Article 326 of the Constitution says only Indian citizens above the age of 18 can be registered to vote, the Form 6 does not seek proof of citizenship. It does, however, include a self-declaration that the applicant is a citizen and if found otherwise, can face a fine or imprisonment upto one year or both."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong><br>\n📍<a href=\"https://indianexpress.com/article/explained/rules-voter-id-9980356/\" class=\"\">What are the rules for obtaining a voter ID?</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n8) Right to vote and to be elected in India is a <strong>(UPSC CSE, 2017)</strong><br>\n(a) Fundamental Right<br>\n(b) Natural Right<br>\n(c) Constitutional Right<br>\n(d) Legal Right"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-global/israel-death-penalty-law-palestinians-10611560/\" class=\"\">Israel’s death penalty for convicted Palestinians marks a major shift</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Effect of policies and politics of developed and developing countries on India’s interests."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story:</strong> Amid the ongoing tensions in West Asia due to the&nbsp;<a href=\"https://indianexpress.com/article/opinion/columns/iran-america-israel-determine-endgame-10605345/\" class=\"\">war in Iran</a>, Israel on Monday saw celebrations with the National Security Minister Itamar Ben-Gvir, pouring champagne into the glasses of the members outside the Knesset chamber.<strong>&nbsp;</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is the death penalty?"
+            },
+            {
+                "type": "text",
+                "value": "• The “Death Penalty for Terrorists” Bill-why it is controversial?"
+            },
+            {
+                "type": "text",
+                "value": "• How World has reacted?"
+            },
+            {
+                "type": "text",
+                "value": "• What India said?"
+            },
+            {
+                "type": "text",
+                "value": "• How Countries retained death penalty or Capital Punishment?"
+            },
+            {
+                "type": "text",
+                "value": "• What annual statistics report ‘death penalty in India’ published by NLU says on Capital Punishment?"
+            },
+            {
+                "type": "text",
+                "value": "• What does National Crime Records Bureau (NCRB) says on capital punishment in India?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the arguments for Capital Punishment in India?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the arguments against Capital Punishment in India?"
+            },
+            {
+                "type": "text",
+                "value": "• “Capital Punishment is a form of retribution”- What do you understand by this statement?"
+            },
+            {
+                "type": "text",
+                "value": "• Objective of justice should be reformative and not retributive- What do you understand by this statement?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• “Soon we will count them one by one,” he was heard saying in a video shared on social media. The Members of the Knesset, Israel’s parliament, were elated about the passing of what is seen as a deeply polarising law: The “Death Penalty for Terrorists” Bill."
+            },
+            {
+                "type": "text",
+                "value": "• The highly debated law mandates capital punishment for those convicted of deadly terror attacks against Israeli citizens."
+            },
+            {
+                "type": "text",
+                "value": "• Legal experts say that this law also highlights a major shift in Israel’s legal landscape. For years, Israel reserved the death penalty solely for extraordinary crimes like genocide."
+            },
+            {
+                "type": "text",
+                "value": "• Under pressure from right-wing political parties and with strong backing from Prime Minister <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/benjamin-netanyahu/\">Benjamin Netanyahu</a>, the new law was finally passed, signalling a tough judicial approach of the state to national security."
+            },
+            {
+                "type": "text",
+                "value": "• The Knesset displayed the final readings with a 62-48 majority (with one abstention). The key push for the legislation came from the Ben-Gvir-led far-right Otzma Yehudit (Jewish Power) party. His photograph, featuring a golden noose-shaped lapel pin, was widely shared on the internet during the proceedings."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The law establishes “death by hanging” as the default sentence for persons convicted of “premeditated murder”, termed a terrorist act — this refers to an act aimed at harming the State of Israel or the rebirth of the Jewish people in their homeland."
+            },
+            {
+                "type": "text",
+                "value": "• Unlike the previous military regulations that sought a unanimous decision by a three-judge bench, this law allows for a simple majority (2-1) to pronounce the sentence."
+            },
+            {
+                "type": "text",
+                "value": "• Further, it limits the power of the military commander in the West Bank to commute or pardon these sentences, mandating that the execution be carried out within 90 days of a final ruling."
+            },
+            {
+                "type": "text",
+                "value": "• While judges technically retain the discretion to opt for life imprisonment under “special circumstances”, the legislative intent clearly frames the death penalty as the standard expectation for such offences."
+            },
+            {
+                "type": "text",
+                "value": "• The law is not retrospective. This means it will not apply to the thousands of Palestinians currently in Israeli prisons, nor will it apply to the perpetrators of the October 7 attacks, who are being prosecuted under separate, existing legal frameworks."
+            },
+            {
+                "type": "text",
+                "value": "• In 1948, the newly founded State of Israel inherited British Mandate laws that included capital punishment. However, the Knesset abolished the death penalty for murder in 1954."
+            },
+            {
+                "type": "text",
+                "value": "• It was retained only for “extraordinary crimes”, including treason, genocide, and crimes against the Jewish people. In the 78-year history of the State, only one person has been executed by the civil judicial system: Nazi official Adolf Eichmann, who was hanged in 1962."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/world/israel-death-penalty-law-palestinians-west-bank-ben-gvir-10610303/\" class=\"\">Israeli parliament approves death penalty for Palestinians convicted of murdering Israelis</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Main Question Covering similar theme:</strong><br>\nQ. Instances of the President’s delay in commuting death sentences has come under public debate as denial of justice. Should there be a time limit specified for the President to accept/reject such petitions? Analyse. <strong>(2014)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>PRELIMS ANSWER KEY</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1.(d) &nbsp;2.(c) &nbsp;3.(a) &nbsp;4.(a) &nbsp;5.(d) 6.(c) 7.(b) 8.(c)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>For any queries and feedback, contact </strong><strong>priya.shukla@</strong><a href=\"https://indianexpress.com/\" class=\"\">indianexpress.com</a>"
+            }
+        ],
+        "date": "2026-04-03"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "Water crisis in India: stories of distress, gender disparities, and complex societal responses",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/water-crisis-in-india-stories-of-distress-gender-disparities-and-complex-societal-responses-10617671/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<b><i>— Ritwika Patgiri</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">India holds 18 per cent of the world’s population but only 4 per cent of its freshwater, with per capita availability estimated to drop to </span><a href=\"https://indianexpress.com/article/opinion/columns/our-water-challenge-is-stark-here-are-four-ways-to-reimagine-the-solution-10593116/\"><span style=\"font-weight: 400\">the scarcity threshold of 1,000 cubic metres by 2050</span></a><span style=\"font-weight: 400\">. The water crisis manifests itself in stories of distress, gender disparities, and complex societal responses.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">For instance, studies show that in a drought-prone hamlet of Maharashtra, local communities have resorted to polygamy, believing more women – called “water wives” – can enhance the ability to procure drinking water. Similarly, sugarcane cultivation in the state reveals yet another gendered water struggle.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Alongside gender norms, inequality, poverty, rural-urban divide are some other factors that shape how access to water is experienced and managed across communities. These factors become important in the context of a new report titled “Global Water Bankruptcy: Living Beyond Our Hydrological Means in the Post-Crisis Era”.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Released by the United Nations University Institute for Water, Environment and Health (UNU-INWEH), the report notes that nearly three-quarters of the world’s population lives in countries classified as water-insecure or critically water insecure. It also states that across the globe, around 2.2 billion people lack safely managed drinking water, while 4 billion people experience severe scarcity of water at least once a month every year.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Water crisis in India</b><span style=\"font-weight: 400\">&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In India, the reality of the water crisis varies across rural and urban areas. The World Bank defines water scarcity as a situation when annual per capita water availability drops below 1000 cubic metres and when safe and usable water falls short of the total demand.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The NITI Aayog’s Composite Water Management Index (CWMI) report of 2019 states that the country is facing the most severe water crisis in its history. However, government policies like the Jal Jeevan Mission have played a significant role in targeting the provision of basic drinking water to all people.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">According to the World Bank, access to basic drinking water </span>refers to<span style=\"font-weight: 400\"> access to improved sources like piped water, boreholes, tubewells, protected dug wells, protected springs, and packaged or delivered water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In terms of national-level data, India has made progress in increasing access to drinking water. In the early 2000s, only 80 per cent of Indians had access to safe drinking water. Now, almost 95 per cent of Indian households have access to basic drinking water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">However, the provision of tap water connections does not automatically mean that households get their drinking water from taps or that the water connection is functional. This is important to consider since, according to NITI Aayog data, nearly 600 million people face water crisis and 200,000 people die each year due to inadequate access to safe water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Access to safe drinking water is also marked by inequalities. Access to basic drinking water is poorer in rural areas than urban areas. For instance, around 92 per cent of Indians in rural areas have access to basic drinking water, while it is close to 96 per cent in urban areas. It is also observed that low-income households spend a greater share of their monthly income to secure clean drinking water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Further, water-borne diseases are more frequent in drought and flood-prone areas. Water scarcity also affects women and children in different ways. For instance, UNICEF reported a 22 per cent increase in school dropout rates in drought-affected areas, as children are sent to collect water instead of attending classes.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Gendered dimensions of water scarcity</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Similarly, women also face the burden of water scarcity in different ways. According to the National Family Health Survey (NFHS-5) data, women aged 15 and above are responsible for water collection in around 71 per cent of rural households in India. They also spend long hours collecting water from distant and faraway places. According to UNICEF, nearly 54 per cent of rural women spend an estimated 35 minutes getting water every day, equivalent to the loss of 27 days’ wages over a year.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The case of Maharashtra can be used here to understand how gendered the question of water scarcity and accessibility remains. As mentioned earlier, studies suggest that in a drought-prone hamlet of the state, local communities have resorted to polygamy, believing that more women in the household can fully look after the availability, collection, and management of water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Men usually marry widows or unmarried women without dowry to only fetch water. These women are called “water wives”, and lack inheritance or conjugal life. The situation reflects how “water collection” is also seen as a degrading, tedious, and gendered role.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Sugarcane cultivation in drought-prone Maharashtra reveals yet another gendered water struggle. The stories of female migrant agricultural workers from water-stressed regions in sugarcane fields offer insights.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Sugarcane is a heavily water-absorbing crop. These female agricultural workers face a double burden of work as well as exploitation – long hours of work in the field, along with domestic work like cooking, cleaning, and fetching water.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The harsh working conditions often imply a lack of access to toilets and water, often leading to severe health conditions like delayed menstruation, with some women undergoing hysterectomy in extreme cases. This reflects poorly on the </span>existing developmental model,<span style=\"font-weight: 400\"> where water for production of cash crops like sugarcane is seen as more important than local needs.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Access to water, thus, is more than geographical positions. Unequal systems, gendered norms, and prioritising profit and market make women more vulnerable.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Need for gender-responsive water governance&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Water scarcity and poverty are a multidimensional phenomena, marked by both the physical availability of water as well as socio-economic factors. These factors make the role of policymakers significant. Issues around water scarcity and drought often see women as invisible or passive victims, whose primary role is to fetch water. This narrative, however, hides the importance of the woman farmer in irrigation.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Policies as well as projects around water, therefore, need to address women’s concerns more effectively and contribute to gender equality. While current policies on agriculture and irrigation measure efficiency, productivity, and output, they often ignore women’s unpaid labour in fetching water as well as the woman farmer.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">There are examples across the country where women farmers have demanded their rightful share in irrigation. In Maharashtra, women farmers collectivised and asked for a share in the water from the canal irrigation to irrigate the land they collectively leased.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In North India, Dalit women formed </span><i><span style=\"font-weight: 400\">jal sahelis </span></i><span style=\"font-weight: 400\">or water friends to restore old and non-functional water bodies to ensure drinking water security in their villages. In the Western Himalayan region of the country, the drying of natural springs caused a severe water crisis. But women led the efforts to rejuvenate these springs. However, landownership and decision-making among these women remain low.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Therefore, a gendered understanding of environmental governance is crucial for effective and equitable policymaking. Accessibility of water must go hand-in-hand not only with physical infrastructure but also with institutional reforms that address gender inequalities in land ownership, decision-making, and the distribution of unpaid care work. Women are active agents in water management and policies must incorporate women’s knowledge, experiences, and leadership in local water governance systems.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<strong>Post read questions</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Water scarcity in India is not merely an environmental issue but a deeply gendered social problem. Discuss with suitable examples."
+            },
+            {
+                "type": "text",
+                "value": "Examine the gendered division of labour in rural India in the context of water scarcity. How does it reinforce existing inequalities?"
+            },
+            {
+                "type": "text",
+                "value": "Evaluate the effectiveness of government initiatives such as the Jal Jeevan Mission in ensuring equitable access to safe drinking water."
+            },
+            {
+                "type": "text",
+                "value": "Discuss the role of local communities and women-led initiatives in improving water governance in India."
+            },
+            {
+                "type": "text",
+                "value": "Why is it important to incorporate a gender perspective in public policy related to water and irrigation? Suggest measures."
+            },
+            {
+                "type": "text",
+                "value": "<b><i>(Ritwika Patgiri is a doctoral candidate at the Faculty of Economics, South Asian University.)</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Share your thoughts and ideas on UPSC Special articles with&nbsp;ashiya.parveen@</b><a href=\"https://indianexpress.com/\"><b>indianexpress.com</b></a><b>.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong>&nbsp;<a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"nofollow, noopener\" target=\"_blank\">Instagram</a>&nbsp;</strong>and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-04-03"
+    },
+    {
+        "category": "Science",
+        "title": "What is ethical hacking?",
+        "url": "https://www.thehindu.com/children/what-is-ethical-hacking/article70779711.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "You must have heard of hacking and how social media accounts, devices and even security systems often get hacked. But did you know there is an ethical side to hacking which helps us all in ways we do not often realise?&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Ethical hacking or white-hat hacking is a legal cybersecurity practice where experts try to imitate cyberattacks to find and fix weaknesses in systems before anybody can exploit them. This practice, vital for modern digital security, helps strengthen systems against real threats like black hat hackers."
+            },
+            {
+                "type": "heading",
+                "value": "Black, white or grey hat!"
+            },
+            {
+                "type": "text",
+                "value": "Hackers are of multiple types, and the main ones are black-hat, white-hat and grey-hat hackers. Do you know why such arose, though? Back in the 1950s, western movies often portrayed the “bad guys” or villains as wearing black hats while the “good guys” or heroes wore white hats.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "The same analogy was picked up while categorising hackers back in the day, leading to white hat and black hat hackers, and later grey, blue, and even red hat hackers as well."
+            },
+            {
+                "type": "heading",
+                "value": "The white hat saviours"
+            },
+            {
+                "type": "text",
+                "value": "Ethical hacking emerged around the 1990s when businesses and organisations recognised a need for proactive security measures to protect their systems amidst rising cyber threats.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Unlike black-hat hackers who act illegally for personal gain, ethical hackers work with explicit permission and follow strict rules to mirror malicious techniques. Since the aim is to protect rather than harm, it often follows with detailed reports with remediation steps on how to solve the problems.&nbsp;"
+            },
+            {
+                "type": "heading",
+                "value": "How does it work?"
+            },
+            {
+                "type": "text",
+                "value": "Ethical hacking mostly follows a structured five-phase methodology: reconnaissance, scanning, gaining access, maintaining access, and covering tracks — though ethical hackers skip the last two to avoid real damage.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "zIn reconnaissance, hackers gather public data via various tools to profile targets without direct interaction.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "<b>2. </b>Then they scan to detect open ports, services, and vulnerabilities like unpatched software.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "<b>3. </b>After locking a target, they try to gain access through steps like password cracking, privilege escalation, or man-in-the-middle attacks."
+            },
+            {
+                "type": "text",
+                "value": "<b>4. </b>Finally, they analyse the findings and recommend fixes, ensuring systems are hardened.&nbsp;"
+            },
+            {
+                "type": "heading",
+                "value": "When is it used?"
+            },
+            {
+                "type": "text",
+                "value": "Ethical hacking is used in various industries like finance, healthcare and e-commerce, to even the government services and facilities. Companies often hire or have in-house tech experts who help with ensuring their security system is safe.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Cyber threats often cost trillions annually, and ethical hacking helps in mitigating this by identifying flaws beforehand. It saves organisations millions in breach recovery while building trust with customers by ensuring their data is safe. Through ethical hacking, all findings remain confidential, and the safety of the system and data is ensured — one of the main differences between white-hats, grey-hats (semi-legal) and black-hats (malicious) hackers."
+            }
+        ],
+        "date": "2026-04-03"
+    },
+    {
         "category": "Science",
         "title": "Before the toast: The wild story of avocado",
         "url": "https://www.thehindu.com/children/before-the-toast-the-wild-story-of-avocado/article70819160.ece",
