@@ -1,6 +1,1954 @@
 [
     {
         "category": "UPSC Current Affairs",
+        "title": "UPSC Essentials | Daily subject-wise quiz : Science and Technology MCQs on stages of Polar Satellite Launch Vehicle, cosmic rays and more (Week 156)",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-subject-wise-quiz-science-and-technology-week-156-10614054/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><a style=\"color: #ff0000\" href=\"https://indianexpress.com/section/upsc-current-affairs/upsc-essentials/\"><strong>UPSC Essentials</strong></a></span>&nbsp;brings to you its initiative of subject-wise quizzes. These quizzes are designed to help you revise some of the most important topics from the static part of the syllabus. Attempt today’s subject quiz on<strong>&nbsp;Science and Technology&nbsp;</strong>to check your progress."
+            },
+            {
+                "type": "text",
+                "value": "<b>🚨&nbsp;</b><b><a class=\"\" href=\"https://epaper.indianexpress.com/4129388/UPSC-Essentials/March-16-2026#page/1/1\">Click Here</a>&nbsp;</b><b>to read the UPSC Essentials magazine for&nbsp;<span style=\"color: #ff0000\"><a class=\"\" style=\"color: #ff0000\" href=\"https://epaper.indianexpress.com/4129388/UPSC-Essentials/March-16-2026#page/1/1\">March 2026</a></span></b><b>.</b><b>&nbsp;Share your views and suggestions in the comment box or at manas.srivastava@</b><a href=\"https://indianexpress.com/\"><b>indianexpress.com</b></a><b>🚨</b>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 1</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>With reference to the stages of Polar Satellite Launch Vehicle, consider the following pairs:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1. First stage – This stage in the PSLV involves the famous, indigenously developed Vikas engine and a liquid fuel.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>2. Second stage – This stage uses a solid propellant as fuel.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>3. Third stage – This stage is related to rapid acceleration.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>How many of the pairs given above are correctly marked?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(a) Only one pair</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(b) Only two pairs</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(c) All three pairs</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(d) None of the above pairs</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>The question on PSLV is important for USPC prelims, as it is frequently in news. The question tests understanding of basic space technology and stage-wise functioning of rockets. Aspirants should also read about GSLV and SSLV.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explanation:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The <a href=\"https://indianexpress.com/article/explained/explained-sci-tech/isro-second-failure-third-stage-pslv-c62-10469438/\" class=\"\">PSLV, or Polar Satellite Launch Vehicle</a>, is what is known as a four-stage rocket. The stages refer to different parts of the rocket, each of which have their own engines and fuel. Each of these stages sequentially take charge of propelling the mission. They get detached and discarded after doing their job. The stages are sometimes also used to refer to the different phases of the mission flight."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The first stage involves the lift-off. This is a near vertical journey till an altitude of about 50-60 km. This is the stage that requires the most work because the rocket has to fight gravity as well as atmospheric drag. For this reason, this stage needs a very heavy engine and lots of fuel."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>In the case of the PSLV, <strong>the first stage uses a solid propellant as fuel.</strong> The first stage forms a large part of the rocket, and constitutes the bulk of its weight. This stage lasts barely two minutes, during which a huge amount of fuel is consumed. After the fuel is spent, this part of the rocket becomes deadweight. So, it is jettisoned. It detaches from the main body of the rocket, and falls off, passing the baton to the second stage. H<strong>ence, pair 1 is not correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>During the second stage, the rocket continues to move vertically — and horizontally at the same time as it prepares to get into orbit. <strong>The second stage in the PSLV involves the famous, indigenously developed Vikas engine and a liquid fuel.</strong> This stage takes the vehicle to about 220-250 km from Earth’s surface before burning out. <strong>Hence, pair 2 is not correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>In the third stage, the vehicle is moving almost entirely horizontally, going around the Earth in an orbit, or rather a sub-orbital trajectory. To maintain this trajectory, and avoid falling towards the Earth, it needs to travel at very high velocities, usually 26,000 to 28,000 km per hour. The third stage is, therefore, about rapid acceleration. The PSLV rocket burns solid fuel to achieve this. <strong>Hence, pair 3 is correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The vehicle begins to go around the Earth at very high speeds, but does not yet reach its designated orbit. That happens in the fourth stage, which involves precisely placing the satellite in the intended orbit."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Therefore, option (a) is the correct answer.</strong></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 2</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>With reference to the cosmic rays, consider the following statements:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1. These are particles of which mostly are protons.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>2. Cosmic rays travel in straight lines.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>3. Cosmic rays originate only from the Sun.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>How many of the statements given above are correct?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(a) Only one</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(b) Only two</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(c) All three</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(d) None</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>Topics like Cosmic rays are important due to their link with space research. Aspirants must learn about basic physics concepts and sources of radiation. UPSC can frame conceptual traps to check scientific reasoning and elimination skills.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explanation:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The <a href=\"https://indianexpress.com/article/technology/science/galactic-cosmic-rays-invisible-rain-that-never-stops-falling-10599077/\" class=\"\">cosmic rays</a> aren’t rays at all. They’re particles: mostly protons, but also helium nuclei, electrons, and occasionally heavier atomic nuclei stripped bare of their electrons. <strong>Hence, statement 1 is correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>They travel through interstellar space carrying enormous amounts of energy packed into something far smaller than an atom."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The highest-energy cosmic rays, however, remain a genuine mystery. These particles arrive carrying energies so extreme that they shouldn’t even exist – at those energies, particles should interact with the cosmic microwave background radiation permeating all of space and lose energy over long distances."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>Because cosmic rays are charged particles, <strong>they don’t travel in straight lines</strong>. Magnetic fields – both inside our galaxy and beyond – bend their paths, scrambling their directions over the vast distances they travel. <strong>Hence, statement 2 is not correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>Cosmic rays come from sources like supernova explosions, pulsars, and active galactic nuclei. Smaller fractions are emitted during solar flares. <strong>Hence, statement 3 is not correct.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Therefore, option (a) is the correct answer.</strong></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 3</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>With reference to the Ingenuity Mars Helicopter, consider the following statements:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1. It has completed the first powered and controlled flight on the Red Planet.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>2. It has been developed by Nasa.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Which of the statements given above is/are correct?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(a) 1 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(b) 2 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(c) Both 1 and 2</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(d) Neither 1 nor 2</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>The question on Ingenuity Mars Helicopter is important for current affairs-based prelims questions. UPSC can ask factual questions on milestones in space exploration and innovations.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explanation:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>On April 19, 2021, NASA’s Ingenuity Mars Helicopter made history when it completed the first powered, controlled flight on the Red Planet. It flew for the last time on Jan. 18, 2024."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The helicopter completed 72 flights across nearly three years."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong><a href=\"https://indianexpress.com/article/technology/science/nasa-plans-nuclear-powered-mission-to-send-skyfall-helicopters-to-mars-by-2028-10600664/\" class=\"\">Nasa’s Skyfall mission</a>, expected to launch in December 2028, will include three small helicopters, inspired by Ingenuity, which made history as the first aircraft to fly on another planet."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Therefore, option (c) is the correct answer.</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(Other Source: </strong>science.nasa.gov<strong>)</strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 4</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>The term ‘Petaflop’ refers to a:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(a) unit of computing speed equal to one quadrillion floating-point operations per second</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(b) unit of data storage used in supercomputers</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(c) type of processor architecture designed for parallel computing</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(d) measure of energy efficiency in high-performance computing systems</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>The terms like Petaflop are in news due to advancements in supercomputing. The question tests basic awareness of units related to computing. Aspirants must know about these terms and should be able to distinguish between such terms.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explanation:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The National Supercomputing Mission (NSM) is executed and managed jointly by DST and the Ministry of Electronics and Information Technology (MeitY). NSM aims to empower our national academic and R&amp;D institutions across the country by enabling High-Performance Computing (HPC) infrastructures of varied sizes."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>As of now, 39 Petaflops of supercomputers have been built in 37 sites. The most recent infrastructure generation is based on indigenous advancements such as the Rudra server and software stacks. Through NSM, the GoI seeks to reach out to the country’s broad scientific and technological community and provide the country with HPC capacity to solve multidisciplinary grand challenge problems."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;A petaflop (PFLOPS) is a unit of computing speed equal to one quadrillion floating-point operations per second.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Therefore, option (a) is the correct answer.</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(Source: </strong>pib.gov.in<strong>)</strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 5</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Which of the planets among the solar system have only one moon?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1. Uranus</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>2. Earth</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>3. Mars</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>4. Jupiter</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>5. Neptune</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Select the correct answer using the codes given below:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(a) 1 and 2 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(b) 1, 2 and 5 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(c) 2 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(d) 2, 3 and 4 only</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>These types of questions seem easy, but test fundamental astronomy concepts. It will also help in getting clarity on static GK linked with current space missions and discoveries.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Explanation:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>A n<a href=\"https://indianexpress.com/article/technology/science/jupiter-and-saturn-gain-more-moons-solar-system-count-rises-to-442-10594184/\" class=\"\">ew set of moons has been discovered orbiting Jupiter and Saturn, raising the number of these celestial bodies to 101 and 285, respectively.</a> The discovery is part of the growing list of natural satellites in the solar system, which now has a total of 442 moons."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>The additions include four new moons of Jupiter and 11 of Saturn, formally reported by the Minor Planet Centre, which tracks and verifies small celestial objects."
+            },
+            {
+                "type": "text",
+                "value": "<strong>—&nbsp;</strong>Across the solar system, the numbers continue to rise. <strong>Earth has one moon</strong>, Mars two, Uranus 28, and Neptune 16, while Venus and Mercury have none."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Therefore, option (c) is the correct answer.</strong></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>Previous Daily Subject-Wise-Quiz</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-prelims-daily-history-quiz-with-answers-week-151-10609251/\">Daily Subject-wise quiz — History, Culture, and Social Issues (Week 151)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-subject-wise-quiz-polity-and-governance-week-156-10611934/\" class=\"\">Daily subject-wise quiz — Polity and Governance (Week 156)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-subject-wise-quiz-science-and-technology-week-155-10601178/\">Daily subject-wise quiz —&nbsp; Science and Technology (Week 155)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-daily-subject-wise-quiz-economy-week-155-10603098/\">Daily subject-wise quiz — Economy (Week 155)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-subject-wise-quiz-environment-and-geography-week-155-10605001/\">Daily subject-wise quiz — Environment and Geography (Week 155)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-subject-wise-quiz-international-relations-week-155-10608289/\">Daily subject-wise quiz – International Relations (Week 155)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong><a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"nofollow, noopener\" target=\"_blank\">&nbsp;Instagram</a></strong>&nbsp;and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "Why has there been a consistent demand to include Ladakh under the Sixth Schedule?",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/why-has-there-been-a-consistent-demand-to-include-ladakh-under-the-sixth-schedule-10613945/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<b><i>— Dileep P Chandran</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Recently, protest rallies were held in Ladakh over the demand for statehood and safeguards under the Sixth Schedule of the Constitution. The issue dates back to 2019, when Article 370 was repealed and the erstwhile state of <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/jammu/\">Jammu</a> and Kashmir was bifurcated into two Union Territories: Jammu and Kashmir, and Ladakh.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Why has there been a consistent demand to include Ladakh under the Sixth Schedule? What are the provisions of the Sixth Schedule under the Constitution, and how does it differ from the Fifth Schedule in terms of governance, autonomy, and institutional mechanisms?&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Why Ladakh demands for the inclusion in Sixth Schedule&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The issue of Ladakh’s inclusion under the Sixth Schedule goes back to 2019, when </span><a href=\"https://indianexpress.com/article/explained/explained-article-370-has-not-been-scrapped-but-kashmirs-special-status-has-gone-5880390/\"><span style=\"font-weight: 400\">Article 370 was revoked</span></a><span style=\"font-weight: 400\">, which gave special status to Jammu and Kashmir. Article 35A, which empowered the Jammu and Kashmir legislature to define the permanent residents of the state, and their special rights and privileges, was also abrogated.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Subsequently, the Jammu and Kashmir Reorganisation Act, 2019 was passed and Jammu and Kashmir was bifurcated into two Union Territories –&nbsp; Jammu and Kashmir with a legislature and Ladakh without one. These changes fundamentally altered the federal relations between the Union and region.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The sparsely populated Himalayan region of Ladakh originally had two districts – Leh and Kargil. In August 2024, five new districts were added: Zanskar, Drass, Sham, Nubra, and Changthang. Ladakh is represented by a single Lok Sabha constituency.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Since Ladakh is a Union Territory without a legislature, protesters allege that the absence of a legislature since 2019 has deprived the ecologically fragile region of meaningful participation in decision-making related to land, employment, and development policies.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The perceived loss of control over land, employment, ecosystem, and culture is claimed to be the root of agitation. The demand for inclusion under the Sixth Schedule also stems from the fact that over 90 per cent of Ladakh’s population belongs to the Scheduled Tribes. This demand also needs to be understood in the broader constitutional context.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Constitutional safeguards under the Sixth Schedule</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Although some members of the Constituent Assembly were apprehensive of providing too much autonomy to tribal areas, the Constitution designed the Sixth Schedule to preserve the tribal identities, land, resources, and customs. The Sixth Schedule was enacted under Articles 244(2) and 275(1) of the Constitution.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Article 244(2) provides for the administration of tribal areas in the states of Assam, Meghalaya, Tripura, and Mizoram. Article 275(1) provides grants-in-aid from the Union to </span>certain States<span style=\"font-weight: 400\"> for the purpose of promoting the welfare of the Scheduled Tribes in that State or raising the level of administration of the Scheduled Areas therein to that of the administration of the rest of the areas of that State.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The Sixth Schedule establishes a unique administrative framework in tribal areas of the four Northeastern states in order to preserve their distinctive identities, culture, rights, and resources. The constitutional safeguard grants them significant autonomy in legislative, administrative, and judicial spheres.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Autonomous District Councils&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Under the Sixth Schedule, Governors of states are empowered to constitute Autonomous District Councils (ADCs) for each autonomous district. Each ADC consists of not more than 30 members, of whom four are nominated by the Governor and the rest are elected on the basis of universal adult franchise.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The elected members hold office for a term of five years, whereas nominated members hold office at the pleasure of Governors. Governors can also constitute Regional Councils (RCs) for autonomous regions within districts, which are inhabited by different Scheduled Tribes. Although all councils do not enjoy uniform powers and functions, following are the general powers of ADCs and RCs:&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">While this framework underlines the autonomy envisioned under the Sixth Schedule, it is not the only constitutional mechanism designed to safeguard tribal interests.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Alternative mechanisms – Fifth Schedule and Articles 371(A-J)</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Interests of tribal communities in most parts of the country are also safeguarded under the Fifth Schedule of the Constitution. As per Article 244(1), the provisions of the Fifth Schedule shall apply to the administration and control of the Scheduled Areas and Scheduled Tribes in any state other than Assam, Meghalaya, Tripura, and Mizoram.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">However, the Fifth Schedule, in comparison to the Sixth Schedule, offers only a limited degree of protective autonomy, with decision-making authority largely retained by the state and Governor. In addition, some states are accorded temporary, transitional, and special powers under Articles 371(A-J) in Part XXI of the Constitution. These powers are tailored in response to the state’s distinctive political and cultural contexts.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Between expectation and experience</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Notably, the demand for inclusion under the Sixth Schedule has been recurring since six ADCs were constituted in Manipur in 1971. In the case of Ladakh, the demand is justified on several grounds, such as addressing the perceived representation deficit, strengthening democratic institutions, resolving economic hurdles like unemployment, preserving the fragile Himalayan ecology, and building resource sovereignty.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Conversely, those who are apprehensive of the move raise concerns, such as constitutional hurdles, administrative feasibility, and, most significantly, strategic and security concerns in the sensitive border region. The experiences of other regions under the Sixth Schedule offer a context.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The regions governed under the Sixth Schedule indicate that constitutional safeguard doesn’t necessarily resolve underlying socio-political and administrative issues. Some have witnessed challenges, such as intra-ethnic tussles, friction between state governments and councils, conflict of interests between ADCs within state, misutilisation of funds, limited fiscal capacity, and limited decentralisation at the village level.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Autonomy and national security</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Against this backdrop, it may be argued that Ladakh’s call for autonomy under the Sixth Schedule needs to be accompanied by robust institutional mechanisms, financial accountability, meaningful decentralisation, coordination between different tiers of government, and sustainable resource management.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In addition, the fact that Ladakh shares borders with China and Pakistan cannot be overlooked. From a security perspective, centralisation often allows swift decision making, and reduces political friction on matters such as national defence and security infrastructure. Hence, the Union Government tends to prioritise centralised administrative control over local aspirations for greater autonomy.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Yet, the demand for inclusion under the Sixth Schedule reflects broader aspirations for constitutional and institutional self-governance. Moreover, involving the stable and local communities in governance may help strengthen security in the border region by enhancing trust and responsiveness.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "Post read questions"
+            },
+            {
+                "type": "text",
+                "value": "Examine the reasons behind the persistent demand for inclusion of Ladakh under the Sixth Schedule of the Constitution. Discuss in the context of recent constitutional and administrative changes."
+            },
+            {
+                "type": "text",
+                "value": "Discuss the key features of the Sixth Schedule of the Indian Constitution. How does it differ from the Fifth Schedule in terms of governance and autonomy?"
+            },
+            {
+                "type": "text",
+                "value": "The Sixth Schedule is often seen as a tool for protecting tribal identity. Examine with reference to Ladakh and other regions."
+            },
+            {
+                "type": "text",
+                "value": "Environmental fragility and resource sovereignty have emerged as central concerns in Ladakh’s political discourse. Discuss how constitutional mechanisms like the Sixth Schedule address these issues."
+            },
+            {
+                "type": "text",
+                "value": "Balancing regional autonomy with national security poses a significant challenge in border regions like Ladakh.<br>\nDiscuss with suitable examples."
+            },
+            {
+                "type": "text",
+                "value": "<b><i>(Dileep P Chandran is an Assistant Professor at the Department of Political Science in P M Government College, Chalakudy, Kerala.)</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Share your thoughts and ideas on UPSC Special articles with&nbsp;ashiya.parveen@</b><a href=\"https://indianexpress.com/\"><b>indianexpress.com</b></a><b>.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong>&nbsp;<a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"nofollow, noopener\" target=\"_blank\">Instagram</a>&nbsp;</strong>and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Key: Artemis II, Maternal mortality goals, and Gig workers law",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-artemis-ii-maternal-mortality-goals-and-gig-workers-law-10613784/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<strong>Important topics and their relevance in UPSC CSE exam for April 1, 2026. <a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-key-caste-census-insolvency-and-bankruptcy-code-and-maoism-in-india-10611834/\" class=\"\">If you missed the March 31, 2026 UPSC CSE exam key from the Indian Express, read it here</a></strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>EXPLAINED&nbsp;</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<a href=\"https://indianexpress.com/article/explained/how-nasa-will-fly-astronauts-to-the-moon-and-back-for-artemis-ii-10612297/\"><b>How NASA will fly astronauts to the Moon and back for Artemis II</b></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national and international importance.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-III: </b><span style=\"font-weight: 400\">Science and Technology- developments and their applications and effects in everyday life.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story: </b><span style=\"font-weight: 400\">NASA’s Artemis II mission, carrying four astronauts on a flyby mission to the Moon, is all set to be launched on Wednesday. This will be the first time humans will get to the Moon’s neighbourhood after the last Apollo mission in 1972.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Know about the various lunar missions</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are India’s lunar missions?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the significance of the Artemis II mission?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are Artemis Accords?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Know about India’s next lunar mission – Lunar Polar Exploration (LUPEX) mission</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Artemis II mission will not land on the Moon but circle it and return to Earth after a 10-day journey. A successor mission, planned for 2028, is scheduled to make a Moon landing with another set of four astronauts.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Artemis II mission will take three to four days to reach the</span><a href=\"https://indianexpress.com/article/technology/science/artemis-2-astronauts-arrive-at-kennedy-space-center-as-nasa-eyes-april-1-moon-launch-10606689/\"> <b>Moon’s neighbourhood</b></a><span style=\"font-weight: 400\"> — roughly the same time the Apollo missions took to land on the lunar surface. Many other recent uncrewed lunar missions, including India’s</span><a href=\"https://indianexpress.com/about/chandrayaan-3/\"> <span style=\"font-weight: 400\">Chandrayaan</span></a><span style=\"font-weight: 400\">-3, took much longer, between a few weeks and a few months, to get to the Moon.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Longer routes are more fuel-efficient and economical, while quicker routes require more powerful rockets. The SLS (Space Launch System) rockets being used for the Artemis missions are the most powerful launch vehicles available to NASA right now. The Apollo missions used Saturn V rockets, which are the most powerful rockets ever built.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Both the SLS rocket and the Orion spacecraft being used for this mission are relatively new. The two had debuted on the Artemis I mission in 2022, which was uncrewed but followed roughly the same path to the Moon and back, though it stayed in space for a longer duration, about 25 days, to carry out tests. This is the first time that the SLS rocket and Orion spacecraft are being used to carry astronauts.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Artemis II Mission will make two rounds of the Earth before embarking on its journey towards the Moon. Once there, it will go around the Moon before starting the return journey to Earth. While moving around the Moon, the Orion spacecraft will travel to a distance of about 6,500 km from the far side of the Moon. This will be the farthest that humans have ever ventured into space.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Artemis II is sort of a test-ride mission, meant to test and validate all systems before astronauts finally make the landing on the Moon in 2028.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— When the first human landing on the Moon (Apollo 11) happened in 1969, the Indian Space Research Organisation (</span><a href=\"https://indianexpress.com/about/isro/\"><span style=\"font-weight: 400\">ISRO</span></a><span style=\"font-weight: 400\">) did not even exist. It was set up within a month of that epoch-making event. Now, when NASA is working to take humans again to the Moon, <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/isro/\">ISRO</a> is not just a collaborator but also a competitor, with its own plans of landing humans on the Moon.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Chinese have been planning a human landing on the Moon by 2030, whereas India’s plans are for 2040. India is a signatory to the Artemis Accords, a set of non-binding, bilateral principles that guides sustainable, peaceful civil space exploration led by NASA, particularly for the Moon and Mars. This signalled India’s strategic alignment with the US space programme and possible opportunities for ISRO to collaborate closely with NASA on lunar exploration.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The two agencies already have a deep engagement, with the recent NISAR earth-observation joint mission underlining that relationship. NASA’s announcement said its lunar plans would have important contributions from private industry, academic institutions, and international partners. ISRO could have first-hand experience from these missions as it prepares to fulfil its own dreams over the next two decades.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Other Important Articles Covering the same topic:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/explained/explained-sci-tech/nasa-moon-base-plan-artemis-ii-lunar-mission-10607597/\"><span style=\"font-weight: 400\">Artemis 2 launch: How NASA’s Moon missions aim to prepare the ground for deeper space exploration</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">📍</span><a href=\"https://indianexpress.com/article/technology/science/countdown-begins-nasas-artemis-2-crew-prepares-for-launch-just-a-week-away-10604812/\"><span style=\"font-weight: 400\">NASA Artemis 2 countdown begins: Crew prepares for historic moon mission launch</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Prelims Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(1) Consider the following statements: (UPSC CSE 2016)</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The Mangalyaan launched by ISRO</span>"
+            },
+            {
+                "type": "text",
+                "value": "1. is also called the Mars Orbiter Mission"
+            },
+            {
+                "type": "text",
+                "value": "2. made India the second country to have a spacecraft orbit the Mars after USA"
+            },
+            {
+                "type": "text",
+                "value": "3. made India the only country to be successful in making its spacecraft orbit the Mars in its very first attempt"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Which of the statements given above is/are correct?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) 1 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(b) 2 and 3 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "(c) 1 and 3 only"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(d) 1, 2 and 3</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-economics/us-israel-iran-war-food-inflation-10608686/\" class=\"\">Iran war: Agrochemicals, stress, and inflation worry</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national and international importance.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-II: </b><span style=\"font-weight: 400\">Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story: </b><span style=\"font-weight: 400\">In 2020, when Covid struck, India had sufficient stocks of wheat and rice in government godowns. Farmers also harvested a bumper rabi (winter-spring) crop in March-May and followed it with good production during the subsequent two seasons over 2020 and 2021.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are rabi and kharif crops? </span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Know about the crops, sowing and harvesting patterns</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are western disturbances?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is inflation?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— How did war lead to food inflation? Any instances from history?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Why is the fertilizer sector impacted due to war in West Asia?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— How can India reduce its dependence on fertilizers and agrochemicals?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Know about the impact of India’s agricultural export</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Agriculture was a source of respite then. The situation seems somewhat similar this time too.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— On March 1, the day after the US and Israel launched</span><a href=\"https://indianexpress.com/article/world/us-news/iran-us-israel-war-live-updates-araghchi-power-plant-attack-trump-pause-10605786/\"> <b>strikes against Iran</b></a><span style=\"font-weight: 400\">, the Food Corporation of India and state government agencies had 23.6 million tonnes (mt) of wheat in their warehouses, compared to 13.4 mt and 9.7 mt on the same day for the preceding two years. Milled rice stocks were even higher at 36.5 mt </span><i><span style=\"font-weight: 400\">(see chart)</span></i><span style=\"font-weight: 400\">.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The production prospects from the </span><i><span style=\"font-weight: 400\">rabi</span></i><span style=\"font-weight: 400\"> crops, now in various stages of harvesting, also look good. The driver for it has been the surplus monsoon rainfall in 2025, leading farmers to plant more area under wheat, mustard, maize, </span><i><span style=\"font-weight: 400\">chana</span></i><span style=\"font-weight: 400\"> (chickpea), </span><i><span style=\"font-weight: 400\">masoor</span></i><span style=\"font-weight: 400\"> (red lentil) and even potato and onion. The higher acreages have been combined with reasonably favourable weather conditions.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “The rains triggered by successive western disturbances this month has brought down temperatures. It has been beneficial for wheat, as the crop gets more time for grain-filling. It translates into higher grain size and weight, and ultimately yields,” said Rajbir Yadav, principal scientist at the Indian Agricultural Research Institute in New</span><a href=\"https://indianexpress.com/section/cities/delhi/\"> <span style=\"font-weight: 400\">Delhi</span></a><span style=\"font-weight: 400\">.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The big picture is that India has entered this crisis from the Iran War – just as with the pandemic six years ago – with plentiful food stocks and a bumper </span><i><span style=\"font-weight: 400\">rabi</span></i><span style=\"font-weight: 400\"> harvest in the offing. Even in sugar, where closing stocks for 2025-26 (October-September) are projected lower </span><i><span style=\"font-weight: 400\">(see table)</span></i><span style=\"font-weight: 400\">, both all-India average ex-factory and modal (most-quoted) retail prices are virtually unchanged at Rs 38.5 and Rs 45 per kg respectively relative to a year ago.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Simply put, there are no food supply or inflation pressures – for now.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— In fertilisers, too, the stocks of urea and di-ammonium phosphate (DAP), at 6.1 mt and 2.4 mt respectively on March 19 as per government data, were higher than their corresponding year-ago levels of 5.5 mt and 1.2 mt.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The problem, though, is in their availability for the upcoming </span><i><span style=\"font-weight: 400\">kharif</span></i><span style=\"font-weight: 400\"> (monsoon) planting season from June. The war has disrupted imports from the Gulf Cooperation Council countries that are the largest suppliers of urea and DAP as well as inputs – especially liquid natural gas, ammonia and sulphur – for manufacture of fertilisers in India.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Since the war broke out, landed prices of ammonia imported into India have shot up from $450-470 to $725-750 per tonne. Sulphur prices have, over the last one year, soared from below $200 to $700-plus per tonne, and from $640-650 to about $825 for imported DAP.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The focus should be to maximise domestic production of complex fertilisers and SSP, and push farmers to apply more of these instead of urea and DAP.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Crops need fertilisers to deliver nutrients for growth. They also require chemicals – insecticides, fungicides and herbicides – to protect against pests, diseases and weeds that cause yield losses.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Crop protection chemicals are no less exposed to the raw material supply chain disruptions from the war. Some 55% of the global supply of naphtha – a primary feedstock for agrochemicals – originates from crude petroleum oil refineries in West Asia or passes through the Strait of Hormuz.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Naphtha is both “cracked” into ethylene, propylene and butadiene and “reformed” into benzene, toluene and xylene. These, in turn, are the building blocks for intermediate chemicals used in the manufacture of active ingredients and also their emulsifiers and solvents for various crop protection formulations. For instance, the herbicide glyphosate is formulated using isopropylamine that is derived from isopropanol and which further comes from propylene.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “When naphtha and propylene supplies from Middle East are hit, Chinese manufacturers raise their prices of isopropylamine. It, then, increases our production cost of glyphosate formulation,” explained Sohit Satyawali, chief business officer at the New <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/delhi/\">Delhi</a>-based Crystal Crop Protection Ltd.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Base chemicals apart – these also include sulphur and methanol – there has been an escalation in the cost of packaging materials, be it HDPE and PET bottles, flexible pouches, master carton boxes or even labels. “Packaging material costs itself are up 30-40%. It’s all linked to petrochemicals and the war,” he pointed out.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Domestic urea plants run on natural gas as feedstock. The fertiliser sector accounts for close to 29% of India’s total natural gas consumption. Just over half of India’s natural gas consumption requirement is met by imports. India imported 27 mt of liquefied natural gas (LNG) in 2024-25, out of which 11.2 mt came from Qatar, 3.5 mt from UAE and 1.8 mt from Oman. During April-December 2025, the 19.9 mt of imports included 9 mt from Qatar, 2.1 mt from UAE and 1.2 mt from Oman.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— It’s worse with DAP, MOP and complex fertilisers. India hardly has any mineable rock phosphate (for P), potash (K) or elemental sulphur (S) reserves. The merchant ammonia providing ‘N’ for DAP and complex fertilisers is imported. Out of the 2.5 mt ammonia imports in 2024-25 (2 mt in April-December 2025), almost 1 mt (0.8 mt) was from Oman, 0.9 mt (0.7 mt) from Saudi Arabia and 0.2 mt (0.06 mt) from Qatar.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The intermediates for manufacturing DAP, India’s second most-consumed fertiliser after urea, are phosphoric acid and ammonia. Phosphoric acid is primarily sourced from Jordan, Senegal, Morocco, China and Tunisia. Thankfully, not all (save Jordan) are involved in the ongoing Iran and Russia-Ukraine wars.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Other Important Articles Covering the same topic:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/how-agriculture-evolves-and-adapts-to-current-challenges-9780628/\"><span style=\"font-weight: 400\">How agriculture evolves and adapts to current challenges</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/explained/explained-economics/why-fertilisers-could-be-the-wars-soft-underbelly-victim-10571937/\"><span style=\"font-weight: 400\">Why fertilisers could be the war’s soft underbelly victim for India</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Prelims Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(2) Why does the Government of India promote the use of ‘Neem-coated Urea’ in agriculture? (UPSC CSE 2016)</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) Release of Neem oil in the soil increases nitrogen fixation by the soil microorganisms</span>"
+            },
+            {
+                "type": "text",
+                "value": "(b) Neem coating slows down the rate of dissolution of urea in the soil"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(c) Nitrous oxide, which is a greenhouse gas, is not at all released into atmosphere by crop fields</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(d) It is a combination of a weedicide and a fertilizer for particular crops</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Mains Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">How do subsidies affect the cropping pattern, crop diversity and economy of farmers? What is the significance of crop insurance, minimum support price and food processing for small and marginal farmers? (UPSC CSE 2017)</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<a href=\"https://indianexpress.com/article/explained/explained-law/telangana-gig-workers-bill-2026-10611151/\"><b>Telangana’s gig workers law: The legislation, and how other states have fared</b></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national and international importance.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-II: </b><span style=\"font-weight: 400\">Government policies and interventions for development in various sectors and issues arising out of their design and implementation, Indian Economy and issues relating to planning, development and employment.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story: </b><span style=\"font-weight: 400\">On Monday, the Telangana state Assembly </span><a href=\"https://indianexpress.com/article/cities/hyderabad/telangana-cabinet-paves-way-for-anti-hate-speech-gig-workers-bills-10597279/\"><span style=\"font-weight: 400\">passed</span></a><span style=\"font-weight: 400\"> the Telangana Platform-Based Gig Workers (Registration, Social Security and Welfare) Bill, 2026. The legislation, which seeks to regulate </span><a href=\"https://indianexpress.com/article/opinion/editorials/concerns-of-gig-workers-must-be-heard-addressed-fairly-10450574/\"><span style=\"font-weight: 400\">gig and platform work</span></a><span style=\"font-weight: 400\"> and ensure protection of such gig workers, is similar to those passed by four other states: Karnataka, Rajasthan, Jharkhand, and Bihar. Here’s what to know.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Who are gig workers?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What distinguishes gig work from traditional employment in terms of labour rights and protections?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the gig economy?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the significance of the gig economy?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the provisions related to gig workers in the New Labour Code?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the concerns related to the “10-minute delivery”?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the challenges faced by the gig workers?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the various initiatives related to gig workers?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— As per the Bill, platform companies will have to submit details regularly and file electronic returns of transactions made by customers every three months. The government will recover a 1-2% levy on these transactions. Strict penalties have been prescribed for non-compliance: Rs 50,000 for the first violation, Rs 1 lakh for the second, Rs 1.5 lakh for the third, and up to five times the arrears thereafter.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— A special welfare board will be constituted for gig workers using the corpus created by the government levy, which will provide for insurance, pension and maternity benefits. Every registered gig worker will be given a unique ID. A maximum of 5% of the fund can be used for the board’s operating expenses.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Bill also mandates transparent policies: platforms must clearly disclose salary and deduction details, and there can be no arbitrary use of algorithms that affect workers.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The Bill is expected to benefit over 4 lakhs of delivery riders, cab drivers, and other platform workers across the state. Venkataswamy said that the framework is to ensure that gig workers are not denied social security, insurance, and proper working conditions.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The legislation for gig workers in all five states focus on registration of workers, providing social security, health insurance, and welfare benefits.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Of the Bills passed by Rajasthan, Jharkhand, Bihar, and Karnataka, only Jharkhand has been able to implement it as the others are stuck in negotiations and discussions.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The gig economy, as defined by the World Economic Forum (WEF), involves the exchange of labour for money between individuals or companies via digital platforms that actively connect providers with customers on a short-term and payment-by-task basis.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Rajasthan was the first state to pass the Rajasthan Platform-Based Gig Workers (Registration and Welfare) Act on July 24, 2023. The law mandates registration of gig workers, setting up of a welfare board, with one-third of its members to be women. It also levies a fee on aggregators for a welfare fund meant to provide, among other things, health insurance and accident coverage, and imposes penalties of up to Rs 5 lakh for a first offence and up to Rs 50 lakh for subsequent violations.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Other Important Articles Covering the same topic:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/how-gig-workers-struggle-between-flexibility-and-insecurity-10102129/\"><span style=\"font-weight: 400\">📍How gig workers struggle between flexibility and insecurity</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Prelims Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(3) With reference to casual workers employed in India, consider the following statements: (UPSC CSE 2021)</span>"
+            },
+            {
+                "type": "text",
+                "value": "1. All casual workers are entitled for Employees Provident Fund coverage."
+            },
+            {
+                "type": "text",
+                "value": "2. All casual workers are entitled for regular working hours and overtime payment."
+            },
+            {
+                "type": "text",
+                "value": "3. The government can by a notification specify that an establishment or industry shall pay wages only through its bank account."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Which of the above statements are correct?&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) 1 and 2 only&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "(b) 2 and 3 only"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(c) 1 and 3 only&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(d) 1, 2 and 3</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Mains Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Examine the role of ‘Gig Economy’ in the process of empowerment of women in India. (UPSC CSE 2021)</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>NATION</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<a href=\"https://indianexpress.com/article/cities/pune/lancet-study-challenge-india-meeting-2030-maternal-mortality-10612029/\"><b>India faces challenge in meeting 2030 maternal mortality goals, shows study</b></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national importance, Social development.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-I, II:</b><span style=\"font-weight: 400\"> Population and associated issues, Social empowerment, Issues relating to development and management of Social Sector/Services relating to Health.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story: </b><span style=\"font-weight: 400\">A recent study in The Lancet Obstetrics, Gynaecology, and Women’s Health journal shows the challenge before India in meeting the Sustainable Development Goal of bringing down the Maternal Mortality Ratio (MMR) to below 70 deaths per 1 lakh live births by 2030.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the Maternal</span><span style=\"font-weight: 400\"> Mortality Ratio (MMR)?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the main causes of maternal deaths?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the regional disparities in maternal mortality in India?&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the significance of reducing maternal mortality?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the challenges faced by India in achieving the MMR target of below 70 by 2030?&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What measures should be taken to reduce maternal mortality in India?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— While the country has successfully brought down maternal mortality numbers from 1.19 lakh in 1990 to 36,900 in 2015 and 24,700 in 2023, the progress has slowed. As per the study, ‘Global Burden of Diseases, Injuries and Risk Factors’, while the MMR in India stood at 508 in 1990, it was down to 116 deaths per lakh live births in 2023.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— India accounted for one-tenth of all maternal mortality numbers in 2023, the study says, putting the total deaths globally at 2.4 lakh.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The study also shows that 100 of the 204 countries and territories covered had reached the 2030 SDG target of below-70 MMR by 2023. Of the 104 not yet meeting the target, 15 had MMR in the range of 70 to 100, 16 between 100 and 140 (including India), and 73 MMR greater than 140.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Apart from India, the countries struggling to meet the SDG 2030 target include the Democratic Republic of the Congo, Ethiopia, Nigeria and Pakistan.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Given the low starting point, India, however, remains among countries to have seen the most substantial improvement in MMR since 1990, along with Bangladesh, Ethiopia, Morocco, Nepal and Rwanda.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Dr Anjali Radkar, a demographer and former Professor and Head, Centre for the Study of Social Inclusion, Gokhale Institute of Politics and Economics, says that within India, while the South and some states are on course to achieving the SDG target by 2030, the overall MMR is being pulled down by states such as Assam and Uttar Pradesh.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— As per the Sample Registration System (SRS), which is the major source of fertility and mortality rates in India, while India’s MMR declined from 122 per one lakh live births in 2015-17 to 88 in 2021-2023, MMR in Assam came down from 215 to 110 in the same period, and in UP, from 197 to 141, Radkar pointed out.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The demographer advised targeted action, including by strengthening primary healthcare systems, with a focus on maternal and child health. “When child mortality declines, fertility rates tend to decrease as well. Lower fertility in turn, contributes to a reduction in maternal mortality… This integrated approach can play a key role in reducing MMR,” she said, adding that unless maternal mortality was reduced, the global SDG goals for maternal health would also remain out of reach.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— As per the Lancet study, haemorrhage and hypertensive disorders – easily preventable – accounted for nearly half (above 40%) of the maternal deaths in 2023. Setbacks to general healthcare during Covid are believed to have played a role in the slide seen in 2020-21.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Maternal mortality is defined as deaths due to obstetric complications or comorbid disorders exacerbated by pregnancy, up to 1 year after the end of the pregnancy, irrespective of the method by which pregnancy ended.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>UPSC Prelims Practice Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(4) Which of the following can contribute to reduction in maternal mortality?</span>"
+            },
+            {
+                "type": "text",
+                "value": "1. Strengthening primary healthcare"
+            },
+            {
+                "type": "text",
+                "value": "2. Decrease in fertility rate"
+            },
+            {
+                "type": "text",
+                "value": "3. Reduction in child mortality"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Select the correct answer using the code below:</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) 1 and 2 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(b) 1 and 3 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(c) 2 and 3 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "(d) 1, 2 and 3"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>THE EDITORIAL PAGE</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<a href=\"https://indianexpress.com/article/opinion/columns/how-a-two-pronged-approach-overcame-the-maoist-challenge-10612205/\"><b>How Naxal deadline was met with a two-pronged approach</b></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national and international importance.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-III: </b><span style=\"font-weight: 400\">Linkages between development and spread of extremism.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story: </b><a href=\"https://indianexpress.com/profile/columnist/m-p-nathanael/\"><b>M.P. Nathanael</b></a><b> writes: </b><span style=\"font-weight: 400\">With the deadline of March 31 met, Union Home Minister <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/amit-shah/\">Amit Shah</a> was exuberant in declaring in the Lok Sabha on March 30 that “Naxalism has been more or less wiped out from Bastar” and with that, from the country, too.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Know the history of Naxalism in India from origin to its spread and decline</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the link between development and spread of extremism?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the initiatives taken by the government to curb naxalism?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Understand the difference between Naxalism, Maoism, and Left-wing Extremism (LWE)?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the SAMADHAN Framework?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— How socio-economic issues contribute to LWE?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are Red corridors?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Meeting the deadline was made possible not only by acceding to the logistical and infrastructural demands of the security forces to counter the Maoists but also by focusing simultaneously on the development of the region.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What appeared to be an insurmountable task was the road connectivity in Abujhmarh area, which was a bastion of the Maoists where their writ ran large. Efforts to construct roads were thwarted by the Maoists as it would facilitate the forces to rush anywhere in the region in a short time.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The onerous task of constructing roads was initially entrusted to the Border Roads Organisation under the security umbrella of the CRPF as private contractors feared to tread in the area. Once the construction of roads began, the private contractors came forward.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— With more than 5,000 mobile towers installed in Abujhmarh and neighbouring areas and thousands of mobile sets given to the villagers, access to the outside world was wide open.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Hard intelligence began to flow while the Maoists were cut off from the villagers. The combination of human intelligence and technical intelligence led to the security forces gaining an upper hand, with relentless operations yielding the desired results.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— The 21-day operations conducted by the Commando Battalion for Resolute Action (CoBRA) and the Central Reserve Police Force in the Karregutta hills on the Telangana-Chhattisgarh border in May last year proved to be a turning point. Over 31 Maoists were killed while others escaped by dispersing in small groups into Telangana and Andhra Pradesh</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Left rudderless, those who are still wandering in jungles may soon join the mainstream to enjoy the alluring rehabilitation schemes being implemented by the affected states.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Rather than stating that Naxalism has been completely wiped out, the Home Minister chose to say that it has “been more or less wiped out” as two top leaders — Mupalla Lakshmana Rao (Ganapathy) and Misir Besra (Sagar) — are yet to surrender. Their surrender would mark the end of Naxalism in India.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— While often conflated, Maoism, Naxalism, and Left-Wing Extremism (LWE) have distinct origins. Maoism is based on Mao Zedong’s doctrine of agrarian revolution and guerrilla warfare. Its Indian variant emerged with the 1967 Naxalbari uprising, leading to the broader Naxalite movement.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Over decades, this transformed itself into factions, with the CPI (Maoist) becoming the dominant group in 2004 through the merger of the People’s War Group (PWG) and the Maoist Communist Centre (MCC). LWE is the term used by the Indian state to categorise such insurgencies within a national security framework.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Emerging from the Naxalbari uprising of 1967, early Naxalite groups framed India as a “semi-feudal, semi-colonial” society in which only armed peasant war could deliver land and dignity.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Over decades, they spread across what became known as the “Red Corridor”—from forests of Andhra and Telangana to tribal belts of Bihar, Jharkhand, Chhattisgarh and Odisha—by embedding themselves among landless peasants, Dalits and Adivasis for whom the formal state was distant, predatory or violently absent.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Studies of LWE consistently flag structural drivers: skewed land relations and failed land reforms; bonded labour and caste-based oppression; displacement without rehabilitation due to dams, mines and industry; corruption and brutality in forest and police bureaucracies; and exclusion of Adivasi communities from decisions over land and forests.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Other Important Articles Covering the same topic:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/kp-raghuvanshi-ips-interview-c60-ats-26-11-upsc-exam-aspirants-10569080/\"><span style=\"font-weight: 400\">‘IPS – Not for Power, but Purpose’: The man who built the C-60 and faced 26/11 reveals the 1 question in UPSC interview that defined his career</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/explained/how-india-maoist-insurgency-collapsed-can-it-can-rise-again-10553088/\"><span style=\"font-weight: 400\">How did India’s Maoist insurgency collapse, and can it rise again?</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/what-lies-ahead-as-centre-mounts-offensive-against-maoists-10046069/\"><span style=\"font-weight: 400\">What lies ahead as Centre mounts offensive against Maoists</span></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Mains Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><span style=\"font-weight: 400\">Naxalism is a social, economic and developmental issue manifesting as a violent internal security threat. In this context, discuss the emerging issues and suggest a multilayered strategy to tackle the menace of Naxalism. (UPSC CSE 2022)</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>📍</b><span style=\"font-weight: 400\">Left-Wing Extremism (LWE) has been declared as the biggest internal security threat to India. Examine the role of governance and development in countering LWE in affected regions. (UPSC CSE 2022)</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>THE IDEAS PAGE</b></span>"
+            },
+            {
+                "type": "heading",
+                "value": "<a href=\"https://indianexpress.com/article/opinion/columns/india-must-reboot-neighbourhood-policy-trade-is-the-key-10612233/\"><b>India has rare opportunity to re-imagine neighbourhood policy. Trade is key</b></a>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Syllabus:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Preliminary Examination: </b><span style=\"font-weight: 400\">Current events of national and international importance.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Mains Examination: General Studies-II:</b><span style=\"font-weight: 400\"> India and its neighbourhood- relations.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>What’s the ongoing story:</b><span style=\"font-weight: 400\"> C. Raja Mohan writes- “Barely a few months ago, it was all gloom and doom about India’s neighbourhood policy. Delhi was consumed by hand-wringing about why and how India “lost” the Subcontinent. The downturn in relations with Dhaka after the ouster of <a rel=\"noamphtml\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/sheikh-hasina/\">Sheikh Hasina</a> sharpened that acute sense of loss. The question now is different. Can India seize the opportunities for a reboot of regional policy triggered by new political developments across the neighbourhood?”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Points to Ponder:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the Neighbourhood First policy?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the status of India’s relationship with the neighbouring countries?&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What is the Gujral doctrine?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— How do domestic affairs shape the foreign policy of a nation?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the significance and challenges of India’s neighbourhood-first policy?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What are the challenges in India’s trade policy with neighbouring countries?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— What steps need to be taken to strengthen the cooperation between India and its neighbouring countries?&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>— Map work:</b><span style=\"font-weight: 400\"> India and its neighbouring countries and bordering states.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Key Takeaways:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “In Bangladesh, the elections in February handed Tarique Rahman and the Bangladesh Nationalist Party a massive mandate. Rahman’s emphasis on “Bangladesh First” opens the door for a mature, unsentimental, interest-based relationship with Dhaka. Over the last decade, Bangladesh has emerged as India’s most important neighbourhood partner. The deep economic interdependence built over this period appears to have survived the political toxicity of the last 20 months, but the relationship now needs fresh political impetus.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “Nepal’s transition has been equally striking. The sweeping victory of the Rastriya Swatantra Party and the rise of Balendra Shah mark a generational political shift, one that offers an opportunity to move beyond the old cycle of distrust. India must shed the rhetoric of a “special relationship” in favour of one grounded in equality and genuine respect for Nepal’s sovereignty.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “Sri Lanka had, in fact, begun the positive evolution of the region. Colombo, too, has a new generation in charge since the 2024 elections. It has been moving toward pragmatic engagement with Delhi and breaking free from the historical political animosity that long coloured the ruling party’s relationship with India.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “Taken together, these transitions present India with a rare opportunity to reimagine its regional policy. The biggest possibilities are in trade.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “For decades, India’s regional trade policy has been hobbled by self-defeating protectionism. It has taken a peculiarly perverse trade policy in Delhi to defeat India’s natural advantages of geography and economic history. Despite the 4,000-kilometre border with Bangladesh and a narrow Palk Strait separating peninsular India from Sri Lanka, the West remains the main destination for their exports while China is the dominant source of imports.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “India remains Nepal’s largest trading partner — but barely. Delhi has systematically neutralised the extraordinary legacy of an open border through poor infrastructure and countless non-tariff barriers. The Indian trade negotiators who rail against Western protectionism become its staunchest defenders when it comes to neighbours. Despite ambitious rhetoric on regional cooperation and neighbourhood-first, Delhi’s trade policy towards the region has remained hidebound and out of step with India’s own national interests.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “India objects to its massive trade deficit with China yet runs substantial surpluses with Bangladesh, Nepal, and Sri Lanka. Delhi finds it difficult to offer its neighbours the very market access it demands from Beijing. The answer is not for India to export less but to import more — and to do so through stronger investment ties, trade facilitation, and modernised border infrastructure.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “A genuine transformation of connectivity between India, Bangladesh, and Nepal would provide a major boost to South Asia’s poorest parts in the eastern Subcontinent. This transformation will require both unilateral steps by Delhi and negotiated give-and-take. It will involve guardrails, for example, on rules of origin. Trade policy cannot rest on generosity; it must rest on the recognition of shared benefits and political ownership.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— “The new governments in Dhaka, Kathmandu, and Colombo represent electorates that have rejected old forms of dependency and clientelism. They are not looking for patrons; they are looking for partners. Agreements must produce visible, measurable benefits on both sides. Connectivity must improve, markets must open, and economic cooperation must translate into jobs, exports, and growth — for India’s neighbours and for itself.”</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Do You Know:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">— Neighbourhood First policy guides India’s relations with countries in its immediate neighbourhood. It focuses on creating mutually beneficial, people-oriented, regional frameworks for stability and prosperity through the building of physical, digital and people-to-people connectivity.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Previous year UPSC Prelims Question Covering similar theme:</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(5) Consider the following pairs: (UPSC CSE 2016)</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Which of the pairs given above is/are correctly matched?</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(a) 1 and 2</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(b) 2 only</span>"
+            },
+            {
+                "type": "text",
+                "value": "(c) 2 and 3 only"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">(d) 3 only</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><b>ALSO IN NEWS</b></span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Also subscribe to our</b><a href=\"https://indianexpress.com/newsletters/upsc-essentials/\"><b>&nbsp;UPSC newsletter.</b></a><b>&nbsp;Stay updated with the latest UPSC articles by joining our Telegram channel –</b><a href=\"https://indianexpress.com/\"><b>&nbsp;Indian Express</b></a><b>&nbsp;UPSC Hub, and follow us on</b><a href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"nofollow\"><b>&nbsp;Instagram</b></a><b>&nbsp;and X.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>🚨&nbsp;</b><a href=\"https://epaper.indianexpress.com/4129388/UPSC-Essentials/March-16-2026#page/1/1\" rel=\"nofollow\"><b>Click Here</b></a><b>&nbsp;to read the UPSC Essentials magazine for March 2026. Share your views and suggestions in the comment box or at manas.srivastava@</b><a href=\"https://indianexpress.com/\"><b>indianexpress.com</b></a><b>🚨</b>"
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Internet",
+        "title": "Samsung Electronics likely to report stupendous surge in quarterly profit to record level",
+        "url": "https://www.thehindu.com/sci-tech/technology/samsung-electronics-likely-to-report-stupendous-surge-in-quarterly-profit-to-record-level/article70822254.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Samsung Electronics, benefiting ​from red-hot chip prices stoked by the AI boom, is expected to book a six-fold jump in operating profit for ‌January-March; a quarterly record and just shy of what it earned for all of ​the past business year."
+            },
+            {
+                "type": "text",
+                "value": "Bolstered by what it calls an “unprecedented supercycle” for memory chips, Samsung ⁠is projected to flag on Tuesday a profit of 40.5 trillion won ($26.9 billion) on a 50% climb in revenue, according to an LSEG SmartEstimate drawn from 29 analysts."
+            },
+            {
+                "type": "text",
+                "value": "By comparison, last year, the world’s biggest maker of memory chips logged ‌43.6 trillion won in operating income."
+            },
+            {
+                "type": "text",
+                "value": "Some analysts are even more bullish, with Citi, for example, forecasting 51 trillion won."
+            },
+            {
+                "type": "text",
+                "value": "“You couldn’t ask for things to be better,” said Ko Yeongmin, analyst ‌at Daol Investment &amp; Securities, referring to the strength in the memory chip market."
+            },
+            {
+                "type": "text",
+                "value": "Despite ‌the ⁠expected huge jump in earnings, investors are likely to focus on any clues as ⁠to what extent the war in West Asia might impact Samsung’s growth momentum."
+            },
+            {
+                "type": "text",
+                "value": "Samsung, however, does not usually say much about its outlook until it gives a more detailed earnings breakdown which is due later in the month."
+            },
+            {
+                "type": "text",
+                "value": "The war has raised energy costs ​and threatens to disrupt supply of key production ‌materials, which in turn may force Big Tech firms to roll back their investments in artificial intelligence data centres."
+            },
+            {
+                "type": "text",
+                "value": "There have also been some signs of an easing in spot prices for DRAM (dynamic random access memory) chips as device manufacturers have hiked prices of smartphones, computers and other products, denting consumer demand."
+            },
+            {
+                "type": "text",
+                "value": "These ‌concerns, as well as the unveiling of memory-saving technology from Google called TurboQuant last month, ​have contributed to a selloff in memory chip stocks, with Samsung’s shares losing 14% since the war began on February 28."
+            },
+            {
+                "type": "text",
+                "value": "That said, the shares are still up 50% ⁠this year, buoyed by Big Tech AI investment plans worth hundreds of billions of dollars."
+            },
+            {
+                "type": "text",
+                "value": "Some experts remain upbeat about the outlook, noting that there is a severe shortage of memory chips."
+            },
+            {
+                "type": "text",
+                "value": "“We have ‌seen a cooling (in memory chip spot prices) over the last 3-4 weeks yes. We do believe it’s temporary,” said Tobey Gonnerman, president of semiconductor distributor Fusion Worldwide."
+            },
+            {
+                "type": "text",
+                "value": "“The demand and backlog remains strong,” he said, adding that it would be a long time before memory manufacturing could meet total demand."
+            },
+            {
+                "type": "text",
+                "value": "Market researcher Trendforce also expects conventional contract prices for DRAM chips to continue to surge. They doubled in the first quarter from the previous quarter and are forecast to climb 58-63% during the April-June period."
+            },
+            {
+                "type": "text",
+                "value": "Samsung Electronics co-CEO Jun Young-hyun told shareholders last ‌month the chipmaker is working with major customers to shift to contracts of three-to-five years to shield them from potential fluctuations ​in demand."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/sci-tech/technology/samsung-electronics-plans-to-produce-tesla-chips-starting-late-2027/article70756629.ece\" target=\"_self\">While Samsung’s memory chip division will account for the lion’s share of its profit, its other businesses are expected to struggle.</a>"
+            },
+            {
+                "type": "text",
+                "value": "Analysts said Samsung’s contract chip manufacturing business, ⁠which competes with TSMC, is set to stay in the red. The division, however, recently got a boost from ⁠a partnership with Nvidia that will see it build new AI inference processors."
+            },
+            {
+                "type": "text",
+                "value": "The smartphone and flat-screen divisions are both likely to see profits slump by about half in the first quarter ‌due to higher memory costs and fierce competition, according to Kiwoom Securities."
+            },
+            {
+                "type": "text",
+                "value": "Samsung may also have to grapple with rising wage costs, as its labour unions in South Korea have called for a revamp of ​its bonus scheme and have threatened to strike in May."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Internet",
+        "title": "Wary of news media, Silicon Valley builds its own",
+        "url": "https://www.thehindu.com/sci-tech/technology/wary-of-news-media-silicon-valley-builds-its-own/article70822240.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "When OpenAI acquired the tech podcast TBPN this week, it wasn't just buying a show; it was buying a message."
+            },
+            {
+                "type": "text",
+                "value": "The move laid bare a strategy that Silicon Valley has been perfecting for years: ditch the tech-sceptics of the traditional press, and build your own media."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/sci-tech/technology/openai-buys-tech-talk-show-tbpn-in-push-to-shape-ai-narrative/article70818506.ece\" target=\"_self\">TBPN is in many ways a tribute to mainstream news, with co-hosts John Coogan and Jordi Hays, both from the venture capital world, presenting a three-hour show daily from a studio in Los Angeles</a> that resembles a business or sports program on a cable news network."
+            },
+            {
+                "type": "text",
+                "value": "But Coogan and Hays insist they are not journalists, even if they line up interviews with key figures in the industry who offer insightful access to the Silicon Valley world."
+            },
+            {
+                "type": "text",
+                "value": "The show, like a whole ecosystem of podcasts and media orbiting Silicon Valley today, operates in a world where the benefits of tech for society need no explaining, and tech enthusiasm runs deep."
+            },
+            {
+                "type": "text",
+                "value": "Fidji Simo, OpenAI's CEO of AGI Deployment, said the acquisition was driven by a need for \"constructive conversation about the changes AI creates,\" and said TBPN would maintain its editorial independence."
+            },
+            {
+                "type": "text",
+                "value": "The show and its team now fall under the responsibility of OpenAI's public affairs chief Chris Lehane, a veteran Washington lobbyist who made his name handling scandals for the Clinton administration."
+            },
+            {
+                "type": "text",
+                "value": "\"You could read this as OpenAI needing help translating complexity to decision-makers. You could also read it as buying favorable narrative positioning during a period of intense scrutiny. Probably both,\" said Monica Kahn, CEO of brand advisory Creator Revolution."
+            },
+            {
+                "type": "text",
+                "value": "\"They're buying the layer where interpretation happens,\" she added on LinkedIn."
+            },
+            {
+                "type": "text",
+                "value": "The transaction follows a movement spearheaded by Elon Musk and venture capitalist Marc Andreessen in which the most powerful figures in tech are circumventing mainstream news media to avoid an establishment they describe as anti-tech or left-wing."
+            },
+            {
+                "type": "text",
+                "value": "The roster of shows where Silicon Valley's elite now prefer to make news constitutes a parallel media ecosystem."
+            },
+            {
+                "type": "text",
+                "value": "Andreessen Horowitz has invested heavily to build its own media empire, putting out podcasts to showcase its portfolio of tech investments and push a deeply pro-tech agenda without confrontation."
+            },
+            {
+                "type": "text",
+                "value": "Lex Fridman's podcast draws millions of viewers or listeners and has attracted tech luminaries including Musk, Zuckerberg, DeepMind CEO Demis Hassabis, and OpenAI CEO Sam Altman for two-to-three-hour discussions ranging from business to the personal."
+            },
+            {
+                "type": "text",
+                "value": "The unabashedly right-wing All-In Podcast has featured the top CEOs, as well as executives closely linked to the Trump administration who avoid the mainstream news coverage they see as unsympathetic."
+            },
+            {
+                "type": "text",
+                "value": "Zuckerberg used a three-hour January 2025 appearance on Joe Rogan's podcast to defend Meta's rollback of content moderation."
+            },
+            {
+                "type": "text",
+                "value": "Whether bypassing the news media will actually benefit tech's cause remains an open question."
+            },
+            {
+                "type": "text",
+                "value": "\"I think the TBPN deal is a mistake,\" said former BuzzFeed reporter Alex Kantrowitz of the Big Technology Podcast. \"Under the OpenAI umbrella, the network loses credibility and everything it says will be seen as OpenAI marketing.\""
+            },
+            {
+                "type": "text",
+                "value": "The deeper problem, Kantrowitz argued, is one of reach."
+            },
+            {
+                "type": "text",
+                "value": "While OpenAI may be looking to reshape public opinion at a moment when AI is polling poorly in the United States, TBPN's audience, like on other Silicon Valley-made podcasts, is already a converted one."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Internet",
+        "title": "Microsoft to invest $10 billion for Japan AI data centres",
+        "url": "https://www.thehindu.com/sci-tech/technology/microsoft-to-invest-10-billion-for-japan-ai-data-centres/article70822242.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Microsoft said Friday it will invest $10 billion in Japan over the next four years to build artificial intelligence data centres and related infrastructure."
+            },
+            {
+                "type": "text",
+                "value": "Power-hungry data centres, or warehouse-like facilities that power AI tools from chatbots to image generators, are springing up worldwide, and the sector is growing particularly fast in Asia."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/videos/watch-trumps-pearl-harbor-remark-stuns-japan-pm-during-iran-war-discussion/article70764224.ece\" target=\"_self\">Microsoft President Brad Smith met Japanese Prime Minister Sanae Takaichi at her office on Friday to announce the investment.</a>"
+            },
+            {
+                "type": "text",
+                "value": "Smith said in a statement that it was a \"response to Japan's growing need for cloud and AI services\"."
+            },
+            {
+                "type": "text",
+                "value": "Businesses in Japan, the world's fourth-largest economy, are keen to get ahead in the fast-moving AI field."
+            },
+            {
+                "type": "text",
+                "value": "But data centre expansion there is constrained by limited space and relatively expensive electricity."
+            },
+            {
+                "type": "text",
+                "value": "The U.S. tech giant will collaborate with Japan's SoftBank Group and Sakura Internet to expand domestic tech infrastructure, it said in a press release."
+            },
+            {
+                "type": "text",
+                "value": "It follows a $2.9 billion two-year investment Microsoft announced in 2024 to bolster the country's push into AI and strengthen its cyber defences."
+            },
+            {
+                "type": "text",
+                "value": "The investment unveiled Friday also includes funds to enhance cybersecurity partnerships with Japanese government agencies, and to train one million engineers in cooperation with telecom and tech giants NTT and NEC."
+            },
+            {
+                "type": "text",
+                "value": "A rush to build data centres in the Asia-Pacific region, especially in India and Southeast Asia, has sparked concerns over the facilities' environmental impact."
+            },
+            {
+                "type": "text",
+                "value": "That includes increased demand on electricity grids that are often reliant on fossil fuels, and on local water supplies used to cool the hot servers inside."
+            },
+            {
+                "type": "text",
+                "value": "Microsoft says it has pledged to become carbon negative, zero-waste and \"water positive\" by 2030."
+            },
+            {
+                "type": "text",
+                "value": "On Tuesday, the company announced plans to invest more than $1 billion in cloud and AI data centre infrastructure and operations in Thailand over the next two years."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Environment",
+        "title": "Great Nicobar Project: Draft plan to ‘relocate’ affected Nicobarese families creates confusion",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/gni-project-draft-plantorelocateproject-affectednicobaresefamiliescreates-confusion/article70819645.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "A draft plan outlining the “relocation” of Nicobarese tribal communities affected by the Union government’s Great Nicobar Island (GNI) mega-infrastructure project “to their ancestral lands” has created confusion and is exacerbating existing apprehensions among locals. They have been, for four years, protesting the clearance for the ₹92,000-crore project after withdrawing their consent in 2022, alleging that their forest rights had not been settled."
+            },
+            {
+                "type": "text",
+                "value": "This draft “Comprehensive Tribal Welfare Plan”, prepared by the Andaman and Nicobar Islands administration and circulated on March 13, 2026 for consultation with line departments and the Tribal Council of Great Nicobar, proposes a ₹42.52-crore outlay over 24 months for the “relocation of Nicobarese tribal communities from tsunami-affected or project-impacted areas”, which involves housing, land development and basic infrastructure."
+            },
+            {
+                "type": "text",
+                "value": "<strong>\n        Also read:<a href=\"https://www.thehindu.com/sci-tech/energy-and-environment/why-has-ngt-cleared-the-nicobar-project-explained/article70661022.ece\" target=\"_blank\"> Why has NGT cleared the Nicobar project? | Explained</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "However, details of where the proposed relocation will take place and who will be&nbsp;relocated&nbsp;have left members of the Tribal Council of Great and Little Nicobar confused, according to Nicobarese community leaders who spoke to <i>The Hindu</i>. They said they were handed a copy of the draft plan on March 28, 2026 and have since been called for two meetings by the district administration Campbell Bay to&nbsp;sign&nbsp;off on it.&nbsp;&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "This comes as the Union government told a Calcutta&nbsp;High Court Bench on March 30, 2026 that it needed 15 days to “demonstrate that consent has been taken from the tribal people” for its project. This Bench is hearing a batch of petitions challenging the project’s clearance on the grounds that it violated consent procedures and forest rights of the Nicobarese and Shompen communities."
+            },
+            {
+                "type": "text",
+                "value": "At a meeting on April 1, 2026, the Tribal Council&nbsp;submitted&nbsp;a letter pointing out that some aspects of&nbsp;the draft&nbsp;were unclear and requested a Hindi translation so all members could understand and discuss it. They said they would need at least a month to review the translated document before further discussions.&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Notably, while the draft&nbsp;plan states&nbsp;the GNI project “involves relocation”, the Centre has repeatedly said the project would not “disturb or displace tribes”.&nbsp;"
+            },
+            {
+                "type": "heading",
+                "value": "Unclear relocation plans&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "According to a letter attached to the draft, the plan was prepared after Tribal Council leaders demanded a return to ancestral villages on the west coast of GNI that were destroyed in the 2004 tsunami, after which communities were shifed to encampments in Rajiv Nagar and New Chingenh near Campbell Bay."
+            },
+            {
+                "type": "text",
+                "value": "However, the draft plan&nbsp;states,&nbsp;“The project involves relocation to Rajiv Nagar (32 households, 101 persons) and New&nbsp;Chingenh&nbsp;(30 households, 117 persons).”&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "In a section, the plan proposes Pulobhabi&nbsp;for “community purposes” of residents in Rajiv Nagar, with “shared assets” to “facilitate periodic visits to ancestral lands”, while adding, “an option shall remain open” for families to return to ancestral villages outside the project area.&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "For New Chingenh residents, the plan records their desire to return to Old Chingenh and Pulo Baha, but notes a final decision will be taken after assessing land availability and consultations, while their existing accommodations will be upgraded."
+            },
+            {
+                "type": "text",
+                "value": "<strong>ALSO WATCH </strong><a href=\"https://www.thehindu.com/videos/great-nicobar-could-change-forever-pankaj-sekhsaria-on-indias-mega-project-interview/article70703198.ece\"> “Great Nicobar could change forever”: Pankaj Sekhsaria on India’s mega project | Interview</a>"
+            },
+            {
+                "type": "text",
+                "value": "Further, the plan lists all enumerated families in Rajiv Nagar and New Chingenh (62 families in total) and then&nbsp;states: “Proposed relocation site: Pulobhabi, western coast of GNI”.&nbsp;&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "The tables in the draft add to the ambiguity: allocations are made for upgrading 62 homes and building only 30 new homes, while another section states permanent shelters “will be built for all 62 households” — neither part explicitly mentions where these homes would come up.&nbsp;District authorities&nbsp;have not yet responded to&nbsp;<i>The Hindu</i>’s&nbsp;queries on what exactly the plan proposes.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "<b>“It’s not just&nbsp;Pulobhabi”</b>&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "A leader of the Tribal Council said Pulobhabi&nbsp;is just one among several ancestral village sites, and the proposal lists only about 13&nbsp;pre-tsunami Nicobarese villages when there are many more.&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "In New Delhi&nbsp;on March 20,&nbsp;Great and Little Nicobar Tribal Council chief Barnabas Manju had said the community&nbsp;has long demanded&nbsp;a return to all ancestral villages along the west coast&nbsp;since displacement in 2004.&nbsp;&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Soon after the project was granted Stage-I clearance in 2022, the community&nbsp;withdrew&nbsp;their consent, fearing parts of it would encroach on their forest lands, including ancestral villages, preventing their return. Council leaders say the apprehension has only been&nbsp;exacerbated&nbsp;as the administration has not clearly explained project boundaries— a grievance the council mentioned in the April 1 letter, which noted the map in the draft is “not clear”.&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "<b>Forest Rights&nbsp;</b>&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "The&nbsp;Nicobarese&nbsp;communities have alleged that the administration “falsely” certified that their rights under the 2006 Forest Rights Act had been identified and settled, even though the procedure had never been initiated. This was also reiterated in the Council’s April 1 letter.&nbsp;&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "While the draft specifies that&nbsp;its provisions have&nbsp;been drawn up under the&nbsp;2013 Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act and the 1956 Protection of Aboriginal Tribes Act,&nbsp;it does not mention anything about rights under the Forest Rights Act of 2006.&nbsp;&nbsp;"
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Environment",
+        "title": "Compliance eased for managing plastic waste",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-keeps-plastic-waste-targets-intact-but-eases-path-to-compliance/article70820277.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "India’s latest amendment to its Plastic Waste Management Rules leaves headline recycling targets unchanged, but introduces a series of provisions that allows companies to shift their compliance deadlines."
+            },
+            {
+                "type": "text",
+                "value": "These provisions include allowing companies that fail to meet their targets in 2025–26 to carry forward the shortfall for up to three years, provided they make up at least a third of the deficit annually. Prior to this, companies were bound to comply annually."
+            },
+            {
+                "type": "text",
+                "value": "“The unfulfilled target for the year 2025–26 may be carried forward for three subsequent years starting 2026–27… provided that at least one-third of the unfulfilled target is met in each of those years, until the entire carried-forward target is achieved,” says a gazette notification by the Environment Ministry dated March 31."
+            },
+            {
+                "type": "text",
+                "value": "The rules also formalise a system of tradable certificates, enabling companies to meet their obligations by purchasing credits from others that exceed their targets. While this creates flexibility and may reduce compliance costs, it also means firms are not necessarily required to recycle their own plastic footprint."
+            },
+            {
+                "type": "text",
+                "value": "Targets also do not apply where other regulations — for example, food safety standards — restrict the use of recycled plastic. This could exclude significant segments of packaging from the mandate, particularly in the food and beverage sector."
+            },
+            {
+                "type": "text",
+                "value": "The 2026 amendment retains a phased set of targets for recycled content and reuse in plastic packaging, continuing the trajectory first introduced under the Extended Producer Responsibility (EPR) framework in 2022, which for the first time specified collection targets for plastic waste producers and users of plastic packaging."
+            },
+            {
+                "type": "text",
+                "value": "For 2025–26, producers, importers and brand owners must ensure that rigid plastic packaging (Category I) contains at least 30% recycled material, rising to 60% by 2028–29. Flexible plastics (Category II) are subject to a 10% requirement in 2025–26, increasing to 20% thereafter, while multi-layered plastics (Category III) must meet a 5% threshold, rising to 10%. In parallel, the rules mandate reuse obligations for rigid packaging: 10% for smaller containers (0.9–4.9 litres), 70% for large water packaging, and 10% for large non-water packaging in 2025–26, with incremental increases over time."
+            },
+            {
+                "type": "text",
+                "value": "Category 1 includes PET water or soft drink bottles or HDPE milk bottles / shampoo bottles. These are the easiest to collect.&nbsp; Category 2 includes Plastic carry bags / grocery bags, snack or chips packets (single-layer flexible film). Category 3 or multi-layered plastic, such as Tetra Pak cartons, foil snack wrappers, are the hardest to collect."
+            },
+            {
+                "type": "text",
+                "value": "India’s plastic waste rules require companies to collect and process the equivalent of 100% of the plastic they introduce into the market by 2024–25, marking the final phase of the Extended Producer Responsibility (EPR) rollout. However, there is no public evidence to suggest that this target has been fully achieved in practice. No comprehensive public dataset or official assessment demonstrates system-wide compliance, and much of the reporting continues to rely on self-declarations through a centralised portal."
+            },
+            {
+                "type": "text",
+                "value": "The Environment Ministry has said that, while recycling has scaled up significantly under EPR, it is still far from complete coverage. Since the framework came into force in 2022, over 20.7 million tonnes of plastic packaging waste have been recycled. However, annual generation remains high — about 4.13 million tonnes in 2022–23 alone."
+            },
+            {
+                "type": "text",
+                "value": "The Central Pollution Control Board (CPCB) in 2023 had unearthed more than 6,00,000 fake pollution-trading certificates from audits at four plastic-recycling companies in Gujarat, Maharashtra and Karnataka."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Science",
+        "title": "When welfare met demographic concerns",
+        "url": "https://www.thehindu.com/sci-tech/health/when-welfare-met-demographic-concerns/article70819108.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "A scholarly dissection of a contentious chapter in India’s legislative history has revealed how maternity benefit policies were deeply intertwined with population control concerns in the 1960s."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.cambridge.org/core/journals/modern-asian-studies/article/towards-a-limited-and-quality-population-debates-on-maternity-benefits-in-midtwentieth-century-india/530805C07F4F09193C3C263D9650B331\" target=\"_self\">The study</a>, by Prarthana Dutta and Mithilesh Kumar Jha of the Indian Institute of Technology-Guwahati’s Department of Humanities and Social Sciences, is significant given the discussions over  the proposed Population Regulation Bill of 2019, seeking incentives for two-child families and disincentives for those with more children."
+            },
+            {
+                "type": "text",
+                "value": "The duo’s research paper was published in the latest issue of&nbsp;<i>Modern Asian Studies</i>, a peer-reviewed academic journal published by the Cambridge University Press."
+            },
+            {
+                "type": "heading",
+                "value": "What the study found"
+            },
+            {
+                "type": "text",
+                "value": "The study revisits debates surrounding the Maternity Benefit Act of 1961 and discussions on the Maternity Benefit (Amendment) Bill of 1956. The researchers note that promoting maternal and infant health was the major rationale for the 65-year-old Act. “However, maternity benefits also came to be increasingly questioned in the mid-1960s for allegedly leading to more births and ‘derailing’ the national family planning programme. Limiting maternity benefits as a disincentive strategy for population control was proposed through various platforms,” the study says."
+            },
+            {
+                "type": "text",
+                "value": "Examining the discussions on the 1965 Bill in Parliament, the researchers underline the arguments of Shakuntala Paranjpye, an advocate of birth control, who sought to add a restrictive clause limiting maternity benefits to the first two deliveries."
+            },
+            {
+                "type": "text",
+                "value": "“Based on neo-Malthusian and eugenic logic, Paranjpye’s amendment sought to regulate the reproductive behaviour of the working class. It was argued that the amendment would help curb population growth and ensure economic needs are met, as well as that public services are available,” the study notes."
+            },
+            {
+                "type": "text",
+                "value": "The researchers find that the discourse on maternity benefits became equally burdened with the concern for “overpopulation”. The population belonging to the “lower social strata”, such as the working class, was marked as a prolific reproducer and the major defaulter of the family planning programme."
+            },
+            {
+                "type": "heading",
+                "value": "“Indiscriminate reproduction”"
+            },
+            {
+                "type": "text",
+                "value": "“They (people in the lower social strata) were portrayed as a symbol of fecundity, whose only pleasure rested on indiscriminate reproduction. Maternity benefits were then viewed as a further inducement to these practices. Remedial measures were sought in introducing limits on the availability of maternity benefits,” the study notes."
+            },
+            {
+                "type": "text",
+                "value": "“Despite leading to an intense debate among the legislators, the amendment, which was advocated as a measure leading towards a limited and quality population, was voted down. Nevertheless, the debates are worth exploring to understand the prevailing notions about reproductive behaviour, differential fertility, and alleged ignorance of the working-class women,” the study says."
+            },
+            {
+                "type": "heading",
+                "value": "Shift towards reproductive health"
+            },
+            {
+                "type": "text",
+                "value": "The researchers say that there has been a gradual shift towards reproductive health in  family planning programmes since the late twentieth century. Simultaneously, issues of maternal and infant health have gained prominence in the debates on maternity benefits."
+            },
+            {
+                "type": "text",
+                "value": "“A major rationale for the 2017 amendment to the (Maternity Benefit) Act, which extended the maternity leave period up to 26 weeks, was the emphasis on exclusive breastfeeding and its long-term significance for the child’s health. In the legislative debates on maternity benefits, population control no longer received the same level of attention it had in the mid-1960s,” they note."
+            },
+            {
+                "type": "text",
+                "value": "“When a restrictive clause was added to the Act limiting the maximum permissible leave period to 12 weeks for women with two or more surviving children, it largely went unnoticed,” they conclude."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "Science",
+        "title": "Artemis II’s moon-bound astronauts capture Earth’s brilliant blue beauty as they leave it behind",
+        "url": "https://www.thehindu.com/sci-tech/science/artemis-iis-moon-bound-astronauts-capture-earths-brilliant-blue-beauty-as-they-leave-it-behind/article70820807.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The A<a href=\"https://www.thehindu.com/sci-tech/science/artemis-ii-astronauts-rocket-toward-moon-after-spending-day-around-earth/article70818440.ece\" target=\"_self\">rtemis II astronauts </a>have captured our blue planet’s brilliant beauty as they zoom ever closer to the moon."
+            },
+            {
+                "type": "text",
+                "value": "NASA released the crew’s first downlinked images Friday, 1 1/2 days into the first astronaut moonshot in more than half a century."
+            },
+            {
+                "type": "text",
+                "value": "The first photo taken by commander Reid Wiseman shows a curved slice of Earth in one of the capsule’s windows. The second shows the entire globe with the oceans topped by swirling white tendrils of clouds."
+            },
+            {
+                "type": "text",
+                "value": "This image provided by NASA shows a downlink image of Earth taken by NASA’s Artemis II astronaut commander Reid Wiseman inside the Orion capsule on Friday, April 3, 2026.  Photo: NASA via AP"
+            },
+            {
+                "type": "text",
+                "value": "As of midmorning Friday (April 3, 2026), Mr. Wiseman and his crew were 90,000 miles (145,000 kilometers) from Earth and were quickly gaining on the moon with another 168,000 miles (270,000 kilometers) to go. They should reach their destination on Monday (April 6, 2026)."
+            },
+            {
+                "type": "text",
+                "value": "The three Americans and one Canadian will swing around the moon in their Orion capsule, hang a U-turn and then head straight back home without stopping. They fired Orion's main engine Thursday night that set them on their course."
+            },
+            {
+                "type": "text",
+                "value": "They're the first lunar travelers since Apollo 17 in 1972."
+            }
+        ],
+        "date": "2026-04-04"
+    },
+    {
+        "category": "UPSC Current Affairs",
         "title": "UPSC Prelims ‘SEE’ Snapshot : Induction cooktop, Forex reserve, and Earth’s energy imbalance — quick look",
         "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-snapshot-induction-cooktop-forex-earths-energy-imbalance-10609136/",
         "content": [
