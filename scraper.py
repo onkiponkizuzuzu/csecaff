@@ -6,6 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def get_driver():
     chrome_options = Options()
@@ -32,39 +34,44 @@ def get_driver():
     driver.set_page_load_timeout(180)
     return driver
 
-def scrape_missing_ie_sections(base_url, category, existing_urls):
+def scrape_missing_ie_load_more(url, category, existing_urls):
     driver = get_driver()
     articles = []
     all_links = []
-    page = 1
     
     try:
-        # Navigate standard pagination until we hit 60 links
-        while len(all_links) < 60 and page <= 15:
-            current_url = f"{base_url}page/{page}/" if page > 1 else base_url
-            print(f"[{category}] Scanning page {page}...")
-            driver.get(current_url)
-            time.sleep(5)
-            
-            # IE section pages use different heading classes for their articles
-            elements = driver.find_elements(By.CSS_SELECTOR, ".articles h2 a, h3.title a, .title a, .img-context h2 a, .img-context h3 a")
-            current_links = []
-            for el in elements:
-                href = el.get_attribute("href")
-                if href and "/article/explained/" in href and href not in all_links:
-                    current_links.append(href)
-            
-            if not current_links:
-                print(f"[{category}] No more valid links found on page {page}.")
-                break
-                
-            all_links.extend(current_links)
-            page += 1
+        driver.get(url)
+        time.sleep(5)
 
-        # Remove duplicates, filter out existing, and enforce strict 60 limit
-        new_links = [link for link in list(set(all_links)) if link not in existing_urls]
+        clicks = 0
+        max_clicks = 40  # Allow enough clicks to find 60 new articles
+
+        while clicks < max_clicks:
+            elements = driver.find_elements(By.CSS_SELECTOR, "#tag_article .details h3 a")
+            current_links = list(set([el.get_attribute("href") for el in elements if "/article/explained/" in el.get_attribute("href")]))
+            all_links = list(set(all_links + current_links))
+            
+            # Check how many NEW links we have found so far
+            new_links = [link for link in all_links if link not in existing_urls]
+
+            if len(new_links) >= 60:
+                print(f"[{category}] Found {len(new_links)} new links. Stopping clicks.")
+                break
+
+            try:
+                load_more = WebDriverWait(driver, 5).until(
+                    EC.element_to_be_clickable((By.ID, "load_tag_article"))
+                )
+                driver.execute_script("arguments[0].click();", load_more)
+                clicks += 1
+                print(f"[{category}] Clicked Load More {clicks} (Found {len(new_links)} new articles so far)")
+                time.sleep(3)
+            except:
+                print(f"[{category}] Reached end of available articles.")
+                break 
+
+        # Enforce strict 60 limit
         new_links = new_links[:60]
-        
         print(f"[{category}] Proceeding to extract {len(new_links)} new articles...")
 
         for link in new_links:
@@ -124,8 +131,10 @@ def scrape_missing_ie_sections(base_url, category, existing_urls):
 
 # ================== Execution ==================
 missing_targets = {
-    "Everyday Explainer": "https://indianexpress.com/section/explained/everyday-explainers/",
-    "Law and Policy": "https://indianexpress.com/section/explained/explained-law/"
+    "Global": "https://indianexpress.com/about/explained-global/?ref=explained_pg",
+    "Sci-Tech": "https://indianexpress.com/about/explained-sci-tech/",
+    "Economics": "https://indianexpress.com/about/explained-economics/?ref=explained_pg",
+    "Expert Explains": "https://indianexpress.com/about/an-expert-explains/?ref=explained_pg"
 }
 
 data_file = "data.json"
@@ -133,14 +142,15 @@ full_db = json.load(open(data_file, "r", encoding='utf-8')) if os.path.exists(da
 existing_urls = set(a['url'] for a in full_db)
 
 for cat, url in missing_targets.items():
-    print(f"Starting isolated scrape for missing category: {cat}")
-    new_arts = scrape_missing_ie_sections(url, cat, existing_urls)
+    print(f"\nStarting isolated scrape for category: {cat}")
+    new_arts = scrape_missing_ie_load_more(url, cat, existing_urls)
     
     for art in new_arts:
         full_db.insert(0, art)
         existing_urls.add(art['url'])
 
 with open(data_file, "w", encoding='utf-8') as f:
+    # Cap safely increased to handle the new batches
     json.dump(full_db[:6000], f, ensure_ascii=False, indent=4) 
 
 print(f"\nTemporary scrape completed. Total articles in database: {len(full_db)}")
