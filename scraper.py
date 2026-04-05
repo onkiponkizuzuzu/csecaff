@@ -3,9 +3,10 @@ import json
 import time
 import pandas as pd
 from datetime import datetime
-import google_colab_selenium as gs
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from google.colab import files
 
 # Load existing database to check for duplicates early
 data_file = "data.json"
@@ -19,8 +20,16 @@ else:
 existing_urls = {art['url'] for art in full_db}
 
 def get_driver():
-    # Using google-colab-selenium as per preferences
-    driver = gs.Chrome()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+    
+    # Use standard Chrome driver for GitHub Runner
+    driver = webdriver.Chrome(options=chrome_options)
+    
     driver.execute_cdp_cmd('Network.enable', {})
     driver.execute_cdp_cmd('Network.setBlockedURLs', {
         "urls": [
@@ -39,15 +48,15 @@ def scrape_hindu_section(url, category):
         driver.get(url)
         time.sleep(8)
         elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
-        # FILTER ONLY NEW LINKS
-        links = list(set([el.get_attribute("href") for el in elements if "/article" in el.get_attribute("href")]))
+        links = list(set([el.get_attribute("href") for el in elements if el.get_attribute("href") and "/article" in el.get_attribute("href")]))
+        
+        # Only scrape links not in database
         new_links = [l for l in links if l not in existing_urls]
 
         for link in new_links:
             try:
                 driver.get(link)
                 time.sleep(5)
-
                 body_container = driver.find_element(By.CSS_SELECTOR, 'div.schemaDiv[itemprop="articleBody"]')
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h4.sub_head")
                 
@@ -55,20 +64,14 @@ def scrape_hindu_section(url, category):
                 for el in content_elements:
                     text = el.text.strip()
                     html_content = el.get_attribute('innerHTML').strip()
-                    
                     if not text or any(x in text for x in ["Related Stories", "mukunth.v@", "| Photo Credit:"]):
                         continue
-                    
                     article_content.append({"type": "heading" if el.tag_name == "h4" else "text", "value": html_content})
 
                 title = driver.find_element(By.CSS_SELECTOR, "h1.title").text.strip()
                 if len(article_content) > 1:
                     articles.append({
-                        "category": category,
-                        "title": title,
-                        "url": link,
-                        "content": article_content,
-                        "date": datetime.now().strftime("%Y-%m-%d")
+                        "category": category, "title": title, "url": link, "content": article_content, "date": datetime.now().strftime("%Y-%m-%d")
                     })
             except: continue
     finally: driver.quit()
@@ -82,19 +85,15 @@ def scrape_ie_section(url, category):
         driver.get(url)
         time.sleep(8)
         elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
-        # FILTER ONLY NEW LINKS
-        links = list(set([el.get_attribute("href") for el in elements if "/article/upsc-current-affairs/" in el.get_attribute("href")]))
+        links = list(set([el.get_attribute("href") for el in elements if el.get_attribute("href") and "/article/upsc-current-affairs/" in el.get_attribute("href")]))
+        
         new_links = [l for l in links if l not in existing_urls]
 
         for link in new_links:
             try:
                 driver.get(link)
                 time.sleep(6)
-                driver.execute_script("""
-                    document.querySelectorAll('ev-engagement, .ev-engagement, .content-login-wrapper, .ev-paywall-template').forEach(el => el.remove());
-                    const content = document.getElementById('pcl-full-content');
-                    if (content) content.style.display = 'block';
-                """)
+                driver.execute_script("const content = document.getElementById('pcl-full-content'); if (content) content.style.display = 'block';")
 
                 body_container = driver.find_element(By.ID, "pcl-full-content")
                 content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h2, h3, h4")
@@ -127,7 +126,6 @@ def scrape_ie_quizzes(category="UPSC Quizzes", pages=20):
             time.sleep(6)
             elements = driver.find_elements(By.CSS_SELECTOR, "h3.title a")
             
-            # FILTER ONLY NEW QUIZ LINKS
             links = []
             for el in elements:
                 href = el.get_attribute("href")
@@ -136,7 +134,7 @@ def scrape_ie_quizzes(category="UPSC Quizzes", pages=20):
                         links.append(href)
             
             if not links:
-                print(f"No new quizzes on page {page}, stopping pagination.")
+                print(f"No new quizzes found on page {page}. Ending search.")
                 break
 
             for link in list(set(links)):
@@ -144,7 +142,6 @@ def scrape_ie_quizzes(category="UPSC Quizzes", pages=20):
                     driver.get(link)
                     time.sleep(6)
                     driver.execute_script("const content = document.getElementById('pcl-full-content'); if (content) content.style.display = 'block';")
-
                     body_container = driver.find_element(By.ID, "pcl-full-content")
                     content_elements = body_container.find_elements(By.CSS_SELECTOR, "p, h2, h3, h4")
                     
@@ -186,27 +183,22 @@ targets = {
 }
 
 for cat, url in targets.items():
-    print(f"Checking {cat} for new articles...")
+    print(f"Processing {cat}...")
     new_arts = scrape_ie_section(url, cat) if cat == "UPSC Current Affairs" else scrape_hindu_section(url, cat)
     for art in new_arts:
         if art['url'] not in existing_urls:
             full_db.insert(0, art)
             existing_urls.add(art['url'])
 
-print("Checking UPSC Quizzes for new entries...")
+print("Processing UPSC Quizzes...")
 quiz_arts = scrape_ie_quizzes("UPSC Quizzes", pages=20)
 for art in quiz_arts:
     if art['url'] not in existing_urls:
         full_db.insert(0, art)
         existing_urls.add(art['url'])
 
-# Save JSON
+# Save JSON (Keep latest 1000)
 with open(data_file, "w", encoding='utf-8') as f:
     json.dump(full_db[:1000], f, ensure_ascii=False, indent=4)
-
-# Save CSV version for download
-df = pd.DataFrame(full_db[:1000])
-df.to_csv("scraped_data.csv", index=False, encoding='utf-8-sig')
-files.download("scraped_data.csv")
 
 print(f"Scrape completed. Total database size: {len(full_db)}")
