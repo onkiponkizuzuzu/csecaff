@@ -256,7 +256,7 @@
             let html = '';
             
             dates.forEach(d => {
-                html += `<div class="font-bold text-blue-600 dark:text-blue-400 mt-5 mb-2 text-xs uppercase tracking-wider">${d}</div>`;
+                html += `<div onclick="scrollToArticle('date-${d}')" class="font-bold text-blue-600 dark:text-blue-400 mt-5 mb-2 text-xs uppercase tracking-wider cursor-pointer hover:underline" title="Jump to ${d}">${d}</div>`;
                 grouped[d].forEach(art => {
                     const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, '');
                     html += `<button onclick="scrollToArticle('${safeId}')" class="block w-full text-left px-2 py-1.5 text-[11px] rounded transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 text-gray-600 dark:text-gray-400 truncate mb-1" title="${art.title}">${art.title}</button>`;
@@ -274,7 +274,7 @@
                 window.scrollTo({top: y, behavior: 'smooth'});
                 
                 const content = document.getElementById('content-' + id);
-                if(content.style.display === 'none') toggleArticle(id);
+                if(content && content.style.display === 'none') toggleArticle(id);
                 
                 if (window.innerWidth <= 768 && !sidebar.classList.contains('collapsed')) {
                     toggleSidebar();
@@ -489,7 +489,24 @@
             let html = title ? `<h2 class="text-xl font-bold mb-6 opacity-40 text-gray-900 dark:text-white">${title}</h2>` : "";
             if (!arts.length) return feed.innerHTML = html + `<p class="text-center py-20 opacity-30 text-gray-900 dark:text-white">No content found.</p>`;
             
+            let lastDate = null;
+
             feed.innerHTML = html + arts.map(art => {
+                let dateSeparator = '';
+                if (art.date !== lastDate) {
+                    const [y, m, d] = art.date.split('-');
+                    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    const formattedDate = parseInt(d, 10) + ' ' + months[parseInt(m, 10) - 1] + ' ' + y;
+                    
+                    dateSeparator = `
+                    <div id="date-${art.date}" class="flex items-center text-[0.85rem] italic opacity-50 my-8 w-full text-gray-800 dark:text-gray-300" style="font-family: Calibri, sans-serif;">
+                        <span class="whitespace-nowrap">(----${formattedDate}</span>
+                        <span class="flex-1 border-t border-gray-400 dark:border-gray-500 border-dashed mx-1 mt-1"></span>
+                        <span>)</span>
+                    </div>`;
+                    lastDate = art.date;
+                }
+
                 const safeId = 'art_' + encodeURIComponent(art.url).replace(/[^a-zA-Z0-9]/g, '');
                 
                 let artTopic = "Unknown";
@@ -526,7 +543,7 @@
                     </div>
                 `;
 
-                return `<article id="${safeId}" class="article-card border-gray-200 dark:border-gray-700">
+                return dateSeparator + `<article id="${safeId}" class="article-card border-gray-200 dark:border-gray-700">
                     <div onclick="toggleArticle('${safeId}')" class="flex items-center justify-between cursor-pointer text-gray-900 dark:text-white group">
                         <h2 class="serif-title article-title pr-4 flex-1">${art.title} ${tagsHtml}</h2>
                         <div class="flex items-center whitespace-nowrap pl-2">
