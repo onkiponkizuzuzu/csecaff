@@ -111,12 +111,11 @@
             margin-bottom: 2rem;
             font-family: Calibri, sans-serif;
             font-style: italic;
-            opacity: 0.5;
+            opacity: 0.3; /* Thinner visual weight */
             font-size: 0.85rem;
         }
 
         .date-separator-line {
-            flex-grow: 1;
             height: 1px;
             background-color: var(--text);
         }
@@ -171,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-end gap-2 flex-1 max-sm">
+                <div class="flex items-end gap-2 flex-1 max-w-sm">
                     <div class="w-1/2 flex flex-col">
                         <label class="text-[10px] text-gray-500 dark:text-gray-400 font-semibold mb-0.5 ml-1 uppercase tracking-wider">Source</label>
                         <select id="topic-select" onchange="switchTopic(this.value)" class="w-full h-[34px] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm rounded-lg focus:ring-blue-500 px-2 text-gray-900 dark:text-white outline-none cursor-pointer transition-colors"></select>
@@ -551,9 +550,9 @@
                     dateSeparator = `
                     <div id="date-sep-${art.date}" class="date-separator-container">
                         <div class="date-separator-margin"></div>
-                        <div class="date-separator-line"></div>
-                        <span class="date-separator-text">(----${formattedDate}----)</span>
-                        <div class="date-separator-line"></div>
+                        <div class="date-separator-line" style="flex-grow: 1;"></div>
+                        <span class="date-separator-text">${formattedDate}</span>
+                        <div class="date-separator-line" style="flex-grow: 19;"></div>
                         <div class="date-separator-margin"></div>
                     </div>`;
                     lastDate = art.date;
