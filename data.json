@@ -1,6 +1,190 @@
 [
     {
         "category": "Law and Policy",
+        "title": "Bail under UAPA: How different Supreme Court benches have delivered different rulings in the past",
+        "url": "https://indianexpress.com/article/explained/explained-law/supreme-court-uapa-bail-ruling-article-21-10696353/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In granting bail to a Kashmiri man in an alleged narco-terror case, the <strong><a href=\"https://indianexpress.com/article/legal-news/supreme-court-uapa-bail-ka-najeeb-binding-law-10695292/\" class=\"\" rel=\"noopener\">Supreme Court</a></strong> on Monday underlined a plurality of judicial approaches in the top court, with different benches taking distinct perspectives on the fraught question of whether bail restrictions under the stringent Unlawful Activities (Prevention) Act (UAPA) can prevail over constitutional safeguards.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">“If the smaller benches are unable to agree with the ratio laid down by the larger bench, then the proper and the only course of action open is to make a reference to the Hon’ble Chief Justice of India for placing the matter for consideration by a still larger bench. Being in a combination of two Judges, we are bound by the ratio laid down by the three-Judge bench in </span><i><span style=\"font-weight: 400\">K A Najeeb</span></i><span style=\"font-weight: 400\">. We say this and no more,” the bench comprising Justices B V Nagarathna and Ujjal Bhuyan said in the 102-page ruling.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Line of precedents</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The court’s concern stems from the line of precedents it examined on whether the rigours of Section 43(D)(5) of the UAPA — which restricts the grant of bail — would “melt down” where prolonged incarceration and delayed trial lead to a violation of Article 21 of the Constitution.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The 2021 ruling by a three-judge bench headed by then Chief Justice of India N V Ramana establishes the “good law” to be followed on this issue. The court had said that an accused undertrial suffering long incarceration with no end in sight to the criminal trial must be enlarged on bail. The court had then examined the most consequential ruling on bail in UAPA cases — the 2019 ruling in </span><i><span style=\"font-weight: 400\">NIA v. Zahoor Ahmed Shah Watali</span></i><span style=\"font-weight: 400\">. A two-judge bench in the Watali case had held that courts must accept the state’s case without examining its merits while considering bail pleas under the UAPA.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">“The caution of </span><i><span style=\"font-weight: 400\">Najeeb</span></i><span style=\"font-weight: 400\"> is that continued incarceration cannot go unabated by a mere discharge by the State of the prima facie standard under Section 43-D(5),” the Supreme Court said on Monday, underlining that the Najeeb ruling would prevail over the Watali ruling. Apart from the structural reasoning, procedurally too, Najeeb is a later judgment by a larger bench.</span>"
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Judicial discipline and certainty demand that benches of smaller strength are mindful of the decisions rendered by larger benches and are bound to follow the same. However, in a polyvocal court, where multiple benches of two and three judges comprise the Supreme Court, these norms are often diluted.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In a 2024 ruling in </span><i><span style=\"font-weight: 400\">Gurwinder Singh v. State of Punjab</span></i><span style=\"font-weight: 400\">, a two-judge bench cautioned against “mechanical” invocation of delay to seek bail, suggesting bail should only be considered if it also satisfies the test under Section 43(D)(5) of UAPA.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In January 2026, another two-judge bench also sidestepped the Najeeb precedent, holding that the accused in the Northeast <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/delhi/\">Delhi</a> riots case had not “crossed the constitutional threshold” of delay to seek bail.</span>"
+            }
+        ],
+        "date": "2026-05-19"
+    },
+    {
+        "category": "Expert Explains",
+        "title": "Why India’s courts are slow: the need for court managers",
+        "url": "https://indianexpress.com/article/explained/explained-law/why-indias-courts-are-slow-the-need-for-court-managers-10696149/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<strong>Written by Shagun Suryam and Laveesh Bhandari</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Delays in Indian courts are a widely acknowledged and often (albeit inadequately) measured challenge that permeates everyday life. In addition to mammoth individual costs, delays carry serious economic consequences: tying up money, raising the cost of doing business, discouraging investment, and putting sustained pressure on public resources. There is limited research quantifying these impacts, but some estimates suggest they could amount to as much as 1.5 to 2 per cent of India’s GDP."
+            },
+            {
+                "type": "text",
+                "value": "With more than 5 crore pending cases across the country’s legal system, the scale of the problem is undeniable, and it appears to be worsening with time.&nbsp; Delays are shaped by an interplay of factors, including how cases enter the system, how they are handled within it, and how the institutions they interact with function. Causes have been assigned by a multitude of studies to factors ranging from poorly framed laws, lack of adequate staff, infrastructure, practices etc."
+            },
+            {
+                "type": "text",
+                "value": "A key factor in this chain is the chronic and ever-present lack of professional administrative support. Courts are not just sites of adjudication but large, complex institutions that require effective management — much of this responsibility has long fallen on judges themselves.&nbsp; High <a href=\"https://indianexpress.com/article/explained/explained-law/explained-how-the-supreme-court-hears-cases-9710948/\" rel=\"noopener\"><strong>quality</strong></a> administrative support can help take more superior decisions, free up their time, and help in the overall efficiency of the judicial process."
+            },
+            {
+                "type": "text",
+                "value": "Efforts to address this problem date back to the 13th Finance Commission (2010–2015). Recognising that judges were overburdened with non-judicial work, the Commission recommended the creation of a dedicated cadre of court managers, professionally trained individuals with MBAs, at both district courts and High Courts. It allocated ₹300 crore as a one-time, five-year grant to support this initiative."
+            },
+            {
+                "type": "text",
+                "value": "The idea was straightforward: court managers would handle functions such as case-flow management, human resources, infrastructure maintenance, and performance monitoring, allowing judges to focus on their core function: deciding cases. In practice, however, implementation was uneven and limited."
+            },
+            {
+                "type": "text",
+                "value": "During the five-year grant period, only a small portion of the allocated funds was utilised with some sources suggesting the number was as low as 13 per cent. A handful of states, including Haryana, <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/chennai/\">Tamil Nadu</a>, Punjab, and Rajasthan, did appoint Court Managers, largely on contractual or ad hoc terms. But by March 2015, when the 13th Finance Commission period ended, only around 128 such positions had been filled nationwide."
+            },
+            {
+                "type": "text",
+                "value": "The situation only worsened after central funding ended and financial responsibility shifted to states, leaving High Courts to decide whether to continue the scheme. In many cases, the absence of dedicated funding led to these positions being discontinued altogether"
+            },
+            {
+                "type": "text",
+                "value": "However, the failure was multi-layered, and not just about funding. Structurally, the scheme was never institutionalised as a permanent cadre, leaving it vulnerable once central support ended. Institutionally, resistance persisted: many judges were reluctant to part with administrative functions long seen as integral to their role and court managers were often viewed as outsiders, even by court staff."
+            },
+            {
+                "type": "text",
+                "value": "These tensions were compounded by design gaps such as unclear roles and the absence of standardised performance measures. A further challenge lay in a mismatch between professional training and institutional needs – most appointees had general management backgrounds but little exposure to how courts function, leaving them under-equipped to support judicial work. Together, these factors meant that the reform faltered because it lacked the institutional capacity required to sustain it."
+            },
+            {
+                "type": "text",
+                "value": "As a result, judges have continued to spend significant time on administrative responsibilities, slowing case disposal and contributing to mounting backlogs. The Supreme Court has now revisited this issue, after first issuing clear directions on court managers as far back as August 2018. In a May 2025 order, it expressed concern over the failure to implement earlier directions and directed all High Courts to frame or update service rules within three months, with the state government being given another three months to approve these rules."
+            },
+            {
+                "type": "text",
+                "value": "As long as judges remain burdened with managerial functions, the benefits of other systemic reforms such as digitisation will remain limited. Creating a robust, permanent cadre of court managers, and clearly separating judicial and administrative functions remains one of the most straightforward and high-impact reforms available as long as it is done with judicial design in mind. The Supreme Court has laid out both the framework and the timeline. The real test now lies in whether states and High Courts can institutionalise these changes and move court administration from ad hoc to professional."
+            },
+            {
+                "type": "text",
+                "value": "<strong><em>Laveesh Bhandari is President and Senior Fellow at the Centre for Social and Economic Progress (CSEP), a think tank in New <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/delhi/\">Delhi</a>. Shagun Suryam is a Research Analyst in the President’s office at CSEP.&nbsp;</em></strong>"
+            }
+        ],
+        "date": "2026-05-19"
+    },
+    {
+        "category": "Agriculture",
+        "title": "Karnataka may face fertilizer shortage during kharif season: Cheluvarayaswamy",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-may-face-fertilizer-shortage-during-kharif-season-cheluvarayaswamy/article70995128.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Farmers in Karnataka may face a shortage of fertilizers in the upcoming kharif season, Minister for Agriculture N. Cheluvarayaswamy has indicated."
+            },
+            {
+                "type": "text",
+                "value": "Participating in a Meet-the-Press event organised by the Press Club of Bangalore in Bengaluru on Monday (May 18, 2026), the Minister said that in April, out of the allocated 4.02 lakh tonnes of various grades of fertilizers, only 2.54 lakh tonnes were supplied by the Central government, leaving a deficit of 1.48 lakh tonnes."
+            },
+            {
+                "type": "text",
+                "value": "According to him, for May, out of the allocated 4.54 lakh tonnes of various grades of fertilizers, only 1.77 lakh tonnes have been supplied by the Central government so far, while another 2.77 lakh tonnes are still pending."
+            },
+            {
+                "type": "text",
+                "value": "“Due to this, there is a possibility of shortage of fertilizers in the kharif season. This may also be due to the current instability in the import of fertilizers,” the Minister said."
+            },
+            {
+                "type": "text",
+                "value": "He further stated that the State had been bracing for a potential shortage of fertilizers in the 2026 kharif season, as supplies were being adversely affected ahead of the monsoon."
+            },
+            {
+                "type": "text",
+                "value": "“There is instability in the import of fertilizers. However, measures are being taken by our government to manage the shortage,” the Minister promised."
+            },
+            {
+                "type": "text",
+                "value": "He also noted that in the wake of the West Asian crisis, there had been a surge in the demand for raw materials required for fertiliser production, such as ammonia, liquefied natural gas (LNG), phosphoric acid, sulphuric acid, and other byproducts in the global market."
+            },
+            {
+                "type": "text",
+                "value": "He mentioned that he held a meeting with authorities and emphasised the need for the timely allocation and dispatch of fertilizers to the State. To meet any shortage during the peak farming season, a buffer stock of 56,199 tonnes of various grades of fertilizers was currently being maintained."
+            },
+            {
+                "type": "text",
+                "value": "Responding to media queries, the Minister said fertilizer vendors had been warned against creating artificial scarcity, selling fertilizers to farmers in excess of the required quantity, or committing any other violations of the Fertilizers (Inorganic, Organic or Mixed) (Control) Order, 1985, and the Essential Commodities Act, 1955."
+            },
+            {
+                "type": "text",
+                "value": "“Appropriate steps have been taken to ensure that subsidised fertilizers are distributed equitably to all districts,” he informed, adding that the Agriculture Department and district magistrates had been directed to strictly monitor the distribution process."
+            },
+            {
+                "type": "text",
+                "value": "Furthermore, government officials, with the assistance of the Agriculture Department, had been asked to coordinate with the Commercial Taxes Department at inter-State check-posts to curb illegal transportation and smuggling of fertilizers. A mobile application had also been developed to facilitate the seamless purchase of urea by farmers."
+            },
+            {
+                "type": "text",
+                "value": "The Minister also urged farmers to increasingly explore green manure and compost, venture into natural and organic farming, and reduce their over-dependence on chemical fertilizers."
+            },
+            {
+                "type": "text",
+                "value": "ends"
+            }
+        ],
+        "date": "2026-05-19"
+    },
+    {
+        "category": "Health",
+        "title": "Why has the WHO declared a PHEIC over the Ebola outbreak in Africa ?",
+        "url": "https://www.thehindu.com/sci-tech/health/why-has-the-who-declared-a-pheic-over-the-ebola-outbreak-in-africa/article70992901.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "<b>The story so far  : </b>On May 16, the <a href=\"\" target=\"_self\">World Health Organization (WHO)</a> declared the Ebola outbreak in the Democratic Republic of the Congo (DRC) and Uganda, a ‘public health emergency of international concern (PHEIC). Just ahead of that, the Ministry of Public Health, Hygiene and Social Welfare, DRC, and the Uganda Ministry of Health declared the outbreak of Ebola."
+            },
+            {
+                "type": "text",
+                "value": "A PHEIC is the WHO’s highest level of global health alert, formally declared under the International Health Regulations, whenever the health event is serious, sudden, unexpected or unusual, and poses a public health risk to other countries through spread. The declaration of the PHEIC also calls for a co-ordinated global response to tackle the current outbreak."
+            }
+        ],
+        "date": "2026-05-19"
+    },
+    {
+        "category": "Law and Policy",
         "title": "‘Mutual hostage-taking’: Why Rajasthan HC criticised state’s ‘atta satta’ marriage custom",
         "url": "https://indianexpress.com/article/explained/explained-law/rajasthan-hc-criticism-marriage-custom-atta-satta-10696297/",
         "content": [
