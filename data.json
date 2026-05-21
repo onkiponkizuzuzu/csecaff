@@ -1,6 +1,638 @@
 [
     {
         "category": "Expert Explains",
+        "title": "Expert Explains | Why Computer-Based Testing may not solve NEET’s paper leak problem",
+        "url": "https://indianexpress.com/article/explained/neet-paper-leak-cbt-vs-iit-jee-10701488/",
+        "content": [
+            {
+                "type": "text",
+                "value": "Since its inception in 2013, NEET has faced controversies, ranging from localised suspicions of selection to large-scale leak allegations. This has clouded trust around the examination, even leading to full re-examinations in 2015 (when it was AIPMT) and reported re-examination measures in 2026 following allegations of malpractice."
+            },
+            {
+                "type": "text",
+                "value": "By contrast, the IIT-JEE system, which had faced serious challenges nearly two decades ago, gradually evolved into a far more stable system over almost a decade. Its most recent examination on May 17 was conducted without any major reported controversy."
+            },
+            {
+                "type": "text",
+                "value": "There have been reported instances of otherwise average-performing Plus-Two students securing unusually high NEET scores. Similar patterns also emerged of exceptionally large numbers of top scorers from certain centres located in major coaching hubs."
+            },
+            {
+                "type": "text",
+                "value": "As NEET is among India’s highest-stakes examinations, such anomalies drew national attention. However, comparable irregularities in other examinations like JEE and CUET may not always attract the same level of sustained national scrutiny."
+            },
+            {
+                "type": "text",
+                "value": "<strong>How does NEET question paper setting work?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Multiple teams of subject experts prepare questions, which are later reviewed and moderated for correctness, difficulty balance, and syllabus coverage. Given the scale of this examination, multiple paper sets (four sets in NEET 2026) are prepared and translated into English, Hindi, and 11 additional languages, with translations verified through back-conversion into English."
+            },
+            {
+                "type": "text",
+                "value": "Strict confidentiality protocols require separation between teams, declaration of conflicts of interest, periodic rotation of experts, and minimal access to complete papers, with most individuals handling only parts of the paper."
+            },
+            {
+                "type": "text",
+                "value": "In the traditional Pen-and-Paper (PnP) format, finalised papers are sent to printing presses under strict SOPs. In Computer-Based Testing (CBT), instead of fixed sets of 180 questions, large digital question banks are created, with questions tagged by difficulty and domain coverage, from which final questions may be selected algorithmically during the examination. Thus, both PnP and CBT rely on the same ecosystem of question setters, reviewers, and translators."
+            },
+            {
+                "type": "text",
+                "value": "<strong>How are PnP and CBT vulnerable?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The biggest vulnerability in both PnP and CBT arises from the large number of individuals involved in question preparation, review, and translation, who enjoy access to complete question papers or question banks. The first requirement, therefore, is that question papers should pass through the fewest possible hands."
+            },
+            {
+                "type": "text",
+                "value": "<em>The Indian Express</em> reported Wednesday that the NTA <a href=\"https://indianexpress.com/article/education/all-chemistry-questions-in-guess-paper-matched-with-those-in-actual-neet-exam-10698455/\" rel=\"noopener\"><strong>referred the names</strong></a> of all Chemistry paper setters and translators to the Central Bureau of Investigation (CBI) for further examination, following a ‘100% match’ between the Chemistry “Guess Paper” and the actual exam. An anonymous source claimed that of the 26-27 people under scrutiny, as many as 24 of these were translators."
+            },
+            {
+                "type": "text",
+                "value": "Every additional translation layer expands the possibility of leaks, errors, compromises, and conflicts of interest. Several experts had opposed multilingual NEET papers, arguing that most Plus-Two science students already possess sufficient working knowledge of English. With advances in machine translation, manual translation could potentially be replaced through secure, machine-assisted systems."
+            },
+            {
+                "type": "text",
+                "value": "Transmission vulnerabilities also exist in both systems. In PnP, these are physical, with question papers passing through printing presses, strong rooms, storage hubs, and distribution centres, secured through encrypted transmission, GPS tracking, layered strong-room protocols, and technology-assisted surveillance. While CBT removes printed papers and physical transport, questions may be digitally transmitted through encrypted channels shortly before examinations begin."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Did the NEET leaks originate at the source?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The NEET 2026 “Guess Paper” contained complete solutions, answer keys, and additional questions, suggesting that it may not have been a leaked printed paper. Still, the material appeared to resemble content from question banks allegedly used during paper-setting, or vice versa."
+            },
+            {
+                "type": "text",
+                "value": "Similarly, several past NEET controversies also appear to indicate insider compromises rather than isolated transportation leaks. Over the years, investigating agencies have largely arrested only small operators, while even major cases such as the NEET 2024 controversy remain under investigation or subject to ongoing legal scrutiny."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Can CBT prevent leaks?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "CBT may eliminate printed-paper leaks, but it cannot prevent compromises if vulnerabilities lie in question banks, paper-setting processes, and insider networks rather than transportation chains. The controversies repeatedly fuelled concerns that breaches originated from within the system itself, including individuals handling multiple sensitive roles while maintaining close coaching linkages."
+            },
+            {
+                "type": "text",
+                "value": "CBT adds risks related to software vendors, server access, cybersecurity, and examination centres. If insider compromises, coaching linkages, and institutional weaknesses persist, no technology or surveillance system can fully prevent leaks."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Why is NEET vulnerable while IIT-JEE stabilised?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "NTA primarily operates through deputised bureaucratic structures, with extensive outsourcing of critical operations. Many sensitive activities — including paper setting, translation, CBT operations, and examination management — reportedly involve long-term outsourced networks with limited institutional accountability."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "In contrast, IIT-JEE keeps most critical operations in-house. Translation is limited mainly to Hindi to reduce human exposure, and examination centres are supervised directly by IIT faculty and staff. While IITs also use private CBT vendors, the technology and operational control largely remain under academic oversight, contributing to a far more stable examination ecosystem."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What is the way forward?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "NEET cannot be stabilised through panic-driven decisions, outsourcing, or technology alone. The real need is to minimise human exposure to complete papers, reduce manual translation through secure machine-assisted systems, enforce strict conflict-of-interest rules, ensure regular rotation of experts, and bring critical operations such as paper setting, translation, moderation, and examination supervision under far greater academic ownership, accountability, and transparency. Insider compromises, coaching linkages, and institutional protection must be treated as the primary risks rather than merely printing or transportation failures."
+            },
+            {
+                "type": "text",
+                "value": "The IIT-JEE system itself took nearly a decade to stabilise through continuous refinement, academic control, and operational discipline. NEET too requires deep structural reforms, not merely a shift from paper to computers."
+            },
+            {
+                "type": "text",
+                "value": "<strong><em>Rajeev Kumar is a former Computer Science Professor at IIT Kharagpur, IIT Kanpur, BITS Pilani, and JNU, and a former scientist at DRDO and DST. He served as Chief Examiner/Paper Setter for prestigious IIT national examinations and contributed to IIT-JEE admission reforms.</em></strong>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "Why reading Adam Smith today does not feel like archaeology",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/why-reading-adam-smith-today-does-not-feel-like-archaeology-10701656/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<b><i>—&nbsp; Pushpendra Singh and Archana Singh</i></b><span style=\"font-weight: 400\">&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Ten workers, each attempting to make pins end-to-end on their own, might manage to produce only twenty each. But when each is assigned to different elements of production in the eighteen-step process of pin-making, they could produce approximately 48,000 pins a day.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Noted Scottish economist and philosopher Adam Smith used this example to illustrate the economic significance of the division of labour 250 years ago. His book, </span><i><span style=\"font-weight: 400\">An Inquiry into the Nature and Causes of the Wealth of Nations</span></i><span style=\"font-weight: 400\"> (1776), in which the example is mentioned, changed how the world thought about money, work, and the purpose of an economy.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Today, we live in a world characterised by supply chains, artificial intelligence, and multinational corporations whose revenues rival the GDP of mid-sized countries. Yet, reading Smith does not feel like archaeology because his central concerns remain relevant:&nbsp;</span><span style=\"font-weight: 400\">What creates wealth, and who benefits from it? Are markets still competitive, or are they increasingly shaped by a few powerful firms? Is economic growth translating into better lives, or just higher output?&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Smith rejects basic tenets of mercantilism</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith’s first major argument was against the mercantilists who dominated economic thinking in his time. They believed that national prosperity depended on accumulating gold and silver, and that trade was a zero-sum competition (one nation’s export surplus was another’s ruin).&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith dismantled this. In the opening pages of the book, he argued that the true source of a nation’s wealth is the labour of its people, and living standards depend on how productively that labour is applied.&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The idea sounds obvious today. But what is still not obvious, or at least not sufficiently acted upon, is the second part of Smith’s argument: wealth creation is meaningless unless its benefits are broadly shared. This idea still holds significance. </span>Economic growth today is driven by productivity, but the question remains how efficiently labour and capital are used, and whether that growth improves people’s lives."
+            },
+            {
+                "type": "heading",
+                "value": "<b>The idea of the division of labour&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith’s most famous contribution was his idea of the division of labour. As mentioned earlier, he used the example of the pin factory to show how breaking down complex production into specialised tasks dramatically raised output.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Today, this logic underpins the global production of goods. An automobile assembled in <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/pune/\">Pune</a> may draw on steel from Jharkhand, electronics from Taiwan, software from <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/bangalore/\">Bengaluru</a>, and design expertise from Germany. A medicine sold at a <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/mumbai/\">Mumbai</a> chemist’s shop may trace its active ingredient from a plant in <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/hyderabad/\">Hyderabad</a>, its packaging to a unit in Gujarat, and its clinical trials to a contract research organisation in <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/ahmedabad/\">Ahmedabad</a>. This is Smithian specialisation </span>on a large scale<span style=\"font-weight: 400\">.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The gains from this system are real. And so are its fragilities. Smith himself recognised that a large market is the precondition for deeper specialisation. What he could not anticipate was a world where the supply chains enabling and sustaining that specialisation could be disrupted by pandemic, war, and geopolitical conflicts.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The ongoing conflict in West Asia is a case in point, which has upended energy supply and shipping routes on which manufacturers, including those from India, depend.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Hence, the “Invisible hand” seems to coordinate economic activity well in stable conditions. In times of crisis, however, markets do not always absorb such shocks smoothly. Prices adjust, but the burden of disruptions spreads across industries and consumers. </span>This shows a limit to Smith’s framework: institutions – not markets alone – are required to manage crises."
+            },
+            {
+                "type": "heading",
+                "value": "<b>The “invisible hand”</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith is most often quoted for his idea of the “invisible hand”. But he also </span>reflected on<span style=\"font-weight: 400\"> a far more pressing problem: the visible hand of vested interests </span>influencing<span style=\"font-weight: 400\"> markets and governments alike. Smith was clear-eyed about the tendency of businessmen to conspire against the public.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">He wrote, “People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices.” But free-market advocates often tend to overlook this.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith was not an advocate of unregulated capitalism. He opposed monopoly, regulatory capture, tariffs, and licenses granted not in the public interest, but to protect those with enough power to lobby for them. The villains of ‘The Wealth of Nations’ are not governments, but merchants and manufacturers who use governments as instruments of private advantage.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Viewed from this lens, the evolution of capitalism over the past century appears less like a triumph of Smithian economics. In India and across the globe, economies have moved decisively away from the world of small, competing producers that Smith described.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In the US, a tiny fraction of corporations account for a disproportionate share of corporate assets, a degree of concentration unimaginable in 1776. In India too, a handful of conglomerates dominate sectors from telecommunication to retail, ports to airports, cement to media.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Return of economic nationalism</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Smith’s critique of mercantilism – the doctrine that nations should maximise exports, minimise imports, and accumulate trade surpluses – has regained relevance. The world is witnessing a return of economic nationalism, which would have been familiar to Smith’s contemporaries.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Import restrictions, domestic content requirements, and subsidies for strategic industries are, in many ways, the 21st century equivalents of the Navigation Acts and monopoly charters that Smith spent chapters dissecting.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">But Smith was not dogmatically against all state intervention in trade. He accepted that national security could justify some departures from free-trade principles. At the same time, he insisted that protectionist measures, even when</span> justified and defensible<span style=\"font-weight: 400\">, come at a cost. This cost is typically borne by ordinary consumers in the form of higher prices, and should therefore be temporary and specific rather than sweeping and permanent.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">India’s own trade policy, at times, reflects this tension. The push to build domestic capability in semiconductors, solar panels, and defense manufacturing stems from legitimate strategic concerns. But the question Smith would ask is whether these interventions serve larger public interest.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Role of state</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">One of the biggest myths about Smith is that he </span>believed<span style=\"font-weight: 400\"> in a minimal, hands-off </span>state<span style=\"font-weight: 400\">. He supported public education, public infrastructure, and the regulation of banking. He understood that markets cannot function without strong institutions: honest courts, enforceable contracts, and public investments in areas where private profit alone would not provide.&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">His target was not governments as such, but the governments that served merchants rather than citizens. The solution, in his view, was better government, not less of it. </span>As India debates industrial policy, labour reforms, and the role of the state in an economy that is growing fast, this distinction matters."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Moreover, Smith published his book in the year America declared independence. In different ways, both are rooted in a similar idea: societies exist for the people, not the other way around.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Why ‘The Wealth of Nations’ remains relevant&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Two hundred and fifty years later, capitalism bears little resemblance to the world Smith had described. The small workshops of the 18th century have given way to megafirms with planning capabilities that rival governments. Ownership is more diffuse than Karl Marx </span>anticipated.<span style=\"font-weight: 400\"> Disruption is more relentless than Smith could have expected. And AI is now reviving one of the oldest questions:&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">If algorithms can coordinate </span>production and decision-making<span style=\"font-weight: 400\">, who sets the goals, and </span>who bears the cost when systems fail<span style=\"font-weight: 400\">. Smith has no answer to that question. But he had the right instinct.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The ‘Wealth of Nations’ remains relevant not because it provides timeless solutions, but because it asks the right question. Markets generate wealth, but they do not guarantee its </span>fair <span style=\"font-weight: 400\">distribution. Scale increases productivity, but not necessarily opportunity.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">For </span>developing economies<span style=\"font-weight: 400\">, the challenge is clear. Markets need to be supported by strong institutions. Competition needs to be protected. Public investment needs to improve productivity, and labour needs to be integrated into growth.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "Post read questions"
+            },
+            {
+                "type": "text",
+                "value": "Division of labour increases productivity but also creates new vulnerabilities. Analyse this statement in the context of global supply chains and India’s economic structure."
+            },
+            {
+                "type": "text",
+                "value": "Examine the relationship between productivity growth and inclusive development in the light of Adam Smith’s conception of wealth creation."
+            },
+            {
+                "type": "text",
+                "value": "How would Adam Smith assess contemporary industrial policy initiatives such as production-linked incentives (PLI), semiconductor subsidies, and strategic manufacturing policies in India?"
+            },
+            {
+                "type": "text",
+                "value": "Artificial intelligence and platform capitalism are reshaping markets and labour relations. In this context, examine the enduring relevance and limitations of Adam Smith’s framework."
+            },
+            {
+                "type": "text",
+                "value": "<b><i>(Pushpendra Singh is an Assistant Professor of Economics at Somaiya Vidyavihar University, </i></b><a href=\"https://indianexpress.com/section/cities/mumbai/\" rel=\"noopener\"><b><i>Mumbai</i></b></a><b><i>, and Archana Singh is an Assistant Professor of Gender and Economics at the International Institute for Population Sciences, </i></b><a href=\"https://indianexpress.com/section/cities/mumbai/\" rel=\"noopener\"><b><i>Mumbai</i></b></a><b><i>.)</i></b><span style=\"font-weight: 400\">&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Share your thoughts and ideas on UPSC Special articles with&nbsp;ashiya.parveen@</b><a href=\"https://indianexpress.com/\" rel=\"noopener\"><b>indianexpress.com</b></a><b>.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Gear up for&nbsp;UPSC Prelims 2026—Practice smarter, revise faster, and succeed with our&nbsp;Special Quiz Magazine. (<a class=\"\" href=\"https://epaper.indianexpress.com/4140050/UPSC-Essentials/April-13-2026#page/1/1\" rel=\"noopener\">Click Here</a>)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\" rel=\"noopener\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong>&nbsp;<a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"noopener\" target=\"_blank\">Instagram</a>&nbsp;</strong>and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "Heatwave alert in Nandyal, Kurnool till May 26; Collectors order water, ORS at public places",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/heatwave-alert-in-nandyal-kurnool-till-may-26-collectors-order-water-ors-at-public-places/article71005062.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Nandyal and <a href=\"https://www.thehindu.com/tag/89-86-81/\" target=\"_blank\">Kurnool</a> district administrations on Thursday (May 21, 2026) have warned of a severe heatwave in the two districts over the next week."
+            },
+            {
+                "type": "text",
+                "value": "Nandyal Collector Rajakumari Ganiya said intense heat was likely to continue until May 26, and urged the elderly, young children, pregnant women and people with chronic illnesses to take special precautions."
+            },
+            {
+                "type": "text",
+                "value": "She advised people to stay indoors in the afternoon except in an emergency, and to finish unavoidable outdoor work before 9 a.m. or after 5 p.m."
+            },
+            {
+                "type": "text",
+                "value": "She directed officials to take special precautions for workers under panchayats, municipalities, the Employment Guarantee Scheme and other public works. Such work should be scheduled for the early morning or evening, she said, and asked officials to provide drinking water, shade and rest facilities for the workers."
+            },
+            {
+                "type": "text",
+                "value": "Officials were directed to provide adequate drinking water at bus stands, markets, junctions, hospitals, schools, government offices and labour assembly points. Temporary water kiosks should be set up wherever necessary, she said."
+            },
+            {
+                "type": "text",
+                "value": "Ms. Rajakumari asked officials to identify vulnerable groups such as the homeless and the elderly, and to provide them with ORS packets, first-aid supplies and drinking water through ward-level teams."
+            },
+            {
+                "type": "text",
+                "value": "Urban local bodies were also directed to place water bowls and earthen pots in parks, markets and public spaces for stray animals and birds, and to have them refilled regularly."
+            },
+            {
+                "type": "text",
+                "value": "Kurnool Collector A. Siri directed municipal commissioners and officials to take immediate preparedness and relief measures, and said special attention must be paid to preventing heat-related illnesses and deaths. She directed officials to ensure adequate drinking water at bus stands, markets, traffic junctions, labour assembly points, hospitals, schools, government offices, shelter centres and other crowded areas."
+            },
+            {
+                "type": "text",
+                "value": "She called for cooling shelters, shaded resting areas, free water distribution centres and temporary water kiosks. The Collector ordered municipal commissioners and officials to personally supervise the measures every day."
+            },
+            {
+                "type": "heading",
+                "value": "State-wide alert"
+            },
+            {
+                "type": "text",
+                "value": "The Andhra Pradesh State Disaster Management Authority (APSDMA) warned that severe heatwave conditions were likely to continue across several parts of the State over the next four days, and advised people to avoid travel during the peak afternoon hours."
+            },
+            {
+                "type": "text",
+                "value": "The season’s highest temperature so far, 47.6 degrees Celsius, was recorded at Piduguralla in Palnadu district, and the mercury crossed 45 degrees Celsius in 11 districts, the APSDMA said."
+            },
+            {
+                "type": "text",
+                "value": "<i>(With inputs from PTI)</i>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "Stray dog euthanasia: Bengaluru civic bodies examining legally permissible options for ‘rabid, incurably ill or demonstrably dangerous or aggressive dogs’",
+        "url": "https://www.thehindu.com/news/cities/bangalore/stray-dog-euthanasia-bengaluru-civic-bodies-will-have-separate-committees/article71002733.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "With the Supreme Court permitting municipal authorities to adopt legally permissible measures, including euthanasia in cases involving “rabid, incurably ill or demonstrably dangerous or aggressive dogs,” Bengaluru’s corporations are in a bind as to how to interpret it."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/news/cities/Delhi/mcd-mulling-euthanasia-of-aggressive-stray-dogs-following-supreme-court-ruling/article71003504.ece\">MCD mulling euthanasia of ‘aggressive’ stray dogs following Supreme Court ruling</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/news/cities/bangalore/bengaluru-corporations-ramp-up-dog-shelter-infra-works/article71003004.ece\">Bengaluru corporations ramp up dog shelter infra works</a>"
+            },
+            {
+                "type": "text",
+                "value": "In its order, the Supreme Court clearly underscored that the authorities concerned must undertake euthanasia only after due assessment by qualified veterinary experts and strictly in accordance with the provisions of the Prevention of Cruelty to Animals Act, 1960, the Animal Birth Control Rules, 2023, and other applicable statutory protocols."
+            },
+            {
+                "type": "text",
+                "value": "For this purpose, all the corporations will now also have committees of their own to assess the requirement for euthanasia and make a decision on it."
+            },
+            {
+                "type": "text",
+                "value": "Earlier, euthanasia was possible under the  Animal Birth Control Rules (ABC) Rules, which had clear guidelines stating that if a stray dog was incurably injured or mortally ill, euthanasia could be carried out."
+            },
+            {
+                "type": "text",
+                "value": "The erstwhile Bruhat Bengaluru Mahanagara Palike (BBMP) also had a three-member stray dog euthanasia committee, which reviewed such recommendations and decided whether euthanasia should be allowed. The committee consisted of a jurisdictional veterinary officer (BBMP veterinarian), the project-in-charge officer for the animal birth control and anti-rabies vaccination programme, and a representative from the Karnataka Animal Welfare Board."
+            },
+            {
+                "type": "text",
+                "value": "“The committee would seek reports on a dog’s health, conduct a physical verification, and assess its condition, which would clearly establish whether the dog could be euthanised,” a GBA source explained."
+            },
+            {
+                "type": "text",
+                "value": "Now, even if a feral dog is considered an aggressive canine, there are no guidelines on the level of aggression at which the committee can declare that the dog should be euthanised, according to GBA sources."
+            },
+            {
+                "type": "text",
+                "value": "<b>Misuse of the provision</b>"
+            },
+            {
+                "type": "text",
+                "value": "Arun Prasad, an animal rights activist, pointed out that this grey area could allow civic body officials to exploit the law and could lead to the unnecessary killing of stray dogs. “We already have many cases of mishandling of stray dog cases, and this provision will only lead to similar incidents,” he cautioned."
+            },
+            {
+                "type": "text",
+                "value": "However, a GBA official explained that the decision would still rest with the committees, which would ensure transparency."
+            },
+            {
+                "type": "heading",
+                "value": "Review petition"
+            },
+            {
+                "type": "text",
+                "value": "Nevina Kamath, co-petitioner in SLP(C) 691 of 2009, told <i>The Hindu</i> that they are planning to file a review petition or contempt petition, arguing that the previous order was violated through the recent order."
+            },
+            {
+                "type": "text",
+                "value": "“The previous order in SLP(C) 691 was fair, upheld all constitutional safeguards, and was a detailed one. The new order contradicts it and meddles with the earlier order,” she said."
+            },
+            {
+                "type": "text",
+                "value": "She explained that some canines with neurological conditions can sometimes display erratic behaviour that mimics the symptoms of rabies. With the new order, such cases could be misinterpreted as aggressive behaviour or rabies."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "The myopia pandemic: how changing childhoods are blurring our future",
+        "url": "https://www.thehindu.com/sci-tech/health/the-myopia-pandemic-how-changing-childhoods-are-blurring-our-future/article70977912.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The early 2000s saw the first appearance of smartphones as expensive devices used only by a few. By around 2012, they had <a href=\"https://www.researchgate.net/publication/241712416_Mobile_and_smartphone_use_in_urban_and_rural_India\" target=\"_self\">become common</a> in urban households, and with the availability of inexpensive 4G internet access after 2016, their use spread rapidly."
+            },
+            {
+                "type": "text",
+                "value": "At the same time, India’s academic coaching culture expanded dramatically. What was once limited mainly to students preparing for engineering and medical entrance examinations gradually became routine even for younger school children."
+            },
+            {
+                "type": "text",
+                "value": "The COVID-19 pandemic accelerated another major shift in childhood by normalising online classes, digital homework, virtual tuitions, and smartphone-based learning. Even after schools reopened, children spent long stretches of their day engaged in screen-based learning, completing assignments sent through messaging apps, attending online coaching classes, and using smartphones for entertainment."
+            },
+            {
+                "type": "text",
+                "value": "What links these changes is the growing amount of near work in children’s daily lives, combined with reduced outdoor activity. Children today spend far less time outdoors in natural daylight and much more time indoors, either at school, tuition classes, or in front of screens. In genetically susceptible children, these environmental changes are contributing to the rapidly increasing prevalence of myopia (short-sightedness)."
+            },
+            {
+                "type": "text",
+                "value": "Myopia arises from a complex interaction between genetic predisposition and environmental exposures, and modern childhood appears to be amplifying both the onset and progression of the condition."
+            },
+            {
+                "type": "text",
+                "value": "I have seen infants as young as eight months being exposed to screens while being fed, particularly during the transition from breastfeeding to complementary feeding. For many parents, smartphones and televisions have become convenient tools to distract children during mealtimes, resulting in screen exposure beginning remarkably early in life."
+            },
+            {
+                "type": "heading",
+                "value": "Rahul’s story"
+            },
+            {
+                "type": "text",
+                "value": "Take the case of Rahul (name changed),  a 13-year-old boy studying in class 8, who came to us for his routine six-monthly eye examination. He had started wearing glasses at the age of 10 and was already myopic with a refractive error of −2 dioptres when he first presented to us. Although he had repeatedly complained to his mother that he could not see the blackboard clearly, she initially dismissed it, assuming he was joking. It was only later that she realised he had been copying notes from his classmate’s notebook because he was unable to read the board. Rahul’s mother is also myopic, though she began wearing glasses only at the age of 17.  From an early age, he had had significant exposure to television and smartphones."
+            },
+            {
+                "type": "text",
+                "value": "At his current visit, Rahul was wearing glasses of −3 dioptres, but over the preceding six months, his myopia had progressed further to −3.5 dioptres. This progression had occurred despite treatment with anti-myopia eye drops and the use of myopia-control spectacles. I found myself wondering what more could be done to slow the progression of his myopia. Eventually, I decided to increase the concentration of the prescribed eye drops to achieve better control."
+            },
+            {
+                "type": "text",
+                "value": "We routinely advise lifestyle modifications for all children with myopia. These recommendations include limiting recreational screen time to less than half an hour a day, ensuring at least two hours of outdoor activity in daylight, and following the 20-20-20 rule — for every 20 minutes of near work, the child should look at an object 20 feet away for at least 20 seconds. We also emphasise the importance of good lighting while reading or studying and ensuring adequate sleep."
+            },
+            {
+                "type": "text",
+                "value": "I decided to explore Rahul’s daily routine in greater detail. He leaves home at 7 a.m. to reach school by 8 a.m. and returns only at 4:30 p.m. After school, he attends coaching classes in preparation for the IIT entrance examinations, reaching home around 7:30 p.m. He then must complete his homework, much of which is sent in PDF format to his mother’s smartphone. At the end of the day, he unwinds by watching television during dinner and later spends time scrolling through reels on his phone. I realised that I had very little control over many of the factors driving his near-work burden. Individual counselling alone cannot address a problem that is increasingly shaped by educational systems, digital learning practices, urban lifestyles, and societal expectations. This highlights the need for policies that encourage a balanced use of digital learning and reduce unnecessary screen-based academic work, particularly for younger children."
+            },
+            {
+                "type": "text",
+                "value": "Sadly, this has become the reality for many children growing up in urban India today."
+            },
+            {
+                "type": "heading",
+                "value": "The burden of myopia"
+            },
+            {
+                "type": "text",
+                "value": "Rahul’s progressive myopia is part of a much larger trend seen across the world."
+            },
+            {
+                "type": "text",
+                "value": "Myopia is no longer merely a problem corrected with glasses. It is now a major global public health concern. In 2000, roughly 1.4 billion people, approximately 22.9% of the world’s population, were myopic. By 2010, this had risen to nearly 2 billion people, or 28.3%. Current projections from the Brien Holden Vision Institute suggest a steady increase. By 2050, <a href=\"https://www.sciencedirect.com/science/article/pii/S0161642016000257\" target=\"_self\">approximately 4.75 billion people</a>, nearly half the world’s population are expected to be myopic. Of these, nearly 10% are expected to have high myopia"
+            },
+            {
+                "type": "text",
+                "value": "The prevalence of myopia among urban children in India <a href=\"https://pubmed.ncbi.nlm.nih.gov/33860952/\" target=\"_self\">has increased</a> from 4.44% in 1999 to 21.15% in 2019 and is projected to rise to nearly 48% by 2050."
+            },
+            {
+                "type": "heading",
+                "value": "What is myopia?"
+            },
+            {
+                "type": "text",
+                "value": "Myopia is primarily a refractive condition caused by excessive axial elongation of the eye. In a myopic eye, the axial length, which is the distance between the front and back of the eye, becomes too long. As a result, incoming light rays focus in front of the retina instead of directly on it, causing distant objects to appear blurred. Concave lenses, either in the form of spectacles or contact lenses, are used to shift the focus back onto the retina and restore clear vision."
+            },
+            {
+                "type": "text",
+                "value": "Myopia is not merely about needing glasses. As the axial length of the eye increases, the tissues of the eye, including the sclera, choroid, and retina, undergo stretching and thinning. This increases the risk of retinal detachment, myopic macular degeneration, glaucoma, and early cataract formation."
+            },
+            {
+                "type": "text",
+                "value": "High myopia, generally defined as a refractive error of −6 dioptres or greater, is associated with potentially irreversible visual impairment and blindness. The increasing prevalence of high myopia therefore, represents a major future public health challenge."
+            },
+            {
+                "type": "heading",
+                "value": "What needs to be done?"
+            },
+            {
+                "type": "text",
+                "value": "Like most epidemics, the myopia surge demands prevention at multiple levels. Efforts to address myopia must begin even before the onset of the condition."
+            },
+            {
+                "type": "text",
+                "value": "Primary prevention: One of the most evidence-based strategies for preventing myopia is increasing outdoor exposure to natural daylight. Exposure to bright outdoor light stimulates retinal dopamine release, which is believed to inhibit excessive axial elongation of the eye. Current evidence suggests that children require at least two hours of outdoor activity per day."
+            },
+            {
+                "type": "text",
+                "value": "This can be promoted through: school-based outdoor activity programmes, reduction of unnecessary indoor screen-based learning, public awareness campaigns, and parental education regarding healthy visual habits."
+            },
+            {
+                "type": "text",
+                "value": "<b>Secondary Prevention</b>"
+            },
+            {
+                "type": "text",
+                "value": "Compulsory eye examinations before preschool entry (around 3 years of age) and before formal schooling (around 6 years of age) should be considered as part of public health policy. In addition, annual school eye screening programs should be made mandatory so that children with myopia can receive timely spectacles and anti-myopia interventions."
+            },
+            {
+                "type": "text",
+                "value": "Tertiary prevention:<b></b>The goal of tertiary prevention is to prevent low myopia from progressing to high myopia and its associated complications. This involves: optical interventions, pharmacological treatments such as low-dose atropine, behavioural modifications, and regular long-term follow-up."
+            },
+            {
+                "type": "text",
+                "value": "Equally important is counselling families regarding lifestyle changes and adherence to treatment."
+            },
+            {
+                "type": "heading",
+                "value": "A public health challenge"
+            },
+            {
+                "type": "text",
+                "value": "If Rahul had undergone an eye examination when he was three, before entering preschool, he may have been identified as being at a higher risk because of his parental history of myopia. His parents could have been counselled regarding the importance of outdoor activity, reduced recreational screen exposure, and regular monitoring. Earlier school-based screening may also have detected his myopia sooner, allowing treatment to begin earlier."
+            },
+            {
+                "type": "text",
+                "value": "Rahul is fortunate that his parents can afford anti-myopia spectacles and long-term pharmacological treatment. However, from a public health perspective, access and affordability remain major concerns. Advanced myopia-control interventions are expensive and often inaccessible to families in low- and middle-income countries such as India, where these treatments are usually not covered by insurance or public health systems."
+            },
+            {
+                "type": "heading",
+                "value": "Improving lifestyles"
+            },
+            {
+                "type": "text",
+                "value": "The rise of myopia is not merely an ophthalmic problem; it reflects how childhood itself is changing. Children today are growing up within the four walls of their home or school, in screen-dependent, academically pressured environments with limited opportunities for outdoor play and rest. The consequences of this lifestyle on the eye carries lifelong risks."
+            },
+            {
+                "type": "text",
+                "value": "Preventing a future epidemic of high myopia will require far more than stronger glasses or better eye drops. It demands coordinated efforts from parents, schools, healthcare systems, urban planners, and policymakers. Ultimately, the challenge is not only to protect children’s vision, but also to rethink how children learn, play, and grow in the modern world."
+            },
+            {
+                "type": "text",
+                "value": "<i>(Dr. Vasudha Kemmanu is a paediatric ophthalmologist and a public eye health specialist at Narayana Nethralaya, Rajaji Nagar, Bengaluru. vasudhakemmanu@gmail.com)</i>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "Government issues Ebola advisory for passengers arriving from DR Congo, Uganda and South Sudan",
+        "url": "https://www.thehindu.com/sci-tech/health/government-issues-ebola-advisory-for-passengers-arriving-from-high-risk-african-nations/article71005409.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "India has issued a health advisory for passengers <a href=\"https://www.thehindu.com/sci-tech/health/risk-of-ebola-spread-is-high-locally-but-low-globally-who-says/article71001733.ece\" target=\"_self\">arriving from or transiting through Ebola-affected countries,</a> asking those with symptoms or exposure history to immediately report to airport health authorities before immigration clearance."
+            },
+            {
+                "type": "text",
+                "value": "The advisory, issued by the Directorate General of Health Services (DGHS), specifically mentions travellers coming from the Democratic Republic of Congo, Uganda and South Sudan, all of which have been categorised as \"high-risk countries\" by the World Health Organisation (WHO)."
+            },
+            {
+                "type": "heading",
+                "value": "Watch out for symptoms:"
+            },
+            {
+                "type": "text",
+                "value": "The advisory has been displayed at the Delhi airport by the Airport Health Organisation (APHO). It advises passengers to watch out for symptoms such as fever, weakness, headache, muscle pain, vomiting, diarrhoea, sore throat and unexplained bleeding."
+            },
+            {
+                "type": "text",
+                "value": "It also asks travellers who had direct contact with blood or body fluids of a suspected or confirmed Ebola patient to immediately report to the airport health officer or the health desk."
+            },
+            {
+                "type": "text",
+                "value": "According to the APHO, any traveller developing symptoms within 21 days of arrival should seek immediate medical care and inform authorities about their travel history."
+            },
+            {
+                "type": "text",
+                "value": "On Wednesday (May 20, 2026), Union Health Secretary Punya Salila Srivastava chaired a high-level review meeting with health secretaries of all States and Union territories to assess preparedness and response measures for Ebola."
+            },
+            {
+                "type": "text",
+                "value": "Union Health Ministry officials clarified that no case of Ebola has been detected in India so far."
+            },
+            {
+                "type": "text",
+                "value": "However, after the <a href=\"https://www.thehindu.com/news/international/who-declares-ebola-outbreak-in-congo-uganda-a-global-public-health-emergency/article70989497.ece\" target=\"_self\">WHO declared Ebola a Public Health Emergency of International Concer</a>n (PHEIC), the government of India has proactively strengthened surveillance and preparedness measures across the country as an abundant precaution, official sources had said."
+            },
+            {
+                "type": "text",
+                "value": "During the meeting, States and Union territories were advised to ensure readiness at all levels."
+            },
+            {
+                "type": "text",
+                "value": "Detailed Standard Operating Procedures (SOPs) covering pre-arrival and post-arrival screening, quarantine protocols, case management, referral mechanisms and laboratory testing have already been shared with all States and Union territories."
+            },
+            {
+                "type": "text",
+                "value": "All concerned Ministries and departments had also been sensitised and were undertaking appropriate preventive and surveillance measures in coordination with the Health Ministry, the sources stated."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Expert Explains",
         "title": "India Ebola Advisory: An Expert Explains why infection spillover is not a pandemic",
         "url": "https://indianexpress.com/article/explained/explained-health/ebola-outbreak-who-uganda-congo-urban-spread-spillover-10701138/",
         "content": [
