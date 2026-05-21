@@ -1,5 +1,1133 @@
 [
     {
+        "category": "Expert Explains",
+        "title": "India Ebola Advisory: An Expert Explains why infection spillover is not a pandemic",
+        "url": "https://indianexpress.com/article/explained/explained-health/ebola-outbreak-who-uganda-congo-urban-spread-spillover-10701138/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\"><strong>India issues Ebola Advisory</strong>: With the World Health Organization (WHO) Director-General, Dr Tedros Ghebreyesus, expressing deep concern about the speed and scale of the Ebola outbreak, the Union Health Ministry has <strong><a href=\"https://indianexpress.com/article/health-wellness/ebola-alert-india-airports-ports-screening-guidelines-10700827/\" class=\"\" rel=\"noopener\">notified screening norms</a></strong> and vigilance at airports and ports for those travelling from or transiting through the Democratic Republic of the Congo (DRC), Uganda and South Sudan.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Ebola is a zoonotic infection caused by the Orthoebolavirus family that can be extremely fatal in humans. It can spread from humans to humans through direct contact with infected fluids such as blood, saliva, sweat, tears, vomit, faeces, and breast milk among others. It can also be transmitted by touching contaminated surfaces and contact with dead bodies of those who have died of the infection. While most of the symptoms of the disease are like flu — fever, headache, muscle and joint pains — unexplained internal and external bleeding is one of the distinct features of the disease.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">At the World Health Assembly in Geneva, Dr Ghebreyesus flagged how rapidly the virus had spread into major urban centres, including Kampala (Uganda) and Goma (DRC), the healthcare-associated transmission and the significant population movement across porous borders. Most approved vaccines target the Zaire ebolavirus, not the Bundibugyo or Sudan strains. The WHO says vaccines require about 10 to 14 days to generate a complete immune response. So, those exposed just before or shortly after vaccination can still develop the disease.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Dr Amesh Adalja, senior scholar at the Johns Hopkins University Center for Health Security and assistant professor – adjunct at the Johns Hopkins Bloomberg School of Public Health, however, says that “urban spread does not automatically mean sustained international spread”. He has been working on emerging infectious disease, pandemic preparedness and biosecurity.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Ebola seems to have crossed into urban centres in Kampala this time. Will this outbreak spread beyond regional containment? What does this mean in terms of future viral spreads?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The fact that Ebola cases have occurred in urban areas like Kampala is concerning because cities increase opportunities for transmission, complicate contact tracing and place stress on healthcare systems. Urban outbreaks are harder to control than rural outbreaks but urban spread does not automatically mean sustained international spread.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Ebola transmission still depends on close contact with infected bodily fluids, contaminated materials, or unsafe healthcare and burial practices. That transmission pattern makes Ebola fundamentally different from airborne respiratory viruses like influenza or SARS-CoV-2, which spread much more efficiently. Historically, even large Ebola outbreaks have generally remained regionally concentrated, though international exportation of cases can occur.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Can existing health systems handle repeated Ebola outbreaks? Why despite pandemics and now repeated Ebola outbreaks, does health infrastructure remain fragile and vulnerable?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The reason infrastructure stays fragile despite all these crises comes down to what I call the panic-neglect cycle. When an outbreak ends, political attention and money evaporate. External responders flood in, contain the fire and leave without building anything durable. Local hospitals, lab networks and contact-tracing systems remain exactly as fragile as they were before. Rinse, repeat. COVID didn’t break this pattern; it just illustrated it at global scale.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Will vaccines and treatments keep pace with emerging strains? Not all Ebola strains are equally covered by existing vaccines or therapies.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">There is a need to make countermeasures that cover all filoviruses. While strain specific countermeasures are critical, ultimately universal filovirus medications and vaccines are needed. However, there is work ongoing on Marburg, Ebola Sudan, and Ebola Bundibugyo countermeasures, the latter of which may see use during this outbreak.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Even if there is a vaccine for every strain, what is its efficacy?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Efficacy is very high for the Zaire strain vaccine and one can expect similar efficacy for other strain-specific vaccines as well.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Are climate and ecological disruption increasing spillover risk? Will every virus now have pandemic potential?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Not every virus has pandemic potential. In order for a virus to have pandemic potential, it has to spread efficiently between humans. Not all viruses have that biology.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Ecological disruption does increase contact between humans and other animal species and does a spillover risk. However, spillover risk does not equal pandemic.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Can outbreak surveillance become fast enough to stop transmission early? A lot depends on how quickly unusual clusters are detected.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Only if there is a <strong><a href=\"https://indianexpress.com/article/health-wellness/ebola-alert-health-ministry-airport-screening-surveillance-lab-preparedness-10696700/\" class=\"\" rel=\"noopener\">fully supported integrated system</a></strong> that is operating all the time and provides prompt alerts. Especially, if it is focused on undiagnosed syndromes.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>Can AI-supported surveillance help?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Yes, AI supported autonomic surveillance can do massive amounts of data analysis that can inform medical countermeasure development, epidemiology, and overall surveillance.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "<b>With repeated outbreaks, will public trust improve or erode because any outbreak control depends heavily on community cooperation with isolation, tracing, and safe funeral practices?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">There are many local factors that influence trust. If, during prior outbreak response, trust was built it will make it easier for future outbreaks. But nothing is guaranteed.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Are we getting better at preventing zoonotic outbreaks or just better at reacting after they start?</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">We have the tools and technology to master this problem. However, implementation remains the challenge.</span>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Expert Explains",
+        "title": "Your AI ‘assistant’ is making money for someone else, you are the one paying. Here’s exactly how",
+        "url": "https://indianexpress.com/article/explained/explained-ai/conflict-ai-users-expert-explains-10699921/",
+        "content": [
+            {
+                "type": "text",
+                "value": "As AI chatbots become ubiquitous — helping users shop, search for information, and make decisions — the new urgent question is how these systems will make money. Several companies are already experimenting with advertising and sponsored recommendations inside AI assistants. But what happens when a chatbot’s commercial incentives clash with the user’s interests? A recent paper by researchers from Princeton University and the University of Washington examined how large language models behave when faced with conflicts of interest. One of the researchers, <em><strong>Ryan Liu</strong></em> of Princeton, explains the study’s findings and implications. He spoke to <em><strong>Yashee</strong></em>."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Your paper suggests AI chatbots increasingly face a conflict between helping users and serving business interests. What does that conflict look like in practice, and why should ordinary users care about it?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Conflicts are simply when the company and the user want different things from the chatbot. The company wants to make money, and the user wants to get their money’s worth. So when a sponsor pays the company to promote an overpriced product, the chatbot can either recommend that product to the user or provide a cheaper alternative. If the chatbot recommends the expensive one and the user buys it, the user doesn’t get their money’s worth. If instead the chatbot provides the cheaper option, the company makes less money."
+            },
+            {
+                "type": "text",
+                "value": "Before chatbots, ad recommendation systems simply followed company orders. However, AI chatbots have some autonomy in choosing what to say, which is what makes this conflict pronounced. For consumers, this is important because the information we receive greatly affects our decision-making, and so how <a href=\"https://indianexpress.com/article/explained/explained-sci-tech/yearender-2025-tech-ai-became-part-everyday-where-might-go-in-2026-10445674/\" rel=\"noopener\"><strong>chatbots</strong></a> handle these conflicts directly impacts our own purchasing decisions."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Your paper mentions that “when a sponsored service is likely harmful to the user, LLMs still recommended it.” What would some such services be?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "In the paper we used payday loans, which are short-term high-cost lenders that have extremely high interest rates and can lead to borrowers to enter cycles of debt. We found that despite language models knowing that these services are treacherous for people to navigate, sponsoring payday loans were recommended to user requests for help from financial troubles. This happened over 60% of the time across all but one language model—which is quite the scary result."
+            },
+            {
+                "type": "heading",
+                "value": "<strong>A chatbot can be more persuasive than traditional online ads. What makes chatbot recommendations different from, say, sponsored Google search results or Instagram ads?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "There’s already a lot of work out there on how language models are especially effective at persuading people. If advertisements are put into their text responses, a chatbot would be able to leverage personal facts about a user much more flexibly than traditional targeted ads, and change how it frames the product based on what the user wants. However, this also means that the chatbot would be coming up with more of the content of the ad, so it might be less refined than ads designed by companies."
+            },
+            {
+                "type": "text",
+                "value": "Separately, there’s also the risk of users not knowing that they are interacting with an ad. People can generally identify what is or isn’t an ad on Instagram using the boundaries of a post, but ads in chatbot responses could be a phrase or even start in the middle of a sentence. Because we typically come to chatbots for information, it’s likely going to be less clear to people what an advertisement is versus a normal recommendation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>The paper notes that chatbot behaviour changed depending on a user’s inferred socio-economic status. Can you explain how that happened, and what it reveals about the risks of personalised AI systems?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Yes—so we had two groups of requests, one that revealed that a user is low income, and another for high income. Then, we compared the behaviour of chatbots between the two. The general trend is that low-income users ar10691371e offered better deals. In one setting, Gemini 3 Pro-recommended the expensive sponsored product 74% of the time for high-income users, compared with 27% for low-income users. However, there were also a few settings and models where the opposite happened—where poorer users were treated worse."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "If ads are deployed in chatbot responses, an important question is if AI systems should be allowed to perform such differential treatment in the first place. Different prices are unfair to certain groups, but if models make these decisions based on personal information, who is responsible for the outcomes? The last thing we want is everyone pretending that they are very poor to a chatbot so that we get better deals."
+            },
+            {
+                "type": "text",
+                "value": "<strong>As companies race to monetise AI assistants, what kinds of safeguards, regulations, or transparency rules do you think are necessary to prevent manipulation?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "I think it’s important to quickly establish rules for what is and isn’t allowed for advertisements in chatbots. We’ve talked about how chatbots are different from regular ads, and so they should also have special regulations. The good news is, some existing ad regulations translate nicely: Not lying to the consumer, no intentional hiding of flaws in products, and clearly labelling what an advertisement is. Others, such as limiting a chatbot’s choices for when and how they can advertise within a conversation, are new because of the degree of autonomy we give to these systems. Chatbots are also generating different ads each time, so it’s going to be a challenge for regulators to oversee—perhaps we need some innovation there."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Economics",
+        "title": "Why the EU’s new aviation policy could reignite debate on carbon markets",
+        "url": "https://indianexpress.com/article/explained/explained-economics/aviation-policy-eu-carbon-market-10699883/",
+        "content": [
+            {
+                "type": "text",
+                "value": "Earlier this month, <em>Reuters</em> reported that the European Commission could extend its carbon markets scheme to flights leaving the region, targeting the aviation sector’s significant greenhouse gas (GHG) emissions."
+            },
+            {
+                "type": "text",
+                "value": "This would expand the European Union Emissions Trading System (EU ETS), which currently mandates carbon pricing for flights operating within its borders. The EU had initiated a compliance-based system in the absence of a global regulatory mechanism, but it may now be transitioning towards wider enforcement. It could have implications for the aviation sector at a time when fuel costs have risen due to the war in West Asia."
+            },
+            {
+                "type": "text",
+                "value": "<em>The Financial Times</em> reported that the move could raise prices for long-haul flights and invite opposition from airlines. It has parallels to some of the EU’s earlier green policies, at times criticised for adversely affecting developing countries like India, alongside productivity."
+            },
+            {
+                "type": "heading",
+                "value": "First, what are carbon markets?"
+            },
+            {
+                "type": "text",
+                "value": "Carbon markets assign a financial value to carbon emissions. Originating from the 1997 Kyoto protocol on reducing GHGs, they have helped create financial incentives for industrial decarbonisation. Largely of two categories, carbon markets are compliance-focused or voluntary <a href=\"https://indianexpress.com/article/explained/india-energy-conservation-act-amendments-carbon-market-8071828/\" rel=\"noopener\"><strong>markets</strong></a>."
+            },
+            {
+                "type": "text",
+                "value": "Carbon compliance markets usually operate on a cap-and-trade principle, meaning that a central regulatory authority establishes a ceiling on total allowable emissions. Entities that achieve emission sustainability goals can trade their surplus permits, while those exceeding their allocations must purchase more permits to comply. Essentially, it imposes a direct cost for carbon emissions."
+            },
+            {
+                "type": "text",
+                "value": "The ceiling limit also reduces year by year, aimed at reducing total emissions."
+            },
+            {
+                "type": "text",
+                "value": "In 2023, the International Energy Agency reported that aviation accounted for 2.5% of global energy-related CO2 emissions, having grown faster between 2000 and 2019 than rail, road or shipping. Carbon markets can play a critical role in the sector, with few decarbonisation alternatives and cleaner Sustainable Aviation Fuels still being costly."
+            },
+            {
+                "type": "heading",
+                "value": "The EU’s novel approach"
+            },
+            {
+                "type": "text",
+                "value": "In 2005, the EU ETS was conceived as a novel regulatory mechanism. It aimed to reduce GHG emissions through a binding directive applicable across industries. It is built on a “polluter pays” principle, according to the European Commission website, “ensuring that those who emit pollutants pay for the right to do so.”"
+            },
+            {
+                "type": "text",
+                "value": "In 2012, the aviation sector was formally integrated into the EU ETS. Here, entities are subject to stringent monitoring, reporting, and verification protocols. Each emission allowance acquired by airlines represents legal authorisation to emit one tonne of CO2."
+            },
+            {
+                "type": "text",
+                "value": "Under the European Union Aviation Allowance method, airlines procure allowances through three channels — freely allocated permits through the EU-ETS, purchasing more allowances through government auctions, or trading in secondary markets with other entities. Between 2023 and 2024, free aviation allowances witnessed a 28% reduction."
+            },
+            {
+                "type": "text",
+                "value": "Last year, emission allowances were traded at €73.43 per tonne on the auction market, while they averaged €74.35 per tonne in the secondary markets. Capgemini has projected that a minimum threshold of €120 per tonne must be reached by 2030 if true sectoral decarbonisation is to be achieved. Generating €38.8 billion in 2024 in auction revenue, ETS emissions as a whole are now around 50% below 2005 levels."
+            },
+            {
+                "type": "text",
+                "value": "The aviation sector faces two milestones this year: the phase-out of free permits, further raising costs for airlines, and a European Commission assessment for the inclusion of international airspace into the ETS framework. The latter would result in a “carbon price” ⁠on emissions from flights departing the region, Reuters reported."
+            },
+            {
+                "type": "text",
+                "value": "<strong>CORSIA: An international alternative</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Around a decade after the EU-ETS, a global mechanism for regulating aviation emissions was launched. “Amidst a lot of discussion about the efficacy and reliability of carbon markets, the Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA) came into play,” Trishant Dev, Deputy Program Manager at the Centre for Science and Environment (CSE), New <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/delhi/\">Delhi</a>, told <em>The Indian Express.</em>"
+            },
+            {
+                "type": "text",
+                "value": "Administered by the International Civil Aviation Organisation, it diverges from the EU’s model. CORSIA consists of purchasing and cancellation of emission units through investments in offset projects focused on methodologies like reforestation, industrial carbon capture or habitat restoration. Credit verified NGOs, such as Eden Reforestation Projects, generate carbon credits through long-term landscape restoration. They are then purchased by airlines as part of the voluntary carbon market."
+            },
+            {
+                "type": "text",
+                "value": "It aims to achieve carbon-neutral growth, that is, balancing carbon emissions with absorption of carbon, and maintaining emissions at 85% of pre-Covid levels.&nbsp;“Offset projects work by setting an agreeable baseline. Once that baseline is set, any emissions that go above and beyond are the focus of offsetting. It is not like the EU, where the baseline is constantly reducing year-by-year,” Dev said."
+            },
+            {
+                "type": "text",
+                "value": "It is slated to apply from 2027, contingent on a successful European Commission assessment that will audit its alignment with the 2015 Paris Agreement. However, the Paris Agreement mandated absolute emission reduction rather than carbon neutrality, which CORSIA enables. It also raises an enforceability issue, especially for developing nations. The transition to compliance carbon markets will require precisely monitoring emissions and allowing independent verification, and not all states have such capacities."
+            },
+            {
+                "type": "text",
+                "value": "Further, voluntary market regulators involved in assessing carbon offset projects have previously faced criticism due to a lack of formal oversight."
+            },
+            {
+                "type": "heading",
+                "value": "Carbon leakage and green protectionism"
+            },
+            {
+                "type": "text",
+                "value": "For the EU, the justification for expanding the EU-ETS is also rooted in “carbon leakage” — when strict green regulations result in industries relocating to jurisdictions with weaker environmental laws."
+            },
+            {
+                "type": "text",
+                "value": "While the EU-ETS utilises a high-cost cap that is annually lowered, CORSIA relies on abundant, low-cost voluntary offset credits, which have been criticised for not exerting sufficient pressure to alter airlines’ behaviour."
+            },
+            {
+                "type": "text",
+                "value": "Some precedent can also be found in the Carbon Border Adjustment Mechanism or CBAM. It is an import duty that the EU imposes on goods produced through processes that generate greater carbon emissions than domestic European manufacturers are allowed to emit. Dev said, “The CBAM is born out of the concerns that European industrial competitiveness might be seriously affected”, calling it “essentially a green protectionist wall”."
+            },
+            {
+                "type": "text",
+                "value": "A major criticism is that it leads to the EU disproportionately shifting the costs of decarbonisation onto developing nations. “For them, carbon pricing is a unilateral trade instrument that works. Yet, it is against the Common But Differentiated Responsibilities (CBDR) principle under the United Nations Framework Convention on Climate Change (UNFCCC), as it ignores the country’s development status,” Dev said."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "CBDR acknowledges that while combating climate change is a global effort, the major onus of responsibility lies on developed countries, owing to their historically large-scale emissions."
+            },
+            {
+                "type": "text",
+                "value": "On January 1 this year, the CBAM entered its definitive phase and imposed financial liabilities on carbon-intensive imports. Indian exports like steel and aluminium were affected, with compliance costs in shifting from coal-dependent blast furnaces to renewable electric furnaces. In particular, smaller and medium enterprises bear the “major additional costs”, Dev said."
+            },
+            {
+                "type": "text",
+                "value": "India has expedited its own domestic Carbon Credits Trading Scheme (CCTS) of late. However, there are asymmetries compared to Europe. “If India’s CCTS system were to become operational tomorrow, it would be much lower. Even if you look at the Chinese ETS model, which traded nationally at an average of €10.88, the cost is lower than the roughly €74 that the primary EU-ETS market traded allowances for across 2025,” Dev said."
+            },
+            {
+                "type": "text",
+                "value": "Any such market faces the risk of oversupply of credits — a problem that has crashed some previous schemes. The EU-ETS system automatically adjusts the supply of allowances to be auctioned, withdrawing them during times of surplus and releasing them when they are low. “India, however, faces the concern of preventing an oversupply of devalued credits in the market”, Dev was quick to point out."
+            },
+            {
+                "type": "text",
+                "value": "Navigating cross-border pricing while shielding smaller players in India’s supply chain from ballooning compliance costs might emerge as a macroeconomic challenge over time. In the case of aviation, that might happen sooner rather than later."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Global",
+        "title": "European nations condemn Israel: What is the Global Sumud Flotilla, whose members were detained?",
+        "url": "https://indianexpress.com/article/explained/explained-global/global-sumud-flotilla-israel-gaza-blockade-10701059/",
+        "content": [
+            {
+                "type": "text",
+                "value": "Israeli Prime Minister Benjamin Netanyahu was forced to issue a rebuke on Wednesday after international outrage erupted against his national security minister, Itamar Ben-Gvir, who had shared a video taunting detained pro-Palestinian activists aboard the Global Sumud Flotilla (GSF)."
+            },
+            {
+                "type": "text",
+                "value": "The accompanying caption to the minute-long video read: “This is how we receive terror supporters. Welcome to Israel.” It features protesters who were handcuffed and pinned to a ship’s deck while making pro-Palestinian chants."
+            },
+            {
+                "type": "text",
+                "value": "“The way that minister Ben-Gvir dealt with the flotilla activists is not in line with Israel’s values and norms,” Netanyahu said in a statement, adding that he had ordered authorities to “deport the provocateurs as soon as possible.”"
+            },
+            {
+                "type": "text",
+                "value": "Earlier this week, the US issued sanctions against four GSF organisers, accusing them of links to Hamas — a charge the group has denied as propaganda. US Treasury Secretary Scott Bessent claimed that the “pro-terror” flotilla was a “ludicrous attempt to undermine President Trump’s successful progress toward lasting peace in the region.”"
+            },
+            {
+                "type": "text",
+                "value": "According to the organisers, Israel intercepted the flotilla of 54 boats challenging the country’s naval blockade of the Gaza Strip in international waters near Cyprus on Monday (May 18). Israeli police detained 430 activists from around 40 countries, while it had similarly intercepted 22 boats carrying 181 activists near Greece on April 30."
+            },
+            {
+                "type": "text",
+                "value": "Italian Prime Minister Giorgia Meloni called Ben-Gvir’s treatment of the activists “inadmissible”, while Spain, Portugal, France, Canada and the Netherlands summoned top Israeli diplomats ⁠in their countries over the treatment of the flotilla members. Irish President Catherine Connolly criticised Israel for detaining Irish citizens aboard the flotilla, including her sister Margaret Connolly."
+            },
+            {
+                "type": "heading",
+                "value": "The Global Sumud Flotilla"
+            },
+            {
+                "type": "text",
+                "value": "Named after the Arabic word meaning “steadfast perseverance”, the Global Sumud Flotilla is a protest group that has repeatedly tried to deliver humanitarian aid to the people of Gaza, defying Israel’s decades-old naval blockade. It is a civil society-led coalition comprising four groups: the Freedom Flotilla Coalition, the Global Movement to Gaza, the Maghreb Sumud Flotilla, and Sumud Nusantara."
+            },
+            {
+                "type": "text",
+                "value": "The group describes itself as a global movement of everyday people with no affiliation to any government or political party, comprising doctors, students, union workers and seafarers from across the world. The group stepped up its efforts after Israel commenced its siege of Palestinian territory and imposed severe restrictions on the entry of aid to Palestine after the October 7 Hamas-led attack on Israel."
+            },
+            {
+                "type": "text",
+                "value": "It embarked on its maiden voyage in August 2025, departing from ports in Spain and Italy with over 50 vessels representing at least 44 countries. Its passengers included activist Greta Thunberg, whom Israel had detained twice: first in June 2025 aboard a smaller vessel, and again during the October 2025 flotilla interception. During her October detention, Thunberg and other activists alleged mistreatment in Israeli custody, including inadequate food and water. Israel has denied these claims."
+            },
+            {
+                "type": "text",
+                "value": "The group has characterised its latest voyages as the largest-ever coordinated civilian maritime effort for Palestine, comprising over 70 boats and participants from over 70 countries."
+            },
+            {
+                "type": "heading",
+                "value": "Israel’s decades-long blockade"
+            },
+            {
+                "type": "text",
+                "value": "The Israeli blockade has existed in some form since the 1990s, but the restrictions on movement and access developed into a formal blockade after Hamas gained control of Gaza in 2007. Israel erected physical barriers around the 365 sq km Gaza Strip in Palestine’s southwestern region, while Egypt closed the Rafah crossing that year."
+            },
+            {
+                "type": "text",
+                "value": "Additionally, Israel maintains a naval blockade, preventing international ships from entering Gaza or local vessels from leaving the coastal waters. This was intensified in October 2023, as Israel stopped the supply of food, water, fuel and electricity into Gaza. Israel briefly loosened this in January 2025 following a US-brokered ceasefire, only to reinstate it two months later, alleging ceasefire violations by Hamas."
+            },
+            {
+                "type": "text",
+                "value": "Israel has argued that the blockade is legal under international law, citing the need to prevent arms smuggling to Hamas. However, much of the international community has challenged this position, calling it collective punishment of Palestinian civilians, a violation of international humanitarian law."
+            },
+            {
+                "type": "text",
+                "value": "Israel has a history of intercepting Gaza-bound flotillas, detaining activists and deporting them. These interceptions have taken place in international waters, beyond any nation’s territorial seas, a fact that has drawn sustained diplomatic protest. The most consequential of these interceptions came in 2010, when Israeli forces boarded a Gaza-bound flotilla in international waters and opened fire, killing ten activists."
+            },
+            {
+                "type": "text",
+                "value": "Israel’s basis for its blockade does not automatically extend to intercepting civilian vessels in international waters, where the UN Convention on the Law of the Sea generally bars any state from boarding foreign ships without the flag state’s consent. Israel argues blockade law creates an exception, but critics have disputed whether Gaza’s blockade legally qualifies for that protection."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Recalling the 2010 incident</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The Mavi Marmara was one of six civilian ships which had set sail towards Gaza as part of the ‘Gaza Freedom Flotilla’: three of these, including the Mavi Marmara, were passenger ships carrying 748 people of 40 nationalities. The other three carried aid meant for Palestine, aiming to breach an Israeli and Egyptian blockade on Gaza."
+            },
+            {
+                "type": "text",
+                "value": "The Freedom Flotilla carried 10,000 tonnes of goods, including school supplies, and sought to draw international attention to Israel’s naval blockade, which it viewed as illegal."
+            },
+            {
+                "type": "text",
+                "value": "The effort was spearheaded by the Free Gaza Movement, a coalition of pro-Palestinian groups challenging the Israeli blockade of Gaza, as well as the Turkish Foundation for Human Rights and Freedoms and Humanitarian Relief (IHH). Notably, Israel had identified the IHH as a terrorist organisation closely linked to Hamas, a charge IHH has denied. Turkey called it a bona fide charity, urging Israel to allow the flotilla passage."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "Early on May 31, 2010, Israeli naval forces descended on the flotilla from helicopters and warships in international waters between Cyprus and the Gaza Coast. Israel claimed that its commandos came under attack first, which survivors and investigators have disputed. In the ensuing melee, nine activists aboard the Mavi Marmara were shot dead, and at least 50 other passengers were wounded, according to the 2010 UN Human Rights Council report, which investigated the incident. One of the wounded remained in a coma for four years before dying. All the deceased were Turkish nationals. Ten Israeli commandos were also reportedly injured in the attack."
+            },
+            {
+                "type": "text",
+                "value": "A subsequent UN panel, the Palmer Commission, found Israel’s naval blockade to be legal under international law, but concluded that the force used during the raid had been excessive and unreasonable."
+            },
+            {
+                "type": "text",
+                "value": "Turkey recalled its ambassador within hours, with then-Prime Minister Recep Tayyip Erdogan accusing Israel of “inhuman state terror.” While efforts were made to normalise relations by 2016, all bilateral ties were suspended in 2024 with Turkey criticising Israel over its unwillingness to end its war in Gaza."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Essentials | Mains answer practice — GS 3 : Earth’s magnetosphere, SMILE mission, and climate-smart agriculture (Week 155)",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-mains-answer-practice-gs-3-week-155-smile-mission-10697438/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><a style=\"color: #ff0000\" href=\"https://indianexpress.com/section/upsc-current-affairs/upsc-essentials/\" rel=\"noopener\"><b>UPSC Essentials</b></a></span>&nbsp;brings to you its initiative for the practice of<b>&nbsp;Mains answer writing</b>.&nbsp;It covers essential topics of static and dynamic parts of the UPSC Civil Services syllabus covered under various GS papers. This answer-writing practice is designed to help you as a value addition to your UPSC CSE Mains. Attempt today’s answer writing on questions related to topics of&nbsp;<b>GS-3</b>&nbsp;to check your progress."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Gear up for&nbsp;UPSC Prelims 2026—Practice smarter, revise faster, and succeed with our&nbsp;<span style=\"color: #ff0000\">Special Quiz Magazine</span>. (<a class=\"\" href=\"https://epaper.indianexpress.com/4140050/UPSC-Essentials/April-13-2026#page/1/1\" rel=\"noopener\">Click Here</a>)</strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 1</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Discuss the role of Earth’s magnetosphere in protecting life and critical infrastructure from solar activity. In this context, examine the significance of the SMILE mission for understanding space weather.</strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>QUESTION 2</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>“The future of Indian agriculture lies in low-input and water-efficient crops.” How can the promotion of millets contribute to achieving the objectives of climate-smart agriculture in India?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">QUESTION 1:</span> Discuss the role of Earth’s magnetosphere in protecting life and critical infrastructure from solar activity. In this context, examine the significance of the SMILE mission for understanding space weather.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>This question is important for GS 3 because UPSC increasingly focuses on space technology, disaster management, and critical infrastructure security. It links space science with communication systems, satellites, power grids, and national preparedness against solar storms.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>N</strong></span><strong><span style=\"color: #ff0000\">ote:</span>&nbsp;This is not a model UPSC answer. It only provides you with a thought process which you may incorporate into the answers.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Introduction:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;The Sun constantly emits different types of matter, magnetic fields, energy, and plasma into space. Solar flares, solar storms, and coronal mass ejections are some of the most dangerous solar ejections, as they are all extremely powerful and can disrupt space weather."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;The Earth’s magnetosphere serves as a vital, invisible shield against harmful solar radiation and plasma ejections. By deflecting the solar wind—a steady stream of charged particles flowing at millions of miles per hour—it keeps our atmosphere from being stripped away, allowing life to exist on Earth."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Body:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "You may incorporate some of the following points in your answer:"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Role of Earth’s magnetosphere in sustaining life and safeguarding critical infrastructure</strong>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Earth remains largely protected from these ejections thanks to the magnetic field that blankets it, called the magnetosphere. In our solar system, Earth has one of the strongest magnetospheres. It is a vast, comet-shaped bubble that continuously shields the planet from harmful solar and cosmic particle radiation."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;It is the magnetosphere that makes it possible for life to form, exist and sustain on Earth. It also acts as a shield, preventing the Earth’s atmosphere from being eroded due to the incoming solar winds. The magnetosphere thus adapts and reacts to the solar, planetary and interstellar conditions, which manifest in space weather from time to time."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;For instance, Chinese and European space agencies are sending a joint mission to study the Earth’s defences against the Sun. The Solar Wind Magnetosphere Ionosphere Link Explorer (SMILE) mission will, in real-time, be able to capture X-ray images of how the Earth’s magnetosphere instinctively reacts and protects the Earth from numerous incoming solar emissions and charged particles. Unlike previous missions, it will also get a full view of the interactions happening in the magnetosphere."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;SMILE is designed to get answers to what happens when a stream of solar wind interacts with Earth’s magnetic shield and the magnetic glitches occurring on the dark side of Earth. It will help solar physicists better understand space weather. It will also help physicists forecast any impending solar storm or likely perturbations to space weather. This is vital for the safety of our space-based assets, like satellites and satellite-based communication, GPS, navigation systems and airline operations, as well as uninterrupted operations of space stations and astronaut safety."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Conclusion:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;The four onboard instruments will operate both on X-ray and ultraviolet wavelengths of the electromagnetic spectrum. ESA has developed the Soft X-ray Imager (SXI), whereas the Chinese team has developed the other three payloads — Magnetometer, Light Ion Analyser (LIA) and Ultraviolet aurora Imager (UVI)."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(Source: </strong><a href=\"https://indianexpress.com/article/explained/explained-sci-tech/smile-mission-earth-magnetosphere-solar-storms-10695581/\" class=\"\" rel=\"noopener\">How does the Earth protect itself from the Sun? A joint Chinese-European mission aims to find out</a><strong>, </strong>science.nasa.gov<strong>)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Points to Ponder</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Why are solar storms emerging as a major challenge for modern economies dependent on satellites and digital infrastructure?"
+            },
+            {
+                "type": "text",
+                "value": "How can India utilise missions of the Indian Space Research Organisation to improve resilience against space-weather threats?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Related Previous Year Question</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Discuss India’s achievements in the field of Space Science and Technology. How the application of this technology helped India in its socio-economic development? (2016)"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">QUESTION 2:</span> “The future of Indian agriculture lies in low-input and water-efficient crops.” How can the promotion of millets contribute to achieving the objectives of climate-smart agriculture in India?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><span style=\"color: #ff0000\">Relevance:</span> </strong><em>This question is relevant for GS 3 as UPSC can ask about sustainable agriculture, climate resilience, food security, and cropping patterns. Millets combine themes of water conservation, low-input farming, farmer sustainability, and climate adaptation. It also reflects current policy discussions on crop diversification amid monsoon uncertainty and rising fertiliser costs.</em>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>N</strong></span><strong><span style=\"color: #ff0000\">ote:</span>&nbsp;This is not a model UPSC answer. It only provides you with a thought process which you may incorporate into the answers.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Introduction:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Climate change and increased input costs are becoming more significant challenges for Indian agriculture. In this setting, low-input and water-efficient crops like millets are gaining popularity as alternatives to resource-intensive crops."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Promoting millets in India aligns with the fundamental goals of Climate-Smart Agriculture (CSA): increasing climate resilience, reducing carbon and water footprints, and providing food and nutritional security."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Body:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "You may incorporate some of the following points in your answer:"
+            },
+            {
+                "type": "text",
+                "value": "<strong>How millets contribute to climate-smart agriculture?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Millets require far less irrigation than crops like cotton and paddy. According to the findings, bajra requires only 1-2 irrigations, whereas cotton requires 5-7. This makes millets suitable for drought-prone and water-stressed areas."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Millets require less fertiliser and pesticides. Bajra farming requires less fertilisers and pesticide sprays than cotton or maize. At a time when geopolitical tensions and the Iran crisis have delayed fertiliser supply and escalated prices, millets provide farmers with a more sustainable alternative."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Millets serve as a biological insurance policy for farmers in risky agroclimatic zones. When other crops fail due to delayed monsoons, millets can still generate sustainable yields. For example, Rajasthan is the country’s top producer of pearl millet (Bajra). Promoting this crop in the state’s arid, sandy soils maximises the use of limited rainfall, transforming otherwise marginal lands into productive agricultural assets without the need for extensive irrigation canals."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Including millets in meals helps address widespread malnutrition and lifestyle diseases in rural and urban India."
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;Millets mature quickly and allow for several cropping cycles. According to the report, growing bajra allows farmers to later grow mustard and summer moong, enhancing land-use efficiency and agricultural profitability."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Conclusion:</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "—&nbsp;The future of Indian agriculture lies in cultivating robust, low-input, and water-efficient crops that can tolerate climatic and economic uncertainty. Millets can play an important role in climate-smart agriculture by reducing resource dependence, increasing sustainability, and promoting farmer adaptation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(Source: </strong><a href=\"https://indianexpress.com/article/explained/explained-economics/why-iran-war-monsoon-worries-could-make-2026-indias-year-of-millets-10694671/\" class=\"\" rel=\"noopener\">Why Iran war, monsoon worries could make 2026 India’s Year of Millets</a><strong>)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Points to Ponder</strong>"
+            },
+            {
+                "type": "text",
+                "value": "How do millets help address the challenges of water scarcity and climate change?"
+            },
+            {
+                "type": "text",
+                "value": "What policy measures are necessary to promote millet cultivation and climate-smart farming in India?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Related Previous Year Questions</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Explain the factors influencing the decision of the farmers on the selection of high value crops in India. (2025)"
+            },
+            {
+                "type": "text",
+                "value": "Explain the role of millets for ensuring health and nutritional security in India. (2024)"
+            },
+            {
+                "type": "text",
+                "value": "<b>🚨&nbsp;</b><b><a class=\"\" href=\"https://epaper.indianexpress.com/4151905/UPSC-Essentials/May-14-2026#page/1/1\" rel=\"noopener\">Click Here</a>&nbsp;</b><b>to read the UPSC Essentials magazine for&nbsp;<a class=\"\" href=\"https://epaper.indianexpress.com/4151905/UPSC-Essentials/May-14-2026#page/1/1\" rel=\"noopener\">May 2026</a></b><b>.</b><b>&nbsp;Share your views and suggestions in the comment box or at manas.srivastava@</b><a href=\"https://indianexpress.com/\" rel=\"noopener\"><b>indianexpress.com</b></a><b>🚨</b>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\">Previous Mains Answer Practice</span>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-mains-answer-practice-gs-3-week-154-10684173/\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 3 (Week 154)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-mains-answer-practice-gs-3-week-153-10673532/\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 3 (Week 153)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-mains-answer-practice-gs-2-week-154-10685536/\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 2 (Week 154)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-essentials-mains-answer-practice-gs-2-week-153-10675420/\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 2 (Week 153)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-154-10689258/\" class=\"\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 1 (Week 154)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-153-10680978/\" rel=\"noopener\">UPSC Essentials: Mains answer practice — GS 1 (Week 153)</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\" rel=\"noopener\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong>&nbsp;<a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"noopener\" target=\"_blank\">Instagram</a>&nbsp;</strong>and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Internet",
+        "title": "OpenAI to file IPO paperwork in coming days, reports WSJ",
+        "url": "https://www.thehindu.com/sci-tech/technology/openai-to-file-ipo-paperwork-in-coming-days-reports-wsj/article71004743.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "ChatGPT maker OpenAI is preparing to file for a stock market listing in the coming days, possibly as early as Friday, the Wall Street Journal reported Wednesday, citing people familiar with the matter."
+            },
+            {
+                "type": "text",
+                "value": "Valued at $852 billion in a recent funding round, OpenAI is working with bankers at Goldman Sachs and Morgan Stanley on a draft prospectus it plans to file confidentially with regulators, with the aim of going public as early as September, according to the report."
+            },
+            {
+                "type": "text",
+                "value": "The filing would come as Elon Musk's SpaceX is expected to unveil IPO paperwork this week ahead of a potential June offering, making 2026 a blockbuster year for IPOs, with AI giant Anthropic also expected to go public."
+            },
+            {
+                "type": "text",
+                "value": "OpenAI cleared a major obstacle to its listing earlier this week when it won a legal battle with co-founder and rival Musk, who has said he plans to appeal the verdict."
+            },
+            {
+                "type": "text",
+                "value": "The company's CEO Sam Altman has been eager to push ahead with a listing, while CFO Sarah Friar has previously indicated the company may need more time, the Journal reported."
+            },
+            {
+                "type": "text",
+                "value": "The company faces significant challenges ahead of any IPO."
+            },
+            {
+                "type": "text",
+                "value": "OpenAI is facing stiff competition from rivals including Google and Anthropic, whose AI tools have seen rapid adoption."
+            },
+            {
+                "type": "text",
+                "value": "Analysts and investors will also be scrutinising whether the company can generate enough revenue to cover its massive spending on data centres."
+            },
+            {
+                "type": "text",
+                "value": "The IPO push also comes amid persistent questions about <a href=\"https://www.thehindu.com/sci-tech/technology/elon-musk-loses-blockbuster-openai-suit-as-jury-says-too-late/article70996445.ece\" target=\"_self\">Altman's trustworthiness that gained fresh prominence during the Musk trial.</a>"
+            },
+            {
+                "type": "text",
+                "value": "OpenAI did not immediately reply to a request for comment."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Internet",
+        "title": "White House briefs AI firms on plans for model review: Report",
+        "url": "https://www.thehindu.com/sci-tech/technology/white-house-briefs-ai-firms-on-plans-for-model-review-report/article71004749.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The White House’s Office ​of the National Cyber Director hosted ‌a briefing for leading ​AI companies on a ⁠planned executive order that would empower intelligence and other government agencies ‌to review advanced AI models before their ‌release, the<i> Information</i> reported ‌on Wednesday."
+            },
+            {
+                "type": "text",
+                "value": "The ⁠National Cyber Director hosted ⁠a meeting on Tuesday with companies including OpenAI, Anthropic and Reflection ​AI, the report ‌said, citing people familiar with the matter."
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/sci-tech/technology/us-to-assess-new-ai-models-before-their-release/article70945503.ece\" target=\"_self\">U.S. President Donald Trump could sign ‌the executive order as soon ​as Thursday, the report said</a>, adding that ⁠the order would establish a voluntary framework under which developers ‌of frontier AI models would be required to notify the U.S. government ahead of major releases."
+            },
+            {
+                "type": "text",
+                "value": "As part of the framework, the ‌companies could share advanced models with ​government agencies up to 90 days before public launch, ⁠the report said."
+            },
+            {
+                "type": "text",
+                "value": "OpenAI and Reflection ⁠AI did not immediately respond to Reuters’ requests ‌for comments, while Anthropic declined to comment."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Internet",
+        "title": "Samsung Electronics' shares jump after tentative wage deal suspends strike",
+        "url": "https://www.thehindu.com/sci-tech/technology/samsung-electronics-shares-jump-after-tentative-wage-deal-suspends-strike/article71004738.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/sci-tech/technology/at-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions/article70985904.ece\" target=\"_self\">Samsung Electronics</a>’ shares rose as much ​as 6.5% in morning trade on Thursday (May 21, 2026) ‌after the tech giant and ​its South Korean union ⁠reached a tentative pay deal, potentially averting a strike that had threatened to hit the ‌economy and undermine global chip supply chains."
+            },
+            {
+                "type": "text",
+                "value": "The union said the ‌planned 18-day strike by nearly ‌48,000 members ⁠would be suspended while ⁠the <a href=\"https://www.thehindu.com/sci-tech/technology/samsung-faces-major-strike-after-pay-talks-with-union-falls-apart/article71001186.ece\" target=\"_self\">tentative 11th-hour deal is put to a vote between May 22 and 27.</a>"
+            },
+            {
+                "type": "text",
+                "value": "The benchmark ​KOSPI was ‌up 5.3% as of 0030 GMT."
+            },
+            {
+                "type": "text",
+                "value": "Ryu Young-ho, a senior analyst at NH Investment &amp; Securities, said investors were relieved ‌that uncertainty surrounding the prospect of ​a strike had eased."
+            },
+            {
+                "type": "text",
+                "value": "Still, Ryu said the agreement was ⁠not entirely positive for investors as Samsung would likely need to set ‌aside provisions tied to higher labour costs, which could weigh on operating profit."
+            },
+            {
+                "type": "text",
+                "value": "The company’s proposal of paying performance bonuses in company stock rather than cash appeared to reflect Samsung management’s ‌preference, as stock-based compensation could lower the immediate ​financial burden on the company, said Ryu."
+            },
+            {
+                "type": "text",
+                "value": "The two sides had ⁠been at odds over how performance ⁠bonuses would be distributed between the conglomerate’s hugely profitable memory business ‌and loss-making logic chip businesses, Reuters has previously reported."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Environment",
+        "title": "A new field guide spotlights Delhi’s marvellous bat diversity",
+        "url": "https://www.thehindu.com/life-and-style/a-new-field-guide-spotlights-delhis-marvellous-bat-diversity/article71001380.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Bat researcher <a href=\"https://www.thehindu.com/news/cities/bangalore/batman-and-the-baavali-a-documentary-that-showcases-the-nocturnal-world-of-bengalurus-many-bats/article70328613.ece\" target=\"_self\">Rohit Chakravarty</a> finds the mouse-tailed bats, a group of small insectivorous bats, often found thronging the monuments of Delhi, particularly cool. “What I love about them is their long, whip-like tails, which they use to feel what is behind them,” he says, pointing out that the secluded, quiet, undisturbed environment, often found within Delhi’s monuments, mimics a cave, their typical habitat. “This may explain why  Delhi has some of the largest urban insectivorous bat colonies in the country.”"
+            },
+            {
+                "type": "text",
+                "value": "<b>Also read: </b><a href=\"https://www.thehindu.com/sci-tech/energy-and-environment/a-peek-into-the-secret-lives-of-coorgs-many-frogs/article70930786.ece\" target=\"_self\">A peek into the secret lives of Coorg’s many frogs</a>"
+            },
+            {
+                "type": "text",
+                "value": "Even though bats are so ubiquitous in a city like Delhi,  they are often overlooked, believes Nikhil John, lead naturalist and assistant manager for Nature Connect at WWF-India. “They fly over our heads all the time, but we have very limited information about them,” he says."
+            },
+            {
+                "type": "text",
+                "value": "A new fold-out publication, <i>Bats of Delhi NCR,</i> is attempting to change that. Nikhil hopes that the guide, brought out by WWF-India in partnership with the Nature Conservation Foundation (NCF), the Centre for Wildlife Studies (CWS), and Bat Conservation International, will help people better understand these flying mammals. “Delhi is a city where the past meets the present. Its historical monuments, gardens and biodiversity parks are home to 15 species of bats,” states the publication, which was released in Delhi on International Bat Appreciation Day, April 17."
+            },
+            {
+                "type": "text",
+                "value": "Not only does the publication feature illustrations of bat anatomy, explain their ecological roles, and bust many prevailing myths about these flying mammals, but it also highlights the morphology, habitats, diets, and characteristics of most of Delhi’s bat species."
+            },
+            {
+                "type": "text",
+                "value": "“From the tiny pipistrelles that sleep inside crevices in our homes to the mighty flying foxes of Janpath, and the mouse-tailed bats that throng inside monuments, this guide is an attempt to make Delhiites care about their city’s hidden nocturnal wonders.”"
+            },
+            {
+                "type": "heading",
+                "value": "The wonder of bats"
+            },
+            {
+                "type": "text",
+                "value": "<a href=\"https://www.thehindu.com/sci-tech/energy-and-environment/the-more-we-learn-about-bats-the-less-we-fear-them/article70532108.ece\" target=\"_self\">Bats</a>, with over 1,400 species worldwide, are an incredibly diverse group of mammals and the only ones capable of true, sustained flight, thanks to their elongated forelimbs, a wing-like membrane called a patagium that helps them climb, and the ability to navigate the skies using echolocation."
+            },
+            {
+                "type": "text",
+                "value": "They are crucial to the functioning of a healthy ecosystem, not just because of their role in seed dispersal and pollination, but also because they contribute substantially to pest management. This is especially relevant to Delhi, where there is specific data showing they control pests in the city, says Rohit."
+            },
+            {
+                "type": "text",
+                "value": "“Bats have a great influence on the surrounding ecosystems, and we have pretty good evidence to show that it’s not a great idea to remove these bats from monuments,”  says Rohit, currently a principal scientist and faculty at the Centre for Wildlife Studies (CWS) in Bengaluru."
+            },
+            {
+                "type": "text",
+                "value": "But bats, like other nocturnal animals such as owls, scorpions, and snakes, often have an undeserved association with practices like witchcraft and black magic and are thought to bring bad luck. In short, they are often misunderstood by people whose “imaginations run wild,” says Rohit."
+            },
+            {
+                "type": "text",
+                "value": "<b>Also read: </b><a href=\"https://www.thehindu.com/books/why-you-should-not-fear-snakes-rom-and-zai-whitaker-on-understanding-the-fascinating-creatures/article70721001.ece\" target=\"_self\">Why you should not fear snakes: Rom and Zai Whitaker on understanding the fascinating creatures</a>"
+            },
+            {
+                "type": "text",
+                "value": "He believes that a publication like this will not only educate people about the bats  around them but also help them realise that they are harmless.  “For somebody who’s just seen a black blob flying in the sky, the myth will remain. But if you see the face of that animal that looks just like a mouse or dog, your perception is likely to change.”"
+            },
+            {
+                "type": "text",
+                "value": "What has not  helped the reputation of bats are recent discoveries that they can serve as reservoirs for viruses that cause diseases like COVID and <a href=\"https://www.thehindu.com/news/national/kerala/alert-issued-against-nipah-in-kerala-from-april-to-september/article70772258.ece\" target=\"_self\">Nipah</a>. However, he feels that these stories need to be addressed with some nuance and context. “The origin of the viruses is only a part of the story. Most animals, including humans, have viruses that could jump across species,”"
+            },
+            {
+                "type": "text",
+                "value": "Bats, he reminds us, have been in Delhi since the city has existed. “The most important thing to realise is that we have shared space with these animals for thousands of years and we need to respect the distance we have traditionally maintained from them.”"
+            },
+            {
+                "type": "heading",
+                "value": "Awareness and more"
+            },
+            {
+                "type": "text",
+                "value": "Rohit, who was formerly associated with NCF, says  Delhi has always had a strong, long-standing interest in natural history, with abundant resources for many birdwatchers. “But despite that, many people don’t know how to identify bats here,” says Rohit, who thought that creating a publication in collaboration with WWF with photographs and natural history information about bats was the way forward."
+            },
+            {
+                "type": "text",
+                "value": "“There is a gap between scientific knowledge and public awareness about bats,” adds  Nikhil, who felt that they needed something “ visually engaging, scientifically accurate, easy to carry , and also an approachable resource that can be used by naturalists and educators, as well as a person who is  new to the field.”"
+            },
+            {
+                "type": "text",
+                "value": "The best part about this publication launch, he says, was that it was accompanied by a walk in Delhi’s Sunder Nursery, led by Rohit.  “Linking the publication with the ground reality was  important. What I observed was how people were so happy to look at and learn about something they had never heard of before,” he says, pointing out that nature education could play an immense role in getting people to appreciate bats more, something Rohit agrees with, too. “Once people start appreciating bats, they will want to conserve them.” ."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Agriculture",
+        "title": "Andhra Pradesh intensifies fertiliser crackdown; 80 dealer licences suspended, one cancelled",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-intensifies-fertiliser-crackdown-80-dealer-licences-suspended-one-cancelled/article71001752.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Andhra Pradesh government has intensified its crackdown on <a href=\"https://www.thehindu.com/news/national/andhra-pradesh/government-readies-seeds-fertilisers-for-kharif-2026/article70995019.ece\" target=\"_blank\">fertiliser</a> irregularities across the State, warning of stringent action against dealers and middlemen involved in diversion, black marketing, illegal stocking and transportation of fertilisers meant for farmers."
+            },
+            {
+                "type": "text",
+                "value": "Agriculture Minister Kinjarapu Atchannaidu on Wednesday (May 20, 2026) said the government was taking a serious view of attempts to divert fertilisers for non-agricultural purposes or create artificial shortages affecting farmers. He warned that the licences of dealers found guilty would be cancelled immediately and criminal cases registered against them."
+            },
+            {
+                "type": "text",
+                "value": "Addressing the issue, the Minister said the government would not tolerate illegal storage, diversion of fertilisers to industries or other States, or sale at inflated prices. He directed Agriculture Commissioner Manjeer Jilani to conduct special inspections at dealerships, warehouses and transport hubs across the State."
+            },
+            {
+                "type": "text",
+                "value": "The Minister said that from May 4 to date, the Agriculture Department’s enforcement wing had issued 182 show-cause notices to fertiliser dealers for violations. Authorities suspended 80 fertiliser licences and cancelled one. One case was registered under Section 6-A, while 3,372 tonnes of fertilisers worth ₹7.07 crore were detained. Two tonnes of fertilisers valued at ₹5 lakh were also seized."
+            },
+            {
+                "type": "text",
+                "value": "Mr. Atchannaidu also warned Agriculture Department officials against negligence in monitoring fertiliser distribution. He said inquiries would be conducted against officials if repeated violations or irregularities were reported within their jurisdiction. District Joint Directors were empowered to suspend officials immediately if necessary."
+            },
+            {
+                "type": "text",
+                "value": "The Minister instructed officials to undertake daily monitoring of district-wise stocks to ensure timely availability of quality fertilisers to farmers. He added that vigilance surveillance and special enforcement operations were being strengthened further to curb illegal transportation and black marketing."
+            },
+            {
+                "type": "text",
+                "value": "Reiterating the government’s commitment to protecting farmers’ interests, the Minister said the State administration remained fully alert to prevent any inconvenience to farmers during the agricultural season."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "Brain-eating amoeba: Kerala reports another death from amoebic meningoencephalitis",
+        "url": "https://www.thehindu.com/news/national/kerala/brain-eating-amoeba-kerala-reports-another-death-from-amoebic-meningoencephalitis/article71001009.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "A 73-year-old woman from Nellikuzhi in Kothamangalam in Ernakulam district of Kerala has died of primary amoebic meningoencephalitis (PAM)."
+            },
+            {
+                "type": "text",
+                "value": "The Health department has confirmed that the death occurred due to the rare, but lethal central nervous system infection caused by free-living amoebae found in freshwater, lakes, and rivers."
+            },
+            {
+                "type": "text",
+                "value": "Senior officials said on Wednesday that the woman succumbed to the disease on May 15 at a private hospital in Kothamangalam. She had developed symptoms of the infection, including fever and headache on May 6. She was admitted at the hospital on May 8 and was rushed to another hospital in Aluva the same day after her condition had worsened. As she continued to remain critical, she was shifted back to the private hospital in Kothamangalam after three days."
+            },
+            {
+                "type": "text",
+                "value": "A worker under the Mahatma Gandhi National Rural Employment Guarantee Scheme, she is suspected to have washed her face using water collected from a canal."
+            },
+            {
+                "type": "text",
+                "value": "Health officials pointed out that PAM is caused by <i>Naegleria fowleri</i>, an amoeba that thrives in warm freshwater lakes, ponds and rivers. It can also survive in poorly maintained swimming pools in rare cases, they said."
+            },
+            {
+                "type": "heading",
+                "value": "Superchlorination"
+            },
+            {
+                "type": "text",
+                "value": "After her death was confirmed, the health officials examined the condition of nearly 20 persons who had worked along with her. They have not yet developed any symptoms. The health wing in Nellikuzhi panchayat also carried out superchlorination of water sources, including wells."
+            },
+            {
+                "type": "text",
+                "value": "Dr. R Shahirshah, District Medical Officer, Ernakulam, said preventive measures have been intensified. He cautioned the public to avoid bathing or swimming in unsafe water sources, particularly in stagnant waterbodies."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "Nearly 200 samples from joyride horses in Chennai sent to Haryana to test for glanders",
+        "url": "https://www.thehindu.com/news/cities/chennai/nearly-200-samples-from-joyride-horses-in-chennai-sent-to-haryana-to-test-for-glanders/article70997743.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Nearly 200 samples from horses used for joyrides, along with samples from handlers, have been sent to the ICAR–National Research Centre on Equines (NRCE), Haryana, for testing after a <a href=\"https://www.thehindu.com/sci-tech/health/joyride-horse-dies-of-highly-contagious-zoonotic-disease-disease-in-chennai-tamil-nadu-goes-into-alert-mode/article70983531.ece\" target=\"_self\">horse used for joyrides in Chennai city died of glanders</a>, a highly contagious and notifiable bacterial disease that affects equines.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "There are over 200 horses used for joyrides at the Marina, Elliot’s, and Kovalam-Mahabalipuram beaches, many of them housed in temporary shelters in Triplicane and Ice House, and under the Sivananda Salai MRTS station. These horses are often kept in poor conditions, as their upkeep is expensive, and handlers and owners earn too little to maintain them adequately. While the State mandates licences, registration, screening tests, fitness certificates, and vaccination records for equines, enforcement remains poor."
+            },
+            {
+                "type": "text",
+                "value": "S.P. Amrith, Director of Animal Husbandry and Veterinary Services, Tamil Nadu, said authorities were acting in accordance with the prescribed action plan. “Samples are being collected daily since Saturday [May 16] and sent to the ICAR-NRCE every day. As of Monday, 126 samples were sent. Around 40 to 50 more will be sent tomorrow. In addition, samples from handlers have also been collected and sent by the Directorate of Public Health,” he said on Monday. On Tuesday, samples were collected at Besant Nagar beach, the Besant Memorial Animal Dispensary in Adyar, and in Kovalam."
+            },
+            {
+                "type": "text",
+                "value": "In August 2025, the Department of Animal Husbandry and Dairying (DAHD), under the Ministry of Fisheries, Animal Husbandry and Dairying, issued the Revised National Action Plan on Glanders, aimed at strengthening surveillance, prevention, control, and eradication of the contagious and often fatal disease across the country. The plan, however, reduced the surveillance and restriction areas. Major revisions include reducing the infected zone from 5 km to 2 km, redefining the surveillance area from 5-25 km to 2-10 km, and aligning restrictions accordingly, which will now apply only up to a 10-km radius."
+            },
+            {
+                "type": "text",
+                "value": "As per the guidelines, animals that test positive must be humanely euthanised in accordance with prescribed Standard Operating Procedures (SOPs), followed by disinfection of the premises."
+            },
+            {
+                "type": "heading",
+                "value": "‘No cause for concern’"
+            },
+            {
+                "type": "text",
+                "value": "Mr. Amrith said although glanders is zoonotic, which means it can be transmitted to other animals and humans, there was no major cause for concern. Referring to his tenure as Collector of the Nilgiris, he said joyride horses in such districts were routinely screened for diseases. “For glanders, there is a protocol, and it is being followed. There is no reason for alarm,” he said, adding that the ICAR-NRCE would issue confirmation only if samples tested positive."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Health",
+        "title": "All you need to know about: panic attacks",
+        "url": "https://www.thehindu.com/sci-tech/health/all-you-need-to-know-about-panic-attacks/article70986666.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "When a panic attack hits, it can be an enervating and overwhelming experience because it is usually physcially exhausting, almost as though one’s body is spiralling out of control. While these attacks are about a sudden rush of fear, physical discomfort and can feel terrifying in the moment, they are not life threatening or dangerous by themselves. Studies say they can reduce the quality of life when panic episodes become frequent and develop into a disorder."
+            },
+            {
+                "type": "heading",
+                "value": "What is a panic attack?"
+            },
+            {
+                "type": "text",
+                "value": "It is commonly understood as a sudden episode that evokes intense fear. The National Institute of Mental Health (NIMH), under the United States Department of Health and Human Services, explains that panic attacks first include physical symptoms that might feel like a heart attack, such as a trembling or tingling in the body or a rapid heart rate and shortness of breath. These can occur as frequently as several times a day or as rarely as a few times a year. Furthermore, the NIMH also notes that not everyone who experiences a panic attack will develop panic disorder."
+            },
+            {
+                "type": "heading",
+                "value": "What causes panic attacks?"
+            },
+            {
+                "type": "text",
+                "value": "There is usually confusion between generalised anxiety disorder (GAD) and panic attacks."
+            },
+            {
+                "type": "text",
+                "value": "While GAD can be explained as a persistent anxiety that indulges in day-to-day activities, and ongoing worries that continue excessively and feelings of fatigue, a panic attack is more about a sudden episode of intense anxiety that lasts for a short span of time and then subsides. The&nbsp;National Health Service (NHS) UK says that everyone experiences feelings of anxiety and panic at certain times when there is a stressful or triggering situation but panic attack is a deeply intense fear and anxiety that leaves with physical symptoms and usually without any apparent strong trigger, at any time and place."
+            },
+            {
+                "type": "text",
+                "value": "The exact cause of panic disorder is not fully understood but when anxiety escalates itself into a very severe form, it turns into panic episodes that may create a recurring cycle of attacks, and change the way of everyday life. There are chances it can also happen seldom and not on a routine basis. It’s also thought to be linked to a combination of things, explains NHS, including a traumatic life experience such as bereavement, having a close family member with panic disorder or an imbalance of neurotransmitters (chemical messengers) in the brain."
+            },
+            {
+                "type": "text",
+                "value": "As mentioned, panic attacks have signs that can resemble a physical problem. If symptoms worsen, NHS says it is advisable to seek emergency medical care."
+            },
+            {
+                "type": "heading",
+                "value": "Who is at risk?"
+            },
+            {
+                "type": "text",
+                "value": "When it comes to panic attacks categorised as panic disorder, severe and unexplained panic attacks, or other panic attacks, research conducted by K.A. Yonkers and colleagues in 1998, published in The American Journal of Psychiatry and indexed in the U.S. National Library of Medicine, found that the condition progresses differently in women and men. Although the study concluded with no significant differences between men and women in panic symptoms or level of severity at baseline, women are more likely to have panic with agoraphobia while men were more likely to have uncomplicated panic. Other studies suggest that panic attacks and panic disorder are more commonly seen in teenagers and young adults than in older people, with many beginning in late adolescence or early adulthood."
+            },
+            {
+                "type": "heading",
+                "value": "What should you do during a panic attack?"
+            },
+            {
+                "type": "text",
+                "value": "When a panic attack hits, many do not know how to navigate through the episode. Although it lasts only for a short span of  time, it indeed can feel extremely frightening. So, many experts suggest breathing deeply and slowly, counting to five for each inhale and exhlae, and remaining in the same place until the feeling passes. The usage of 5-4-3-2-1 grounding method has been concluded in studies where this method includes 5 things you see such as looking around and naming objects in the room, 4 things you can physically feel: focusing on the texture of your clothes, a chair, or the floor, 3 things you hear which is about listening for background noises, like an air conditioner or vehicle honking, 2 things you smell: noticing any scents in your environment, 1 thing you taste. And importantly to remind themselves that a panic attack is just temporary and not life threatening."
+            },
+            {
+                "type": "heading",
+                "value": "What are the treatment options ?"
+            },
+            {
+                "type": "text",
+                "value": "People who undergo panic disorder should sought medical help because they may be at risk of developing other mental health conditions such as agoraphobia. Since the panic disorder is treatable, talking therapy services and counselling has been highly suggested by NHS."
+            },
+            {
+                "type": "text",
+                "value": "Initial consultation can be done with a general physician when cycles continue often, but panic disorder and severe anxiety conditions are usually diagnosed and treated by psychiatrists or clinical psychologists."
+            },
+            {
+                "type": "text",
+                "value": "Experts say that panic attacks can cause a lot of discomfort and distress, so people should not feel embarrassed to ask for professional help."
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
+        "category": "Science",
+        "title": "Sperm whale ‘clicks’ have complex patterns similar to human speech",
+        "url": "https://www.thehindu.com/sci-tech/science/sperm-whale-clicks-have-complex-patterns-similar-to-human-speech/article70982438.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Sperm whales communicate using short sequences of clicks known as codas, which they exchange while coordinating within their groups. Scientists have long classified these sequences using the number of clicks and the timing between them."
+            },
+            {
+                "type": "text",
+                "value": "A study published on April 15 in <i>Proceedings of the Royal Society B</i> has however reported that there’s more to it than meets the ears: the codas also vary in their acoustic structure in ways that resemble patterns found in human speech."
+            },
+            {
+                "type": "text",
+                "value": "“Before this work, sperm whale vocalisations were often treated as a kind of Morse code — simply patterns defined mainly by timing,” Gasper Beguš, associate professor of linguistics at University of California, Berkeley, and senior author of the study, said. “What we’re showing here is that there’s another layer of structure within the clicks themselves.”"
+            },
+            {
+                "type": "heading",
+                "value": "A learnt structure"
+            },
+            {
+                "type": "text",
+                "value": "Until now, classification relied on two measurable features: the number of clicks in a sequence and the spacing between them, known as inter-click intervals. These patterns produce distinct coda types. For example, a 1+1+3 coda consists of two clicks separated by pauses, followed by three clicks in rapid succession, while a 5R coda contains five evenly spaced clicks. Because different whale groups use different sets of these patterns, the system is unlikely to be entirely inborn. Instead, scientists think at least part of it is learnt within groups."
+            },
+            {
+                "type": "text",
+                "value": "When the researchers broke each click down into its frequency components, they found that the sounds fall into two distinct categories: some have a single dominant frequency peak, while others have two. In human linguistics, such peaks are known as formants—the resonant frequencies that allow us to distinguish an “ah” sound from an “ee.” Consequently, the authors label these whale categories “a” and “i.” These two types are clearly distinct, and the same pattern of clicks—for example, a 1+1+3 coda—can be produced using either the “a” click or “i” click."
+            },
+            {
+                "type": "text",
+                "value": "Calling it a “fascinating finding,” Mason Youngblood, a behavioural scientist at Stony Brook University, said the study shows that sperm whale communication “varies not just in timing but also in tonal quality,” in ways similar to human vowels, suggesting the “signals may be able to convey more information than previously thought.”"
+            },
+            {
+                "type": "heading",
+                "value": "Two layers, then three"
+            },
+            {
+                "type": "text",
+                "value": "The two click types are not used in the same way across all codas. In some, such as the 1+1+3 pattern, both appear in roughly equal numbers. In others, one dominates, and in a few it is almost absent. If click type were simply a side effect of sound production, this variation would be random. Instead, the patterns are consistent, suggesting that sperm whales control not just when they click, but also what kind of click they produce—treating timing and type as two separate features of their signals."
+            },
+            {
+                "type": "text",
+                "value": "The researchers also identified several additional layers of variation in how codas are produced."
+            },
+            {
+                "type": "text",
+                "value": "Codas in the two click types differ in length. Even when the pattern of spacing between clicks is the same, “a” codas are typically longer than “i” codas. In addition, the “i” category splits into two groups—some codas are short, while others are long—whereas the “a” category does not. This is similar to how the length of a sound can matter in human speech, where longer and shorter vowels can serve different functions."
+            },
+            {
+                "type": "text",
+                "value": "They also found consistent differences between individual sperm whales. Even within the same coda pattern and click type, some whales produce longer sequences than others. For example, the length of an “a” coda can differ by about 170 milliseconds between individuals. Despite this, “a” codas are still longer than “i” codas across all sperm whales, showing that while whales may sound different from one another, they follow the same underlying patterns."
+            },
+            {
+                "type": "text",
+                "value": "Finally, they found that one coda can influence the next. Most codas consist of a single click type, but in a few cases, the first click is different from the rest—for example, a coda made up of “i”-type clicks may begin with a single “a”-type click. These mismatches occur most often when whales switch from one type of coda to another. This suggests that the first click of a coda is affected by the coda that came before it, showing that codas aren’t produced in isolation—the previous one can shape how the next begins."
+            },
+            {
+                "type": "heading",
+                "value": "What it means, what we don’t know"
+            },
+            {
+                "type": "text",
+                "value": "The results show that sperm whale vocalisations show clear parallels with human phonology—the system of rules that organises sound patterns in human language through combinations of discrete sound categories, timing, and position. Prof. Beguš, provides a hypothesis of convergent evolution playing out over grand timescales to explain the observations. “Humans and whales diverged tens of millions of years ago, but both evolved complex vocal systems that show striking structural parallels.”&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Dr. Youngblood added that the rich social and cultural lives of sperm whales relies heavily on communication withing their family and clan groups. He believes this might support such a complexity in whale phonology. At the same time, he cautioned that one must not be quick to call it a language just yet."
+            },
+            {
+                "type": "text",
+                "value": "“There are clear similarities, but also important differences,” Dr. Youngblood said. “The fundamentally rhythmic nature of sperm whale codas, for example, sets them apart from human speech.”"
+            },
+            {
+                "type": "text",
+                "value": "What these patterns mean remains unknown. The study does not identify what information codas convey or whether different patterns correspond to specific contexts. What it does show is that sperm whale communication is built from multiple features that can vary independently and in relation to one another—a level of organisation that is uncommon in animal communication systems."
+            },
+            {
+                "type": "text",
+                "value": "“Determining whether these patterns map onto specific meanings will require much more work,” said Dr. Youngblood. “I know these are the goals of Project CETI, and I’m really looking forward to seeing what comes next.”"
+            },
+            {
+                "type": "text",
+                "value": "<i>Anirban Mukhopadhyay is a geneticist by training and science communicator from New Delhi.</i>"
+            }
+        ],
+        "date": "2026-05-21"
+    },
+    {
         "category": "Science",
         "title": "New worm-eating snake named after Mizoram herpetologist",
         "url": "https://www.thehindu.com/sci-tech/science/new-worm-eating-snake-named-after-mizoram-herpetologist/article71002293.ece",
