@@ -1,5 +1,157 @@
 [
     {
+        "category": "Economics",
+        "title": "Graphs, Data and Perspectives: Why rising govt bond yields are bad news",
+        "url": "https://indianexpress.com/article/explained/explained-economics/graphs-data-perspectives-bond-yield-costly-impact-10703214/",
+        "content": [
+            {
+                "type": "text",
+                "value": "It is becoming increasingly costly for governments across the world to borrow money. In many cases, the interest rates that lenders are charging governments are reaching their highest levels since the global financial crisis of 2008."
+            },
+            {
+                "type": "text",
+                "value": "What’s more, <a href=\"https://indianexpress.com/article/explained/explained-economics/indian-government-bond-yields-rbi-rate-hike-bets-10701724/\" rel=\"noopener\"><strong>this upward shift in the interest rates</strong></a> demanded of various governments has been quite sharp, which is a problem all by itself, regardless of the level of interest rates. Sharply rising borrowing costs for governments imply that borrowing costs for average consumers will also rise, possibly by a greater degree."
+            },
+            {
+                "type": "heading",
+                "value": "<strong>Why do governments borrow money?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "In most countries, governments struggle to meet their expenditures just from taxation and other revenue sources. As such, governments have to borrow money to meet the gap."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">This demand is typically higher in developing countries and lower in developed countries, simply because developed countries’ governments are more capable and efficient at raising tax revenues. Poorer countries don’t have enough people in the well-off bracket to tax.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Repeated crises have meant that even developed countries have struggled to grow fast enough to meet their expenses, thus resorting to higher levels of borrowing — not just in absolute amounts but also as a percentage of their GDP (or size of the economy).</span>"
+            },
+            {
+                "type": "heading",
+                "value": "How do governments borrow money?"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In any economy, the government is the least risky borrower because it is least likely to fail in paying back. It is, after all, the government. In a crisis, it can even resort to printing money — a facility not available to businesses or households.</span>"
+            },
+            {
+                "type": "text",
+                "value": "However, governments borrow in a slightly different way. They float a bond — differently referred to as Treasurys in the US, Gilts in the UK, Bunds in Germany, G-Secs or government securities in India, and JGBs in Japan — which is essentially like an “I owe you” statement."
+            },
+            {
+                "type": "text",
+                "value": "It states that the government borrows a particular sum (say $100) for a particular period (say 10 years) and promises to pay a given return or coupon at the end of each year (say $5) apart from paying back the principal at the end of 10 years. Unlike the annual interest rate (expressed in percentage) for home, car or factory loans, government bonds provide a predetermined exact amount. If all goes well, the annual interest rate (or yield) for this example will be 5%."
+            },
+            {
+                "type": "text",
+                "value": "But imagine a scenario where the government decides to launch a war during the year and, as a result, inflation starts rising and the government’s demand for money also rises, while the economic prospects of the country decline. The government may be forced to borrow more money, but investors and lenders would now demand a higher rate of return because they are wary of the increased risks. The government would have to promise a higher coupon, say of $10, on the new bonds."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">This will, in turn, make the old bonds (with an annual coupon return of $5) appear sub-optimal. Holders will try to sell them, often at prices lower than $100. How much lower? Anyone buying the old bond must have a yield or expected return of 10% from them, and as such, the old bond prices will have to fall to $50 so that they can be sold in the markets.</span>"
+            },
+            {
+                "type": "text",
+                "value": "Essentially, this is what is happening around the world: government bond yields are rising, and rising sharply. It must be noted that countries borrow and refinance in trillions of dollars, as such, yield movements are tracked upto three decimal places."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What does it mean for you?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Higher yields for government bonds — which are the least risky loans — basically mean even higher interest rates for common people and businesses."
+            },
+            {
+                "type": "text",
+                "value": "Higher yields also mean that governments will have to spend even more of their annual budgets towards paying back annual interest on bonds. That, in turn, can only happen either by spending cuts in other areas such as welfare schemes or defence or by higher taxation. In sum, a bond sell-off and rising yields is not good news."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Science",
+        "title": "SpaceX launches its biggest, most beefed-up Starship yet on test flight",
+        "url": "https://www.thehindu.com/sci-tech/science/spacex-launches-its-biggest-most-beefed-up-starship-yet-on-test-flight/article71013377.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "SpaceX launched its biggest, most powerful Starship yet on a test flight Friday (May 22, 2026), an upgraded version that NASA is counting on to land astronauts on the moon."
+            },
+            {
+                "type": "text",
+                "value": "The redesigned mega rocket made its debut two days after SpaceX CEO Elon Musk announced he's taking the company public. It blasted off from the southern tip of Texas, carrying 20 mock Starlink satellites for release halfway around the world."
+            },
+            {
+                "type": "text",
+                "value": "It's the 12th test flight of the rocket that Musk is building to get people to Mars one day. But first comes the moon and NASA's Artemis program."
+            },
+            {
+                "type": "text",
+                "value": "The last of the old space-skimming Starships lifted off in October. SpaceX's third-generation Starship — a souped-up version dubbed V3 — soared from a brand-new launch pad at Starbase, near the Mexican border. Last-minute pad issues thwarted Thursday (May 22, 2026) evening's launch attempt."
+            },
+            {
+                "type": "text",
+                "value": "SpaceX was hoping to avoid the fireworks it experienced during back-to-back launches last year when midair explosions rained wreckage down on the Atlantic. Earlier flights also ended in flames."
+            },
+            {
+                "type": "text",
+                "value": "At 124 metres, the latest model eclipses the older Starship lines by several feet and packs more engine thrust."
+            },
+            {
+                "type": "text",
+                "value": "The revamped booster sports fewer but bigger and stronger grid fins for steering it back to Earth following liftoff, and a larger and more robust fuel transfer line to feed the 33 main engines. This fuel line is the size of SpaceX's Falcon 9 first-stage booster. The retro-looking, stainless steel spacecraft also has more of everything — more cameras and more navigation and computer power — as well as docking cones for future rendezvous and moon missions."
+            },
+            {
+                "type": "text",
+                "value": "Starship is meant to be fully reusable, with giant mechanical arms at the launch pads to catch the returning rocket stages. But on this latest trial run, nothing was being recovered. The Gulf of Mexico marked the end of the road for the redesigned first-stage booster, and the Indian Ocean for the spacecraft and its satellite demos."
+            },
+            {
+                "type": "text",
+                "value": "NASA is paying SpaceX billions of dollars — and also Jeff Bezos' Blue Origin — to provide the lunar landers that will be used to land Artemis astronauts on the moon."
+            },
+            {
+                "type": "text",
+                "value": "The two companies are scrambling to be first."
+            },
+            {
+                "type": "text",
+                "value": "While Starship has reached the fringes of space on multiple flights lasting an hour at most, Bezos' Blue Moon has yet to lift off, although a prototype is being readied for a moonshot later this year."
+            },
+            {
+                "type": "text",
+                "value": "NASA is following April's successful lunar flyaround by four astronauts with a docking trial run in orbit around Earth planned for next year. For that Artemis III mission, astronauts will practice docking their Orion capsule with Starship, Blue Moon or both."
+            },
+            {
+                "type": "text",
+                "value": "A moon landing by two astronauts — Artemis IV — could follow as soon as 2028 using either Starship or Blue Moon, whichever lander is safer and ready first. It will be NASA's first lunar landing with a crew since 1972's Apollo 17. The goal this time is a moon base near the lunar south pole, staffed by astronauts as well as robots."
+            },
+            {
+                "type": "text",
+                "value": "SpaceX is already taking reservations for private flights to the moon and Mars on Starship."
+            },
+            {
+                "type": "text",
+                "value": "The world's first space tourist, California businessman Dennis Tito, and his wife signed up three and a half years ago for a flight around the moon. The timing is uncertain."
+            },
+            {
+                "type": "text",
+                "value": "This week, another wealthy space tourist — Chinese-born bitcoin investor Chun Wang — announced he will fly to Mars on Starship's first interplanetary mission. Wang previously chartered a SpaceX polar flight in a Dragon capsule last year and, along with his hand-picked crew, became the first to orbit above the north and south poles."
+            },
+            {
+                "type": "text",
+                "value": "No price tag or date was revealed for his Mars cruise."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
         "category": "Global",
         "title": "Explained: Nepal’s controversial Chief Justice appointment, latest in history of politics influencing judiciary",
         "url": "https://indianexpress.com/article/explained/explained-global/nepal-chief-justice-appointment-controversy-10703181/",
