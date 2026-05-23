@@ -1,5 +1,1429 @@
 [
     {
+        "category": "Law and Policy",
+        "title": "Why SHANTI Act’s nuclear liability limits are under Supreme Court scrutiny",
+        "url": "https://indianexpress.com/article/explained/explained-law/shanti-act-nuclear-liability-supreme-court-challenge-10704088/",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Supreme Court on Tuesday (May 19) described a constitutional challenge to India’s new nuclear energy law it is hearing, as a “very sensitive legislative policy issue.”"
+            },
+            {
+                "type": "text",
+                "value": "The bench comprising Chief Justice Surya Kant, Joymalya Bagchi and Vipul Pancholi assured the petitioners that it would clarify whether a statutory cap can restrict a court’s power to fix compensation in the event of a nuclear accident."
+            },
+            {
+                "type": "text",
+                "value": "The petition challenges the Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India (SHANTI) Act, as it allows the “private sector and foreign companies to operate nuclear power plants in India, [and] has also <a href=\"https://indianexpress.com/article/legal-news/plea-challenging-shanti-act-very-sensitive-legislative-policy-issue-cant-second-guess-says-supreme-court-10698545/\" rel=\"noopener\"><strong>capped the liability</strong></a> of these operators at an absurdly low level and exempted the supplier from any liability,” in violation of the Constitution."
+            },
+            {
+                "type": "text",
+                "value": "“Government can do whatever it wants by way of policy, but it cannot sacrifice Article 21 rights of citizens on the altar of policy,” Advocate Prashant Bhushan, representing the petitioners, told the bench."
+            },
+            {
+                "type": "heading",
+                "value": "How nuclear liability works and how it changed"
+            },
+            {
+                "type": "text",
+                "value": "Before SHANTI, India’s nuclear liability framework rested on the Civil Liability for Nuclear Damage Act, 2010, which established a no-fault regime. Victims of a nuclear incident did not have to prove negligence, only damage."
+            },
+            {
+                "type": "text",
+                "value": "The operator of the plant was liable under the law, and the cap per operator for large reactors was Rs 1,500 crores, with “the rupee equivalent of three hundred million Special Drawing Rights or such higher amount as the Central Government may specify by notification.”"
+            },
+            {
+                "type": "text",
+                "value": "The 2010 Act also included Section 17(b), which gave the operators a right of recourse against suppliers, i.e., if an accident occurred because a manufacturer had supplied defective equipment, the operator who had paid out compensation could recover that amount from the supplier. The provision also covered “supply of equipment or material with patent or latent defects or substandard services.”"
+            },
+            {
+                "type": "text",
+                "value": "This was the mechanism that kept manufacturers legally accountable for what they built."
+            },
+            {
+                "type": "text",
+                "value": "SHANTI repealed the 2010 Act. Under Section 11, the operator is liable for nuclear damage, but Section 13, read with the Second Schedule, fragments that liability by reactor size."
+            },
+            {
+                "type": "text",
+                "value": "A reactor with thermal power of up to 150 MW, which covers fuel cycle facilities and nuclear material transport, carries a maximum operator liability of Rs. 100 crores. Reactors between 150 MW and 750 MW attract Rs. 300 crores. Only the largest reactors, above 3,600 MW, reach the maximum of Rs. 3,000 crores. When the operator’s share is exhausted, Section 14 requires the Central Government to cover the remainder up to the total SDR ceiling. Beyond that, no claim lies against anyone."
+            },
+            {
+                "type": "text",
+                "value": "Section 16, which governs recourse against suppliers, narrows that right to two situations: one where it is written into a contract, or where the incident was caused by someone acting with “an intention to cause nuclear damage.”"
+            },
+            {
+                "type": "text",
+                "value": "Design defects, manufacturing failures, and substandard components do not independently trigger supplier accountability under the new framework. Whether a supplier faces any liability depends entirely on what the procurement contract says. The old Section 17(b) is gone."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Why private operators and suppliers were granted protection</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The protections written into SHANTI were the product of a decade of pressure from foreign reactor manufacturers and governments backing them."
+            },
+            {
+                "type": "text",
+                "value": "When the 2010 Act was being negotiated during the Indo-US civil nuclear deal, American and French reactor companies argued that Section 17(b)’s right of recourse made India an unattractive market. They wanted supplier liability capped or removed as a condition of entry. The provision survived that pressure in 2010. SHANTI resolved the dispute in the supplier’s favour."
+            },
+            {
+                "type": "text",
+                "value": "In SHANTI’s Statement of Objects and Reasons, this is framed as a matter of economic necessity. India has set a target of 100 GW of nuclear capacity by 2047. To reach it, the government determined that private and foreign participation were unavoidable and that a “pragmatic civil liability” framework was required to bring that capital in. The liability structure, caps on operators, no statutory exposure for suppliers, and residual liability absorbed by the state are the price of that participation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>The constitutional challenge</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The petition challenges SHANTI under Articles 14, 19 and 21 of the Constitution, arguing that the Act’s liability structure is a violation of rights the Supreme Court has already declared non-negotiable."
+            },
+            {
+                "type": "text",
+                "value": "The Article 21 argument runs on two tracks. The first is the doctrine of absolute liability, as laid down in the 1987 Shriram Oleum Gas case. That judgment held that an enterprise engaged in a hazardous or inherently dangerous activity is “absolutely liable to make good all damage arising therefrom, wholly independent of fault, negligence, or the exercise of due care.”"
+            },
+            {
+                "type": "text",
+                "value": "The petition argues that SHANTI “imposes illusory ceilings on liability, exempts operator liability in certain circumstances and completely exempts supplier liability” and that Parliament cannot by statute reduce what the court declared a constitutional obligation."
+            },
+            {
+                "type": "text",
+                "value": "The second concerns the Polluter Pays Principle under Article 21, which the court read into the right to life through <em>Indian Council for Enviro-Legal Action</em> (1996). The principle requires that the cost of harm rest with whoever caused it. Under SHANTI, when an operator’s liability is exhausted, the Central Government absorbs the remainder, the cost shifts to the taxpayer. The petition describes this as “shifting the financial burden of a private or commercial profit-driven nuclear activity onto the general public” and argues Parliament cannot legislate that transfer either."
+            },
+            {
+                "type": "text",
+                "value": "The Article 14 challenge targets the structure of the Second Schedule, which fragments operator liability by reactor size and sets caps, as low as Rs. 100 crores for smaller reactors, that the petition argues bear no rational relationship to the scale of harm a nuclear incident can cause. Arbitrary ceilings on compensation for victims of a hazardous activity, the petition contends, fail the test of reasonableness under Article 14."
+            },
+            {
+                "type": "text",
+                "value": "The Article 19(1)(a) challenge goes to Section 39, which empowers the central government to classify nuclear information as restricted and prohibit its publication in any form, overriding the RTI Act."
+            },
+            {
+                "type": "text",
+                "value": "The right to information has been held to be a fundamental right flowing from Article 19(1)(a) by the Supreme Court. The petition argues that a blanket power to suppress information about facilities whose accidents could affect entire populations cannot survive constitutional scrutiny, particularly because access to that information is the precondition for any meaningful claim by victims."
+            },
+            {
+                "type": "text",
+                "value": "At the hearing, Justice Bagchi said that “When the State, in its own policy, decides to cap liability of a private entity, we are not here to second guess decision making of the State in its subjective.”"
+            },
+            {
+                "type": "text",
+                "value": "The CJI framed the court’s concern more narrowly, not whether the caps exist, but whether a court’s power to award compensation can be restricted by them."
+            },
+            {
+                "type": "text",
+                "value": "Bhushan pointed out that the total cap, operator and government combined is under Rs 4,000 crores. If the court awards more, the Act provides no mechanism for payment."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What victims can actually claim</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Under SHANTI, victims of a nuclear incident can claim compensation for loss of life or personal injury, damage to property, economic loss where notified by the government, costs of environmental restoration, and costs of preventive measures taken after an incident. Claims are filed before a government-appointed Claims Commissioner, or before a Nuclear Damage Claims Commission in cases of wider damage. Civil courts have no jurisdiction."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "The financial limits determine what that right is worth in practice. The operator’s liability runs from Rs. 100 crores for small reactors to Rs. 3,000 crores for the largest. The government covers anything above that, up to the total of approximately Rs 3,900 crores. The petition sets that figure against the historical record—Three Mile Island cost between USD 970 million and USD 1 billion in 1980 dollars; Chernobyl between USD 235 billion and USD 700 billion; Fukushima an estimated USD 440 to 445 billion. The petition states the SHANTI cap is “roughly a thousand times” lower."
+            },
+            {
+                "type": "text",
+                "value": "The time limits are a separate problem. Section 67 extinguishes the right to claim within “ten years, in the case of damage to property” and “twenty years, in the case of personal injury to any individual” from the date of the incident."
+            },
+            {
+                "type": "text",
+                "value": "Radiation-induced cancers, genetic damage, and congenital conditions can emerge decades after exposure and may not be diagnosable within that window."
+            },
+            {
+                "type": "text",
+                "value": "The 2010 Act’s Section 35 explicitly preserved the writ jurisdiction of the Supreme Court and High Courts as an avenue of last resort. SHANTI’s Section 81 bars civil courts. Section 39 empowers the government to classify nuclear information as restricted and prohibit its publication in any form, overriding the RTI Act, thus leaving victims without access to the records needed to establish what went wrong."
+            },
+            {
+                "type": "text",
+                "value": "The CJI’s assurance that statutory caps “may not limit the power of the Court to fix compensation” is where the matter rests for now. How that power would be exercised, against whom, and through what mechanism, is what the court will have to work out in July."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Global",
+        "title": "Trump’s green card rule explained: What it means for visa holders in the US",
+        "url": "https://indianexpress.com/article/explained/explained-global/trump-green-card-rule-temporary-visa-holders-us-10703678/",
+        "content": [
+            {
+                "type": "text",
+                "value": "Trump Green Card Rule Explained: The Trump administration announced Friday (May 22) that visitors to the US on temporary status must return to their home countries to apply for a green card, in a sweeping reversal of a practice in place for over half a century."
+            },
+            {
+                "type": "text",
+                "value": "“From now on, an alien who is in the U.S. temporarily and wants a Green Card must return to their home country to apply, except in extraordinary circumstances,” US Citizenship and Immigration Services spokesperson Zach Kahler said in a statement. “When aliens apply from their home country, it reduces the need to find and remove those who decide to slip into the shadows and remain in the U.S. illegally after being denied residency.”"
+            },
+            {
+                "type": "text",
+                "value": "The announcement is the latest step in the current administration’s <a href=\"https://indianexpress.com/article/world/us-news/uscis-green-card-consular-processing-policy-indian-h1b-students-may-2026-10703442/\" rel=\"noopener\"><strong>ongoing efforts</strong></a> to curtail legal immigration for foreigners already in the US. Here is what to know."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Whom does the latest order target?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Presently, hundreds of thousands of foreign nationals legally in the US — those married to US citizens, holders of student and work visas, refugees and asylum-seekers — can apply for and complete the entire permanent residence process without leaving the United States."
+            },
+            {
+                "type": "text",
+                "value": "According to the statement, those who come to the US on non-immigrant visas, chiefly students, temporary workers and tourists, are expected to remain in the country for a short time and a specific purpose. The agency described the change as a return to “the original intent of the law” and closing a “loophole.”"
+            },
+            {
+                "type": "text",
+                "value": "“Nonimmigrants, like students, temporary workers, or people on tourist visas, come to the U.S. for a short time and for a specific purpose. Our system is designed for them to leave when their visit is over. Their visit should not function as the first step in the Green Card process,” the statement read."
+            },
+            {
+                "type": "text",
+                "value": "USCIS said the move would ensure that the US State Department could now handle the majority of these cases at its consular offices abroad. It would also free up “limited USCIS resources to focus on processing other cases that fall under its purview.” The latter includes visas for “victims of violent crime and human trafficking, naturalization applications, and other priorities,” according to the agency."
+            },
+            {
+                "type": "text",
+                "value": "However, a subset of the current application pool could be spared from this process if they met certain “extraordinary circumstances”, something USCIS has not currently defined. Human rights groups have flagged this as granting officers open-ended discretion, with no clear standard for who qualifies and who does not."
+            },
+            {
+                "type": "text",
+                "value": "The agency told the <em>Associated Press</em> in an emailed statement that people who provide an “economic benefit” or “national interest” could likely stay in the US, while others would have to go abroad to apply."
+            },
+            {
+                "type": "heading",
+                "value": "Sustained crackdown on legal immigration"
+            },
+            {
+                "type": "text",
+                "value": "The latest announcement continues a sustained pattern by the incumbent administration in restricting the legal immigration pathway."
+            },
+            {
+                "type": "text",
+                "value": "Last month, the US expanded a visa bond programme, which requires deposits of up to $15,000, to cover nationals of 50 countries."
+            },
+            {
+                "type": "text",
+                "value": "In January, the Department of Homeland Security (DHS) announced that refugees undergoing green card screening could be detained by Immigration and Customs Enforcement (ICE). This policy drew on a section of the Immigration and Nationality Act, stating that refugees who do not apply for a green card after a year are required to return to DHS “custody.” It also cancelled a 2010 memo noting that the refugees’ failure to apply for legal permanent status within a year in the US did not constitute a basis for their legal detention."
+            },
+            {
+                "type": "text",
+                "value": "Also in January, the Trump administration’s expanded travel ban, barring or restricting entry for people from 39 countries, took effect."
+            },
+            {
+                "type": "text",
+                "value": "In November 2025, USCIS announced a sweeping review of the green card scheme after an Afghan national shot two National Guard soldiers near the White House, killing one. The shooter had entered the US in 2021 and had his status repeatedly renewed. The review introduced country-specific factors as “significant negative factors” in immigration decisions, with officers now required to assess applicants’ countries of origin and stated purpose in the US."
+            },
+            {
+                "type": "text",
+                "value": "Also that month, the administration froze green card processing for roughly 230,000 refugees admitted under the Biden administration. It separately proposed a sweeping “public charge” rule that would allow officers to deny green cards to anyone deemed likely to use government benefits in future."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "Following a separate shooting at Brown University in December, the US suspended the Diversity Visa programme after the shooter was identified as a former lottery winner. The programme offers 50,000 green cards annually by lottery to applicants from underrepresented countries. A legal challenge to the suspension is currently underway, with the programme’s current cycle set to expire in September."
+            },
+            {
+                "type": "text",
+                "value": "In one of its first actions in office, the Trump administration moved to end birthright citizenship. The move stripped children of visa holders of automatic US citizenship and a future route to sponsoring parents for residency."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What happens now?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The move already faces legal challenges, with immigration lawyers, lawmakers and human rights groups noting that several applicants cannot return home simply because it is not safe, or they have no embassy to apply to. The US Embassy in Afghanistan, for instance, has been closed since the US exited the country in August 2021."
+            },
+            {
+                "type": "text",
+                "value": "Critics have noted a structural contradiction at the heart of this policy: in many countries, the US does not process immigrant visa applications. Thus, many applicants would be separated from their families indefinitely, while getting no closer to securing a green card."
+            },
+            {
+                "type": "text",
+                "value": "In an essay, Cato Institute’s director of immigration studies, David Bier, wrote that the move would drive talented people to other countries and make the US less competitive for business."
+            },
+            {
+                "type": "text",
+                "value": "It remains unclear when the policy will become effective. Courts have previously blocked several Trump immigration actions, and legal groups have advised affected immigrants to consult an attorney before taking any steps."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Global",
+        "title": "Tulsi Gabbard quits: How she was steadily sidelined in the Trump administration",
+        "url": "https://indianexpress.com/article/explained/explained-global/tulsi-gabbard-resigns-trump-intelligence-chief-10704058/",
+        "content": [
+            {
+                "type": "text",
+                "value": "Tulsi Gabbard, the director of US national intelligence, submitted her resignation from the post to President Donald Trump on Friday, saying she was taking time to support her husband after he was diagnosed with a rare form of bone cancer."
+            },
+            {
+                "type": "text",
+                "value": "“My husband, Abraham, has recently been diagnosed with an extremely rare form of bone cancer,” Gabbard said in her resignation letter. “He faces major challenges in the coming weeks and months. At this time, I must step away from public service to be by his side and fully support him through this battle.”"
+            },
+            {
+                "type": "text",
+                "value": "The move brings an end to her <a href=\"https://indianexpress.com/article/world/tulsi-gabbard-us-national-intelligence-director-resigns-from-trump-administration-10703484/\" rel=\"noopener\"><strong>contentious tenure</strong></a> overseeing 18 intelligence agencies. Trump announced that Aaron Lukas, Gabbard’s deputy, would serve as acting director of national intelligence."
+            },
+            {
+                "type": "text",
+                "value": "Long regarded as one of the most prominent voices against US military intervention, Gabbard ended up as Trump’s intelligence chief when the US went to war with Iran, five years after she had called his strike on Iran’s top general unconstitutional. Her exit was amicable, but her tenure was marked by a steady exclusion from Trump’s inner circle on the national security decisions that mattered most, including the military operations in Venezuela and Iran this year."
+            },
+            {
+                "type": "text",
+                "value": "<strong>A Hindu without Indian ties</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Gabbard, 43, is a four-time Democratic congresswoman from Hawai’i, a US Army reservist, and the first Hindu elected to the US Congress. Born to a Samoan-American father and a Midwestern mother, her Hinduism has no Indian roots. Her mother, Carol, converted in Hawai’i and gave all five children Hindu names. She was sworn into Congress on the Bhagavad Gita."
+            },
+            {
+                "type": "text",
+                "value": "She left the Democratic Party in 2022 and joined the Republicans in 2024, becoming Trump’s Director of National Intelligence the next year."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Advocate for anti-interventionism</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Even as a member of the Democratic Party, Gabbard, once described by senior Democrat Nancy Pelosi as a “rising star”, held positions that ran contrary to the party’s line."
+            },
+            {
+                "type": "text",
+                "value": "She opposed the Obama administration’s support for Syrian rebels trying to topple Assad, and in 2020 called Trump’s drone strike on Iranian general Qassem Soleimani “unconstitutional” and a “dangerous escalation.”"
+            },
+            {
+                "type": "text",
+                "value": "When she finally left the party in 2022, she described it as having been overrun by an “elitist cabal of warmongers” and “woke” ideologues. She was also critical of the party’s efforts to “divide” the country by “racialising every issue” and stoking “anti-white racism”."
+            },
+            {
+                "type": "text",
+                "value": "Gabbard spent the next two years building a media profile as Washington’s most prominent anti-interventionist voice. She became one of <em>Fox News</em>’ biggest political commentators, where she expressed outspoken support for Trump and his policies ahead of the 2024 election. In her endorsement of Trump, she said that the former President sees “war as a last resort”, echoing her own positions."
+            },
+            {
+                "type": "heading",
+                "value": "<strong>Time in the Trump administration</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Following a contentious Senate hearing in which politicians from both parties criticised her past defences of whistleblower Edward Snowden and Bashar al-Assad, Gabbard was confirmed as Director of National Intelligence in early 2025."
+            },
+            {
+                "type": "text",
+                "value": "She found favour with Trump on domestic political priorities, with her surprise appearance at an FBI seizure of 2020 vote ballots in Georgia winning her presidential support. She also pursued his mandate to downsize her office with vigour."
+            },
+            {
+                "type": "text",
+                "value": "At the very outset, however, it was clear that Gabbard would have a limited role in Trump’s national security decisions. A report in <em>The New York Times</em> highlighted that her proximity to Vice-President J D Vance put her out of step with the administration, including the influential Secretary of State Marco Rubio and White House deputy chief of staff, Stephen Miller. Both men pushed for a more aggressive foreign policy, and Gabbard was consistently sidelined. It was CIA Director John Ratcliffe who delivered intelligence assessments during the planning for both the military raid that seized Venezuelan President Nicolás Maduro and the attacks on Iran."
+            },
+            {
+                "type": "text",
+                "value": "On paper, Gabbard’s office oversaw 18 intelligence agencies. In practice, the most consequential decisions of the administration were made without her."
+            },
+            {
+                "type": "text",
+                "value": "Her relationship with the wider intelligence community was markedly strained, with her presiding over significant turnover at her office and clashing with both the FBI and the CIA over jurisdiction and oversight. Her decision to move production of parts of the President’s Daily Brief, the most sensitive daily intelligence document, away from the CIA to her own office was especially contentious."
+            },
+            {
+                "type": "text",
+                "value": "The tension came to a head in March when Joe Kent, Gabbard’s closest aide and the director of the National Counterterrorism Center, resigned in protest over the Iran war. In a fiery public letter, Kent argued that Iran posed “no imminent threat” to the US and that the administration had launched the conflict under pressure from Israel."
+            },
+            {
+                "type": "text",
+                "value": "It was a position Gabbard herself would have held as a private citizen just months earlier. However, she notably declined to back him and deferred to Trump, telling lawmakers that “the only person who can determine what is and is not an imminent threat is the president.”"
+            },
+            {
+                "type": "text",
+                "value": "<strong>What to make of her tenure</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Trump needed a lawmaker with outsider credibility to lead the intelligence apparatus he deeply distrusted, and Gabbard fit the bill. Her anti-interventionist record and public criticism of the “deep state” gave the administration ideological cover for its distrust of the intelligence community."
+            },
+            {
+                "type": "text",
+                "value": "This credibility became a liability once the administration went to war, and her presence increasingly suggested that she had been brought in merely to legitimise the administration, not shape it. That utility now seems to have run its course."
+            },
+            {
+                "type": "text",
+                "value": "Follow our daily newsletter so you never miss anything important. On Wednesday, we answer readers' questions."
+            },
+            {
+                "type": "text",
+                "value": "This pattern is not unique to Gabbard. In <em>The Revolt of the Elites and the Betrayal of Democracy</em> (1995), American historian Christopher Lasch argued that modern institutions often neutralise dissent by absorbing it, not rejecting it. Washington has long shown a similar capacity to turn heterodox figures into defenders of the system they once criticised."
+            },
+            {
+                "type": "text",
+                "value": "James Mattis entered Trump’s first term as Defence Secretary celebrated as the “adult in the room” before resigning when his principles collided with administration policy. More recently, Robert F Kennedy Jr’s promised health overhaul has already lost its FDA commissioner and surgeon general nominee within months, with his outsider coalition unravelling before it could remake the institutions it entered to challenge."
+            },
+            {
+                "type": "text",
+                "value": "Ultimately, Gabbard’s criticism of the intelligence apparatus did not survive her time running it. She left office defending presidential war powers she once condemned, even as the institution itself endured unchanged."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Prelims 2026 Revision Checklist: Top Economy topics that aspirants should revisit",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-revision-checklist-economy-10701019/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<strong>UPSC CSE Prelims 2026:</strong> With the UPSC Civil Services Preliminary Examination 2026 scheduled for May 24 and only a few days remaining, aspirants have now entered the crucial phase of smart revision and selective consolidation. At this stage, the focus should not be on exploring new sources but on ensuring that all important economy topics from current affairs in your notes are thoroughly revised."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Gear up for&nbsp;UPSC Prelims 2026—Practice smarter, revise faster, and succeed with our&nbsp;<span style=\"color: #ff0000\">Special Quiz Magazine</span>. (<a class=\"\" href=\"https://epaper.indianexpress.com/4140050/UPSC-Essentials/April-13-2026#page/1/1\" rel=\"noopener\">Click Here</a>)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>Other Revision Checklists:</strong></span>&nbsp;<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-special-revision-environment-30-topics-10688566/\" rel=\"noopener\">Top 30 Environment topics</a>&nbsp;|&nbsp;<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-special-revision-checklist-top-20-reports-indices-10677761/\" rel=\"noopener\">Top 20 Reports and Indices</a>&nbsp;|&nbsp;<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-revision-checklist-25-places-in-news-mapping-10689378/\" rel=\"noopener\">Top 25 places in News</a>&nbsp;|&nbsp;<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-revision-checklist-top-30-geography-topics-10690733/\" rel=\"noopener\">Top 30 Geography topics&nbsp;</a>|&nbsp;<a class=\"\" href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-revision-checklist-top-species-aspirants-shouldnt-miss-10695301/\" rel=\"noopener\">Top species in news</a> | <a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-2026-top-35-science-and-technology-topics-10699091/\" class=\"\" rel=\"noopener\">Top 35 Science and Technology topics</a>"
+            },
+            {
+                "type": "text",
+                "value": "For Prelims 2026, aspirants should pay special attention to economic developments and policy measures that remained in the news. These include issues related to growth, inflation, employment, fiscal management, banking and financial stability, external trade, energy transition, technological transformation, welfare delivery, and broader structural reforms in the Indian economy."
+            },
+            {
+                "type": "heading",
+                "value": "<em><strong>Here’s a checklist of some of the important Economy based themes in news for your exams.&nbsp;</strong></em>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#1. Special Drawing Rights (SDRs)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/are-indias-forex-reserves-really-adequate-to-provide-cushion-against-external-shocks-10601845/\" class=\"\" rel=\"noopener\">India’s forex reserves have four components:</a> foreign currency (FX) assets, gold, Special Drawing Rights (SDRs), and the Reserve Tranche Position with the International Monetary Fund (IMF)."
+            },
+            {
+                "type": "text",
+                "value": "— SDRs are a buffer of sorts for IMF members, who can exchange it for currency when they are in trouble. The value of SDRs is based on a basket of five currencies – the US dollar, the euro, the Chinese renminbi, the Japanese yen, and the pound sterling. As of March 13, India’s SDR holdings were worth $18.7 billion. The reserve tranche position with the IMF is akin to an emergency line of credit. India’s reserve position is worth $4.8 billion."
+            },
+            {
+                "type": "text",
+                "value": "— SDR is not a currency, nor a claim on the IMF, but is potentially a claim on freely usable currencies of IMF members."
+            },
+            {
+                "type": "text",
+                "value": "— According to the Reserve Bank of India, the value of gold reserves, a key component of foreign exchange reserves, increased by over 4.14 billion US dollars to 131.63 billion dollars."
+            },
+            {
+                "type": "text",
+                "value": "— Foreign Currency Assets (FCA), the main component of forex reserves, rose by 561 million US dollars to more than 573.12 billion. The FCA, expressed in dollars, takes into account the effect of non-US unit appreciation or depreciation, including the euro, pound, and yen held in the foreign exchange kitty."
+            },
+            {
+                "type": "text",
+                "value": "— The Central Bank’s position in the International Monetary Fund increased by 158 million to 4.87 billion dollars."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#2. Additional factor of authentication (AFA)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/rbi-india-e-mandate-norms-additional-factor-authentication-10649277/\" class=\"\" rel=\"noopener\">Reserve Bank of India (RBI) has revised guidelines for recurring e-mandate transactions, allowing payments of up to Rs 15,000 per transaction without additional factor of authentication (AFA)</a>. Transactions above this limit will continue to require AFA."
+            },
+            {
+                "type": "text",
+                "value": "— In a major relief, the central bank said insurance premiums, mutual fund subscriptions and credit card bill payments can be processed without AFA for amounts up to Rs 1 lakh per transaction. According to the central bank’s Digital Payments – E-mandate Framework, 2026, every e-mandate registered by an issuer must clearly specify its validity period. Customers will have the flexibility to modify or withdraw them at any time, with issuers required to communicate these options clearly at the time of registration."
+            },
+            {
+                "type": "text",
+                "value": "— The framework allows e-mandates to be set for either fixed or variable amounts, subject to caps prescribed by the RBI. For variable mandates, customers must be given the option to define a maximum transaction limit. Additionally, users can select or change their preferred mode — such as SMS or email — for receiving pre-transaction alerts, it said."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#3. India’s energy dependence on the Strait of Hormuz</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— About a fifth of global oil and gas flows transit through the critical maritime chokepoint that connects the Persian Gulf with the Arabian Sea. Much of these oil and gas volumes go to Asian economies, including India."
+            },
+            {
+                "type": "text",
+                "value": "— The country depends on imports to meet over 88% of its crude oil needs, 40% of which depend on the Strait of Hormuz. As for natural gas, India’s import dependency is about 50%, and 55-60% of India’s liquefied natural gas (LNG) imports come via the Strait. In the case of liquefied petroleum gas (LPG), India’s reliance on imports is 60%, and a whopping 90% of those come through the critical waterway."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#4. Aviation fuel</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— Aviation Turbine Fuel (ATF), sometimes known as jet fuel, is a specialised, high-quality kerosene-based fuel that is refined specifically to power aircraft gas turbine engines."
+            },
+            {
+                "type": "text",
+                "value": "— The sustainable aviation fuel (SAF) is a biofuel that is produced from sustainable feedstocks and has chemistry similar to conventional aviation turbine fuel (ATF) or jet fuel, which is derived from crude oil."
+            },
+            {
+                "type": "text",
+                "value": "The year 2027 will be an important one for adoption of SAF globally with the mandatory phase of CORSIA kicking in. CORSIA, which applies to international flights, would require airlines globally to offset any growth in carbon dioxide emissions beyond the 2020 levels. India, too, will have to comply with the mandatory phase starting 2027. In line with the CORSIA framework, India’s National Biofuel Coordination Committee (NBCC) has set the initial indicative targets for blending of SAF with jet fuel 2027 onwards, starting with international flights. The indicative targets are: 1 per cent blending in 2027 and 2 per cent in 2028."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#5. MGNREGS in the 2025–26</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The government moves to replace the Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) with the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (GRAMIN)."
+            },
+            {
+                "type": "text",
+                "value": "— The official data shows that 5.32 crore households availed the scheme in the 2025–26 fiscal year, an 8 per cent decline from the previous year. The number of households that availed MGNREGS in the 2025–26 fiscal year was lower than last year’s 5.78 crore."
+            },
+            {
+                "type": "text",
+                "value": "— The figure for the 2025-26 fiscal year does not include West Bengal’s beneficiaries, as no work was taken up under MGNREGS in the state. In 2025-26, MGNREGS demand was higher only during May-June compared to the corresponding months of the previous fiscal year, while it was lower in the other months."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#6. AT-1 bonds</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/banking-and-finance/at-1-bond-mis-selling-hdfc-bank-takes-action-against-3-executives-10593251/\" class=\"\" rel=\"noopener\">AT-1 bonds</a> are a class of perpetual debt instruments issued by banks to bolster their capital base. While being inherently risky, AT-1 bonds offer higher interest rates compared to conventional bonds, making them attractive to investors seeking strong returns."
+            },
+            {
+                "type": "text",
+                "value": "— Unlike regular bonds with fixed maturity, AT-1 bonds have no maturity date and can be written off or converted into equity if the bank faces financial stress. Banks may also skip interest payments in such situations. Investors receive regular coupon payouts as long as the bank is financially sound. But losses can be steep if its capital falls below regulatory thresholds."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#7. Annual Survey of Unincorporated Sector Enterprises (ASUSE) survey</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/india-informal-sector-pay-growth-2025-asuse-survey-10599155/\" class=\"\" rel=\"noopener\">Pay in India’s informal sector rose by just 3.9% in 2025, less than half the 13% increase seen in 2023-24 (October-September)</a>, according to the results of a new government survey released. At the same time, the sector saw a sharp reduction in the number of jobs it added, likely due to the number of establishments also growing at a slower pace."
+            },
+            {
+                "type": "text",
+                "value": "— As per the Ministry of Statistics and Programme Implementation’s (MoSPI) Annual Survey of Unincorporated Sector Enterprises (ASUSE) for 2025, the unorganised sector saw total pay – inclusive of employer’s contribution to canteen, health clinic, child care centre, etc – for hired workers rise to Rs 1.47 lakh in 2025. In rural areas, pay rose 2% in 2025, sharply lower than the 18% growth registered in 2023-24. Meanwhile, the increase in pay in urban areas was 5% in 2025, down from 10% in 2023-24."
+            },
+            {
+                "type": "text",
+                "value": "— The first annual ASUSE survey was conducted in 2021-22 (April-March), with the second one carried out from October 2022 to September 2023. The latest survey is the fourth, with the statistics ministry revising the timeline such that it aligns to the calendar year."
+            },
+            {
+                "type": "text",
+                "value": "— The survey has become an important input for measuring the size of the economy, with the revised GDP series having 2022-23 as the base year using ASUSE as well as the Periodic Labour Force Survey to more accurately represent the informal sector."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#8. Domestic Systemically Important Banks (D-SIBs)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/no-concern-on-conduct-or-governance-at-hdfc-bank-rbi-10590038/\" class=\"\" rel=\"noopener\">SIBs are perceived as banks that are ‘Too Big To Fail (TBTF)</a>’. This perception of TBTF creates an expectation of government support for these banks at the time of distress. Due to this perception, these banks enjoy certain advantages in the funding markets. However, the perceived expectation of government support amplifies risk-taking, reduces market discipline, creates competitive distortions, and increases the probability of distress in the future. These considerations require that SIBs should be subjected to additional policy measures to deal with the systemic risks and moral hazard issues posed by them, according to the RBI."
+            },
+            {
+                "type": "text",
+                "value": "— The RBI has continued to identify SBI, <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://www.financialexpress.com/market/hdfc-bank-ltd-share-price/\" target=\"_blank\">HDFC Bank</a> and ICICI Bank as Domestic Systemically Important Banks under the same bucketing structure as in the 2023 list of D-SIBs."
+            },
+            {
+                "type": "text",
+                "value": "— Based on the bucket in which a D-SIB is placed, an additional common equity requirement has to be applied to it. The additional capital requirement ranges from 0.20 per cent to 0.80 per cent of risk weighted assets, depending upon the bucket D-SIBs are plotted into."
+            },
+            {
+                "type": "text",
+                "value": "— In case a foreign bank having branch presence in India is a Global Systemically Important Bank (G-SIB), it has to maintain additional CET1 capital surcharge in India as applicable to it as a G-SIB, proportionate to its Risk Weighted Assets (RWAs) in India, i.e., additional CET1 buffer prescribed by the home regulator (amount) multiplied by India RWA as per consolidated global Group books divided by total consolidated global Group RWA."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#9. India’s electronic sector</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/fta-eu-us-india-opportunity-trillion-electronics-10533837/\" class=\"\" rel=\"noopener\">Electronics</a> is today India’s second-largest export sector. NITI Aayog’s trade watch quarterly report, released last week, said that the US and the EU together have a combined market size of approximately $1.6 trillion — representing about a third of the total global electronics demand."
+            },
+            {
+                "type": "text",
+                "value": "— The NITI Aayog said that Europe’s strong import demand and India’s comparative advantage in electronics indicate a high degree of alignment. India’s exports to the EU across six key electronic products categories total $8.88 bn, against an export opportunity of nearly $336 billion in the EU market."
+            },
+            {
+                "type": "text",
+                "value": "— The electronics manufacturing sector, concentrated in states like <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/chennai/\">Tamil Nadu</a>, Karnataka, Uttar Pradesh and Maharashtra, currently employs more than two million workers directly. The sector supports a network of component suppliers, assemblers and technology service providers."
+            },
+            {
+                "type": "text",
+                "value": "— India remains heavily import-dependent for components such as semiconductors or chips, integrated circuits, batteries, and displays. In the financial year 2023-24, India imported electronic components worth over $12 billion from China and $6 billion from Hong Kong. Imports from these two destinations alone accounted for more than half of total such imports to India."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#10. National Monetisation Pipeline 2.0</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/fm-sitharaman-launches-nmp-2-0-monetisation-2030-10548110/\" class=\"\" rel=\"noopener\">Finance Minister Nirmala Sitharaman launched the National Monetisation Pipeline 2.0 (NMP 2.0), with proceeds from asset monetisation seen at Rs 16.72 lakh crore over the five years that started April 2025</a>. Developed by the Niti Aayog, the government’s top think-tank, the second phase of the pipeline is based on the mandate for ‘Asset Monetisation Plan 2025-30’ announced in the <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/budget/\">Union Budget</a> for 2025-26 last year, but exceeds the figure of Rs 10 lakh crore that was then mentioned."
+            },
+            {
+                "type": "text",
+                "value": "— The first phase of the pipeline – which looks to unlock value from underutilised public infrastructure assets through transfer of assets for a limited period, divestment of portions of listed entities, securitisation of cash flows, or strategic commercial auctions – was launched in 2021."
+            },
+            {
+                "type": "text",
+                "value": "— The second phase of the pipeline covers the five years starting 2025-26, with the overall asset monetisation potential figure of Rs 16.72 lakh crore inclusive of private investments worth Rs 5.8 lakh crore, the government said."
+            },
+            {
+                "type": "text",
+                "value": "— NMP 2.0 aligns with the infrastructure development plans of the Viksit Bharat initiative. It aims to contribute to accelerated infrastructure development through upgrading and expansion of transportation networks, including highways, railways, ports and airports, along with other sectors."
+            },
+            {
+                "type": "text",
+                "value": "— PPPs are an important mode of monetisation under NMP 2.0 and are expected to play a significant role by improving public sector efficiency and service quality, reducing public debt through capital recycling and attracting private sector investment."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#11. Bharat-VISTAAR</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/explained/bharat-vistaar-farmers-crop-support-languages-10535439/\" class=\"\" rel=\"noopener\">Union Agriculture Minister launched the Bharat-VISTAAR (Virtually Integrated System to Access Agricultural Resources), an AI-powered multilingual tool designed to provide farmers with relevant information</a>."
+            },
+            {
+                "type": "text",
+                "value": "— Bharat-VISTAAR is an AI-powered multilingual tool that provides information to farmers in their native language through mobile or a simple phone call. The tool offers guidance on crop planning, agricultural practices, pests, weather forecasts, markets, scheme information, eligibility, applications, and grievances. It serves as a single “digital doorway” for farmers to access required information."
+            },
+            {
+                "type": "text",
+                "value": "<strong>— It is a Digital Public Infrastructure (DPI) initiative in agriculture that uses Artificial Intelligence (AI) to personalise advice by integrating information from trusted sources across the Centre, state government, and cooperative systems.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— Farmers can access Bharat-VISTAAR by dialling the dedicated telephone number 155261 and talking to the AI Assistant, named ‘Bharati’. They can also download a mobile app from the Google Play Store or access it through a web interface link, which functions similarly to the app. The link will be available on the websites of the Agriculture Ministry and in mobile apps such as PM KISAN and PMFBY, according to officials. Besides calling the telephone number, farmers can also have a conversation via chat."
+            },
+            {
+                "type": "text",
+                "value": "— According to officials, farmers can access information about 10 major central schemes after the launch of the AI tool. These schemes are: PM-KISAN, PM Fasal Bima Yojana (PMFBY), Soil Health Card (SHC), Modified Interest Subvention Scheme, Sub-Mission on Agricultural Mechanization, Per Drop More Crop, PM Krishi Sinchayee Yojana, PM Annadata Aay Sanrakshan Abhiyan, Agriculture Infrastructure Fund, and Kisan Credit Card."
+            },
+            {
+                "type": "text",
+                "value": "— At launch, Bharat-VISTAAR’s chatbot will be available in two languages: English and Hindi. Similarly, the voice-based AI Assistant—Bharati—will initially be available in Hindi and English. BharatVistaar will be available 24 hours a day as a ‘digital agriculture expert."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#12. India’s pharmaceutical sector</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/union-budget-2026-biopharma-shakti-10507020/\" class=\"\" rel=\"noopener\">Finance Minister Nirmala Sitharaman announced the Biopharma SHAKTI scheme as part of the Union Budget 2026</a>, aiming to make India a global manufacturing hub for biopharma."
+            },
+            {
+                "type": "text",
+                "value": "— India’s pharmaceutical exports include AYUSH and herbal products, surgicals, bulk drugs, drug intermediaries, drug formulations and biologicals."
+            },
+            {
+                "type": "text",
+                "value": "— India’s pharmaceutical sector is the third-largest in the world, meeting about 20% of global demand for generic medicines, and exported to 191 countries in FY ‘25. Over 50 per cent of these exports are directed to highly regulated markets such as the US and Europe."
+            },
+            {
+                "type": "text",
+                "value": "— India is a global leader in low-cost vaccine supply, supplying the majority of the world’s diphtheria, tetanus and pertussis (DPT), Bacillus Calmette-Guerin (BCG) and measles vaccines."
+            },
+            {
+                "type": "text",
+                "value": "— In FY25, the sector’s annual turnover reached ₹4.72 lakh crore, with exports growing at a CAGR of 7 per cent over the last decade (FY15 to FY 25)."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#13. National Pension Scheme (NPS)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/old-pension-scheme-unsustainable-for-states-concept-of-funded-pension-account-essential-pfrda-chairperson-sivasubramanian-ramann-10534217/\" class=\"\" rel=\"noopener\">NPS</a> was introduced by the Central Government to help the individuals have income in the form of pension to take care of their retirement needs."
+            },
+            {
+                "type": "text",
+                "value": "— The Pension Fund Regulatory and Development Authority (PFRDA) regulates and administers NPS under the PFRDA Act, 2013."
+            },
+            {
+                "type": "text",
+                "value": "— All Central Government employees joining on or after January 1, 2004, are covered under the NPS scheme, except for those in the armed forces and are also extended to the employees of Central Autonomous Bodies from the said date."
+            },
+            {
+                "type": "text",
+                "value": "— It is also available to all State Government employees/employees of State Autonomous Bodies, if the respective State/UT opted for it."
+            },
+            {
+                "type": "text",
+                "value": "— NPS can be voluntarily adopted by the corporations for their employees and contributions are made to the NPS account as per the terms of employment."
+            },
+            {
+                "type": "text",
+                "value": "— NPS voluntary model is available to all the citizens of India including those residing abroad, between the age of 18 and 70 years."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#14. Exchange Traded Funds (ETFs)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/for-first-time-indians-invest-more-in-gold-etfs-than-equity-mfs-10525520/\" class=\"\" rel=\"noopener\">Exchange Traded Funds (ETFs)</a> are funds that track indices such as Sensex, Nifty, etc. When you buy units of an ETF, you actually buy units of a portfolio that tracks the performance of the index. ETFs just reflect the performance of the index they track."
+            },
+            {
+                "type": "text",
+                "value": "— Unlike regular mutual funds, ETFs trade like a common stock on the stock exchange and the price of an ETF changes as per the trading in the market takes place. The trading value of an ETF depends on the net asset value of the underlying assets that it represents."
+            },
+            {
+                "type": "text",
+                "value": "— ETFs, generally, have higher daily liquidity and lower fees than mutual fund schemes. The ETFs cannot be bought or sold in fractions unlike mutual fund units."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#15. Bilateral trade</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(i) India-New Zealand trade</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/india-new-zealand-fta-signed-20-billion-investment-visas-apples-10659288/\" class=\"\" rel=\"noopener\">India signed a free trade agreement (FTA) with New Zealand</a>, securing full tariff elimination on all Indian exports to New Zealand, while reducing tariffs on 95% of New Zealand’s imports into India. As per the agreement, Wellington has also “committed” to invest $20 billion in India over the next 15 years."
+            },
+            {
+                "type": "text",
+                "value": "— The Commerce Ministry said India has offered tariff liberalisation on 70.03% of tariff lines covering 95% of bilateral trade value, while keeping 29.97% of tariff lines excluded to protect India’s sensitive sectors. It said the FTA provides duty-free access for 100% of India’s exports to New Zealand, covering all tariff lines."
+            },
+            {
+                "type": "text",
+                "value": "— In FY26, India’s exports to New Zealand stood at $711 million, largely comprising aviation fuel, textiles, pharma and machinery. Imports included raw materials, scrap metals, coal and farm-linked inputs totalling $587 million."
+            },
+            {
+                "type": "text",
+                "value": "— New Zealand said it is the “first country to secure preferential access for apples” in any Indian FTA, and the first kiwifruit exporter to secure tariff-free access for kiwifruit plus a 50% tariff reduction outside quota."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(ii) India-UAE</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The UAE is India’s fourth-largest source of India’s oil imports, behind Russia, Iraq, and Saudi Arabia. India depends on imports to meet over 88% of its oil demand and around half of its natural gas demand. The country depends on imports to meet around two-thirds of its LPG requirement."
+            },
+            {
+                "type": "text",
+                "value": "— The UAE is investing across 11 gigawatts of solar, wind, and storage projects in India through its global climate investment vehicle Altérra, which is the world’s largest private climate investment fund. The fund has a $30-billion commitment from the UAE, and aims to mobilse further investments of up to $250 billion by 2030."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(iii) India-EU trade</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/eu-lists-102-new-indian-fishery-units-for-exports-to-member-countries-10240398/\" class=\"\" rel=\"noopener\">EU is India’s second-largest commercial partner</a>, accounting for goods worth €120 billion in 2024, or 11.5% of overall trade. India is the EU’s ninth largest trading partner, accounting for 2.4% of total EU trade in goods in 2024, well behind the United States (17.3%), China (14.6%), and the United Kingdom (10.1%). Over the previous decade, trade between the EU and India has surged by about 90%."
+            },
+            {
+                "type": "text",
+                "value": "— The EU’s biggest imports from India are machinery and appliances, chemicals, basic metals, mineral goods, and textiles. The EU’s biggest exports to India are machinery and appliances, transportation equipment, and chemicals."
+            },
+            {
+                "type": "text",
+                "value": "— India now maintains a surplus. Since 2020, India has constantly had a trade surplus with the EU. Prior to 2020, India ran a trade deficit in 2018, where India’s exports were ~€40 billion while imports were ~€41 billion, resulting in a trade deficit."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#16. Nationalisation of banks in India</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— Initially, <a href=\"https://indianexpress.com/article/explained/explained-economics/bank-nationalisation-1969-analysis-india-economy-10639373/\" class=\"\" rel=\"noopener\">banks with deposits of Rs 100 crore were listed for nationalisation</a>. It then emerged that some important banks, like Dena Bank, with deposits of Rs 98 crore, would be left out. The limit was thus lowered to Rs 50 crore."
+            },
+            {
+                "type": "text",
+                "value": "— The criterion of Rs 50 crore deposits was itself based on the then prevalent RBI classification of banks into two categories—banks with deposits of Rs 50 crore and above, and banks having deposits of less than Rs 50 crore."
+            },
+            {
+                "type": "text",
+                "value": "— On July 19, 1969, an Ordinance was promulgated to nationalise 14 major banks with deposits exceeding Rs 50 crore with immediate effect. The Ordinance was signed by the Vice President, VV Giri, who was then also the acting President."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#17. Agriculture</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(i) Orobanche</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/explained/the-weed-threat-to-mustard-10468243/\" class=\"\" rel=\"noopener\">mustard is also a crop increasingly susceptible to infestation by Orobanche aegyptiaca</a>."
+            },
+            {
+                "type": "text",
+                "value": "— This is a parasitic weed that attaches to the roots of mustard plants and extracts nutrients, carbon and water from them. By depriving the host crop of these, it causes wilting, yellowing and stunted growth of the plants and, thereby, lower mustard seed yields."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(ii) Coffee in India</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/indias-rising-farm-exports-10181901/\" class=\"\" rel=\"noopener\">Indian coffee exporters have benefitted from global ending stocks for 2024-25 depleting to their lowest since 1999-2000</a>, mainly courtesy of subpar crops in Brazil and Vietnam, the world’s biggest producers of arabica and robusta varieties respectively. India mostly exports robusta beans and powder used in instant coffee and espresso blends. Tobacco exports have similarly got a boost from output shortfalls in Brazil and Zimbabwe."
+            },
+            {
+                "type": "text",
+                "value": "<strong>— In India, Karnataka leads in production followed by Kerala and Tamil Nadu.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>— The Food and Agriculture Organisation of the United Nations (FAO) welcomes the UN General Assembly’s passage of a resolution designating October 1 as International Coffee Day.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "India exported goods valued at $437.4 billion during 2024-25, which was 0.1% higher than the $437.1 billion in the previous financial year ended March 31, 2025. During April-June 2025, total exports, at $112 billion, were 1.7% up over the $110.1 billion for April-June 2024."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(iii) Rice production</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/explained/explained-economics/india-has-surpassed-china-in-rice-production-but-this-love-for-paddy-is-not-without-pitfalls-10475138/\" class=\"\" rel=\"noopener\">Union Agriculture Minister said that India had surpassed China to become the world’s largest rice producer in 2024-25. India produced around 150 million metric tonnes while China produced 145.28 million tonnes in that year</a>."
+            },
+            {
+                "type": "text",
+                "value": "— India currently accounts for around 28% of global rice production. A decade ago, however, India’s rice production was 104.4 million metric tonnes while China’s was 148.5 million metric tonnes — pointing to a steady growth in India output and a stagnation in China’s."
+            },
+            {
+                "type": "text",
+                "value": "— A significant jump in area and production came in just the last five years. In 2019-20, the area under paddy was 43.66 million hectares and rice production was 118.87 million metric tonnes. In 2024-25, these figures increased to 51.42 million hectares and 150 million metric tonnes. Consequently, India’s share in the global output also increased from 21.95% in 2011 to 28% in 2024."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(iv) Unified Portal for Agricultural Statistics (UPAg)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— “Unified Portal for Agricultural Statistics (UPAg) is an advanced agricultural data management platform designed to generate crop estimates and integrate with other systems generating Agriculture Statistics such as Price, Trade, Procurement, Stock etc. It serves as a centralized hub for near real time information on crop production, market trends, pricing, and other vital agricultural data.” Hence, statement 3 is correct."
+            },
+            {
+                "type": "text",
+                "value": "— “UPAg is not exclusively for crop production estimates; it also integrates various agricultural statistics such as price, trade, procurement, and stock.”"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(v) AgriStack</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/agristack-sitharaman-next-upi-10528472/\" class=\"\" rel=\"noopener\">In her Budget Speech on February 1, Finance Minister Nirmala Sitharaman announced the launch of Bharat-VISTAAR (Virtually Integrated System to Access Agricultural Resources), a multilingual AI tool to integrate the AgriStack portals</a> and the ICAR package on agricultural practices with AI systems."
+            },
+            {
+                "type": "text",
+                "value": "<strong>— AgriStack is a Digital Public Infrastructure (DPI) for the farm sector, an initiative under the Digital Agriculture Mission (DAM), and was approved by the Union Cabinet in September, 2024.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The AgriStack comprises three foundational registries or databases in the agriculture sector: the Farmer Registry, Geo-referenced village maps and the Crop Sown Registry, all created and maintained by the State Governments or Union Territories."
+            },
+            {
+                "type": "text",
+                "value": "— Each farmer is issued a unique digital identity (similar to Aadhaar), with details of their landholding and crops grown per area."
+            },
+            {
+                "type": "text",
+                "value": "— The<a href=\"https://indianexpress.com/article/india/cabinet-extends-pm-svanidhi-for-street-vendors-enhances-loan-amount-10214829/\" class=\"\" rel=\"noopener\"> Union Cabinet approved the restructuring of the PM SVANidhi loan scheme for street vendors, extending it till March 31, 2030 and enhancing the loan amount</a>."
+            },
+            {
+                "type": "text",
+                "value": "— The scheme was launched in 2020 as a part of the government’s economic package during the <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/coronavirus/\">Covid-19</a> pandemic and lockdown. The government has extended the lending period from December 31, 2024 to March 31, 2030, which is expected to benefit 1.15 crore beneficiaries, including 50 lakh new ones."
+            },
+            {
+                "type": "text",
+                "value": "— The scheme is implemented by the Ministry of Housing and Urban Affairs and the Department of Financial Services."
+            },
+            {
+                "type": "text",
+                "value": "— The key features of the restructured scheme include enhanced loan amount across first and second tranche, provision of UPI-linked RuPay Credit Card for beneficiaries who have repaid the second loan, and digital cashback incentives for retail and wholesale transactions. The scheme’s coverage is being expanded beyond statutory towns to census towns, peri-urban areas etc. in graded manner."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#18. External Commercial Borrowings (ECBs)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/rbi-unlocks-capital-market-liquidity-markets-flat-10283773/\" class=\"\" rel=\"noopener\">External Commercial Borrowings</a> (ECBs) are commercial loans made by qualifying Indian firms to recognised non-resident lenders, which are controlled by the Reserve Bank of India (RBI) under the Foreign Exchange Management Act (FEMA)."
+            },
+            {
+                "type": "text",
+                "value": "— They provide a substantial funding source for capital development and modernisation, with recent data indicating that total outstanding ECBs will be around $190.4 billion as of September 2024, mostly for infrastructure and industrial projects."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#19. Pradhan Mantri Kaushal Vikas Yojana (PMKVY)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/india/on-flagship-skill-pmkvy-scheme-blacklist-empty-centres-claims-counter-claims-few-takers-10523397/\" class=\"\" rel=\"noopener\">Government says that about 27.08 lakh candidates across 38 sectors have been trained in skills, ranging from beauty and wellness, food processing and handicrafts to aerospace and aviation, under the flagship Pradhan Mantri Kaushal Vikas Yojana (PMKVY) 4.0.</a>"
+            },
+            {
+                "type": "text",
+                "value": "— Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is the flagship outcome-based skill training scheme of the Ministry of Skill Development &amp; Entrepreneurship (MSDE). The objective of this skill certification and reward scheme is to enable and mobilize a large number of Indian youth to take up outcome based skill training and become employable and earn their livelihood."
+            },
+            {
+                "type": "text",
+                "value": "— PMKVY does not guarantee employment, especially not government jobs. The scheme focuses on skill training, certification, and improving employability."
+            },
+            {
+                "type": "text",
+                "value": "— PMKVY provides short-term skill training and certification, not academic degree programmes."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#20. ‘CHAKRA’ — Centre of Excellence (CoE)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/banking-and-finance/sbi-launches-chakra-for-financing-re-advanced-cell-chemistry-and-6-other-sunrise-sectors-10506134/\" class=\"\" rel=\"noopener\">country’s largest lender, the State Bank of India (SBI), launched CHAKRA — Centre of Excellence (CoE)</a> for financing eight sunrise sectors, including renewable energy, advanced cell chemistry and battery storage. Other sunrise domains are data centre infrastructure, smart infrastructure, electric mobility, green hydrogen, semiconductors and decarbonisation."
+            },
+            {
+                "type": "text",
+                "value": "— With CHAKRA, SBI is strengthening its institutional capability to understand emerging sectors, design specialised financing solutions and partner with the ecosystem to enable projects that meaningfully contribute to the nation’s development journey."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#21. Light Water Reactors (LWRs)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/daes-nuclear-pivot-light-water-push-to-tap-global-markets-retain-heavy-water-edge-10483477/\" class=\"\" rel=\"noopener\">Light Water Reactors</a> form a mainstay of the global n-program; these use light water, enriched uranium, and have simpler design, lower construction cost, economies of scale, and high thermal efficiency."
+            },
+            {
+                "type": "text",
+                "value": "— LWRs currently account for over 85% of the civil nuclear reactor capacity in the world. Because LWRs employ normal water as both a coolant and a moderator, their design and engineering are simpler than those of heavy water reactors."
+            },
+            {
+                "type": "text",
+                "value": "— LWRs use ordinary water, and they need enriched uranium as fuel, whereas PHWRs are regarded for fuel versatility and the potential to run on natural uranium."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#22. Pax Silica</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/india-late-inclusion-pax-silica-and-msp-has-a-message-10474562/\" class=\"\" rel=\"noopener\">Pax Silica</a> is a <strong>US-led strategic initiative to counter China’s dominance in new age sectors.</strong> It aims to reduce what the US calls “coercive dependencies” and protect materials and capabilities “foundational to artificial intelligence”, and “ensure aligned nations can develop and deploy transformative technologies at scale”."
+            },
+            {
+                "type": "text",
+                "value": "— Pax Silica aims to build a secure supply chain ranging from critical minerals and energy inputs to advanced manufacturing and semiconductors."
+            },
+            {
+                "type": "text",
+                "value": "— Eight countries that Pax Silica brought together, each of which had something to offer. Japan and South Korea have technology and manufacturing expertise, the Netherlands has a stranglehold over specialised chipmaking lithography machines that are extremely hard to substitute, Australia is a repository of critical minerals while Singapore is a global transhipment hub. Israel, the UK, and the UAE are innovation centres that have all made visible progress in fostering AI expertise and ramping up supporting infrastructure."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#23. Balance of Payments (BoP)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/rbi-balance-of-payments-data-central-bank-planning-monthly-release-says-deputy-governor-poonam-gupta-10388055/\" class=\"\" rel=\"noopener\">Balance of Payments</a> (BoP) is a statistical statement that systematically records a nation’s economic transactions with the rest of the world over a specific period, including merchandise, services, and capital transfers. Reserve Bank of India (RBI) compiles and releases the official BoP statistics."
+            },
+            {
+                "type": "text",
+                "value": "— BoP data is currently released for every quarter, with the current account balance (CAB) being the most keenly-watched figure. The CAB denotes the net of payments made and received by Indians for the trade of goods and services with the rest of the world and the flow of remittances, and other similar payments, in and out of the country."
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#24. Central Pay Commission (CPC)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/8th-pay-commission-implications-for-fiscal-health-and-social-equity-10374621/\" class=\"\" rel=\"noopener\">Central Pay Commission</a> is a committee established by the Government of India under the provisions of Article 309 of the Constitution. Its primary mandate is to review and recommend changes in the salary structure, allowances, and pension schemes of central government employees, including defence personnel, and to ensure that their compensation remains fair and in tune with the changing economic conditions."
+            },
+            {
+                "type": "text",
+                "value": "— <strong>The first Pay Commission was established in January 1946</strong>, even before independence, to rationalise the pay structure of colonial civil services and to ensure parity between different grades of government employment. Since then, India has constituted seven Pay Commissions, approximately once in every decade."
+            },
+            {
+                "type": "text",
+                "value": "— The 8th CPC will benefit almost 50 lakh central government employees and nearly 65 lakh pensioners. Unlike the Centre, <strong>states aren’t bound by CPC recommendations but also cannot ignore them.</strong>"
+            },
+            {
+                "type": "heading",
+                "value": "<span style=\"color: #ff0000\"><strong>#25. Important Terms in News</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(i) Windfall Tax</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— A Windfall Tax is a higher tax levied by the government on specific industries that generate unexpected and above-average earnings as a result of global and geopolitical events beyond their control."
+            },
+            {
+                "type": "text",
+                "value": "— India enacted the Windfall Tax in July 2022 to restrict oil firms’ unusual gains following the spike in crude oil prices caused by the Russia-Ukraine war. However, the tax was repealed on December 2, 2024."
+            },
+            {
+                "type": "text",
+                "value": "— The windfall tax helps the government recoup losses from financial crises by taxing industries that have made unexpectedly large profits."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(ii) Prediction markets</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/meity-vpn-advisory-polymarket-ban-india-rules-prediction-markets-10663365/\" class=\"\" rel=\"noopener\">Prediction markets</a> are platforms where users trade contracts tied to the outcome of real-world events, ranging from elections and policy decisions to commodity prices and even geopolitical developments."
+            },
+            {
+                "type": "text",
+                "value": "— Prices on these platforms fluctuate based on demand, effectively reflecting the crowd’s collective assessment of the probability of an event occurring."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(iii) Repo rate</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <strong><a href=\"https://indianexpress.com/article/business/banking-and-finance/rbi-repo-rate-cut-public-sector-banks-private-lenders-10146231/\" class=\"\" rel=\"noopener\">interest rate the central bank pays commercial banks when they park their excess cash is called the reverse repo rate</a></strong>."
+            },
+            {
+                "type": "text",
+                "value": "— When the RBI wishes to boost economic activity, it lowers repo rates. This allows commercial banks to reduce both the interest rates they charge (on loans) and the interest rates they pay on deposits. This, in turn, encourages people to spend money because keeping their savings in the bank now pays back a bit less, while businesses are encouraged to take out new loans for new investments because new loans now cost a little less."
+            },
+            {
+                "type": "text",
+                "value": "— When the RBI seeks to limit inflation, it raises the repo rate. Banks must thus pay more interest to borrow from the RBI, resulting in higher interest rates for their borrowers."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(iv) Gini coefficient</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/explained/top-10-rural-householdsindia-bihar-punjab-world-inequality-lab-study-10625410/\" class=\"\" rel=\"noopener\">Gini Coefficient</a> ranges from 0 to 1 (or 0 to 100 when expressed as a percentage). It does not take negative values under standard measurement."
+            },
+            {
+                "type": "text",
+                "value": "<strong>— A lower Gini coefficient indicates a more equal distribution of income or wealth within a population, meaning a smaller gap between the rich and poor.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— As per the all-household Gini measure, Kerala has the highest Gini coefficient at 90, followed by Bihar, Punjab, Tamil Nadu and West Bengal, each with a Gini coefficient of around 80. Karnataka and Rajasthan have the lowest Gini coefficient of below 65, the paper stated."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(v) Rebasing</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-prelims-see-snapshot-talking-cars-gdp-rebasing-norwesters-10600094/\" class=\"\" rel=\"noopener\">Rebasing</a> is the process of updating the base year using revised and improved data to reflect the current structure of the economy."
+            },
+            {
+                "type": "text",
+                "value": "— The year 2022-23 was chosen as the new base year because it reflects the most recent “normal” year following the disruptions in 2019-2021. The COVID-19 pandemic had a significant impact on 2019-20 and 2020-21, causing temporary distortions in consumer trends and industrial output."
+            },
+            {
+                "type": "text",
+                "value": "— The base year is revised on a regular basis to account for fundamental changes in the economy and to improve the accuracy of economic forecasts. Such updates enable methodological modifications and the incorporation of more comprehensive and dependable data sources. Rebasing allows GDP and associated indexes to better reflect the impact of developing sectors, price movements, and technological and productivity gains."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(vi) Capital market intermediaries</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/rbi-tightens-bank-lending-norms-for-stock-brokers-10532628/\" class=\"\" rel=\"noopener\">Reserve Bank of India (RBI) has tightened guidelines that govern lending activities of banks to capital market intermediaries</a> (CMIs) such as brokers, mandating that “all credit facilities to CMIs shall be provided on a fully secured basis”. This means that for a bank to provide a Rs 100 loan to a broker, the broker must provide collateral equalling that amount to the bank."
+            },
+            {
+                "type": "text",
+                "value": "— Capital market intermediaries are regulated entities—including brokers, merchant bankers, custodians, and depositories—that facilitate the issuance, trading, and settlement of securities."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(vii) debt-to-GDP ratio</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/economy/new-debt-gdp-fiscal-anchor-will-likely-open-space-for-higher-capex-10506159/\" class=\"\" rel=\"noopener\">debt-to-GDP ratio</a> is a metric that compares a country’s public debt to its gross domestic product (GDP). The debt-to-GDP ratio will be contingent upon nominal GDP growth, which forms the basis of the ratio, along with the government’s borrowing and repayment obligations. The increase in the government’s financial burden in the years to come will also be a factor once the 8th Pay Commission recommendations get implemented."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(viii) Central counterparties (CCPs)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The <a href=\"https://indianexpress.com/article/business/rbi-eu-markets-regulator-esma-sign-mou-10497941/\" class=\"\" rel=\"noopener\">Reserve Bank of India (RBI) and the European Securities and Markets Authority (ESMA), the European Union (EU’s) financial markets regulator and supervisor</a>, signed a memorandum of understanding (MoU) for exchange of information for the recognition of central counterparties (CCPs)."
+            },
+            {
+                "type": "text",
+                "value": "Central counterparties perform two main functions as the intermediary in a market transaction — clearing and settlement — and guarantee the terms of a trade. CCPs do not eliminate market or price risk; they only manage counterparty default risk."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(ix) Venezuelan Crude Oil</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The Venezuelan crude is classified as a heavy sour crude—heavy because it is thicker and denser than the lighter crude oil grades, and sour because of its high sulphur content."
+            },
+            {
+                "type": "text",
+                "value": "— Venezuela has the world’s largest oil reserves, but accounts for less than 1 per cent of global production."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(x) Credit societies</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/rbi-reopening-urban-co-operative-banks-licenses-large-credit-societies-10471845/\" class=\"\" rel=\"noopener\">Credit societies</a> are regulated by the Registrar of Co-operative Societies, and not by the RBI. They can accept deposits only from its members and lend only to its members. They can’t issue cheques payable to the public or offer full banking services like online fund transfer."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(xi) Headline inflation</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/business/cpi-inflation-old-rise-december-rbi-target-10469242/\" class=\"\" rel=\"noopener\">Headline inflation</a> measures the overall rise in prices across all goods and services in an economy and is closely tied to the Consumer Price Index (CPI), which tracks the cost of a fixed basket of items."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(xii) Stablecoins</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— The Reserve Bank of India (RBI) warned that widespread adoption of stablecoins, or fiat-backed cryptocurrencies, could pose significant risks to the country’s monetary sovereignty and financial stability. The RBI has urged other countries to prioritise central bank digital currencies (CBDCs) over privately issued stablecoins to ensure financial stability."
+            },
+            {
+                "type": "text",
+                "value": "— “The RBI maintains a cautious stance on crypto assets, including stablecoins, prioritising sovereign digital infrastructure to safeguard monetary sovereignty amid global shifts and preserve financial stability,” the RBI said in its Financial Stability Report (FSR)."
+            },
+            {
+                "type": "text",
+                "value": "— Stablecoins are a type of cryptocurrency that maintains a steady value by being pegged to fiat currencies, commodities, or financial instruments, with the goal of providing a less volatile alternative to cryptocurrencies such as Bitcoin."
+            },
+            {
+                "type": "text",
+                "value": "<strong>— There are four main types of stablecoins: fiat-collateralized, commodity-backed, crypto-collateralized, and algorithmic. Each uses a different mechanism to keep prices stable; several may be found on big cryptocurrency exchanges.</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>(xiii) Unclaimed deposits</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <strong><a href=\"https://indianexpress.com/article/india/top-10-public-sector-banks-highest-unclaimed-deposits-10408813/\" class=\"\" rel=\"noopener\">Balances in savings and current accounts that remain inoperative for ten years, as well as term deposits not claimed within ten years from their maturity date, are classified as unclaimed deposits</a></strong>."
+            },
+            {
+                "type": "text",
+                "value": "— Unclaimed amounts are subsequently transferred by banks to the Depositor Education and Awareness (DEA) Fund maintained by the Reserve Bank of India (RBI)."
+            },
+            {
+                "type": "text",
+                "value": "<strong>(xiv) Quick commerce</strong>"
+            },
+            {
+                "type": "text",
+                "value": "— <a href=\"https://indianexpress.com/article/explained/explained-economics/history-of-quick-commerce-future-in-india-10152934/\" class=\"\" rel=\"noopener\">Quick commerce</a> (q-commerce) refers to the rapid delivery of goods ordered online, usually between 10 minutes and 30 minutes. The three largest q-commerce companies in India — Blinkit, Zepto, and <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://www.financialexpress.com/market/swiggy-ltd-share-price/\" target=\"_blank\">Swiggy</a> Instamart — together receive approximately 4.3 million orders every day."
+            },
+            {
+                "type": "heading",
+                "value": "Other important topics worth looking at:"
+            },
+            {
+                "type": "heading",
+                "value": "Banking &amp; Monetary Policy"
+            },
+            {
+                "type": "heading",
+                "value": "External Sector"
+            },
+            {
+                "type": "heading",
+                "value": "Government Finance"
+            },
+            {
+                "type": "heading",
+                "value": "Agriculture Economy"
+            },
+            {
+                "type": "heading",
+                "value": "Employment &amp; Labour"
+            },
+            {
+                "type": "heading",
+                "value": "Digital Economy"
+            },
+            {
+                "type": "heading",
+                "value": "Infrastructure &amp; Industry"
+            },
+            {
+                "type": "heading",
+                "value": "International Economy"
+            },
+            {
+                "type": "heading",
+                "value": "Climate-Economy Themes"
+            },
+            {
+                "type": "heading",
+                "value": "Social Sector Economy"
+            },
+            {
+                "type": "text",
+                "value": "<b>🚨&nbsp;</b><a href=\"https://epaper.indianexpress.com/4151905/UPSC-Essentials/May-14-2026#page/1/1\" rel=\"noopener\"><b>Click Here</b></a><b>&nbsp;to read the UPSC Essentials magazine for&nbsp;<a class=\"\" href=\"https://epaper.indianexpress.com/4151905/UPSC-Essentials/May-14-2026#page/1/1\" rel=\"noopener\">May</a></b><a href=\"https://epaper.indianexpress.com/4151905/UPSC-Essentials/May-14-2026#page/1/1\" rel=\"noopener\"><b>&nbsp;2026</b></a><b>.&nbsp;Share your views and suggestions in the comment box or at manas.srivastava@</b><a href=\"https://indianexpress.com/\" rel=\"noopener\"><b>indianexpress.com</b></a><b>🚨&nbsp;</b>"
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Internet",
+        "title": "Why CBSE must re-think its on-screen marking system",
+        "url": "https://www.thehindu.com/sci-tech/technology/why-cbse-must-re-think-its-on-screen-marking-system/article70997270.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "On May 13, CBSE declared Class 12 results, recording a three point drop in pass percentage to 85.20% from 88.39% last year. Several students, in effect, would have found themselves on the wrong side of the line compared to last year’s cohort.The aggregate decline is sharp enough that it cannot be waved away with the usual “tougher papers this year” explanation."
+            },
+            {
+                "type": "text",
+                "value": "The CBSE introduced a new interface to score Class 12 answer papers — the On-Screen Marking (OSM) system, which was formally announced in a release on February 9, 2026. Under this system, physical answer sheets will be scanned, uploaded to a secure digital platform, and handed to evaluators who can assess them on computers instead of on paper."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Environment",
+        "title": "Apis cerana and Malabar Tree Toad to be declared State insect and amphibian",
+        "url": "https://www.thehindu.com/news/national/karnataka/apis-cerana-and-malabar-tree-toad-to-be-declared-state-insect-and-amphibian/article71011341.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Process is under way to officially declare the Apis cerana and Malabar Tree Toad as the State insect and State amphibian, respectively, said Forest and Environment Minister Eshwar Khandre on Friday."
+            },
+            {
+                "type": "text",
+                "value": "Speaking at the International Day for Biological Diversity, 2026, he said that many States had their own State bird, animal and tree to emphasise the importance of biodiversity conservation."
+            },
+            {
+                "type": "text",
+                "value": "The sandalwood is Karnataka’s State tree, elephant the State animal, the Indian Roller State bird, and Southern Birdwing the State butterfly."
+            },
+            {
+                "type": "text",
+                "value": "Nallur Tamarind Grove near Devanahalli, GKVK campus in Hogarekhan in Chikkamagaluru district, Ambaragudda in Sagar taluk and Mamadapur plant sanctuary in Vijayapura district have been declared as traditional biodiversity heritage sites."
+            },
+            {
+                "type": "text",
+                "value": "On the increasing incidents of man-animal conflict in the State, he said that measures were being taken to restore elephant and tiger corridors to prevent them from occurring."
+            },
+            {
+                "type": "text",
+                "value": "He said that these incidents were increasing due to changes in elephant corridors and tiger movement paths and shrinking forests."
+            },
+            {
+                "type": "text",
+                "value": "“The government has taken strict action against forest encroachment, and about 12,204 acres of encroached forest land have been cleared over the past three years,” he added."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Health",
+        "title": "Routine rotavirus vaccine halves severe diarrhoea cases in Kerala children: JMMCRI Study",
+        "url": "https://www.thehindu.com/news/national/kerala/routine-rotavirus-vaccine-halves-severe-diarrhoea-cases-in-kerala-children-jmmcri-study/article71009891.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "A set of new studies from Jubilee Mission Medical College &amp; Research Institute (JMMCRI), Thrissur, brings reassuring news for parents: a routine vaccine is sharply reducing serious diarrhoea in young children, while doctors are now treating a dangerous intestinal condition called Intussusception without surgery in most cases."
+            },
+            {
+                "type": "text",
+                "value": "Researchers at JMMCRI, in collaboration with Christian Medical College Vellore and government medical colleges in Kozhikode and Thiruvananthapuram, studied how well the Indian-made rotavirus vaccine ROTASIIL has been working since its introduction into Kerala’s immunisation programme in 2019. They analysed cases of children under five hospitalised with diarrhoea between November 2020 and December 2023."
+            },
+            {
+                "type": "text",
+                "value": "The results were encouraging. The number of children hospitalised with moderate to severe rotavirus diarrhoea in Kerala dropped from 36 per cent to 18 per cent after the introduction of the vaccine. The research team, led by Dr Aparna Namboodiripad, says the findings clearly show that the vaccine is protecting children and reducing the need for hospital care.\nThe team, which included Dr Aparna Namboodiripad, Dr Rose Xavier and Dr Gibi George, also found that a strain called G3P[8] is now the most common type of rotavirus in Kerala. Monitoring such strains helps experts ensure that the vaccine continues to remain effective. The studies have been published in the Indian Journal of Pediatrics."
+            },
+            {
+                "type": "text",
+                "value": "In another related study published in the same journal, the researchers found that undernourished children are at greater risk of diarrhoea. Children who are underweight for their height tend to fall more seriously ill when infected with rotavirus. The findings highlight the importance of both timely vaccination and proper nutrition.\nThe research group has also reported remarkable success in treating intussusception, a serious condition in small children in which one part of the intestine slides into another like a telescope. If not treated quickly, the condition can become life-threatening."
+            },
+            {
+                "type": "text",
+                "value": "Instead of surgery, doctors at Jubilee Mission used a non-surgical method called Ultrasound Guided Hydrostatic Saline Reduction (HSR), where saline is gently pushed into the bowel under ultrasound guidance to unfold the trapped section. The results, published in the Indian Journal of Pediatrics, showed a 95.6% success rate of this non-surgical method with no deaths — among the best outcomes reported in the country."
+            },
+            {
+                "type": "text",
+                "value": "Doctors say early diagnosis, round-the-clock ultrasound facilities, and trained specialists played a key role. However, children who reached the hospital late or came from poorer backgrounds were more likely to need surgery."
+            },
+            {
+                "type": "text",
+                "value": "Doctors say the message for parents is simple: ensure children receive vaccines on time and maintain good nutrition. These steps can prevent serious illness and save lives."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Health",
+        "title": "U.S. extends Ebola travel ban to Green Card holders",
+        "url": "https://www.thehindu.com/news/international/us-extends-ebola-travel-ban-to-green-card-holders/article71013381.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The <a href=\"https://www.thehindu.com/tag/413-244/\" target=\"_blank\">United States</a> on Friday (May 22, 2026) temporarily banned ​the entry of lawful permanent residents who ‌have been in the Democratic Republic ​of Congo, Uganda or South ⁠Sudan in the previous 21 days, <a href=\"https://www.thehindu.com/sci-tech/health/government-issues-ebola-advisory-for-passengers-arriving-from-high-risk-african-nations/article71005409.ece\" target=\"_self\">citing concerns over Ebola.</a>"
+            },
+            {
+                "type": "text",
+                "value": "U.S. citizens, nationals and green card ‌holders had been exempted from a 30-day Ebola ban, but ‌the U.S. CDC said on ‌Friday (May 22) that ⁠extending the ban to green ⁠card holders was necessary to stop the virus from entering the country."
+            },
+            {
+                "type": "text",
+                "value": "“Applying this authority to ​lawful permanent residents ‌for a limited period of time provides a balance between protecting public health and managing emergency response resources,” the Centers ‌for Disease Control and Prevention ​said in a statement."
+            },
+            {
+                "type": "text",
+                "value": "The World Health Organization on Friday raised ⁠to “very high” the risk of the rare Bundibugyo strain of Ebola turning into a ‌national outbreak in the DRC and has declared the outbreak there and in Uganda an emergency of international concern."
+            },
+            {
+                "type": "text",
+                "value": "The CDC first issued the order on Monday (May 18) under Title 42 of U.S. ‌public health law, which allows federal health ​authorities to prohibit migrants from entering the country to prevent the spread ⁠of contagious diseases."
+            },
+            {
+                "type": "text",
+                "value": "Green card holders have ⁠historically been shielded from U.S. entry restrictions. The CDC’s COVID-era Title ‌42 order did not apply to them, nor have President Donald Trump’s ​various travel bans."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Health",
+        "title": "Children stay away from play as city reels under heat",
+        "url": "https://www.thehindu.com/sci-tech/health/children-stay-away-from-play-as-city-reels-under-heat/article71011056.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Come Sunday P. Tamil, a class 12 student, would gather his neighbourhood friends and organise a cricket tournament in the nearby ground in Korukkupet. A group of 15 to 20 children would gather, hold a meeting the day before, assign roles, split teams, and meet on Sunday. They would assemble at 5.30 a.m., play until 1 p.m. in the afternoon, disperse and go home. &nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "This routine has been followed since Tamil was in Class 10. Now as schools have closed for summer vacation, Tamil says that they are not stepping out due to the intense heat conditions that the city has been experiencing for the past few weeks. “Last year too we couldn’t play as much. But this time we haven’t been able to meet even one Sunday for an outdoor game. It’s much worse this time. Stepping out for even five minutes, we are tired, dehydrated and dizzy,” he adds."
+            },
+            {
+                "type": "text",
+                "value": "As Chennai grapples under an intense heat wave with an intense heat wave, with the city recording a high of 42 degrees Celsius on Thursday, parents in the city have decided to not let their children outside for play. Further, the Regional Meteorological Centre has cautioned that the hot spell is likely to continue over the weekend."
+            },
+            {
+                "type": "text",
+                "value": "Indira Jayakumar, lead pediatric intensivist, Apollo Hospitals, and medical director at Apollo SHINE Foundation, a not-for-profit student health initiative, explains that children are more vulnerable to heat because they have a larger surface area relative to their body mass, causing them to absorb heat more quickly. Their higher metabolism also makes them generate more heat and lose electrolytes faster, especially when combined with inadequate fluid intake."
+            },
+            {
+                "type": "heading",
+                "value": "Children are drained"
+            },
+            {
+                "type": "text",
+                "value": "Tamil’s mother notes that he is a very active child playing various sports in schools and in his neighbourhood. But this summer, they have stopped him from playing outside. “This heat is so bad that even we adults are not able to cope. The children will only have it worse. So, we stopped Tamil from going outside. Not only is this heat unbearable but it is also affecting our health, most times we don’t even feel like eating,” says P. Vijaya. Since schools closed in April, Tamil has not been out to play this month.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Sridevi Bhaskar, grandmother to an eight-year-old and a 10-year-old from Ambedkar Nagar in Chennai says “The children themselves know that this heat is not normal and would rather not go outside to play. It’s so hot that they just want to lie down and not do anything.”"
+            },
+            {
+                "type": "text",
+                "value": "She did try to get the children to play outside at the start of the month but the next day they were so tired and had developed so many boils. “We don’t have an AC, so now they go stand outside the fridge or they dip the gunny bags in water and cover themselves in it. Sometimes they fill tubs with ice cubes and sit in them,”says Sridevi."
+            },
+            {
+                "type": "text",
+                "value": "However, Sridevi notes that the worst part is not the lack of play but that they no longer feel hungry. “They would drink buttermilk or something cool. But they would not eat solid food. They just say they are not hungry,” she adds.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "“Children don’t anticipate a heatwave and plan their intake accordingly. They rely on their parents to give them water. In places like Chennai, where humidity is high, the body temperature rises faster even at the same temperature compared to drier regions,” she says."
+            },
+            {
+                "type": "text",
+                "value": "Dr. Jayakumar says it is important to help children understand why hydration matters. Parents, she says, should encourage children to sip water every 30 minutes even if they do not feel thirsty, dress them in loose cotton clothing, and ensure they wear caps outdoors. Along with water, she recommends cooling drinks such as lassi, buttermilk and tender coconut water, and advises against sugary aerated beverages."
+            },
+            {
+                "type": "heading",
+                "value": "Indoor games"
+            },
+            {
+                "type": "text",
+                "value": "At the same time, she stresses that avoiding play altogether is not a solution. “Play is very important and children need to play during their holidays,” she says, adding that outdoor activity should ideally be limited to early mornings before 7.30 a.m. or after 6 p.m.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "Sridevi does encourage her grandchildren to play. As it’s still quite hot in the evening, the children now go out to play at 9 p.m. “They play games such as catch or running for an hour. But this too makes them very tired. It's like something is sucked out of them,” she adds.&nbsp;"
+            },
+            {
+                "type": "text",
+                "value": "During the hotter parts of the day, children can be engaged in<a href=\"https://www.thehindu.com/children/beating-the-heat-and-the-boredom-this-summer/article70729971.ece\" target=\"_self\"> creative indoor activities</a>, while parents should monitor screen time. “Kids can be taken to indoor play areas where they can play basketball for a couple of hours and come home tired, or to trusted homes where there is supervision,” Dr. Jayakumar says."
+            },
+            {
+                "type": "text",
+                "value": "Tamil on the other hand notes that his friends now come over to play indoor games such as carrom and chess. But he notes that this has also increased the chances for a lot of his friends to tune into video games. “Even otherwise a lot of my peers are always on the phone, now that there is no way for us to go outside to play due to the heat, a lot of my friends invite us to play video games. There is a fear of addiction in this,” he adds."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
+        "category": "Health",
+        "title": "Maternity need not be proved through DNA test before donating kidney to child: Madras High Court",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/maternity-need-not-be-proved-through-dna-test-before-donating-kidney-to-child-madras-high-court/article71009853.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "A woman wanting to donate her kidney to her son need not prove maternity by undergoing a deoxyribonucleic acid (DNA) test. It is sufficient to submit documents such as birth certificate, Aadhaar card, and Permanent Account Number (PAN) card, the Madras High Court has held."
+            },
+            {
+                "type": "text",
+                "value": "Justice G.R. Swaminathan stated so, while disposing of a joint writ petition filed by 44-year-old Rita Chaurasiya and her 25-year-old son Rohit Kumar Chaurasia of Howrah in West Bengal. They had intended to undergo the renal transplantation surgery at Apollo Speciality Hospitals in Chennai."
+            },
+            {
+                "type": "text",
+                "value": "However, the authorisation committee constituted by the Directorate of Medical Education and Research, under the Transplantation of Human Organs and Tissues Act of 1994, on April 17, 2026, withheld the approval on the ground that the relationship between the donor and the donee had to be established."
+            },
+            {
+                "type": "heading",
+                "value": "Petitioners’ argument"
+            },
+            {
+                "type": "text",
+                "value": "Assailing the order withholding approval, the petitioners’ counsel Abhinav Parthasarathy said, the 25-year-old youngster was suffering from chronic kidney disease, which was now at the end stage, necessitating a renal transplantation, and his mother had come forward to donate her kidney."
+            },
+            {
+                "type": "text",
+                "value": "She was apprised of the risks involved in the surgical procedure as well as about the post-operative complications that might arise. It was only after being well aware of the risks that she had sworn an affidavit agreeing to undergo the transplant surgery out of her own free will and consent."
+            },
+            {
+                "type": "text",
+                "value": "Apart from the medical records, including the psychiatric fitness report with respect to the donor and donee, the petitioners had submitted the donor’s birth certificate, their Aadhaar cards, PAN cards, and family photographs in order to prove the relationship between them and the absence of any monetary consideration."
+            },
+            {
+                "type": "text",
+                "value": "Yet, the authorisation committee had withheld consent for the transplantation by raising doubts over their relationship, the counsel complained. Finding force in his submissions, Justice Swaminathan said, the documents submitted by the petitioners were more than sufficient to establish their relationship."
+            },
+            {
+                "type": "text",
+                "value": "“Applying the principle of preponderance of probabilities, I am satisfied that the second petitioner is none other than the biological son of the first petitioner. Therefore, the first petitioner should not be called upon to undergo DNA test to prove maternity,” the judge wrote."
+            },
+            {
+                "type": "text",
+                "value": "He set aside the order passed by the authorisation committee on April 17, 2026, withholding consent for the renal transplantation, and directed it to grant permission for the transplantation within a week."
+            }
+        ],
+        "date": "2026-05-23"
+    },
+    {
         "category": "Economics",
         "title": "Graphs, Data and Perspectives: Why rising govt bond yields are bad news",
         "url": "https://indianexpress.com/article/explained/explained-economics/graphs-data-perspectives-bond-yield-costly-impact-10703214/",
