@@ -1,5 +1,33 @@
 [
     {
+        "category": "Health",
+        "title": "WHO chief says suspected Ebola deaths at 220 and 'epidemic is outpacing us'",
+        "url": "https://www.thehindu.com/sci-tech/health/who-chief-says-suspected-ebola-deaths-at-220-and-epidemic-is-outpacing-us/article71021210.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "‌The director-general of the ​World Health Organization, Tedros ⁠Adhanom Ghebreyesus, said on Monday that there had been 220 suspected deaths ‌in the current Ebola outbreak and that a ‌delay in detecting cases ‌meant ⁠responders were now \"playing catch-up\"."
+            },
+            {
+                "type": "text",
+                "value": "\"We are ⁠urgently scaling up operations, but at the moment the epidemic is outpacing ​us,\" Tedros ‌said, adding that countries bordering the Democratic Republic of Congo - the epicentre of the outbreak - should ‌take immediate action."
+            },
+            {
+                "type": "text",
+                "value": "Earlier on ​Monday Uganda reported two more Ebola cases, taking ⁠its total number of confirmed cases to seven."
+            },
+            {
+                "type": "text",
+                "value": "The World ‌Health Organization has declared the outbreak of the rare Bundibugyo strain of Ebola a public health emergency of international concern."
+            },
+            {
+                "type": "text",
+                "value": "Tedros said he would ‌travel to Congo on Tuesday and ​that addressing the fast-moving outbreak was complicated by the ⁠fact that Congo's Ituri and North ⁠Kivu provinces were highly insecure and there were no ‌approved vaccines for Bundibugyo virus."
+            }
+        ],
+        "date": "2026-05-26"
+    },
+    {
         "category": "Expert Explains",
         "title": "Expert Explains | What is normalisation of scores, and why it works in JEE but might not in NEET",
         "url": "https://indianexpress.com/article/explained/neet-cbt-normalisation-ranking-concerns-expert-explains-10708828/",
