@@ -1,5 +1,1313 @@
 [
     {
+        "category": "Economics",
+        "title": "GDP | Inflation vs Affordability: Why policymakers target one while consumers care about the latter",
+        "url": "https://indianexpress.com/article/explained/explained-economics/gdp-inflation-vs-affordability-meaning-indians-incomes-comparison-10714624/",
+        "content": [
+            {
+                "type": "text",
+                "value": "The United States and Israel’s war on Iran and the resultant spike in prices of crude oil and other products critical to the smooth functioning of the global economy have made inflation the main worry for policymakers across the world."
+            },
+            {
+                "type": "text",
+                "value": "Between June 3 and 5, the Monetary Policy Committee of India’s Reserve Bank of India (RBI) will deliberate on this matter. For its part, the Union government has as yet shielded average consumers in India <a href=\"https://indianexpress.com/article/explained/explained-economics/crude-oil-spike-affects-economy-10691553/\" rel=\"noopener\"><strong>from the full effect</strong></a> of the rise in international prices."
+            },
+            {
+                "type": "text",
+                "value": "But while policymakers are focussed on containing the inflation rate, average consumers in India focus more on affordability. The notion is best captured in the worries of several consumers, who bemoan that “once prices go up, they never come down”."
+            },
+            {
+                "type": "text",
+                "value": "In other words, consumers are often more worried about the cumulative effect of past price increases on their household budgets and overall affordability than just the inflation rate in a particular month. This difference between the two ideas is also at the heart of the so-called “affordability crisis” in the US and the cost-of-living crisis in the UK. In both countries, affordability, more than just the inflation rate, is also leading voters to change their political choices."
+            },
+            {
+                "type": "heading",
+                "value": "What’s the difference between inflation and affordability?"
+            },
+            {
+                "type": "text",
+                "value": "The inflation rate is the rate at which the general price level rises from one year to another."
+            },
+            {
+                "type": "text",
+                "value": "Every country has chosen a representative basket of goods and services that its consumers use, and it tracks how the prices for this basket move. The year-on-year increase in this general price level is called the “headline” inflation rate, the one commonly referred to in policy debates."
+            },
+            {
+                "type": "text",
+                "value": "Of course, some goods and services might have witnessed higher inflation than the headline number, and some lower. As<em> Chart 1</em> shows, since the RBI adopted a policy regime to target a specific level of inflation in 2016, India’s inflation rate has been within the RBI’s comfort zone of 2% to 6% (red lines), even if it stayed above the target rate of 4% (blue line). More importantly, over the past three years, the RBI has successfully brought down the inflation rate from almost 7% to around 2%."
+            },
+            {
+                "type": "text",
+                "value": "The worry for policymakers now is that the blockade of the Strait of Hormuz is likely to push up the inflation rate for the current financial year (2026-27) closer to 5%."
+            },
+            {
+                "type": "text",
+                "value": "The consumers, on the other hand, are more bothered about affordability, which, in turn, depends on two broad factors:"
+            },
+            {
+                "type": "text",
+                "value": "*the cumulative effect of repeated inflation spikes on the general price level"
+            },
+            {
+                "type": "text",
+                "value": "*the growth in their incomes relative to the rise in the general price level"
+            },
+            {
+                "type": "text",
+                "value": "In other words, consumers effectively care more whether they are better-off or worse-off in “real” terms — that is, after the effect of inflation is neutralised both from prices and incomes."
+            },
+            {
+                "type": "text",
+                "value": "<strong>How to know whether you are better- or worse-off in real terms?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Did your income growth keep pace with the increase in the general price level?<em> Chart 2</em> provides a simple test."
+            },
+            {
+                "type": "text",
+                "value": "Let’s assume the general price level as of March-end 2014 (the end date for financial year 2013-14) was 100, around the beginning of the first term of the current NDA government. If one then applies the annual inflation rates to this, one can arrive at the price level at the end of March 2026. As the data shows, it is 175."
+            },
+            {
+                "type": "text",
+                "value": "In other words, a basket of goods and services that cost Rs 100 to consumers in March 2014, cost Rs 175 at the end of March 2026."
+            },
+            {
+                "type": "text",
+                "value": "One way to assess whether one is better- or worse-off since the start of April 2014 is to compare incomes. If their income has gone up by 75%, then one is exactly where one was 12 years ago in “real” terms. If their income has grown by a lesser degree, then one is worse-off in real terms, and if the income has grown by a higher percentage, then one is better-off to that extent."
+            },
+            {
+                "type": "text",
+                "value": "Similarly, the general price level has grown by 41% between March 2019 and March 2026. Similar calculations can be made for those who started working at the start of April 2019 (around the second NDA term), albeit the key number is 41% in this case."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What about the rest of India?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The Ministry of Statistics and Programme Implementation (MoSPI) releases regular Periodic Labour Force Surveys (PLFS) that map employment, unemployment and income data. The PLFS divides the whole workforce into three categories of workers:"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>1. Salaried (regular wage earners)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>2. Self-employed (e.g., small vendors)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>3. Casual labour (e.g., those working on construction sites)</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "However, for reasons of data comparability, the only period for which one can get a representative picture is between 2017-18 and 2023-24. Still, it provides a sense of how India fared during this period in terms of affordability. Of course, it is possible that the picture may have changed since then, but exactly comparable data is not available as of now."
+            },
+            {
+                "type": "text",
+                "value": "<em>Chart 3</em> marks everything — from incomes to price level — down to 100 at the end of March 2018, and then shows how incomes of different types of workers grew relative to the increase in price level."
+            },
+            {
+                "type": "text",
+                "value": "What it shows is that growth in incomes of the salaried and the self-employed lagged behind the rise in the price level. In other words, in real terms, they became worse off during this period. The daily wages of casual labour, however, grew faster than the general price level."
+            },
+            {
+                "type": "text",
+                "value": "It is noteworthy that casual labourers actually earn the lowest in absolute terms among the three categories. For instance, at a daily earning of Rs 453 in 2025-26, a casual labourer working all 30 days would have still earned only Rs 13,590 a month, while the self-employed earned Rs 14,861 per month and salaried workers earned Rs 22,699 per month."
+            },
+            {
+                "type": "text",
+                "value": "Moreover, as <em>Chart 4</em> shows, over this period, the share of self-employed — the category worst-off in terms of affordability — grew rapidly while the shares of the other two categories declined."
+            },
+            {
+                "type": "text",
+                "value": "<strong>So, how can RBI help matters?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The RBI cannot directly do much about the income growth of different workers. That depends on a whole host of factors outside its scope."
+            },
+            {
+                "type": "text",
+                "value": "On the inflation front, too, the RBI can’t address the main reason for inflation: inadequate crude oil supply. Under the circumstances, all that the RBI can do is to constrain overall demand for goods and services among consumers by raising interest rates. Higher interest rates would slow down economic activity by making loans (be it for cars, homes or factories) costlier."
+            },
+            {
+                "type": "text",
+                "value": "In other words, if RBI wants to arrest inflation, it will have to drag down India’s economic growth; an action that mirrors what the government is doing by raising fuel prices and <strong><a href=\"https://indianexpress.com/article/explained/explained-economics/explainspeaking-india-forex-crisis-pm-modi-import-cuts-10684047/\" class=\"\" rel=\"noopener\">urging people to consume less.</a></strong>"
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
+        "category": "Economics",
+        "title": "How RBI’s ‘kill switch’ facility aims to block digital scams",
+        "url": "https://indianexpress.com/article/explained/explained-economics/rbi-kill-switch-digital-scams-block-10714409/",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Reserve Bank of India is exploring the possibility of introducing a ‘Kill switch’ mechanism that would allow users at the receiving end of a potential digital scam to immediately stop all financial transactions from their accounts."
+            },
+            {
+                "type": "text",
+                "value": "Besides, it has also proposed a ‘switch on’ and ‘switch off’ facility for all digital payment modes. This facility would help bolster consumer confidence and contribute towards controlling frauds in digital payment transactions, the RBI Annual Report said."
+            },
+            {
+                "type": "heading",
+                "value": "<strong>What’s a ‘kill switch’ facility?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "A <a href=\"https://indianexpress.com/article/india/rbi-proposes-kill-switch-to-secure-digital-payments-what-it-means-10632812/\" rel=\"noopener\"><strong>‘kill switch facility</strong></a>’ is a mechanism that allows a system, device, account, or service to be shut down, disabled or blocked immediately in an emergency or under specific conditions."
+            },
+            {
+                "type": "text",
+                "value": "The proposal for a ‘Kill switch’, which is being examined by the government and the RBI, envisages, among other possibilities, an emergency button integrated into payment applications of lenders that could instantly freeze all banking operations when a user suspects they are being targeted by fraudsters."
+            },
+            {
+                "type": "text",
+                "value": "The Indian Express had reported in January this year that a high-level committee constituted by the Ministry of Home Affairs (MHA) to look into the menace of ‘digital arrests’ is considering the idea of a “kill switch”."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Why is this needed?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "In digital arrest scams, fraudsters impersonate law enforcement officials from the police, or other law enforcement agencies, via video calls, claiming victims are under investigation for serious crimes."
+            },
+            {
+                "type": "text",
+                "value": "Using leaked personal data for credibility, they create fear and urgency, keeping victims on calls for hours with fake IDs and arrest warrants. Victims are coerced into transferring large sums to avoid arrest."
+            },
+            {
+                "type": "text",
+                "value": "Victims across India are believed to have collectively lost nearly Rs 3,000 crore to digital arrest scams, prompting the Supreme Court to take suo motu cognisance of the issue last October."
+            },
+            {
+                "type": "text",
+                "value": "The menace of “digital arrests” and fraudulent fund transfers targeting gullible people has continued despite awareness campaigns by regulators and the government. If someone suspects request for transfer of funds is fraud or not genuine, they can activate the kill switch through the bank app on the mobile phone to stop money transfers <a href=\"https://indianexpress.com/article/business/kill-switch-insurance-as-tools-to-fight-digital-arrest-10485643/\" rel=\"noopener\"><strong>instantly</strong></a>."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Switch on/off system for all digital payments</strong>"
+            },
+            {
+                "type": "text",
+                "value": "Customers currently have the option to switch domestic and international card transactions on or off, enabling them to exercise greater control over the usage and security of their cards. The RBI said this feature has helped customers manage risks more effectively by allowing them to activate payment services only when required."
+            },
+            {
+                "type": "text",
+                "value": "The RBI, in its Annual Report, said it will explore extending a similar “switch on/switch off” facility to all digital payment modes, including UPI, internet banking and other electronic payment channels. The move is aimed at strengthening customer protection, enhancing security against fraud and giving users greater flexibility and control over digital transactions."
+            },
+            {
+                "type": "text",
+                "value": "The “switch on-switch off system” referred to by the RBI is a proposed security feature for digital banking and payments that allows customers to temporarily turn certain banking services on or off whenever they want. It works somewhat like a “kill switch” for banking access. A customer could use a banking app, internet banking or SMS to switch off UPI transactions, debit or credit card usage, internet banking access, international transactions and ATM withdrawals, and later switch on the service only when needed."
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "Why defence, security dimensions become increasingly central to India-UAE ties",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/why-defence-and-security-dimensions-become-central-to-india-uae-ties-10710947/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<b><i>— Md. Muddassir Quamar</i></b><span style=\"font-weight: 400\">&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In recent years, bilateral relations between India and the United Arab Emirates (UAE) have acquired a more strategic dimension, especially as the two countries have begun developing closer cooperation mechanisms to address the impact of </span>evolving<span style=\"font-weight: 400\"> developments in West Asia.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">During <a href=\"https://indianexpress.com/article/india/narendra-modi-uae-visit-sign-key-mous-expand-strategic-cooperation-10690820/\" class=\"\" rel=\"noopener\">Prime Minister Narendra Modi’s visit to the UAE</a> on May 15, 2026, en route to his trip to four countries in Europe, the two sides acknowledged the steady and strong bilateral defence cooperation as an important pillar of the Comprehensive Strategic Partnership.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">What are the factors that contributed to bilateral relations acquiring a more strategic dimension? What are the other major areas of focus of the PM’s visit? What are the other key sectors where India and the UAE have worked closely to strengthen the bilateral ties?&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>How India-UAE ties acquire strategic dimension</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Traditionally, India–UAE cooperation in the defence and security domain was confined to bilateral exercises between the armed forces, maritime security, and counterterrorism cooperation. Gradually, they were expanded to include regular exchange of visits between the armed forces, stronger maritime, and coastal security cooperation, intelligence sharing and closer cooperation in counterterrorism and combating radicalism.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">However, in recent years, strategic, defence and security dimensions have become increasingly central to the bilateral ties.&nbsp;</span><span style=\"font-weight: 400\">One of the major factors that propelled this cooperation was the signing of the Abraham Accords in September 2020, which increased the discourse around normalisation </span>of relations<span style=\"font-weight: 400\"> between Israel and Arab countries. India, with its close ties to both Israel and Arab countries, was viewed as an important international link that could catalyse peace, stability, and prosperity in West Asia.&nbsp;&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Hence, some important developments involving India, the UAE, Israel, and other regional countries took place. For example, the I2U2 (India, Israel, the UAE and the US) emerged as a forum for advancing cooperation in food and energy security with a futuristic agenda.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Similarly, the India, Middle East, Europe Economic Corridor (IMEC), launched in September 2023, plans to tap the connectivity potential of the Gulf and West Asia to strengthen trade, business and investment cooperation between India, the Arabian Gulf, the Mediterranean region, and Europe.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>How West Asia conflicts reshape India’s Gulf strategy&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Moreover, the regional situation, since the 7 October 2023 attacks by Hamas on Israel and the ensuing wars in the Gaza Strip, Lebanon, Yemen, Israel-Iran proxy conflict and the latest war involving the US-Israel and Iran, has created new challenges for India’s relations in the Gulf.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The regional situation has rapidly deteriorated since the February 28, 2026 attacks by the US and Israel on Iran. The war was initially projected as a swift military operation to bring regime change in Iran, end its nuclear programme, and eliminate the support for </span><span style=\"font-weight: 400\">Iran’s regional proxies.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">However, Iranian resilience proved this assumption wrong as the regime not only withstood the joint US-Israel onslaught but also inflicted serious disruption to regional stability. Despite the significant loss of lives and massive damage to its critical infrastructure, Tehran responded by targeting Israel and the GCC countries while also blockading the Strait of Hormuz.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>The Gulf’s changing security landscape</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The targeting of GCC countries and the blockading of the Strait of Hormuz have created a new dimension of regional insecurity, especially for the Arab Gulf states, which have traditionally depended on external security guarantees for peace and stability, at the core of their economic growth and prosperity.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">This insecurity has pushed the regional countries to diversify their external security partnerships while also seeking renewed defence and security relations with their traditional partners. Important regional actors, especially countries like Saudi Arabia, have begun to see the regional security situation with increased scepticism.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">More so, because of the growing conflict between Israel and Iran, involving proxies </span><span style=\"font-weight: 400\">and their belligerent behaviour vis-à-vis the security of other regional countries and a complete disregard for peace and stability, has forced the GCC states to widen the scope of their security and defence partnership with important international actors.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Incidents such as the Iranian and Israeli attacks on Qatar in June and September 2025 and the Iranian targeting of the GCC countries in retaliation against the US-Israel attacks on Iran have created a new dynamic in the Gulf region wherein the external security guarantor, the US, has become a source of insecurity for the Gulf region, instead of a security provider.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Hence, in September 2025, Saudi Arabia and Pakistan signed the Strategic Mutual Defence Agreement (SMDA), which included a mutual defence clause stating that an attack on one would be treated as an attack on the other. The two countries have since worked to broaden the scope of this defence agreement by seeking to bring Egypt and Türkiye into a broader regional defence pact. However, such multi-country defence agreements have hardly succeeded in West Asia in the past.</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>India’s expanding partnership with the UAE&nbsp;</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The growing proximity between India and the UAE, especially in defence and strategic dimensions, has also raised the possibility of developing a more formal defence cooperation. During the visit of the UAE’s President, Mohamed bin Zayed Al Nahyan, </span><span style=\"font-weight: 400\">to New <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/section/cities/delhi/\">Delhi</a> in January 2026, India and the UAE signed a Letter of Intent (LoI) on defence partnership. During PM Modi’s visit in May, the two sides signed a </span><a href=\"https://indianexpress.com/article/india/narendra-modi-uae-visit-sign-key-mous-expand-strategic-cooperation-10690820/\" rel=\"noopener\"><span style=\"font-weight: 400\">Strategic Framework Agreement on defence cooperation</span></a><span style=\"font-weight: 400\"> to further strengthen Indo-UAE defence collaboration.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In addition to defence, energy security was another major focus of the PM’s visit. The UAE has been an important partner in India’s energy security, including in terms of crude oil, LNG and LPG supplies.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Indian companies have also entered into long-term contracts with Abu Dhabi National Oil Company Gas (ADNOCGAS) for the supply of 4.5 MMTPA of LNG to India. The UAE is also the largest source of India’s strategic oil reserves. During Prime Minister Modi’s visit, the two sides also agreed to promote new initiatives for a comprehensive energy partnership.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Additionally, India and the UAE have worked closely to strengthen trade, business and investment relations, as well as to develop strong people-to-people contacts that form the bedrock of bilateral ties. The UAE is one of India’s largest trading partners and among the top 10 sources of foreign direct investment (FDI) into India.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<b>The many pillars of India-UAE relations</b>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In addition, Indian expatriates are the largest non-national group in the UAE and form a vibrant, professional community engaged in all sectors of the economy, as well as in entrepreneurial activities. Indian businesses are engaged in a myriad of sectors, including trading, retail, real estate, construction, engineering, transport and logistics, hospitality, education, healthcare, supply chain, IT, entertainment, and recreation, among others.&nbsp;</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">The strong people-to-people engagements, trade, business, investments and energy cooperation are complemented by notable cooperation in food security, as India is one of the top suppliers of food and agricultural products to the UAE. The latter also serves as a re-export hub for Indian commodities to the wider Gulf and the West Asian region.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">In this context, several high-level visits between the two countries attest to their growing proximity. Prime Minister Modi’s recent visit was his eighth to the Gulf state since his first visit in August 2015. Besides, President Mohammed bin Zayed has visited India three times since becoming president in May 2022, and five times over the past decade.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<strong>India’s balancing approach in West Asia</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">Bilateral relations are embedded in shared interests and common worldviews that prioritise peace, prosperity, stability and sustainable development. Notwithstanding the growing partnership with the UAE, including its defence dimension, New Delhi has been careful in balancing relations with other regional countries, including Saudi Arabia.</span>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"font-weight: 400\">India has been consistent in its approach despite Saudi Arabia’s defence pact with Pakistan and Iran, and despite the Iranian belligerence in the Persian Gulf affecting India’s energy security, trade and business relations with the GCC countries. This is important to safeguard India’s multifaceted political, diplomatic, strategic, geopolitical and geoeconomic interests in the Gulf and the wider West Asia.&nbsp;</span>"
+            },
+            {
+                "type": "heading",
+                "value": "<strong>Post read questions</strong>"
+            },
+            {
+                "type": "text",
+                "value": "India-UAE relations have evolved from an economic partnership to a comprehensive strategic partnership."
+            },
+            {
+                "type": "text",
+                "value": "Discuss.Examine the growing strategic and defence dimensions of India-UAE relations in the context of changing geopolitics in West Asia."
+            },
+            {
+                "type": "text",
+                "value": "How have developments in West Asia since October 2023 affected India’s relations with the Gulf countries? Analyse."
+            },
+            {
+                "type": "text",
+                "value": "How is the changing security architecture of the Gulf region influencing India’s strategic engagement with the UAE and other GCC countries?"
+            },
+            {
+                "type": "text",
+                "value": "India’s approach in West Asia is marked by strategic balancing rather than strategic alignment. Discuss with reference to its relations with the UAE, Saudi Arabia, Iran, and Israel."
+            },
+            {
+                "type": "text",
+                "value": "<b><i>(The author is an Associate Professor at Jawaharlal Nehru University, New Delhi.)</i></b>"
+            },
+            {
+                "type": "text",
+                "value": "<b>Share your thoughts and ideas on UPSC Special articles with&nbsp;ashiya.parveen@</b><a href=\"https://indianexpress.com/\" rel=\"noopener\"><b>indianexpress.com</b></a><b>.</b>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Gear up for&nbsp;UPSC Prelims 2026—Practice smarter, revise faster, and succeed with our&nbsp;Special Quiz Magazine. (<a class=\"\" href=\"https://epaper.indianexpress.com/4140050/UPSC-Essentials/April-13-2026#page/1/1\" rel=\"noopener\">Click Here</a>)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Stay updated</strong>&nbsp;with the latest&nbsp;<strong>UPSC articles</strong>&nbsp;by joining our&nbsp;<strong>Telegram channel</strong>&nbsp;–&nbsp;<strong><a class=\"keywordtourl\" href=\"https://indianexpress.com/\" rel=\"noopener\">IndianExpress</a>&nbsp;UPSC Hub</strong>, and follow us on<strong>&nbsp;<a class=\"\" href=\"https://www.instagram.com/indianexpressupschub/\" rel=\"noopener\" target=\"_blank\">Instagram</a>&nbsp;</strong>and&nbsp;<strong>X.</strong>"
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
+        "category": "UPSC Current Affairs",
+        "title": "UPSC Key: Heatdome, Abraham Accords and Anti-dumping duties",
+        "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-heatdome-abraham-accords-and-anti-dumping-duties-10714665/",
+        "content": [
+            {
+                "type": "text",
+                "value": "<strong>Important topics and their relevance in UPSC CSE exam for May 29, 2026.&nbsp;<a href=\"https://indianexpress.com/article/upsc-current-affairs/upsc-key-sc-upholds-sir-eci-vb-g-ram-g-rules-visa-dowry-10712384/\" class=\"\" rel=\"noopener\">If you missed the May 28, 2026 UPSC CSE exam key from the Indian Express, read it here</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>FRONT PAGE</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/india/ties-border-peace-india-china-modi-xi-jinping-10712857/\" class=\"\" rel=\"noopener\">Making progress towards normal ties after border peace: India, China</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Syllabus:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination:&nbsp;</strong>General Studies II: India and its neighbourhood- relations."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: Underlining that “peace and tranquillity in the border areas” has enabled “progress towards gradual normalization of bilateral relations”, Indian and Chinese officials have held talks in Beijing on delimitation, border management, mechanism building and cross-border cooperation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The recent meeting of the Working Mechanism for Consultation and Coordination on India-China Border Affairs (WMCC)-<br>\nwhat are the key takeaways?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the significance of the Working Mechanism for Consultation and Coordination (WMCC) in addressing India-China border disputes?"
+            },
+            {
+                "type": "text",
+                "value": "• Standoff between India and China-what you know about the same?"
+            },
+            {
+                "type": "text",
+                "value": "• Friction between India and China-what are the reasons?"
+            },
+            {
+                "type": "text",
+                "value": "• India-China Relations during Nehruvian Era-Know in detail"
+            },
+            {
+                "type": "text",
+                "value": "• The 1962 India-China War-Know the background"
+            },
+            {
+                "type": "text",
+                "value": "• India-China Border Dispute- Know the background"
+            },
+            {
+                "type": "text",
+                "value": "• <strong>Map Work</strong>– Line of Control, Line of Actual Control, Chang Chenmo river, Gogra-Hot Springs, Kongka Pass, Galwan Valley, Depsang Plains, and Charding Nala region"
+            },
+            {
+                "type": "text",
+                "value": "• Know the terms ‘De-induction’ ‘Disengagement’ and ‘De-escalation’?"
+            },
+            {
+                "type": "text",
+                "value": "• What ‘De-induction’, ‘Disengagement’ and ‘De-escalation’ means in India-China Context?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the present situation?"
+            },
+            {
+                "type": "text",
+                "value": "• As a future policymaker, suggest a multi-pronged strategy to address border management issues while strengthening India-China cooperation in areas such as cultural diplomacy, trans-border water management, and multilateral institutions."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The two countries have been trying to restore ties that plummeted after Chinese incursions along the Line of Actual Control in eastern Ladakh triggered a military standoff six years ago."
+            },
+            {
+                "type": "text",
+                "value": "• Disengagement of troops from friction points was completed in November 2024, a month after Prime Minister Narendra Modi and President Xi Jinping met in Kazan, Russia. But an estimated 50,000 troops remain deployed in the depth areas on each side of the LAC in the region as the two countries move to restore ties."
+            },
+            {
+                "type": "text",
+                "value": "• In an official statement Thursday on the 35th meeting of the WMCC in Beijing, the Ministry of External Affairs said, “The discussions were constructive and forward looking. The two sides reviewed the situation in the India-China border areas. They expressed satisfaction with the progress made in maintaining peace and tranquility in the border areas, which has enabled progress towards gradual normalization of bilateral relations.”"
+            },
+            {
+                "type": "text",
+                "value": "• The Indian delegation was led by Sujit Ghosh, Joint Secretary (East Asia), while Hou Yanqi, Director General of the Boundary &amp; Oceanic Affairs Department of the Chinese Ministry of Foreign Affairs, led the Chinese delegation."
+            },
+            {
+                "type": "text",
+                "value": "• Ghosh had earlier served as Director (China) and was India’s Deputy High Commissioner in the UK. Hou Yanqi was China’s Ambassador to Nepal (2018 to 2022). So, both officials have a background in dealing with the border issues between India and China."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The Line of Actual Control (LAC) is the demarcation that separates Indian-controlled territory from Chinese-controlled territory. India considers the LAC to be 3,488 km long, while the Chinese consider it to be only around 2,000 km. It is divided into three sectors: the eastern sector which spans Arunachal Pradesh and Sikkim, the middle sector in Uttarakhand and Himachal Pradesh, and the western sector in Ladakh."
+            },
+            {
+                "type": "text",
+                "value": "• The alignment of the LAC in the eastern sector is along the 1914 McMahon Line, and there are minor disputes about the positions on the ground as per the principle of the high Himalayan watershed. This pertains to India’s international boundary as well, but for certain areas such as Longju and Asaphila. The line in the middle sector is the least controversial but for the precise alignment to be followed in the Barahoti plains."
+            },
+            {
+                "type": "text",
+                "value": "• According to the Maj Gen (retd) Prof G G Dwivedi, every conflict has a cycle – it begins with escalation, and is followed by contact, stalemate, de-escalation, resolution, peace-building and reconciliation. The de-escalation process entails talks at multiple levels, and ground action in various stages. For example, there have been three rounds of talks at the Corps Commander level, simultaneous talks between Joint Secretaries, and at the level of Special Representatives between India and China after Galwan clash. On the ground, the first step in the de-escalation process is of disengagement – i.e., to break the ‘eyeball-to-eyeball’ contact between the opposing troops on the forward line by pulling back to create a buffer zone. The next step is the pulling back of the troops in the immediate depth, followed by reserve formations in the rear."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/explained-china-india-state-of-play-9685192/\" class=\"\" rel=\"noopener\">Explained: China-India state of play</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n1) “Belt and Road Initiative” is sometimes mentioned in the news in the context of the affairs of: <strong>(UPSC CSE 2016)</strong><br>\n(a) African Union<br>\n(b) Brazil<br>\n(c) European Union<br>\n(d) China"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Mains Question Covering similar theme:</strong><br>\n📍‘China is using its economic relations and positive trade surplus as tools to develop potential military power status in Asia’, In the light of this statement, discuss its impact on India as her neighbour. <strong>(UPSC CSE GS2, 2017)</strong><br>\n📍With respect to the South China sea, maritime territorial disputes and rising tension affirm the need for safeguarding maritime security to ensure freedom of navigation and over flight throughout the region. In this context, discuss the bilateral issues between India and China. <strong>(UPSC CSE GS2, 2014)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>POLITICS</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/india/manipur-election-commission-considers-special-registration-officers-for-internally-displaced-electors-10713161/\" class=\"\" rel=\"noopener\">Manipur: EC considers special registration officers for internally displaced electors</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Indian Polity and Governance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination:&nbsp;</strong>General Studies II: Salient features of the Representation of People’s Act."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: THE Election Commission is considering deploying special Assistant Electoral Registration Officers (AEROs) for the internally displaced persons (IDPs) in Manipur, where thousands have been displaced since the ethnic clashes broke out in May 2023, for the Special Intensive Revision (SIR) of electoral rolls,&nbsp;<em>The Indian Express</em>&nbsp;has learnt."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The term “internally displaced persons” (IDPs) refers to what?"
+            },
+            {
+                "type": "text",
+                "value": "• Which Article of the Constitution deals with the superintendence, direction and control of elections in India?"
+            },
+            {
+                "type": "text",
+                "value": "• What is “Electoral Registration Officers (EROs)”?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the constitutional mandate of the Election Commission of India in ensuring free and fair elections?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the challenges faced by internally displaced persons (IDPs) in exercising their voting rights."
+            },
+            {
+                "type": "text",
+                "value": "• Know the relationship between citizenship, voter identity, and democratic rights."
+            },
+            {
+                "type": "text",
+                "value": "• How can India strengthen electoral participation among vulnerable and marginalized groups?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The SIR exercise, which involves Booth-Level Officers (BLOs) going house-to-house to have all registered electors fill enumeration forms in order to stay on the rolls, is set to start in Manipur on Saturday, as per the EC’s schedule announced earlier this month."
+            },
+            {
+                "type": "text",
+                "value": "• After that, the Electoral Registration Officers (EROs) and AEROs are supposed to issue notices to those electors who have not been able to establish their eligibility by giving the details of themselves or their parents."
+            },
+            {
+                "type": "text",
+                "value": "• Sources said the office of Manipur Chief Electoral Officer has submitted a proposal to the EC for appointing special AEROs for the IDPs, similar to the deployment of designated Assistant Returning Officers for the conduct of the 2024 Lok Sabha elections in the state."
+            },
+            {
+                "type": "text",
+                "value": "• A total of 18,620 IDPs were eligible to vote in the 2024 elections. The EC had set up 94 special polling stations for the IDPs in relief camps. As of now, the total number of IDPs has gone down from 62,000 in 2023 to around 57,000, according to government records. Sources said arrangements are likely to be made for around 14,000-15,000 IDPs who are eligible for participation in the SIR exercise."
+            },
+            {
+                "type": "text",
+                "value": "• According to the EC, there are 20.91 lakh electors spread across 2,996 booths in Manipur. As per the schedule, electors will have till June 28 to fill the enumeration forms."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Under The Representation of the People Act, 1950, Electoral Registration Officers and AEROs are appointed for maintaining the electoral rolls of Assembly constituencies. In the case of Manipur, where thousands of electors have been displaced from their home constituencies, the EC is considering appointing special AEROs to decide on eligibility of the electors staying in camps."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/legal-news/supreme-court-message-to-states-wont-allow-impediment-to-sir-10523388/\" class=\"\" rel=\"noopener\">Why special AEROS for Manipur?</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC Prelims Question Covering similar theme:</strong><br>\n2) Consider the following statements: <strong>(UPSC CSE, 2017)</strong><br>\n1. The Election Commission of India is a five-member body.<br>\n2. The Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections.<br>\n3. Election Commission resolves the disputes relating to splits/mergers of recognised political parties.<br>\nWhich of the statements given above is/are correct?<br>\n(a) 1 and 2 only<br>\n(b) 2 only<br>\n(c) 2 and 3 only<br>\n(d) 3 only"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>THE EDITORIAL PAGE</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/opinion/columns/former-cec-sy-quraishi-on-sir-judgment-supreme-court-10712200/\" class=\"\" rel=\"noopener\">SIR judgment gets the law right, and the ground reality wrong</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:&nbsp;</strong>Current events of national importance, Indian Polity and Governance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination: General Studies II:&nbsp;</strong>Salient features of the Representation of People’s Act, Constitution of India — features, significant provisions and basic structure."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: <a href=\"https://indianexpress.com/profile/columnist/s-y-quraishi/\" rel=\"noopener\"><strong>S Y Quraishi</strong></a> Writes-The SC has told us the SIR is constitutional. What it has not told us — and what no judgment can — is whether a democracy that disenfranchises its poorest voters in the name of clean rolls deserves to call itself one"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is Special Intensive Revision (SIR)?"
+            },
+            {
+                "type": "text",
+                "value": "• The Special Intensive Revision (SIR) exercise is primarily associated with what?"
+            },
+            {
+                "type": "text",
+                "value": "• What Supreme Court said about SIR?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the constitutional basis of the Election Commission of India’s power to revise electoral rolls?"
+            },
+            {
+                "type": "text",
+                "value": "• What is Supreme Court judgment on Special Intensive Revision (SIR) of electoral rolls."
+            },
+            {
+                "type": "text",
+                "value": "• The electoral integrity and democratic inclusion in the context of voter roll revisions-what should be traded off?"
+            },
+            {
+                "type": "text",
+                "value": "• How does migration and urbanization complicate electoral roll management in India?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the impact of denying welfare benefits to persons deleted from electoral rolls?"
+            },
+            {
+                "type": "text",
+                "value": "• How Special Intensive Revision (SIR) affected vulnerable groups such as migrants, women, marginalised communities and Informal workers?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The court has affirmed what election administrators have long known: Clean electoral rolls are not an administrative nicety but the foundation of democratic legitimacy."
+            },
+            {
+                "type": "text",
+                "value": "• More than two decades had passed since Bihar’s last Special Intensive Revision (SIR). Rapid urbanisation and large-scale migration had produced rolls riddled with duplication, dead voters, and multiple recording of migrant voters. Annual Summary Revisions were addressing these issues, but problems persisted. The ECI’s decision to undertake the SIR was legally and constitutionally valid, as the SC has upheld — even if the manner of its execution was anything but."
+            },
+            {
+                "type": "text",
+                "value": "• The Court correctly holds that the SIR is traceable to Section 21(3) of the Representation of the People Act, read with Article 324, and does not conflict with the constitutional imperative of free and fair elections."
+            },
+            {
+                "type": "text",
+                "value": "• More importantly, it draws an intelligent and necessary line on citizenship: The ECI can examine it, but for the limited purpose of determining inclusion or exclusion from the electoral roll. Deletion from the voter list does not amount to a declaration of non-citizenship. Final adjudication remains with the competent authority under the Citizenship Act. Without this guardrail, the SIR could have silently become a backdoor NRC. The Court refused that."
+            },
+            {
+                "type": "text",
+                "value": "• One more direction deserves appreciation. The ECI has been told to refer, within four weeks, all persons whose names were deleted from the 2003 Bihar roll on citizenship grounds to the competent authority — and if that authority finds them to be citizens, their names shall be restored. On paper, this is a meaningful protection."
+            },
+            {
+                "type": "text",
+                "value": "• The judgment does not address what is perhaps the most fundamental objection: What the current ECI conducted was not a revision at all. It was a de novo collection of data — starting from scratch, discarding rolls on which successive ECs had laboured for nearly three decades."
+            },
+            {
+                "type": "text",
+                "value": "• The Court upheld the use of the 2003 roll as the reference baseline, meaning every voter enrolled after 2003 must re-verify. Think carefully about who that is: The young first-time voter, the migrant labourer, the woman newly enrolled under SVEEP. These are the citizens that the ECI’s own outreach programmes spent years bringing into the democratic process. The SIR, as validated, risks systematically disenfranchising the people democratic deepening was meant to reach."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• At the heart of the Supreme Court’s ruling recently, which upheld the legal validity of the Special Intensive Revision (SIR) of the electoral rolls by the Election Commission (EC), is a striking contradiction."
+            },
+            {
+                "type": "text",
+                "value": "• While the court underlined that the SIR was restricted to electoral eligibility and deletion from the voter’s list “does not amount to a declaration that the individual is not a citizen of India,” it also directed that those excluded from the list will face “adjudication of their citizenship” before the next elections."
+            },
+            {
+                "type": "text",
+                "value": "• The Ministry of Home Affairs, under the Citizenship Act and the Foreigners’ Tribunals, looks into aspects of citizenship contestations. The court’s order giving the EC a four-week window to report the deletions essentially shifts the burden on the deleted individual to prove their citizenship."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/opinion/columns/ashok-lavasa-supreme-court-eci-electoral-rolls-sir-verdict-opinion-10711090/\" class=\"\" rel=\"noopener\">Ashok Lavasa writes: Supreme Court order hands EC a clean chit. SIR’s deleted still await justice</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC main Question Covering similar theme:</strong><br>\n3) With reference to the Constitution of India, prohibitions or limitations or provisions contained in ordinary laws cannot act as prohibitions or limitations on the constitutional powers under Article 142. It could mean which one of the following? <strong>(UPSC CSE, 2019)</strong><br>\n(a) The decisions taken by the. Election Commission of India while discharging its duties cannot be challenged in any court of law.<br>\n(b) The Supreme Court of India is not constrained in the exercise of its powers by the laws made by Parliament.<br>\n(c) In the event of grave financial crisis in the country, the President of India can declare Financial Emergency without the counsel from the Cabinet.<br>\n(d) State Legislatures cannot make laws on certain matters without the concurrence of Union Legislature."
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>EXPLAINED</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-climate/europe-heatwave-2026-why-strong-el-nino-could-worsen-global-heat-10713007/\" class=\"\" rel=\"noopener\">Europe heat will abate soon, but El Niño looms</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination:&nbsp;</strong>General Studies I: Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: Large parts of western and central Europe are in the grip of an extraordinary heatwave phase, with many places registering temperatures 10 to 15 degrees Celsius higher than normal. Both the UK and France have recorded their highest ever temperature for May. Other countries, including Italy, Germany, Switzerland and Spain, have also been reporting unusually high temperatures."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What is heat dome?"
+            },
+            {
+                "type": "text",
+                "value": "• How heat dome is different from heatwave?"
+            },
+            {
+                "type": "text",
+                "value": "• What are the causes behind the increasing frequency and intensity of heat waves across the Europe?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the relationship between global warming and record-breaking heat events in Europe?"
+            },
+            {
+                "type": "text",
+                "value": "• How does climate change influence the occurrence of compound extreme weather events?"
+            },
+            {
+                "type": "text",
+                "value": "• How do heat domes and jet stream disruptions contribute to prolonged heat waves?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the impact of Arctic amplification on global weather patterns?"
+            },
+            {
+                "type": "text",
+                "value": "• How El Niño is impacting Europe?"
+            },
+            {
+                "type": "text",
+                "value": "• How does the Mediterranean Sea influence climatic conditions in Europe?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• A warm spell in May is not entirely unusual for western Europe, but the average temperatures during this time usually hover around 20-22 degrees Celsius. This week, however, several places have seen temperatures above 35 degrees Celsius — unprecedented for this month."
+            },
+            {
+                "type": "text",
+                "value": "• The prevailing heatwave has brought back uncomfortable memories of the unprecedented summers of 2022 and 2023 when temperatures in excess of 40 degrees Celsius were recorded at many places in Europe. A large-scale drought in 2022, the worst in living memory, and the record-breaking temperatures in both years resulted in the deaths of tens of thousands of people."
+            },
+            {
+                "type": "text",
+                "value": "• Things are not that bad right now, but this is just the month of May. The core summer months in Europe happen to be June and July, and it was in these months that most of the record-breaking temperatures in 2022 and 2023 were reached."
+            },
+            {
+                "type": "text",
+                "value": "• Incidentally, the extreme European heat of 2022 coincided with a very strong La Niña phase in the equatorial Pacific Ocean, which tends to have a cooling impact on the planet. This year, an opposite phenomenon, a strong El Niño, which has a warming effect, is taking shape."
+            },
+            {
+                "type": "text",
+                "value": "• El Niño and La Niña are two distinct phases of a large ocean-atmosphere interaction over the Pacific region that influence weather patterns worldwide."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The unusual heat in Europe right now is being attributed to the formation of a “heat dome” that is preventing warm air near the ground from rising and dissipating. This is leading to an increase in surface temperatures."
+            },
+            {
+                "type": "text",
+                "value": "• Heat dome’ is just a fancy way to describe how heatwaves normally occur. Heatwaves anywhere, including over India, are caused by the emergence of high-pressure air systems in the mid-troposphere, about 7-10 km above Earth’s surface, that trap the heated surface air near the ground. They push down the air and compress it, increasing the temperature in the process."
+            },
+            {
+                "type": "text",
+                "value": "• This same system also prevents cloud formation and precipitation. Local influences can then amplify or weaken this phenomenon. For example, the heat dome effect over India often gets aggravated by the presence of dry soil, the “urban heat island effect” and the movement of hot air blowing from the deserts in the west. The urban heat island effect is a phenomenon where urban areas record higher temperatures than surrounding rural areas because their concrete traps heat during the day and radiates it at night."
+            },
+            {
+                "type": "text",
+                "value": "• The formation of a heat dome is not an unusual phenomenon in European summers. This year, however, it has happened a little early, resulting in an extremely warm May — possibly the warmest May in several places."
+            },
+            {
+                "type": "text",
+                "value": "• The Climate Prediction Centre of the US’s National Oceanic and Atmospheric Administration, one of the world’s most authoritative agencies tracking the Pacific Ocean, however, says it is too early to make any reliable prediction about its strength."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/explained-climate/western-disturbance-el-nino-heatwave-weather-terms-meaning-10678106/\" class=\"\" rel=\"noopener\">From Western Disturbance to El Niño: The climate terms you’re hearing this summer, explained</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC main Question Covering similar theme:</strong><br>\n4) What are the possible limitations of India in mitigating global warming at present and in the immediate future? <strong>(UPSC CSE, 2010)</strong><br>\n1. Appropriate alternate technologies are not sufficiently available.<br>\n2. India cannot invest huge funds in research and development.<br>\n3. Many developed countries have already set up their polluting industries in India.<br>\nWhich of the statements given above is/are correct?<br>\n(a) 1 and 2 only<br>\n(b) 2 only<br>\n(c) 1 and 3 only<br>\n(d) 1, 2 and 3"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>THE WORLD</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-global/abraham-accords-trump-israel-middle-east-10712897/\" class=\"\" rel=\"noopener\">Trump’s call to expand Abraham Accords leaves West Asia baffled</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Current events of national and international importance"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination:&nbsp;</strong>General Studies II: Effect of policies and politics of developed and developing countries on India’s interests,"
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: US President <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/donald-trump/\">Donald Trump</a> on Monday (May 25) called on Saudi Arabia, Qatar, Pakistan, Egypt, Turkey and Jordan to sign the Abraham Accords — a step towards recognising and normalising ties with its ally, Israel. The announcement comes amidst continued attempts by the US to negotiate an end to its war with Iran."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What are the Abraham Accords?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the significance of the Abraham Accords in reshaping West Asian geopolitics?"
+            },
+            {
+                "type": "text",
+                "value": "• How have the Abraham Accords altered traditional Arab-Israel relations?"
+            },
+            {
+                "type": "text",
+                "value": "• What is the strategic objectives of the United States behind the Abraham Accords."
+            },
+            {
+                "type": "text",
+                "value": "• What can be the impact of the Abraham Accords on regional security architecture?"
+            },
+            {
+                "type": "text",
+                "value": "• Why is Trump linking the end of the war with the Accords?"
+            },
+            {
+                "type": "text",
+                "value": "• What does expanding the Accords mean for the region?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Pakistan, which has been mediating the US-Iran talks, rejected the proposal, with Defence Minister Khawaja Asif saying that joining the accords would clash with the country’s “fundamental ideologies”, including recognition of an independent and sovereign Palestine."
+            },
+            {
+                "type": "text",
+                "value": "• Trump’s proposition has revived the debate around the Abraham Accords at a time when the region is destabilised by Israel’s war on Gaza, tensions with Iran, and growing anger across the Arab world over Israeli military actions in Palestine, Lebanon and Syria."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The accords are essentially a series of peace agreements to normalise relations between Israel and Muslim-majority nations, stemming from the fact that upon the establishment of Israel in 1948, Arab states refused to accord diplomatic recognition to it."
+            },
+            {
+                "type": "text",
+                "value": "• Named after the biblical figure of Abraham, the patriarch in Islam, Christianity and Judaism, the agreements were presented by the US as a framework for peace, regional stability and economic cooperation between Israel and the Arab states."
+            },
+            {
+                "type": "text",
+                "value": "• Introduced during Trump’s first term in 2020, the accords were framed as a negotiated resolution to the Palestinian issue; in practice, they have largely bypassed the question of Palestinian statehood altogether."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/opinion/columns/abraham-accords-have-led-to-greater-regional-cooperation-expanding-opportunities-for-india-8153811/\" class=\"\" rel=\"noopener\">Abraham Accords have led to greater regional cooperation, expanding opportunities for India</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC main Question Covering similar theme:</strong><br>\n5) Consider the following statements: <strong>(UPSC CSE, 2023)</strong><br>\nStatement-I: Israel has established diplomatic relations with some Arab States.<br>\nStatement-II: The ‘Arab Peace Initiative’ mediated by Saudi Arabia was signed by Israel and Arab League.<br>\nWhich one of the following is correct in respect of the above statements?<br>\n(a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I<br>\n(b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I<br>\n(c) Statement-I is correct but Statement-II is incorrect<br>\n(d) Statement-I is incorrect but Statement-II is correct"
+            },
+            {
+                "type": "text",
+                "value": "6) The area known as ‘Golan Heights’ sometimes appears in the news in the context of the events related to <strong>(UPSC CSE, 2015)</strong><br>\n(a) Central Asia<br>\n(b) Middle East<br>\n(c) South-East Asia<br>\n(d) Central Africa"
+            },
+            {
+                "type": "text",
+                "value": "<span style=\"color: #ff0000\"><strong>ECONOMY</strong></span>"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/business/as-west-asia-war-continues-anti-dumping-duties-on-chemicals-a-key-concern-10713075/\" class=\"\" rel=\"noopener\">Anti-dumping duties on chemicals a key ‘concern’</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Preliminary Examination:</strong> Economic and Social Development"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Main Examination:&nbsp;</strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: Industry associations and several government ministries have begun pushing for a suspension or pause in anti-dumping investigations into several chemical intermediaries due to a surge in prices and shortages caused by the ongoing war in West Asia."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• What you know about anti-dumping duties?"
+            },
+            {
+                "type": "text",
+                "value": "• Which Act in India governs the imposition of anti-dumping duties on foreign imports?"
+            },
+            {
+                "type": "text",
+                "value": "• What is ‘dumping’ in international trade?"
+            },
+            {
+                "type": "text",
+                "value": "• Know the role of anti-dumping duties in protecting Indian industries."
+            },
+            {
+                "type": "text",
+                "value": "• How has geopolitical instability in West Asia affected India’s chemical and petrochemical sectors?"
+            },
+            {
+                "type": "text",
+                "value": "• How can India balance the interests of large domestic manufacturers and MSMEs in trade policy decisions?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• In April, the government exempted import duty on 40 petrochemical products till June 30, but it has begun fresh stocking efforts to ensure domestic availability of key chemicals. Many such requests are made to the Commerce and Industry Ministry by the downstream industry, such as the textiles and footwear sectors. An official said the Textile Ministry has also asked for a pause on several anti-dumping investigations on chemical intermediaries and deferment in anti-dumping duty investigation on input items such as elastomeric fibre yarn and viscose rayon filament yarn due to the war."
+            },
+            {
+                "type": "text",
+                "value": "• India’s chemical manufacturers are the most protected sector in the country. An independent analysis of India’s trade policy during the last five years by the WTO Secretariat shows that 51% of all anti-dumping measures in force are related to chemical or allied industries, and Chinese products have been the top target of such investigations."
+            },
+            {
+                "type": "text",
+                "value": "• Anti-dumping investigations have been a subject of deep divide between large manufacturers and the downstream sector, as anti-dumping duties typically protect large manufacturers abroad but lead to a surge in input item prices for MSMEs across the sector. The impact of such duties on the chemical sector particularly translates to high input prices, as chemicals are used in the production of nearly 80,000 downstream products in India, as per NITI Aayog."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• An anti-dumping duty is a protectionist measure a government uses to safeguard its economy from foreign imports priced lower than their fair market value. This tariff aims to protect local businesses by preventing foreign companies from flooding the market with cheaply priced goods. However, while designed to protect domestic industries, these duties can also lead to higher prices for local consumers and might impact international competition negatively."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<a href=\"https://indianexpress.com/article/explained/this-word-means-dumping-china-goods-9903621/\" class=\"\" rel=\"noopener\">This Word Means: Dumping</a>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC main Question Covering similar theme:</strong><br>\n7) Which of the following has/have occurred in India after its liberalization of economic policies in 1991? <strong>(UPSC CSE, 2017)</strong><br>\n1. Share of agriculture in GDP increased enormously.<br>\n2. Share of India’s exports in world trade increased.<br>\n3. FDI inflows increased.<br>\n4. India’s foreign exchange reserves increased enormously.<br>\nSelect the correct answer using the codes given below:<br>\n(a) 1 and 4 only<br>\n(b) 2, 3 and 4 only<br>\n(c) 2 and 3 only<br>\n(d) 1, 2, 3 and 4"
+            },
+            {
+                "type": "text",
+                "value": "<strong><a href=\"https://indianexpress.com/article/explained/explained-law/supreme-court-online-gaming-gst-verdict-retrospective-tax-demand-10711935/\" class=\"\" rel=\"noopener\">Why SC online gaming tax verdict could be a final death blow to sector</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Mains Examination:&nbsp;</strong>General Studies II: Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+            },
+            {
+                "type": "text",
+                "value": "<strong>What’s the ongoing story</strong>: The Supreme Court on Wednesday (May 27) upheld the constitutional validity of the government’s retrospective 28 per cent Goods and Services Tax (GST) levy on online gaming companies, delivering a massive setback to the country’s real-money gaming sector."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Points to Ponder:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Promotion and Regulation of Online Gaming (PROG) Act, 2025-what are the key takeaways?"
+            },
+            {
+                "type": "text",
+                "value": "• What is Online Gaming?"
+            },
+            {
+                "type": "text",
+                "value": "• Is it legal to play games and gamble online in India?"
+            },
+            {
+                "type": "text",
+                "value": "• What is real money gaming (RMG) industry? ?"
+            },
+            {
+                "type": "text",
+                "value": "• How big is the real money gaming market in India?"
+            },
+            {
+                "type": "text",
+                "value": "• Online gaming so far has been a state subject-true or false?"
+            },
+            {
+                "type": "text",
+                "value": "• How big is the online gaming market in India?"
+            },
+            {
+                "type": "text",
+                "value": "• Online Gaming Regulation in India—What laws and regulations says about the same?"
+            },
+            {
+                "type": "text",
+                "value": "• Online Gaming—What are the issues and concerns?"
+            },
+            {
+                "type": "text",
+                "value": "• What the verdict means for the online gaming sector?"
+            },
+            {
+                "type": "text",
+                "value": "• How India dismantled the high-flying online gaming industry?"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Key Takeaways:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• The verdict effectively revives tax demands running into nearly Rs 2.5 lakh crore against gaming firms, fantasy sports platforms and casinos, and could well spell the end of the road for the online gaming sector, already reeling under a ban imposed by the government in 2025."
+            },
+            {
+                "type": "text",
+                "value": "• A bench comprising Justices JB Pardiwala and R Mahadevan dismissed petitions filed by several gaming companies and industry bodies challenging the GST regime and retrospective tax notices issued by authorities. Companies like Dream11 and Games Kraft would be impacted by the judgment."
+            },
+            {
+                "type": "text",
+                "value": "• The dispute centred around the gaming sector’s contention that the 28% GST on online gaming should apply only prospectively, from 1 October 2023, after the amendments approved by the GST Council came into effect. After the GST council approved the new GST rate for the sector, the Directorate General of GST Intelligence (DGGI) had started issuing tax demand notices to such companies, which they alleged were being carried out on revenue earned before the new rates came into effect."
+            },
+            {
+                "type": "text",
+                "value": "• Another contention put forth by the industry was whether GST should be imposed only on the platform fee or commission earned by gaming companies — known as gross gaming revenue (GGR) — or on the full face value of bets and contest entry amounts deposited by users. Gaming firms had argued that taxing the entire pooled amount was commercially unsustainable and contrary to the treatment of skill-based games. The court, however, has treated real money gaming involving uncertain outcomes as betting and gambling for GST purposes, irrespective of skill elements."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Do You Know:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "• Under the PROG Act, the government will prohibit any person from offering online games in India, failing which they could be imprisoned for up to three years, and penalised Rs 1 crore. Those promoting such platforms, such as social media influencers, will also face jail time of two years and a penalty of Rs 50 lakh. The government will also prohibit banks and financial institutions from facilitating financial transactions on such platforms. It applies to all online money gaming platforms irrespective of whether they are games of skill or chance, a distinction the industry had lobbied hard for in the past."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Other Important Articles Covering the same topic:</strong>"
+            },
+            {
+                "type": "text",
+                "value": "📍<strong><a href=\"https://indianexpress.com/article/explained/explained-sci-tech/online-gaming-rules-2026-india-ogai-10651525/\" class=\"\" rel=\"noopener\">Online gaming rules expand compliance, leave room for esports</a></strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>Previous year UPSC main Question Covering similar theme:</strong><br>\n8) Which of the following is/are the aim/aims of “Digital India” Plan of the Government of India?<strong> (UPSC CSE, 2018)</strong><br>\n1. Formation of India’s own Internet companies like China did.<br>\n2. Establish a policy framework to encourage overseas multinational corporations that collect Big Data to build their large data centres within our national geographical boundaries.<br>\n3. Connect many of our villages to the Internet and bring Wi-Fi to many of our schools, public places and major tourist centres.<br>\nSelect the correct answer using the code given below:<br>\n(a) 1 and 2 only<br>\n(b) 3 only<br>\n(c) 2 and 3 only<br>\n(d) 1, 2 and 3"
+            },
+            {
+                "type": "text",
+                "value": "<strong>PRELIMS ANSWER KEY</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>1.(d) &nbsp;2.(d) &nbsp;3.(b) &nbsp;4.(a) 5.(c) 6.(b) 7.(b) 8.(b)</strong>"
+            },
+            {
+                "type": "text",
+                "value": "<strong>For any queries and feedback, contact </strong><strong>priya.shukla@</strong><a href=\"https://indianexpress.com/\" rel=\"noopener\"><strong>indianexpress.com</strong></a>"
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
+        "category": "Environment",
+        "title": "NGT seeks response from Centre, States regarding heatwave conditions across country",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/ngt-seeks-response-from-centre-states-regarding-heatwave-conditions-across-country/article71037160.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The National Green Tribunal (NGT) has sought a response from the Centre, several States and others regarding scorching maximum temperatures and intense extreme heat across the country."
+            },
+            {
+                "type": "text",
+                "value": "The statutory body was hearing a matter in which it had taken suo motu cognisance of a newspaper report about rising temperatures that are affecting people’s health, learning, and productivity, besides impacting the economy."
+            },
+            {
+                "type": "text",
+                "value": "In an order dated May 25, a Bench of NGT chairperson Justice Prakash Shrivastava and expert member Afroz Ahmad said according to the report, heat rarely leaves any dramatic visuals yet affects a vast part of the country, and is among the most unrecognised disasters."
+            },
+            {
+                "type": "text",
+                "value": "“The latest IMD bulletin shows scorching maximum temperatures across northwest, west, central and adjoining eastern and north-peninsular India, with the highest temperature recorded at 48°C in Banda, Uttar Pradesh. Delhi remains under heatwave conditions through May,” the Bench said, citing the report."
+            },
+            {
+                "type": "text",
+                "value": "It added that after distinguishing between urban and rural heatwave conditions, a policy with region-specific strategies and adaptation planning is required."
+            },
+            {
+                "type": "text",
+                "value": "The tribunal impleaded as respondents the Union Ministry of Environment, Forest and Climate Change, the department of science and technology in the national capital, the Ministry of Earth Sciences, the Ministry of Jal Shakti, the Central Pollution Control Board, the Delhi government and the States of Uttar Pradesh, Rajasthan, Gujarat, Punjab, Himachal Pradesh, Jammu and Kashmir, Uttarakhand, Maharashtra, Madhya Pradesh, Bihar, Jharkhand and Chhattisgarh."
+            },
+            {
+                "type": "text",
+                "value": "“Issue notice to the respondents for filing their response/reply by way of affidavit before the tribunal at least one week before the next date of hearing (on August 18),” the NGT said."
+            },
+            {
+                "type": "heading",
+                "value": "NGT on adaptation strategies"
+            },
+            {
+                "type": "text",
+                "value": "It added that a response from the States and their authorities is required to have a short-term and long-term adaptation strategy to address the increasing temperature due to climatic conditions and anthropogenic activities during the summer months."
+            },
+            {
+                "type": "text",
+                "value": "The Bench noted that the news report underlined an urgent need for a dedicated research program on heat risk, a stronger support system, ground observations, high-resolution thermal mapping, mobile temperature surveys, open-access data, environmental impacts and climate adaptations."
+            },
+            {
+                "type": "text",
+                "value": "“The issue is very serious as it relates to climate change and also anthropogenic activities. Hence, there needs to be a proper adaptation strategy formulated, and, as highlighted in the news item, area-specific microplanning is required as the temperatures are likely to increase year after year affecting water availability and other basic needs and accordingly, the adaptation measures put in place to address these,” the Bench said."
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
+        "category": "Health",
+        "title": "WHO announces first confirmed Ebola recovery in DRC outbreak",
+        "url": "https://www.thehindu.com/sci-tech/health/who-announces-first-confirmed-ebola-recovery-in-drc-outbreak/article71037475.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "The World Health Organization on Friday (May 29, 2026) announced the first recovery of a confirmed Ebola patient in the outbreak raging in the Democratic Republic of Congo."
+            },
+            {
+                "type": "text",
+                "value": "\"The DRC has said that on May 27, a patient recovered and left the hospital and has been discharged into the community,\" the WHO's Anais Legand told reporters."
+            },
+            {
+                "type": "text",
+                "value": "She said it marked the \"first\" among patients who had been confirmed to have Ebola, but stressed that she expected there had been other recoveries among people who have not yet received laboratory confirmation of test results."
+            },
+            {
+                "type": "text",
+                "value": "\"This is the first one\" to be discharged from a care centre \"following two negative tests\", said Legand, a WHO technical officer on viral haemorrhagic fevers."
+            },
+            {
+                "type": "text",
+                "value": "She said the WHO had to date recorded 17 confirmed and 223 suspected Ebola deaths in the DR Congo since the outbreak was declared on May 15, out of 125 confirmed cases and over 900 suspected cases."
+            },
+            {
+                "type": "text",
+                "value": "In neighbouring Uganda, seven cases have also been confirmed, including one death."
+            },
+            {
+                "type": "text",
+                "value": "Legand said that three of those cases had been imported from DRC, while the others were all \"linked\", with \"no evidence of community transmission at this stage\"."
+            },
+            {
+                "type": "text",
+                "value": "Out of the confirmed cases in DRC, she said 16 were among healthcare workers, who can be particularly vulnerable to Ebola, which spreads through bodily fluids and close contact with symptomatic patients or the bodies of those who die from the virus."
+            },
+            {
+                "type": "text",
+                "value": "\"It is a terrible disease\", Legand said, pointing out that \"you get it when you want to help someone who is sick\"."
+            },
+            {
+                "type": "text",
+                "value": "She highlighted the complexity of responding to such outbreaks, where to halt transmission, \"you have to have communities not touch someone they love when they are feeling sick\"."
+            },
+            {
+                "type": "text",
+                "value": "\"What's the most important thing is that we can support them to get early access to care,\" she said, stressed that this could greatly improve survival rates."
+            },
+            {
+                "type": "heading",
+                "value": "No travel restrictions recommended"
+            },
+            {
+                "type": "text",
+                "value": "Ebola has killed more than 15,000 people in Africa over the past 50 years."
+            },
+            {
+                "type": "text",
+                "value": "The DRC is on its 17th outbreak of the disease, the deadliest of which claimed nearly 2,300 lives out of 3,500 cases between 2018 and 2020."
+            },
+            {
+                "type": "text",
+                "value": "No vaccine or specific treatment exists for the Bundibugyo strain of Ebola, which is behind the current outbreak."
+            },
+            {
+                "type": "text",
+                "value": "The strain can have a case fatality rate of up to 50%."
+            },
+            {
+                "type": "text",
+                "value": "For the known cases in this outbreak, the rate currently appears to be below 25%, although that number is evolving."
+            },
+            {
+                "type": "text",
+                "value": "Legand stressed it was possible to \"do more\" to push Ebola's \"huge\" fatality rate down."
+            },
+            {
+                "type": "text",
+                "value": "\"We can scale up optimised intensive care. We can support the communities to recognise the symptoms early to get early diagnostics, so that they can receive the level of care they need,\" she pointed out."
+            },
+            {
+                "type": "text",
+                "value": "\"Access to care can help save life.\""
+            },
+            {
+                "type": "text",
+                "value": "To rein in transmission, the WHO says strong infection prevention and control and safe burials of highly infective bodies of those who have died from Ebola is also essential."
+            },
+            {
+                "type": "text",
+                "value": "The agency does not meanwhile recommend international travel restrictions, although it say no one who is sick with Ebola should travel, nor should anyone from the affected areas who are contacts of confirmed or suspected cases."
+            },
+            {
+                "type": "text",
+                "value": "DRC and Uganda are also required under the so-called International Health Regulations to implement exit screening measures."
+            },
+            {
+                "type": "text",
+                "value": "But beyond that, Legand said that \"based on current information, WHO does not recommend any restriction on travel or trade with the Democratic Republic of the Congo or with Uganda\"."
+            }
+        ],
+        "date": "2026-05-29"
+    },
+    {
         "category": "Expert Explains",
         "title": "Expert Explains | Why Quad has never picked up momentum, and takeaways from New Delhi meet",
         "url": "https://indianexpress.com/article/explained/explained-global/why-quad-lacks-momentum-takeaways-delhi-meet-10713094/",
