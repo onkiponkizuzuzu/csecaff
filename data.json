@@ -1,5 +1,137 @@
 [
     {
+        "category": "Economics",
+        "title": "Why global money isn’t cheap any more, and how this impacts India",
+        "url": "https://indianexpress.com/article/explained/explained-economics/global-money-sovereign-bonds-impact-india-10717429/",
+        "content": [
+            {
+                "type": "text",
+                "value": "The Reserve Bank of India’s annual report for 2025-26 has expressed concern over “elevated” sovereign bond yields and possible “reversal” of monetary easing (read interest rate hikes) by global central banks, in response to the West Asia crisis-induced inflationary pressures."
+            },
+            {
+                "type": "text",
+                "value": "That concern has also been articulated by the government’s chief economic advisor V. Anantha Nageswaran. In a <strong><a href=\"https://indianexpress.com/article/opinion/columns/speed-up-economic-reform-pessimism-doesnt-help-10703503/\" target=\"_blank\" rel=\"noopener\">recent opinion piece for <em>The Indian Express</em>, he has pointed</a></strong> to the “end of the era of quantitative easing and near-zero interest rates”, while calling it “perhaps the single most consequential development in global capital markets” in recent times."
+            },
+            {
+                "type": "text",
+                "value": "To understand what is being said, one must look at yields on 10-year government bonds. A government bond is basically a debt instrument issued by a sovereign authority to borrow money for a specific, predetermined period. In return, the issuer promises to pay a fixed annual interest over the life of the bond and also return the original borrowed amount on its maturity date."
+            },
+            {
+                "type": "text",
+                "value": "Government bonds are considered to be the safest or close to “risk-free” assets, as their payments are backed by the sovereign’s power to tax or even print money. Government bond yields, in turn, serve as a benchmark for setting interest rates across other fixed-income securities – by establishing the “minimum” return investors would expect for their over a comparable period."
+            },
+            {
+                "type": "text",
+                "value": "<strong>How yields have moved</strong>"
+            },
+            {
+                "type": "text",
+                "value": "The chart below shows the yields or effective annual interest on 10-year government bonds of three major economies – United States, United Kingdom and Japan – since 1998-99."
+            },
+            {
+                "type": "text",
+                "value": "In 1999-2000 (April-March fiscal year), these averaged over 6% for the US, 5.4% for the UK and 1.7% for Japan. The yields remained relatively high for Japan till 2006-07, averaging 1.75% and almost 2% in April 2006."
+            },
+            {
+                "type": "text",
+                "value": "From those highs, bond yields steadily declined over the next decade and more, plunging to an average of 0.9% for the US, 0.4% for UK and practically zero for Japan in the <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/coronavirus/\">Covid-19</a> pandemic year of 2020-21. Average yields were actually negative in 2016-17 and 2019-20 for Japan. In other words, investors were willing to pay the Japanese government for keeping their money, rather than expect any return from lending to it."
+            },
+            {
+                "type": "text",
+                "value": "Negative yields are possible in scenarios of deflation (falling prices of goods and services) or the issuing country’s currency appreciating (like the Japanese yen was prone to). The investor will make money if the inflation rate is even more negative or converts the same Japanese yens into more of his own currency (say, dollar). Negative yields are also common in times of extreme economic uncertainty, when investors choose safety over returns; a minus 1% bond yield would be less of a loss than a double-digit fall in <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/stock-market-today/\">stock market</a> values."
+            },
+            {
+                "type": "text",
+                "value": "But cut to the present, where 10-year bond yields averaged 1.8% for Japan, 4.2% for US and 4.6% for UK in 2025-26. They have gone up further in the current fiscal to 2.5%, 4.4% and 4.9%, with highs of 2.8%, 4.7% and 5.2% respectively scaled on May 18-20."
+            },
+            {
+                "type": "heading",
+                "value": "What explains the changed situation – the end of cheap global money?"
+            },
+            {
+                "type": "text",
+                "value": "There are two broad explanations."
+            },
+            {
+                "type": "text",
+                "value": "The first has to do with the return of inflation, with supply chain disruptions from the pandemic (2020 and 2021), followed by Russia’s invasion of Ukraine (2022), US President <a rel=\"noopener\" class=\"keywordtourl\" href=\"https://indianexpress.com/about/donald-trump/\">Donald Trump</a>’s unilateral tariff actions (2025) and, now, the unresolved US-Israel versus Iran conflict."
+            },
+            {
+                "type": "text",
+                "value": "This is reflected in year-on-year consumer price inflation for Japan moving from negative territory to positive in September 2021, reaching 4.3% in January 2023 and hovering at 2-4% thereafter till December 2025. Even the latest 1.4% rate for April 2026 is high by its standards for most of the 1990s, 2000s and 2010s."
+            },
+            {
+                "type": "text",
+                "value": "It’s worse for the UK, which registered 9-11% annual inflation from April 2022 to March 2023, and the April 2026 rate at 2.8%. The 3.8% inflation rate in April for the US was the highest since May 2023."
+            },
+            {
+                "type": "text",
+                "value": "The current inflation levels – and the prospect of their rising further on the back of the higher fuel, fertiliser and food prices from the West Asia supply shock – has made the ultra-low interest rates and bond yields prevailing till around 2020-21 unsustainable."
+            },
+            {
+                "type": "text",
+                "value": "The second is the end of the so-called quantitative easing policies of central banks such as the US Federal Reserve to boost economic activity. They resorted to this measure of creating new money for purchasing government bonds and other long-term assets (like mortgage-backed securities) from commercial banks, especially post the 2008 global financial crisis and the pandemic. The objective was to flood the financial system with liquidity, lower long-term rates and encourage banks to lend more to businesses and consumers."
+            },
+            {
+                "type": "text",
+                "value": "That regime was also difficult to sustain, given the potential inflationary consequences from the supply of the newly created money increasing faster than the physical production of goods and services. Also, by making government debt cheaper than the interest rates that the markets would otherwise have demanded, it encouraged more borrowing. In the process, governments tended to take on too much debt relative to their capacity to pay back."
+            },
+            {
+                "type": "text",
+                "value": "The effects of both – high inflation and public debts – are being seen today in the form of elevated sovereign bond yields."
+            },
+            {
+                "type": "text",
+                "value": "<strong>Why does this matter for India?</strong>"
+            },
+            {
+                "type": "text",
+                "value": "When global money was cheap, India was a beneficiary of capital flooding emerging markets in search of higher yields."
+            },
+            {
+                "type": "text",
+                "value": "Net capital flows into India surged from $8.3 billion in 1998-99 to a record $107.9 billion in 2007-08. It collapsed to $7.8 billion in the 2008-09 financial crisis year, but averaged $67.3 annually between 2009-10 and 2023-24. The tide turned in 2024-25, with net inflows of just $18 billion. The first nine months of 2025-26 saw net capital outflows of $580 million."
+            },
+            {
+                "type": "text",
+                "value": "The trend is even clearer with regard to inflows from foreign portfolio investors (FPI) into Indian equity markets. From 1998-99 to 2020-21, there were only two years of net negative inflows: 2008-09 and 2015-16. Since 2020-21, five out of the six years have witnessed FPIs pulling out more than putting in money (<em><strong>Chart, above</strong></em>)."
+            },
+            {
+                "type": "text",
+                "value": "Currently, 10-year government bond yields in India are at about 7%. With US 10-year Treasury note yields at 4.5%, the differential of 2.5 percentage points has significantly narrowed from the historical decade average of 4-plus percentage points. The yield gap is even less if one factors in rupee depreciation and the greater “safe-haven” value from holding US Treasuries."
+            },
+            {
+                "type": "text",
+                "value": "Foreign capital may still return to India. But it would probably require India offering a more compelling “pull” story (higher GDP and earnings growth prospects) than a “push” from cheap global money that is now history."
+            }
+        ],
+        "date": "2026-06-01"
+    },
+    {
+        "category": "Science",
+        "title": "What is Bangladesh’s Padma Barrage?",
+        "url": "https://www.thehindu.com/sci-tech/energy-and-environment/what-is-bangladeshs-padma-barrage/article71041259.ece",
+        "content": [
+            {
+                "type": "text",
+                "value": "Bangladesh has approved a large river engineering project called the Padma barrage, on the Padma river, which is Bangladesh’s stretch of the Ganga, in Rajbari district. It is Bangladesh’s attempt to partially re-engineer the hydrology of its southwest region, which has become prone to drought after decades of reduced seasonal flows linked to the Farakka barrage upstream in India."
+            },
+            {
+                "type": "text",
+                "value": "The barrage will be 2.1-km-long and have 78 spillway gates, undersluices, navigation locks, fish passages, and associated embankments. It will impound roughly 2.9 billion cubic metres of water and includes 113 MW of hydropower generation. According to Bangladesh, the project will affect roughly 37% of the country’s land area and irrigate around 2.88 million ha of farmland."
+            },
+            {
+                "type": "text",
+                "value": "While the barrage’s supporters see a long-delayed national water security project in the Padma barrage, critics have said mega-barrages often underperform, alter sediment flows in unpredictable ways, and can create new ecological problems, such as water-logging and damage to fisheries. Some environmental groups have also criticised the speed of approval and called for greater public scrutiny."
+            },
+            {
+                "type": "text",
+                "value": "As Mehebub Sahana at the University of Manchester and Bayes Ahmed at University College London have argued, the project highlights how South Asian countries are building more barriers to rivers rather than removing them. The regional turn towards unilateral river engineering is at odds with Europe and North America tearing down obsolete dams and culverts to restore rivers’ free flow. In 2025 alone, 21 European countries removed a record 603 barriers."
+            }
+        ],
+        "date": "2026-06-01"
+    },
+    {
         "category": "Global",
         "title": "China This Week | EU’s ‘Chemotherapy’ for battling trade surplus, changes in household system, and new nuclear test site photos",
         "url": "https://indianexpress.com/article/explained/explained-global/china-this-week-eu-trade-hukou-lop-nur-10717258/",
